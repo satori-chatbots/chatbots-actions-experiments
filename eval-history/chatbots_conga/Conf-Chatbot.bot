@@ -1,0 +1,518 @@
+Chatbot "Conf-Chatbot" language : en
+
+intents :
+
+	"Item-Consumption" :
+		inputs in en {
+			"It will take 10 HP from the player" ,
+			"It will take half the HP of the player" ,
+			"It will kill the player"
+	}
+
+	"Item-Name" :
+		inputs in en {
+			"A " ( potion ) [ item ] ,
+			"A " ( item ) [ item ] ,
+			( Rock ) [ item ]
+		}
+		parameters :
+			item : entity item ;
+
+	"Item-Exists-No" :
+		inputs in en {
+			Nah ,
+			"Hell no" ,
+			No
+	}
+
+	"Win-Condition" :
+		inputs in en {
+			( None ) [ none ] ,
+			( No ) [ none ] ,
+			( Nothing ) [ none ] ,
+			( None ) [ none ] " of them" ,
+			( Lose ) [ lose ] ,
+			"A " ( losing ) [ lose ] " condition" ,
+			"A " ( losing ) [ lose ] " one" ,
+			"A " ( losing ) [ lose ] ,
+			( Losing ) [ lose ] ,
+			( Winning ) [ win ] ,
+			"A " ( winning ) [ win ] " one" ,
+			( Win ) [ win ] ,
+			"A " ( winning ) [ win ] " condition"
+		}
+		parameters :
+			lose : entity action ;
+			win : entity action ;
+			none : entity action ;
+
+	"Modify-Character-Stat" :
+		inputs in en {
+			"The " ( greetings ) [ stat ] ,
+			"The way he will " ( greet ) [ stat ] " the player" ,
+			"The " ( info ) [ stat ] ,
+			"The " ( name ) [ stat ] ,
+			"The " ( name ) [ stat ] " of the character" ,
+			"The " ( information ) [ stat ] " he will provide"
+		}
+		parameters :
+			stat : entity item ;
+
+	"Modify-Inf-Character-Else-Yes" :
+		inputs in en {
+			Yah ,
+			Sure ,
+			Yeah ,
+			Yes
+	}
+
+	"Item-Open-In" :
+		inputs in en {
+			Nothing ,
+			No ,
+			"A " ( book ) [ item ] " and a " ( rock ) [ item ] ,
+			"A " ( key ) [ item ]
+		}
+		parameters :
+			item : entity item ;
+
+	"Modify-Character-Selection" :
+		inputs in en {
+			( "Magnus the red" ) [ characterName ]
+		}
+		parameters :
+			characterName : entity characterName ;
+
+	"New-Room" :
+		inputs in en {
+			"New " ( room ) [ room ] ,
+			"How many " ( rooms ) [ room ] " there will be" ,
+			"The number of " ( rooms ) [ room ] ,
+			"I\'d like to choose the number of " ( rooms ) [ room ] ,
+			"the number of " ( rooms ) [ room ] ,
+			"the number of rooms" ,
+			"the rooms"
+		}
+		parameters :
+			room : entity item ;
+
+	"Reset-Game-Yes" :
+		inputs in en {
+			Yeah ,
+			Sure ,
+			Yes
+	}
+
+	"Delete-Player" :
+		inputs in en {
+			"I want to delete a player"
+	}
+
+	"New-Character" :
+		inputs in en {
+			"An " ( NPC ) [ character ] ,
+			"A new " ( character ) [ character ] ,
+			"new " ( character ) [ character ] ,
+			"a new " ( character ) [ character ] ,
+			"a new character"
+		}
+		parameters :
+			character : entity text ;
+
+	"Inf-Character" :
+		inputs in en {
+			"You have to find Magnus the red, he will give you something you need." ,
+			"Remember where you come from and where you are going. Many adventurers get lost in these rooms." ,
+			"Take this " ( key ) [ item ] ", it will open a treasure." ,
+			"Give you the " ( key ) [ item ] ,
+			"She will tell you where the " ( chest ) [ item ] " is" ,
+			"He will give you the " ( potion ) [ item ] ,
+			"He will give you a " ( potion ) [ item ]
+		}
+		parameters :
+			item : entity item ;
+
+	"Modify-Character-Info" :
+		inputs in en {
+			"He will give you a key" ,
+			"He will give you a potion"
+	}
+
+	"Modify-Player-Stat" :
+		inputs in en {
+			( Name ) [ stat ] ,
+			( Health ) [ stat ] ,
+			( HP ) [ stat ] ,
+			"the " ( name ) [ stat ]
+		}
+		parameters :
+			stat : entity item ;
+
+	Settings :
+		inputs in en {
+			"/settings"
+	}
+
+	"Item-Read-Description" :
+		inputs in en {
+			"There is a secret door in the third room" ,
+			"Go to the second room and talk to the magician" ,
+			"You need to consume the potion in order to win"
+	}
+
+	"Modify-Inf-Character-Else-No" :
+		inputs in en {
+			Nothing ,
+			Nein ,
+			Nah ,
+			No
+	}
+
+	testing :
+		inputs in en {
+			TESTING
+	}
+
+	"Inf-Character-Else-No" :
+		inputs in en {
+			Nope ,
+			"Thats all" ,
+			Nah ,
+			No
+	}
+
+	"Modify-Item-Stat" :
+		inputs in en {
+			"The " ( ^actions ) [ stat ] ,
+			"The " ( action ) [ stat ] ,
+			"The " ( name ) [ stat ]
+		}
+		parameters :
+			stat : entity item ;
+
+	"Reset-Game-No" :
+		inputs in en {
+			Nope ,
+			Nein ,
+			Nah ,
+			No
+	}
+
+	"Modify-Player-Health" :
+		inputs in en {
+			( "a hundred" ) [ health ] ,
+			( "100" ) [ health ]
+		}
+		parameters :
+			health : entity float , required , prompts in en [ "Please enter a valid number." ] ;
+
+	"Change-Player" :
+		inputs in en {
+			"I want to modify a player" ,
+			"I want to change a player"
+	}
+
+	"Player-Name" :
+		inputs in en {
+			( Ap6612 ) [ playerName ] ,
+			( Pope ) [ playerName ] ,
+			( Alucard ) [ playerName ] ,
+			( Joan ) [ playerName ] ,
+			( Marcos ) [ playerName ]
+		}
+		parameters :
+			playerName : entity playerName , required , prompts in en [ "Sorry I did not get that, could you repeat the name?" , "I am afraid that $playerName is not a valid name, could you try again?" ] ;
+
+	"Delete-Item-Selection" :
+		inputs in en {
+			"The " ( rock ) [ item ] ,
+			"The " ( potion ) [ item ]
+		}
+		parameters :
+			item : entity item ;
+
+	Dungeon_Name :
+		inputs in en {
+			( "The Wild Pits" ) [ dungeon ] ,
+			( "The Unknown Tombs" ) [ dungeon ] ,
+			( "Dark cave" ) [ dungeon ]
+		}
+		parameters :
+			dungeon : entity characterName ;
+
+	"Change-Character" :
+		inputs in en {
+			"I want to change a character" ,
+			"I want to modify a character"
+	}
+
+	"End-Configuration" :
+		inputs in en {
+			"End configuration" ,
+			"That\'s all" ,
+			"Nothing else" ,
+			Nothing
+	}
+
+	"Modify-Character-Name" :
+		inputs in en {
+			^hi ,
+			( "Josh the wizard" ) [ characterName ]
+		}
+		parameters :
+			characterName : entity characterName ;
+
+	"New-Player" :
+		inputs in en {
+			"another " ( player ) [ player ] ,
+			"new " ( player ) [ player ] ,
+			"I\'d like to set up a " ( player ) [ player ] ,
+			"A " ( participant ) [ player ] ,
+			"A new " ( "playable character" ) [ player ] ,
+			"A " ( player ) [ player ] ,
+			"A new " ( player ) [ player ] ,
+			"a " ( player ) [ player ] ,
+			"A new player" ,
+			"a new player"
+		}
+		parameters :
+			player : entity text ;
+
+	"Default-Fallback-Intent-Conf" Fallback :
+
+	"Delete-Item" :
+		inputs in en {
+			"I want to delete an item"
+	}
+
+	"Item-Exists-Yes" :
+		inputs in en {
+			"Why not?" ,
+			Sure ,
+			Yeah ,
+			Yes
+	}
+
+	"Modify-Item-Selection" :
+		inputs in en {
+			"The " ( chest ) [ item ] ,
+			"The " ( book ) [ item ] ,
+			"The " ( rock ) [ item ] ,
+			"The " ( potion ) [ item ]
+		}
+		parameters :
+			item : entity item ;
+
+	"Modify-Player-Name" :
+		inputs in en {
+			( Frank ) [ playerName ] ,
+			( Xavier ) [ playerName ]
+		}
+		parameters :
+			playerName : entity playerName ;
+
+	"Character-Name" :
+		inputs in en {
+			( "The magician" ) [ characterName ] ,
+			( "+A45 the great" ) [ characterName ] ,
+			( John ) [ characterName ]
+		}
+		parameters :
+			characterName : entity characterName ;
+
+	"Player-Health" :
+		inputs in en {
+			( twenty ) [ health ] ,
+			( "20" ) [ health ]
+		}
+		parameters :
+			health : entity float , required , prompts in en [ "Please enter a number" ] ;
+
+	"Item-Open-Need" :
+		inputs in en {
+			"The " ( key ) [ item ] ", the " ( rock ) [ item ] " and the " ( book ) [ item ] ,
+			Nothing ,
+			No ,
+			"The " ( rock ) [ item ] ,
+			"The " ( key ) [ item ] ,
+			"A " ( key ) [ item ] ,
+			"the " ( key ) [ item ] ", the " ( rock ) [ item1 ] " and the " ( book ) [ item2 ]
+		}
+		parameters :
+			item : entity item ;
+			item1 : entity item ;
+			item2 : entity item ;
+
+	"Item-Action" :
+		inputs in en {
+			( take ) [ action ] ", " ( consume ) [ action ] ", " ( read ) [ action ] " and " ( open ) [ action ] ,
+			( Take ) [ action ] ", " ( consume ) [ action ] " and " ( read ) [ action ] ,
+			( Open ) [ action ] ,
+			( Take ) [ action ] ,
+			( Read ) [ action ] ,
+			( Consume ) [ action ] ,
+			( Consume ) [ action ] " and " ( take ) [ action ]
+		}
+		parameters :
+			action : entity action ;
+
+	"Greet-Character-Conf" :
+		inputs in en {
+			"Greetings adventurer" ,
+			"Hello traveller"
+	}
+
+	"New-Room-Select-Number" :
+		inputs in en {
+			( thirteen ) [ ^number ] ,
+			( "20" ) [ ^number ]
+		}
+		parameters :
+			^number : entity float , required , prompts in en [ "You must select a number" ] ;
+
+	"Reset-Game" :
+		inputs in en {
+			"I want to delete all data" ,
+			"I want to reset the game" ,
+			Reset
+	}
+
+	"Modify-Character-Greet" :
+		inputs in en {
+			"Good evening adventurer"
+	}
+
+	"Delete-Character" :
+		inputs in en {
+			"I want to delete a character"
+	}
+
+	"Change-Item" :
+		inputs in en {
+			"I want to modify an object" ,
+			"I want to change an object" ,
+			"I want to modify an item" ,
+			"I want to change an item"
+	}
+
+	"Modify-Player-Selection" :
+		inputs in en {
+			( Magnus ) [ playerName ]
+		}
+		parameters :
+			playerName : entity playerName ;
+
+	"Default-Welcome-Intent-Conf" :
+		inputs in en {
+			"just going to say hi" ,
+			heya ,
+			"hello hi" ,
+			howdy ,
+			"hey there" ,
+			"hi there" ,
+			greetings ,
+			hey ,
+			"long time no see" ,
+			hello ,
+			"lovely day isn\'t it" ,
+			"I greet you" ,
+			"hello again" ,
+			^hi ,
+			"hello there" ,
+			"a good day"
+	}
+
+	"Delete-Player-Selection" :
+		inputs in en {
+			( Marcus ) [ playerName ]
+		}
+		parameters :
+			playerName : entity playerName ;
+
+	"Inf-Character-Else-Yes" :
+		inputs in en {
+			yeah ,
+			sure ,
+			yes
+	}
+
+	"Delete-Character-Selection" :
+		inputs in en {
+			( Magnus ) [ characterName ]
+		}
+		parameters :
+			characterName : entity characterName ;
+
+	"New-Item" :
+		inputs in en {
+			"A new " ( item ) [ item ] ,
+			"Lets set up a " ( gadget ) [ item ] ,
+			"A " ( device ) [ item ] ,
+			"A " ( thing ) [ item ] " to use" ,
+			"An " ( item ) [ item ] ,
+			"A new " ( object ) [ item ] ,
+			"a new " ( character ) [ item ]
+		}
+		parameters :
+			item : entity item ;
+
+	"Modify-Item-Name" :
+		inputs in en {
+			( Potion ) [ newItem ] ,
+			"A " ( book ) [ newItem ] ,
+			"A " ( potion ) [ newItem ] ,
+			"A " ( rock ) [ newItem ]
+		}
+		parameters :
+			newItem : entity item ;
+
+entities :
+	Regex entity item :
+		inputs in en {
+			pattern : "([A-Za-z]+\\d*)+"
+	}
+	Regex entity playerName :
+		inputs in en {
+			pattern : "([A-Za-z]+\\d*)+"
+	}
+	Regex entity characterName :
+		inputs in en {
+			pattern : "(([a-zA-Z]+\\d*)+[ ]?)+"
+	}
+	Regex entity action :
+		inputs in en {
+			pattern : "([A-Za-z]+)"
+	}
+
+actions :
+	Request post HttpRequest :
+		URL : "https://9f8b935af857.ngrok.io/webhook_conf" ;
+		basicAuth : "" : "" ;
+	Response HttpResponse :
+		Request : HttpRequest ;
+		inputs in en {
+			request. text
+	}
+	text response "Item-ConsumptionTxtResp1" :
+		inputs in en {
+			" "
+	}
+	text response testingTxtResp1 :
+		inputs in en {
+			"api tel "
+	}
+	text response testingTxtResp2 :
+		inputs in en {
+			"api not tel "
+	}
+
+flows :
+	- user Settings => chatbot HttpRequest , HttpResponse , "Item-ConsumptionTxtResp1" ;
+	- user testing => chatbot HttpRequest , HttpResponse , testingTxtResp1 , testingTxtResp2 ;
+	- user "Change-Player" => chatbot HttpRequest , HttpResponse , "Item-ConsumptionTxtResp1" ;
+	- user "Delete-Item-Selection" => chatbot HttpRequest , HttpResponse , "Item-ConsumptionTxtResp1" ;
+	- user "Change-Character" => chatbot HttpRequest , HttpResponse , "Item-ConsumptionTxtResp1" ;
+	- user "Default-Fallback-Intent-Conf" => chatbot HttpRequest , HttpResponse , "Item-ConsumptionTxtResp1" ;
+	- user "Reset-Game" => chatbot HttpRequest , HttpResponse , "Item-ConsumptionTxtResp1" ;
+	- user "Default-Welcome-Intent-Conf" => chatbot HttpRequest , HttpResponse , "Item-ConsumptionTxtResp1" ;
+

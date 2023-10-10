@@ -1,0 +1,176 @@
+Chatbot "Game-Chatbot" language : en
+
+intents :
+
+	"Take-Note" :
+		inputs in en {
+			"Take note" ,
+			"Take a note" ,
+			"I want to take a note"
+	}
+
+	"Greet-Character-Game" :
+		inputs in en {
+			"Hello " ( "Magnus the Red" ) [ characterName ]
+		}
+		parameters :
+			characterName : entity characterName ;
+
+	"Default-Fallback-Intent-Game" Fallback :
+
+	"Describe-Room" :
+		inputs in en {
+			"Describe this room" ,
+			"Where am I?"
+	}
+
+	"Move-Room" :
+		inputs in en {
+			"I want to go " ( west ) [ direction ] ,
+			"I want to go " ( east ) [ direction ] ,
+			"I want to go " ( south ) [ direction ] ,
+			"I want to go " ( north ) [ direction ] ,
+			"I wanna go " ( west ) [ direction ] ,
+			"I wanna go " ( east ) [ direction ] ,
+			"I wanna go " ( south ) [ direction ] ,
+			"I wanna go " ( north ) [ direction ] ,
+			"i wanna go " ( west ) [ direction ]
+		}
+		parameters :
+			direction : entity word ;
+
+	"Interact-Game-Object" :
+		inputs in en {
+			( Take ) [ action ] " the " ( potion ) [ item ] ,
+			( Open ) [ action ] " the " ( chest ) [ item ] ,
+			"I " ( open ) [ action ] " the " ( chest ) [ item ] ,
+			"I want to " ( open ) [ action ] " the " ( chest ) [ item ] ,
+			"I want to " ( take ) [ action ] " the " ( potion ) [ item ] ,
+			"I " ( take ) [ action ] " the " ( potion ) [ item ]
+		}
+		parameters :
+			item : entity word ;
+			action : entity word ;
+
+	See_Map :
+		inputs in en {
+			"Open map" ,
+			"See map" ,
+			"Check map" ,
+			"I want to see the map"
+	}
+
+	"Info-Character-Game" :
+		inputs in en {
+			"Do you know anything about any " ( item ) [ item ] " " ( "Magnus the red" ) [ characterName ] "?" ,
+			"Can you tell me anything else, " ( "Magnus the red" ) [ characterName ] "?" ,
+			"Do you know anything about any " ( "item," ) [ item ] " " ( "Magnus the red" ) [ characterName ] "?" ,
+			"Do you know anything about " ( "items," ) [ item ] " " ( "Magnus the red" ) [ characterName ] "?" ,
+			"Is there anything you can tell me, " ( "Magnus the red" ) [ characterName ] "?" ,
+			"What can you tell me " ( "Magnus the red" ) [ characterName ] "?"
+		}
+		parameters :
+			item : entity word ;
+			characterName : entity characterName ;
+
+	help :
+		inputs in en {
+			"/help"
+	}
+
+	"Select-Player" :
+		inputs in en {
+			( Mary ) [ characterName ] ,
+			( Marcus ) [ characterName ]
+		}
+		parameters :
+			characterName : entity characterName ;
+
+	"Write-Note" :
+		inputs in en {
+			"Dont drink the potion" ,
+			"Find a potion" ,
+			"I have to find a key in order to open a chest"
+	}
+
+	"Check-Inventory" :
+		inputs in en {
+			"See my inventory" ,
+			"Check my inventory" ,
+			Inventory ,
+			"I wanna see my inventory"
+	}
+
+	"Read-Notes" :
+		inputs in en {
+			"Read the notes" ,
+			"I want to read the notes" ,
+			"Read notes"
+	}
+
+	"Default-Welcome-Intent-Game" :
+		inputs in en {
+			"just going to say hi" ,
+			heya ,
+			"hello hi" ,
+			howdy ,
+			"hey there" ,
+			"hi there" ,
+			greetings ,
+			hey ,
+			"long time no see" ,
+			hello ,
+			"lovely day isn\'t it" ,
+			"I greet you" ,
+			"hello again" ,
+			^hi ,
+			"hello there" ,
+			"a good day"
+	}
+
+entities :
+	Regex entity characterName :
+		inputs in en {
+			pattern : "(([a-zA-Z]+\\d*)+[ ]?)+"
+	}
+	Regex entity word :
+		inputs in en {
+			pattern : "([A-Za-z]+)"
+	}
+
+actions :
+	Request post HttpRequest :
+		URL : "https://9f8b935af857.ngrok.io/webhook_game" ;
+		basicAuth : "" : "" ;
+	Response HttpResponse :
+		Request : HttpRequest ;
+		inputs in en {
+			request. text
+	}
+	text response "Take-NoteTxtResp1" :
+		inputs in en {
+			" "
+	}
+	text response "Default-Fallback-Intent-GameTxtResp1" :
+		inputs in en {
+			"I didn\'t get that. Can you say it again? " ,
+			"I missed what you said. What was that? " ,
+			"Sorry, could you say that again? " ,
+			"Sorry, can you say that again? " ,
+			"Can you say that again? " ,
+			"Sorry, I didn\'t get that. Can you rephrase? " ,
+			"Sorry, what was that? " ,
+			"One more time? " ,
+			"What was that? " ,
+			"Say that one more time? " ,
+			"I didn\'t get that. Can you repeat? " ,
+			"I missed that, say that again? "
+	}
+
+flows :
+	- user "Default-Fallback-Intent-Game" => chatbot HttpRequest , HttpResponse , "Default-Fallback-Intent-GameTxtResp1" ;
+	- user "Describe-Room" => chatbot HttpRequest , HttpResponse , "Take-NoteTxtResp1" ;
+	- user "Write-Note" => chatbot HttpRequest , HttpResponse , "Take-NoteTxtResp1" ;
+	- user "Read-Notes" => chatbot HttpRequest , HttpResponse , "Take-NoteTxtResp1" ;
+	- user "Default-Welcome-Intent-Game" => chatbot HttpRequest , HttpResponse ;
+
