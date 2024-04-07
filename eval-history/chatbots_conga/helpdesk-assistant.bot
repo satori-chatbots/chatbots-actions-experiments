@@ -1,4 +1,4 @@
-Chatbot commit_0_462884387d2649e11a5cfd642bf0f2a08565b9c8 language : en
+Chatbot commit_66_87409d653d3bcec97f0dba9d5a06cb69e16fdeb0 language : en
 
 intents :
 
@@ -11,26 +11,7 @@ greet :
 		"good evening" ,
 		"hey there" ,
 		"hi there" ,
-		"hello there" ,
-		greetings ,
-		Hi ,
-		helo ,
-		"Hi!" ,
-		"Hi\'" ,
-		"Hi," ,
-		"Hi, bot" ,
-		Hieee ,
-		Hieeeeeeeeeeeee ,
-		Hola ,
-		"What is up?" ,
-		"Whats up" ,
-		"Whats up my bot" ,
-		"Whats up?" ,
-		"ayyyy whaddup" ,
-		bonjour ,
-		"ey boss" ,
-		"I said, helllllloooooO!!!!" ,
-		"Well hello there ;)"
+		"hello there"
 }
 
 goodbye :
@@ -40,44 +21,7 @@ goodbye :
 		"see you around" ,
 		"see you later" ,
 		"see ya" ,
-		"buh bye" ,
-		Bye ,
-		"Bye bye" ,
-		adios ,
-		"adios?" ,
-		"bye :P" ,
-		"bye bot" ,
-		"bye bye" ,
-		"bye bye bot" ,
-		"bye for now" ,
-		"bye udo" ,
-		"bye was nice talking to you" ,
-		"bye!" ,
-		byee ,
-		"catch you later" ,
-		ciao ,
-		cya ,
-		farewell ,
-		"good bye" ,
-		"good bye rasa bot!" ,
-		"good night" ,
-		goodbye ,
-		"goodbye." ,
-		goodnight ,
-		"gotta go" ,
-		"ok Bye" ,
-		"ok bye" ,
-		"ok, bye" ,
-		"ok.bye" ,
-		"see u later" ,
-		"see ya" ,
-		"see you" ,
-		"see you . bye" ,
-		"take care" ,
-		"then bye" ,
-		"tlak to you later" ,
-		"toodle-oo" ,
-		byr
+		"buh bye"
 }
 
 thank :
@@ -87,38 +31,7 @@ thank :
 		"thanks a lot" ,
 		"great thanks" ,
 		"appreciate it" ,
-		"cool thanks" ,
-		"Cool. Thanks" ,
-		"Great, thanks" ,
-		"Thank you so much" ,
-		"Thank\'s!" ,
-		"Thanks bot" ,
-		"Thanks for that" ,
-		"Thanks!" ,
-		"amazing, thanks" ,
-		"cool thank you" ,
-		"cool, thanks" ,
-		danke ,
-		"great thanks" ,
-		"ok thanks" ,
-		"ok thanks" ,
-		"ok thanks!" ,
-		"perfect thank you" ,
-		"thank u" ,
-		"thank you" ,
-		"thank you anyways" ,
-		thanks ,
-		"thanks a bunch for everything" ,
-		"thanks a lot" ,
-		"thanks for the help" ,
-		"thanks you" ,
-		"thanks!" ,
-		thankyou ,
-		thnks ,
-		thx ,
-		"yes thanks" ,
-		"thanks for your information" ,
-		"thanks f"
+		"cool thanks"
 }
 
 bot_challenge :
@@ -128,38 +41,7 @@ bot_challenge :
 		"am I talking to a bot?" ,
 		"am I talking to a human?" ,
 		"you are a bot right" ,
-		"aren\'t you a bot" ,
-		"Are you a bot?" ,
-		"are you a BOT" ,
-		"are you a bot?" ,
-		"are you a chatbot" ,
-		"are you a rasa bot?" ,
-		"are you a real bot?" ,
-		"are you a robot" ,
-		"are you ai" ,
-		"are you artificial" ,
-		"are you artificial intelligence" ,
-		"are you bot" ,
-		"are you bot?" ,
-		"are you rasa bot?" ,
-		"are you real" ,
-		"are you real lol" ,
-		"are you really a bot" ,
-		"are you robot" ,
-		"are you sure that you\'re a bot?" ,
-		"bot?" ,
-		"cuz you are a bot" ,
-		"i guess you are a chatbot" ,
-		"oh are you chatbot?" ,
-		"tell me, are you a bot?" ,
-		"what are you, a bot?" ,
-		"you are a robot" ,
-		"you are ai" ,
-		"you are chatbot" ,
-		"you\'re a bot" ,
-		"you robo" ,
-		"real bot then?" ,
-		"are you really a bbot?"
+		"aren\'t you a bot"
 }
 
 password_reset :
@@ -172,20 +54,7 @@ password_reset :
 		"freaking password won\'t work" ,
 		"reset my password" ,
 		"password reset" ,
-		"forgot my password and can\'t reset it" ,
-		"uh password reset help please" ,
-		"I\'m having so many problems resetting my password" ,
-		"Can you reset my password reset" ,
-		"My pass word isn\'t working for me what do I do" ,
-		"How can I reconfigure my pass word" ,
-		"pass word reset?" ,
-		"forgot my pass word again what now" ,
-		"password help fix" ,
-		"show me how to set password again" ,
-		"can you tell me how to change my password" ,
-		"change pass word" ,
-		"I forgot my password what can I do" ,
-		"forgot my password help me reset it pls"
+		"forgot my password and can\'t reset it"
 }
 
 open_incident :
@@ -204,15 +73,7 @@ open_incident :
 		"open an incident for aileen.mottern@example.com" ,
 		"open an " ( urgent ) [ priority ] " issue" ,
 		"I want to open an incident, but it\'s " ( low ) [ priority ] " priority" ,
-		"I need to open a helpdesk ticket. it\'s " ( "really important" ) [ priority ] ,
-		"open an incident" ,
-		"open an incedent" ,
-		"i want to open an incident" ,
-		"i wanna open a incident" ,
-		"I want to open a ticket" ,
-		"can I open a ticket" ,
-		"pls help me open tix support" ,
-		"ticket support incident open now can you do that for me"
+		"I need to open a helpdesk ticket. it\'s " ( "really important" ) [ priority ]
 	}
 	parameters :
 		priority : entity text ;
@@ -225,69 +86,28 @@ help :
 		"what can you do" ,
 		"I need some help" ,
 		"help me" ,
-		"can you please help me" ,
-		problem ,
-		"big problem" ,
-		"How can you help me" ,
-		"How you help me?" ,
-		"I need some help" ,
-		"What are my options" ,
-		"What are you able to do?" ,
-		"What can I ask you?" ,
-		"What can I do?" ,
-		"What can you demo" ,
-		"What can you do for me?" ,
-		"What can you do?" ,
-		"What can you tell me?" ,
-		"What do you do" ,
-		"anything els" ,
-		"are there any other options?" ,
-		"can I ask you anything else?" ,
-		"can you do anything else?" ,
-		"can you help me?" ,
-		"come back" ,
-		"cool! can I do something else here?" ,
-		"hello what can you do for me" ,
-		help ,
-		"help me" ,
-		"help please" ,
-		"help pls" ,
-		"help?" ,
-		"hep me"
+		"can you please help me"
 }
 
-problem_program :
+problem_email :
 	inputs in en {
-		program ,
-		application ,
-		app ,
-		"one of programs do not open" ,
-		"I\'m having issues with some program" ,
-		"issues with program" ,
-		"my application will not open" ,
-		"there\'s a problem with program" ,
-		"something is broken with program" ,
-		"I can\'t start my app" ,
-		"app won\'t let me use it" ,
-		"i have a problem with program" ,
-		"i cant open my program" ,
-		"i can\'t able to use program" ,
-		"I\'m having trouble using program" ,
-		"can you help me with program please" ,
-		"what can you do about my app it\'s not working" ,
-		"can you fix program for me I don\'t know what to do" ,
-		"something isn\'t right with application" ,
-		"can you help me with my app" ,
-		"my program isn\'t working" ,
-		"app is showing me a weird message" ,
-		"application isn\'t loading can you help"
+		"my outlook application won\'t open" ,
+		"I\'m having issues with outlook." ,
+		"issues with outlook" ,
+		"outlook application will not open" ,
+		"there\'s a problem with my email" ,
+		"something is broken with outlook" ,
+		"I can\'t log in to my email" ,
+		"can\'t log in to outlook" ,
+		"my email won\'t let me log in" ,
+		"i have a problem with my email"
 }
 
 inform :
 	inputs in en {
 		"my email is test@example.com" ,
 		"my email is abraham.lincoln@example.com" ,
-		"name.name@example.com" ,
+		"abel.tuter@example.com" ,
 		"it is admin@example.com" ,
 		"aileen.mottern@example.com" ,
 		( low ) [ priority ] ,
@@ -297,17 +117,7 @@ inform :
 		"it should be " ( medium ) [ priority ] ,
 		( escalated ) [ priority ] ,
 		( escalate ) [ priority ] ,
-		( "super high" ) [ priority ] ,
-		john ,
-		"the priority is " ( high ) [ priority ] ,
-		"test@gmail.com" ,
-		"xyz@example.com" ,
-		"my email is ella@rasa.com" ,
-		"abraham.lincoln@example.com" ,
-		steve ,
-		"sara@rasa.com" ,
-		( urgent ) [ priority ] ,
-		( critical ) [ priority ]
+		( "super high" ) [ priority ]
 	}
 	parameters :
 		priority : entity text ;
@@ -325,22 +135,7 @@ out_of_scope :
 		"order a pizza" ,
 		"I want to order a pizza" ,
 		"what is the weather today" ,
-		"what is the weather" ,
-		"how old are you?" ,
-		"add two plus two" ,
-		Hdjejene ,
-		asd ,
-		title ,
-		"how about the forecast" ,
-		foolish ,
-		joke ,
-		"Can I get a hamburger?" ,
-		"Can YouTube talk?" ,
-		"Can you call me back ?" ,
-		"Can you give me your datacenter\'s password" ,
-		"Can you give me your datacenter\'s password?" ,
-		"Can you make sandwiches?" ,
-		"Can you please send me an uber"
+		"what is the weather"
 }
 
 incident_status :
@@ -357,16 +152,7 @@ incident_status :
 		"Check ticket status" ,
 		"check incident status" ,
 		"ok, try looking it up for abraham.lincoln@example.com" ,
-		"look up ticket status for abel.tuter@example.com" ,
-		"my ticket status" ,
-		"What\'s the status of the ticket I opened?" ,
-		"what\'s my ticket status" ,
-		"how is my ticket going" ,
-		"an updates on my incident ticket?" ,
-		"I opened an issue last week how is it doing now" ,
-		"can you check the status my email is sara@rasa.com" ,
-		"has the ticket been closed yet?" ,
-		"is my issue still open"
+		"look up ticket status for abel.tuter@example.com"
 }
 
 affirm :
@@ -382,22 +168,7 @@ affirm :
 		"Yes, please" ,
 		yeah ,
 		sure ,
-		"yes thanks" ,
-		"That would be great" ,
-		YES ,
-		YUP ,
-		Yea ,
-		Yeah ,
-		"Yeah sure" ,
-		Yep ,
-		"Yep that\'s fine" ,
-		"Yep!" ,
-		Yepp ,
-		Yes ,
-		"Yes I do" ,
-		"Yes please" ,
-		"Yes please!" ,
-		"Yes, I accept"
+		"yes thanks"
 }
 
 deny :
@@ -409,23 +180,7 @@ deny :
 		"don\'t use that" ,
 		"please no" ,
 		"no don\'t do that" ,
-		"no, use abraham.lincoln@example.com" ,
-		Neither ,
-		Never ,
-		Nevermind ,
-		"No thank you" ,
-		"No, not really." ,
-		"No, thank you" ,
-		"No." ,
-		Nopes ,
-		"Not really" ,
-		"absolutely not" ,
-		decline ,
-		"definitely not" ,
-		deny ,
-		na ,
-		nah ,
-		"nah I\'m good"
+		"no, use abraham.lincoln@example.com"
 }
 
 human_handoff :
@@ -436,83 +191,7 @@ human_handoff :
 		"real human" ,
 		"chat with a live agent" ,
 		"give me a person please" ,
-		"i want to talk to a human" ,
-		"can you transfer me to a human?" ,
-		handoff ,
-		"talk to a human" ,
-		"i need to talk to a human" ,
-		"human please" ,
-		"i need help from a human" ,
-		"i need help from a real human" ,
-		"give me a human" ,
-		"i want to talk to human" ,
-		"i want a representative" ,
-		"i want to talk to a person" ,
-		"I don\'t wanna talk to a bot" ,
-		"I dont like to talk to a machine" ,
-		"I want to talk to a human" ,
-		"I want to talk to the founders" ,
-		"are there also humans working for your company?" ,
-		"can I speak to a person?" ,
-		"can i please speak to a human?" ,
-		"can you forward me to your team" ,
-		"can you please connect me to a real rasa employee?" ,
-		"can you put me in touch with a human?" ,
-		"do you have human support ?" ,
-		"gimme a proper human" ,
-		"give me a human now" ,
-		"human handoff" ,
-		"i dont wanna talk to a bot" ,
-		"i want to speak to a real person" ,
-		"i want to speak to customer service" ,
-		"i want to talk to a human" ,
-		"i want to talk to a person" ,
-		"i want to talk to human" ,
-		"i want to talk to someone at rasa" ,
-		"i want to talk to someone else" ,
-		"i want to talk to someone who is smarter than you" ,
-		"i would like to speak to a person" ,
-		"i\'d rather speak with a real rasa employee" ,
-		"id like to talk to a real rasa employee" ,
-		"let me speak with a real person please" ,
-		"let me talk to a human" ,
-		"let me talk to a real person" ,
-		"please give me a human" ,
-		"service agent" ,
-		"someone from customer care" ,
-		"speak to a real person" ,
-		"talking to a bot is stupid" ,
-		"that\'s annoying I\'d like to speak to someone real" ,
-		"thats not helping, can i talk to human?" ,
-		"wrong i want to speak to a human" ,
-		"can i speak to human" ,
-		"can i speak to your human" ,
-		"i want to chat with human" ,
-		"How do I talk to a human" ,
-		"talk with a human" ,
-		"Can i talk to a human instead" ,
-		"nevermind.... you\'re not human ... I need to talk to a live person" ,
-		"Can you get a human to assist me?" ,
-		"Can i talk to a human?" ,
-		"Can I talk to a human" ,
-		"Can I speak to a human?" ,
-		"can i speak to a human" ,
-		"no, i want to talk to human" ,
-		"can you hand a conversation over to a human?" ,
-		"can I talk to human?" ,
-		"can I talk to human" ,
-		"talk to human" ,
-		"i want human :(" ,
-		"can i talk to human" ,
-		"i want to talk to a human" ,
-		"i want to speak to human" ,
-		"can i talk to a real person?" ,
-		"connect me to a real person" ,
-		"I need a real person" ,
-		"can i took with a real person" ,
-		"let me speak to a real person" ,
-		"let me speak to a real person please" ,
-		"i want to talk to a real person"
+		"i want to talk to a human"
 }
 
 handoff :
@@ -558,10 +237,9 @@ actions :
 		inputs in en {
 			"Sorry, \"{email}\" isn\'t in our incident management system. Please try again."
 	}
-	empty response action_ask_email_empty
 	text response utter_help_text :
 		inputs in en {
-			"I can help you open a service request ticket, or check the status of your open incidents. \nYou can ask me things like: \n- Open an incident \n- Help me reset my password \n- I\'m having an issue with one of my programs \n- What\'s the status of the ticket I opened?"
+			"I can help you open a service request ticket, or check the status of your open incidents. \nYou can ask me things like: \n- Open an incident \n- Help me reset my password \n- I\'m having a issue with my email \n- What\'s the status of the ticket I opened?"
 	}
 	text response utter_ask_problem_description_text :
 		inputs in en {
@@ -609,20 +287,20 @@ actions :
 flows :
 	- user handoff => chatbot utter_greet_text ;
 	- user nlu_fallback => chatbot utter_default_text ;
-	- user bot_challenge => chatbot utter_iamabot_text ;
-	- user open_incident => chatbot action_open_incident_empty , action_check_incident_status_empty ;
-	- user password_reset => chatbot action_open_incident_empty , action_check_incident_status_empty ;
-	- user problem_program => chatbot open_incident_form_empty => user incident_status => chatbot incident_status_form_empty , action_check_incident_status_empty ;
-	- user incident_status => chatbot incident_status_form_empty , action_check_incident_status_empty {
-		=> user help => chatbot utter_help_text , incident_status_form_empty , action_check_incident_status_empty ;
-		=> user out_of_scope => chatbot utter_out_of_scope_text , incident_status_form_empty , action_check_incident_status_empty ;
-		=> user open_incident => chatbot action_open_incident_empty ;
-		=> user password_reset => chatbot action_open_incident_empty ;
-		=> user problem_program => chatbot open_incident_form_empty , action_open_incident_empty ;
-	} ;
 	- user out_of_scope => chatbot utter_out_of_scope_text , action_open_incident_empty ;
 	- user help => chatbot utter_help_text , action_open_incident_empty ;
 	- user thank => chatbot utter_welcome_text ;
 	- user greet => chatbot utter_greet_text , utter_help_text ;
 	- user goodbye => chatbot utter_goodbye_text ;
+	- user bot_challenge => chatbot utter_iamabot_text ;
+	- user open_incident => chatbot action_open_incident_empty , action_check_incident_status_empty ;
+	- user password_reset => chatbot action_open_incident_empty , action_check_incident_status_empty ;
+	- user problem_email => chatbot action_open_incident_empty , action_check_incident_status_empty ;
+	- user incident_status => chatbot incident_status_form_empty , action_check_incident_status_empty {
+		=> user help => chatbot utter_help_text , incident_status_form_empty , action_check_incident_status_empty ;
+		=> user out_of_scope => chatbot utter_out_of_scope_text , incident_status_form_empty , action_check_incident_status_empty ;
+		=> user open_incident => chatbot action_open_incident_empty ;
+		=> user password_reset => chatbot action_open_incident_empty ;
+		=> user problem_email => chatbot action_open_incident_empty ;
+	} ;
 

@@ -1,0 +1,219 @@
+Chatbot commit_59_8ef399f6b006a6f12e6c614277aa967b022db0ef language : en
+
+intents :
+
+greet :
+	inputs in en {
+		hey ,
+		hello ,
+		^hi ,
+		"hello there" ,
+		"good morning" ,
+		"good evening" ,
+		"hey there" ,
+		"hey dude" ,
+		goodmorning ,
+		goodevening ,
+		"good afternoon"
+}
+
+goodbye :
+	inputs in en {
+		"good afternoon" ,
+		cu ,
+		"good by" ,
+		"cee you later" ,
+		"good night" ,
+		bye ,
+		goodbye ,
+		"have a nice day" ,
+		"see you around" ,
+		"bye bye" ,
+		"see you later"
+}
+
+express_amusementTODOIMPROVENAME :
+	inputs in en {
+		cool ,
+		nice ,
+		amazing ,
+		"seems pretty cool" ,
+		awesomeeee
+}
+
+bot_initiative_startTODOIMPROVENAME :
+	inputs in en {
+		"what should I know?" ,
+		"tell me everything" ,
+		"what can you do" ,
+		"you can start"
+}
+
+definition_STD :
+	inputs in en {
+		"What are STDs?" ,
+		"What does STD stand for?" ,
+		"what are sexually transmitted diseases" ,
+		"uat r stds" ,
+		"what are stis?"
+}
+
+list_STD :
+	inputs in en {
+		"Name all STDs" ,
+		"Give me a list of all sexually transmitted diseases" ,
+		"can you list the STDs?" ,
+		"what are all sexually transmitted diseases?" ,
+		"which are all the stds"
+}
+
+transmission_STD :
+	inputs in en {
+		"how are they transmitted" ,
+		"how can you catch an std" ,
+		"What are the transmission conditions?" ,
+		"what r the conditions for transmission" ,
+		"how does someone pass an std to someone else"
+}
+
+prevention_STD :
+	inputs in en {
+		"how can we protect ourselves?" ,
+		"what can i do to avoid catching one" ,
+		"what are the protection measures one can take?" ,
+		"How to prevent sexually transmitted diseases?" ,
+		"what is necessary for the prevention of stds?"
+}
+
+affirm :
+	inputs in en {
+		yes ,
+		y ,
+		indeed ,
+		"of course" ,
+		"that sounds good" ,
+		correct ,
+		sure ,
+		absolutely ,
+		ok ,
+		alright ,
+		"all right"
+}
+
+deny :
+	inputs in en {
+		^no ,
+		n ,
+		never ,
+		"I don\'t think so" ,
+		"don\'t like that" ,
+		"no way" ,
+		"not really"
+}
+
+I_have_questions :
+	inputs in en {
+		"I have a question" ,
+		"I have some doubts" ,
+		"so many" ,
+		"yes, i have" ,
+		"i do have something to ask" ,
+		"i wanna ask you one thing"
+}
+
+greeting :
+
+affirmTODOCHECKIFICANPUTANORHEREorI_have_questions :
+
+bot_challenge :
+
+bot_initiative_start :
+
+express_amusement :
+
+mood_great :
+
+mood_unhappy :
+
+actions :
+	text response utter_definition_STD_text :
+		inputs in en {
+			"Here goes the definition of STD"
+	}
+	text response utter_second_greeting_text :
+		inputs in en {
+			"Hey! How can I help?"
+	}
+	text response utter_transmission_STD_text :
+		inputs in en {
+			"Here goes the transmission of STDs in general"
+	}
+	text response utter_any_questions_text :
+		inputs in en {
+			"Do you have any questions?"
+	}
+	text response utter_did_not_understand_text :
+		inputs in en {
+			"I\'m sorry. I couldn\'t understand what you just said. Can you rephrase it, please?"
+	}
+	text response utter_intro_text :
+		inputs in en {
+			"Hey there! My name is Sexy. I was built to spread knowledge about STDs, so that everyone can have a healthy, safe and happy sex life."
+	}
+	text response utter_conclusion_text :
+		inputs in en {
+			"Then, that is all for now. If anything comes to mind, feel free to come back!"
+	}
+	text response utter_goodbye_text :
+		inputs in en {
+			"Bye-bye!"
+	}
+	text response utter_shall_i_continue_text :
+		inputs in en {
+			"Shall I continue?"
+	}
+	text response utter_list_STD_text :
+		inputs in en {
+			"Here goes the list of STDs"
+	}
+	text response utter_prevention_STD_text :
+		inputs in en {
+			"Here goes the prevention of STDs in general"
+	}
+	text response utter_cannot_help_with_that_text :
+		inputs in en {
+			"I\'m sorry. I can\'t help you with that. But you can find more information here: "
+	}
+	text response utter_feel_free_to_ask_text :
+		inputs in en {
+			"Well, feel free to ask!"
+	}
+	empty response DefaultEmptyAction
+
+flows :
+	- user goodbye => chatbot utter_goodbye_text ;
+	- user greeting => chatbot utter_feel_free_to_ask_text ;
+	- user definition_STD => chatbot utter_definition_STD_text ;
+	- user list_STD => chatbot utter_list_STD_text ;
+	- user transmission_STD => chatbot utter_transmission_STD_text ;
+	- user prevention_STD => chatbot utter_prevention_STD_text ;
+	- user I_have_questions => chatbot utter_feel_free_to_ask_text ;
+	- user greet => chatbot DefaultEmptyAction {
+		=> user bot_initiative_start => chatbot utter_definition_STD_text , DefaultEmptyAction {
+			=> user affirm => chatbot utter_transmission_STD_text , utter_definition_STD_text {
+				=> user affirm => chatbot utter_prevention_STD_text , utter_transmission_STD_text {
+					=> user deny => chatbot utter_conclusion_text , utter_goodbye_text ;
+					=> user affirm => chatbot utter_prevention_STD_text => user deny => chatbot DefaultEmptyAction => user affirm => chatbot utter_goodbye_text ;
+				} ;
+				=> user deny => chatbot DefaultEmptyAction => user affirm => chatbot utter_feel_free_to_ask_text ;
+			} ;
+			=> user deny => chatbot DefaultEmptyAction {
+				=> user deny => chatbot utter_conclusion_text , utter_goodbye_text ;
+				=> user affirm => chatbot utter_feel_free_to_ask_text ;
+			} ;
+		} ;
+		=> user greet => chatbot DefaultEmptyAction => user affirm => chatbot utter_feel_free_to_ask_text ;
+	} ;
+	- user affirm ;
+	- user deny ;
+

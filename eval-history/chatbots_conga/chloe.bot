@@ -1,1555 +1,693 @@
-Chatbot commit_0_08c8ed58e94e24b2f5c86a6a16dd0077b49f8704 language : en
+Chatbot commit_79_38e7b7fc580cae3333ff970792978719050acd48 language : en
 
 intents :
 
+pa_question :
+	inputs in en {
+		"who is this plan for"
+}
+
 pa_plan_coverage :
 	inputs in en {
-		"can claim from all woman disease?" ,
-		"can i claim if Falls down?" ,
-		"can i claim if i sprain my leg ?" ,
-		"can my children buy?" ,
-		"can this be claim for car accident?" ,
-		"can this claim for minoor injuries?" ,
-		"car accident also can claim ah?" ,
-		"coverage till what age?" ,
-		"doe it covers man dieases" ,
-		"does it cover covid 19 if i admit into hospital" ,
-		"does it covers death?" ,
-		"does it covers woman diseasae" ,
-		"does it have cash payout?" ,
-		"does it only cover accidents?" ,
-		"got cash compensation?" ,
-		"Got cover covid 19?" ,
-		"Got cover dengue fever?" ,
-		"how much i can claim up to?" ,
-		"this one can claim for all kind of accidents?" ,
-		"what does it covers?" ,
-		"What is the maxium coverage?" ,
-		"does it cover death?" ,
-		"what is this medical insurance or saving" ,
-		"may i know whats the minimum age entry for this plan" ,
-		"are you talking about the e critical care" ,
-		"i know what kind of plan" ,
-		"what you say about comparing what plan is it" ,
-		"what policy is it" ,
-		"its a new policy is it" ,
-		"is it a savings plan" ,
-		"is this a cold call" ,
-		"can you tell me what is the policy about" ,
-		"this is a what accident plan ah" ,
-		"what policy" ,
-		"you are calling for which policy"
+		"what does this plan cover"
 }
 
 fees_question :
 	inputs in en {
-		"any cost involvement" ,
-		"confirm free ah" ,
-		"confirm with me it is free" ,
-		"do i have to pay 1 shot?" ,
-		"do i need to pay anything" ,
-		"do we need to buy" ,
-		"free ah" ,
-		"free lunch" ,
-		"Free or not" ,
-		"got so good thing meh" ,
-		"How can this be free" ,
-		"how much does it cost" ,
-		"how much is it" ,
-		"How much is this" ,
-		"i can\'t afford to pay i am not working" ,
-		"i dont need pay a single cent right" ,
-		"is it expensive" ,
-		"is it expensive how much does it cost" ,
-		"Is it free" ,
-		"is it really 60 cents" ,
-		"is there any obligaton" ,
-		"is there any terms and conditions" ,
-		"is this free of charge" ,
-		"no payment ah" ,
-		"promise me free first" ,
-		"so good meh only sixty cents" ,
-		"sorry is this free" ,
-		"sorry you were saying how much does it cost again the plan" ,
-		"sure anot sixty cents" ,
-		"what it costs" ,
-		"you sure free ah" ,
-		"zero cost ah" ,
-		"no money" ,
-		"correct is it twenty six twenty six cents per day on what" ,
-		"twenty six times a day or" ,
-		"twenty six cent a day" ,
-		"twenty six cent" ,
-		"what is the twenty six" ,
-		"i got no more money"
+		"is there any hidden fee"
 }
 
-question_related_to_scam :
+login_details :
 	inputs in en {
-		"are you playing me" ,
-		"are you scamming me" ,
-		"bloody hell what are you saying" ,
-		"cheat people" ,
-		"do you know it is illegal" ,
-		"do you think i am stupid" ,
-		"dont con old people la" ,
-		"eh you trying to fool me ah" ,
-		"fun isit" ,
-		"i call police" ,
-		"i can report to police" ,
-		"i can report you to the police" ,
-		"i don\'t think it is appropriate" ,
-		"is this a prank call" ,
-		"is this a scam" ,
-		"is this a scam call" ,
-		"no time for all this nonense" ,
-		"not comfortable" ,
-		"prank call ah" ,
-		"prank call isit" ,
-		"pranking me is it" ,
-		"scam call isit" ,
-		"think i am a fool is it" ,
-		"what are you talking about cheating people" ,
-		"what you trying to do" ,
-		"ya you want to cheat people" ,
-		"you people like to cheat people" ,
-		"you think aunty old alr play me ah" ,
-		"you think i 3 years old is it" ,
-		"you think i am a fool is it" ,
-		"you trying to disturb aunty is it" ,
-		"no sorry who is it i thought it was a prank call because theres a plus six five"
+		"do i need to share details"
 }
 
-call_back_to_another_party :
+meet_up_document :
 	inputs in en {
-		"am not aware of it speak with my husband" ,
-		"call my husband" ,
-		"call my parents" ,
-		"can you call back again to explain to my wife" ,
-		"can you call back and explain to my husband" ,
-		"can you call my husband" ,
-		"can you explain to my husband" ,
-		"dont know anything you call back again help me explain to my husband" ,
-		"dont know what you are talking about you call back tomorrow again help me explain to my husband" ,
-		"have to check with my husband" ,
-		"i am confuse can you explain to my husband" ,
-		"i dont handle all this maybe you call back and explain to my husband" ,
-		"i dont know i dont know you call back again explain to my husband" ,
-		"I need to ask my husband" ,
-		"i need to check with my husband" ,
-		"i need to check with my husband because he handle all this" ,
-		"my husband handle everything can you call and explain to him" ,
-		"My husband will handle this" ,
-		"my husband will take care" ,
-		"my wife settle all my insurance can you call again" ,
-		"please call my husband" ,
-		"please call my spouse" ,
-		"please call my wife" ,
-		"please talk to my husband" ,
-		"speak with my husband" ,
-		"talk to my husband" ,
-		"what are you talking about can you call & explain to my husband" ,
-		"you can do it for my sister"
-}
-
-question_speak_chinese :
-	inputs in en {
-		"by ni zai jiang some more" ,
-		"can you speak chinese" ,
-		"can you speak mandarine" ,
-		"don\'t know english" ,
-		"don\'t know what you say" ,
-		"i don\'t know english" ,
-		"i don\'t know what you say" ,
-		"i don\'t understand english" ,
-		"i dont unsderstand what you say" ,
-		"jiang hua yu ma" ,
-		"jiang jiang jiang jiang" ,
-		"jiang wo ting bu dong" ,
-		"ke yi ma" ,
-		"ke yi shuo hua yu ma" ,
-		"orh ni zai" ,
-		"say chinese can" ,
-		"say english i don\'t know" ,
-		"sorry can you speak chinese" ,
-		"talk english i don\'t know" ,
-		"talking chinese" ,
-		"ting bu dong" ,
-		"ting bu dong ni zai jiang some more" ,
-		"ting bu min by" ,
-		"wo bu dong" ,
-		"wo bu hui jiang in one" ,
-		"wo bu min by" ,
-		"wo bu zhi dao" ,
-		"wo ting bu dong"
-}
-
-objection_i_am_agent :
-	inputs in en {
-		"i am a agent as well" ,
-		"i am a financial advisor from aviva" ,
-		"i am a insurance agent myself" ,
-		"i am a insurance broker myself" ,
-		"i am agent from Aviva" ,
-		"i am agent from AIG" ,
-		"i am agent from Allianz Insurance" ,
-		"i am agent from AXA" ,
-		"i am agent from Direct Asia Insurance" ,
-		"i am agent from ECICS Limited" ,
-		"i am agent from EQ Insurance" ,
-		"i am agent from ERGO" ,
-		"i am agent from Etiqa" ,
-		"i am agent from FWD" ,
-		"i am agent from Great American Insurance" ,
-		"i am agent from HDI Global" ,
-		"i am agent from HL Assurance" ,
-		"i am agent from India International Insurance" ,
-		"i am agent from Liberty Insurance" ,
-		"i am agent from Lloyd’s of London" ,
-		"i am agent from Lonpac Insurance" ,
-		"i am agent from manulife" ,
-		"i am agent from MS First Capital" ,
-		"i am agent from MSIG" ,
-		"i am agent from NTUC" ,
-		"i am agent from Pacific Prime Singapore" ,
-		"i am agent from prudential" ,
-		"i am agent from QBE Insurance" ,
-		"i am agent from Raffles Health Insurance" ,
-		"i am agent from Sompo Insurance" ,
-		"i am agent from Starr International Insurance" ,
-		"i am agent from Swiss Re International" ,
-		"i am agent from Tokio Marine Insurance" ,
-		"i am agent from United Overseas Insurance" ,
-		"i am agent from XL Insurance Company" ,
-		"i am agent from Zurich Insurance Company" ,
-		"i am also a financial advisor" ,
-		"i am also selling insurance" ,
-		"i am also under pru" ,
-		"i am from AIA" ,
-		"i am from great easten" ,
-		"i am from the same company" ,
-		"i am in the same industry" ,
-		"i am working at prudential i am also the staff there" ,
-		"I\'m also an agent" ,
-		"im under prudential" ,
-		"My husband is from AIA" ,
-		"we are actually in the same industry" ,
-		"my brother is an agent too" ,
-		"my girlfriend is a insurance agent from great eastern" ,
-		"my husband is a agent" ,
-		"my relative is a agent" ,
-		"my wife is a agent" ,
-		"no it is fine my relative under the same industry too" ,
-		"i used to be an agent as well" ,
-		"last time i am an agent" ,
-		"i am agent in the past" ,
-		"no need no need i will ask the agent shes my relative thank you" ,
-		"no im also a agent so no need" ,
-		"no im advisor advise sir thank you so much" ,
-		"im a advisor" ,
-		"im a advisor advisor" ,
-		"i think its okay because actually for myself im also an agent so i dont want to" ,
-		"i am working at manulife i am also the staff there" ,
-		"im under manulife" ,
-		"My husband is from manulife" ,
-		"my girlfriend is a insurance agent from manulife" ,
-		"my son is insurance line"
-}
-
-question_related_to_numbers :
-	inputs in en {
-		"can i check how did you get my number" ,
-		"can i know who gave my number?" ,
-		"eh why you call me" ,
-		"how come you got my number" ,
-		"how did you get my number" ,
-		"how did you get to reach this number" ,
-		"what is it exactly you do?" ,
-		"where did you find my number" ,
-		"where you got my number from" ,
-		"who gave my number" ,
-		"who pass you my number" ,
-		"are you supposed to call me for this kind of marketing" ,
-		"okay and how did you get my contact details" ,
-		"please take me off your calling list" ,
-		"wait where did you get my number from the from the marketing team" ,
-		"wait wait wait wait how did you get my number"
-}
-
-looking_for :
-	inputs in en {
-		"are we friend" ,
-		"do i even know you" ,
-		"do i know you" ,
-		"have i met you before" ,
-		"looking for" ,
-		"looking for who" ,
-		"no you call the wrong person" ,
-		"sorry you are calling" ,
-		"tell me what is my name to prove me you know me" ,
-		"what is my date of birth" ,
-		"what is my name" ,
-		"who are you calling" ,
-		"who are you looking for" ,
-		"who do you want to call" ,
-		"who do you want to speak with" ,
-		"who you are calling" ,
-		"why are you calling me" ,
-		"you know who am i anot why you call me" ,
-		"i think you wrong number" ,
-		"wrong number" ,
-		"you know who i am" ,
-		"no no no sorry maam may i know who youre looking for" ,
-		"hold by the way are you calling to" ,
-		"is this a recording" ,
-		"i think you got the wrong number"
-}
-
-already_have_agent :
-	inputs in en {
-		"but i have my agent from aia" ,
-		"I already have a financial advisor" ,
-		"I already have an agent" ,
-		"i have a agent who handle all this for me" ,
-		"I have a prudential agent" ,
-		"i prefer to stay to my agent" ,
-		"i tell you my agent is good i dont want to change" ,
-		"it is okay i got some one who handle my insurance for me" ,
-		"it\'s ok i call my insurance agent can already" ,
-		"no actually i got my agent who contact me also" ,
-		"no it is okay i will just go to my agent" ,
-		"no thats fine i have already somebody working with me with on prudential itself" ,
-		"no worry i see my agent contact me" ,
-		"its okay my agent is aia" ,
-		"i think my friend also working in a i a its its okay i can get her her information from her" ,
-		"i got friends also a i a so i will get information from her thanks" ,
-		"i think its okay yah i have i have my own agent" ,
-		"sorry i think its okay i i dont need i already have a agent yah thank you" ,
-		"it is okay i got a i a agent" ,
-		"yeah hes my friend" ,
-		"yes is my friend" ,
-		"ya we are very close" ,
-		"she is my friend" ,
-		"my friend" ,
-		"yeah i bought from my agent a a a one" ,
-		"brought from my aaa agent" ,
-		"i have a aaa agent already" ,
-		"ive got insurance agent from me" ,
-		"my daughter is an insurance agent" ,
-		"my son is an insurance agent" ,
-		"no my my daughter is on potential so" ,
-		"no im actually not not free right now and i dont have an insurance agent already thank you -dont want no need i got my agent already under a i a one also" ,
-		"no i dont think interested because i actually have a agent to serve me" ,
-		"no thanks i have my own agent thank you very much" ,
-		"no my agent has been there for very long and experience as well" ,
-		"friend is from manulife very long time working with me on my portfolio so appreciate that call thank you so much" ,
-		"i actually have my own manulife agent i think i dont think i need i need to discuss already" ,
-		"I have a manulife agent" ,
-		"no thats fine i have already somebody working with me with on manulife itself" ,
-		"youre frommanulife is it my my agent is from prudential ill just check with her okay" ,
-		"manulife i got my own agent leh" ,
-		"my auntie" ,
-		"my uncle" ,
-		"i have people" ,
-		"my family have an insurance agent" ,
-		"i have a many years insurance agent" ,
-		"i have someone" ,
-		"i have a p a handle by my agent" ,
-		"i think my friend also working in a i a its its okay i can get her her information from her" ,
-		"i got friends also a i a so i will get information from her thanks" ,
-		"i think its okay yah i have i have my own agent" ,
-		"sorry i think its okay i i dont need i already have a agent yah thank you" ,
-		"it is okay i got a i a agent" ,
-		"yeah hes my friend" ,
-		"yes is my friend" ,
-		"ya we are very close" ,
-		"she is my friend" ,
-		"my friend" ,
-		"yeah i bought from my agent a a a one" ,
-		"brought from my aaa agent" ,
-		"i have a aaa agent already" ,
-		"ive got insurance agent from me" ,
-		"my daughter is an insurance agent" ,
-		"my son is an insurance agent" ,
-		"no my my daughter is on potential so"
-}
-
-evening :
-	inputs in en {
-		"10 p m" ,
-		"10pm" ,
-		"11 p m" ,
-		"11pm" ,
-		"5pm" ,
-		"6pm" ,
-		"6pm" ,
-		"7 p m" ,
-		"7pm" ,
-		"8pm" ,
-		"9 p m" ,
-		"9pm" ,
-		"after dinner" ,
-		"after five" ,
-		"after six" ,
-		"at night" ,
-		"can la evening" ,
-		"early evening" ,
-		evening ,
-		"evening is good" ,
-		"evening is ok" ,
-		"evening lo" ,
-		"evening please" ,
-		"five pm" ,
-		"in the evening" ,
-		"in the night" ,
-		"let\'s do evening" ,
-		"maybe evening" ,
-		night ,
-		"nine pm" ,
-		"seven pm" ,
-		"ten pm" ,
-		"in the evening will be good"
-}
-
-morning :
-	inputs in en {
-		"early morning" ,
-		"it is ok morning" ,
-		"let\'s do morning" ,
-		"maybe tomorrow morning" ,
-		morning ,
-		"Morning is ok" ,
-		"morning please"
-}
-
-afternoon :
-	inputs in en {
-		"12pm" ,
-		"1pm" ,
-		"2pm" ,
-		"3pm" ,
-		"4pm" ,
-		"after lunch" ,
-		"after one" ,
-		"after two" ,
-		afternoon ,
-		"afternoon is good" ,
-		"afternoon is ok" ,
-		"afternoon lo" ,
-		"afternoon please" ,
-		"can la afternoon" ,
-		"early afternoon please" ,
-		"four p m" ,
-		"four pm" ,
-		"in the afternoon" ,
-		"it is ok afternoon" ,
-		"late afternoon" ,
-		"let\'s do afternoon" ,
-		"maybe afternoon" ,
-		"one p m" ,
-		"one pm" ,
-		"three p m" ,
-		"three pm" ,
-		"two p m" ,
-		"two pm" ,
-		"in the afternoon will be good"
-}
-
-busy :
-	inputs in en {
-		"actually not convenient right now thank you" ,
-		"am busy now" ,
-		"am not available now" ,
-		"busy cooking" ,
-		"busy doing housework" ,
-		"busy right now" ,
-		"busy with my children" ,
-		"call me again" ,
-		"call me back at eight p m can" ,
-		"call me in the afternoon" ,
-		"call me next month" ,
-		"call me next time" ,
-		"call me next week" ,
-		"call me other time" ,
-		"call me tomorrow" ,
-		"can call another time" ,
-		"can call tomorrow" ,
-		"driving at this moment" ,
-		"driving now" ,
-		"er no sorry i am not free at the moment sorry" ,
-		"hello hi im sorry but im actually quite busy now going into a meeting so sorry about that yah okay" ,
-		"hi can you call back" ,
-		"how busy I am" ,
-		"I am at the hospital" ,
-		"I am at work" ,
-		"I am busy" ,
-		"I am busy leh" ,
-		"I am busy with my baby right now what is it" ,
-		"I am busy with my children now" ,
-		"I am in office" ,
-		"i am in the middle of discussion now so sorry" ,
-		"i am not convenient to talk okay" ,
-		"i am not free at the moment" ,
-		"i am so sorry i am actually in the mid of conference right now" ,
-		"I am unavailable at the moment" ,
-		"I don\'t have time for the call now" ,
-		"I don\'t have time for this" ,
-		"i dont have the time now" ,
-		"i dont have time now" ,
-		"I got things to do" ,
-		"I have no time" ,
-		"I have work" ,
-		"i think its okay its not a good time to answer the call thank you bye bye" ,
-		"i will contact you later" ,
-		"I\'m busy" ,
-		"I\'m busy at the moment" ,
-		"I\'m busy at the moment can you call tomorrow" ,
-		"I\'m busy can you call tomorrow" ,
-		"I\'m busy can you can another time" ,
-		"I\'m driving, call tomorrow." ,
-		"I\'m not available right now can you call me back" ,
-		"I\'m not free thank you for calling" ,
-		"I\'m not free to speak to you now" ,
-		"I\'m swamped" ,
-		"I\'m working right now" ,
-		"im sorry actually im from the call now" ,
-		"im sorry actually im from the call now" ,
-		"in meeting now ok sorry sorry thank you bye" ,
-		"it is okay i am expecting a call now" ,
-		"maybe not i am talking with some one else" ,
-		meeting ,
-		"no free" ,
-		"no i think its okay because i only its okay its okay because i just did not long ago" ,
-		"No I\'m in the public transport" ,
-		"no it is okay i am currently at work right now" ,
-		"no its not a good time" ,
-		"no its okay am not free" ,
-		"no need la now i am outside not convenient" ,
-		"not a good time i am working right now" ,
-		"not available to speak right now" ,
-		"not convient to talk" ,
-		"outside now can\'t talk" ,
-		"so sorry i am actually in the meeting right now" ,
-		"sorry ah i busy now i can\'t talk" ,
-		"sorry ah not free right now ah" ,
-		"sorry i cannot answer your call now can you call me the next day i am at work now" ,
-		"sorry I cant talk" ,
-		"Sorry I\'m still in the middle of something" ,
-		"sorry im having lunch now" ,
-		"sorry,this isn\'t a good convienent time to talk.I am at work" ,
-		"this is a work phone" ,
-		"this is not a good time can you call me back later" ,
-		"yeah but can you call me back later" ,
-		"call me in fifteen minutes" ,
-		"call me in ten minutes" ,
-		"call me in twenty minutes" ,
-		"call me in five minutes" ,
-		"im sorry im a line" ,
-		"orh no free when we were walking so ya" ,
-		"in the midst of something" ,
-		"in the midst of meeting" ,
-		"in the midst of working" ,
-		"no no no i think the meeting soon thanks" ,
-		"i dont think i want to listen about insurance today im a meeting coming on her thanks for your call" ,
-		"no because i now meeting" ,
-		"i cannot hear well can you call me not now maybe after six" ,
-		"no im on my way out" ,
-		"hold on first" ,
-		"not now because im on m c" ,
-		"im currently oversea" ,
-		"no sorry i cant speak now" ,
-		"im carrying a class" ,
-		"can you call back and six oclock" ,
-		"hang on hang on" ,
-		"sorry wait ah" ,
-		"please hang on" ,
-		"sorry please hold on the line" ,
-		wait ,
-		"eh wait ah" ,
-		"excuse me please hold" ,
-		"please hold on" ,
-		"please give me a mintute" ,
-		"give me a mintute ya" ,
-		"orh okay do you mind continue on another day" ,
-		"sorry i cannot talk im at work" ,
-		"can you call back again" ,
-		"no its okay yeah im working thank you" ,
-		"i cannot talk now" ,
-		"no im in a meeting" ,
-		"p c" ,
-		"sorry i am p c"
-}
-
-not_singaporean :
-	inputs in en {
-		"i am a foreigner" ,
-		"i am a foreigner i am a s pass holder" ,
-		"i am a s pass holder" ,
-		"i am e p" ,
-		"i am holding on to a permit pass" ,
-		"i am not a pr" ,
-		"i am not a singaporean or pr" ,
-		"i am on EP" ,
-		"i am on s pass" ,
-		"i am on work permit" ,
-		"i malaysian can?" ,
-		"i\'m malesian" ,
-		"i\'m not a singapore citizen" ,
-		"i\'m not singaporean" ,
-		"is this eligible for everyone?" ,
-		"not local" ,
-		"oh sorry i am a foreigner i am a s pass holder" ,
-		"sorry i am not a pr" ,
-		"but i am not local -im a foreigner"
-}
-
-who_is :
-	inputs in en {
-		"a i a" ,
-		"AIA insurance ah" ,
-		"AIA insurance is it" ,
-		"calling from" ,
-		from ,
-		"from where" ,
-		"from where are you calling?" ,
-		"hello who are you" ,
-		"I don\'t know you" ,
-		"prudential life insurance" ,
-		"sorry what is that" ,
-		"sorry who is this person" ,
-		"sorry you are" ,
-		"whats your name again" ,
-		"where are you calling from?" ,
-		"who am I speaking to?" ,
-		"who are you?" ,
-		"who is calling" ,
-		"who is this?" ,
-		"who\'s on the line" ,
-		"you are" ,
-		"you are calling from a i a" ,
-		"you are calling from prudential?" ,
-		"you are calling on behalf of a i a" ,
-		"hi may i know why are you calling from" ,
-		"sorry who are you who are you why are you calling from" ,
-		"where are you from" ,
-		"chloe from" ,
-		"where you calling from" ,
-		"which company you are calling from" ,
-		"this one who" ,
-		"you are from" ,
-		"eh hi may i know where youre coming from" ,
-		"may i know whos on the line because im driving" ,
-		"sorry you are calling from" ,
-		"sorry who is this again" ,
-		"sorry whos calling" ,
-		"where you calling form" ,
-		"calling from where" ,
-		"calling from" ,
-		"chloe calling from" ,
-		"calling for"
-}
-
-age :
-	inputs in en {
-		( "24" ) [ ^number ] ,
-		( thirtyfive ) [ ^number ] ,
-		"am " ( "25" ) [ ^number ] ,
-		"am " ( twentyone ) [ ^number ] ,
-		"am major" ,
-		eighteen ,
-		fifty ,
-		"fifty eight" ,
-		"fifty five" ,
-		"fifty four" ,
-		"fifty nine" ,
-		"fifty one" ,
-		"fifty seven" ,
-		"fifty six" ,
-		"fifty three" ,
-		"fifty two" ,
-		forty ,
-		"forty eight" ,
-		"forty five" ,
-		"forty four" ,
-		"forty nine" ,
-		"forty one" ,
-		"forty seven" ,
-		"forty six" ,
-		"forty three" ,
-		"forty two" ,
-		"I am minor" ,
-		"I have " ( "26" ) [ ^number ] " years" ,
-		"my age is " ( "30" ) [ ^number ] ,
-		"my age is " ( sixty ) [ ^number ] ,
-		nineteen ,
-		sixty ,
-		"sixty eight" ,
-		"sixty five" ,
-		"sixty four" ,
-		"sixty nine" ,
-		"sixty one" ,
-		"sixty seven" ,
-		"sixty six" ,
-		"sixty three" ,
-		"sixty two" ,
-		thirty ,
-		"thirty eight" ,
-		"thirty five" ,
-		"thirty four" ,
-		"thirty nine" ,
-		"thirty one" ,
-		"thirty seven" ,
-		"thirty six" ,
-		"thirty three" ,
-		"thirty two" ,
-		twenty ,
-		"twenty eight" ,
-		"twenty five" ,
-		"twenty four" ,
-		"twenty one" ,
-		"twenty seven" ,
-		"twenty six" ,
-		"twenty three" ,
-		"twenty two"
-	}
-	parameters :
-		^number : entity number ;
-
-reject :
-	inputs in en {
-		"absolutely no" ,
-		"ah i dont want" ,
-		"can you take me off your calling list" ,
-		"can you take my number off your calling list" ,
-		"do not" ,
-		"don\'t come" ,
-		"don\'t have time" ,
-		"don\'t show off" ,
-		"don\'t want" ,
-		"don\'t want don\'t want" ,
-		"don\'t want your help" ,
-		"don’t know" ,
-		"don’t think I\'ll need it, thanks." ,
-		"dont disturb me" ,
-		"dont think i need" ,
-		"get out goodbye" ,
-		"i am not interested for call back" ,
-		"i am not okay with your help" ,
-		"i do not want your help" ,
-		"I don\'t need anything from you" ,
-		"i don\'t need it" ,
-		"i don\'t need your help" ,
-		"i don\'t want" ,
-		"I don\'t want your assistance" ,
-		"i don\'t want your help" ,
-		"I don\'t you help" ,
-		"i dont know lah" ,
-		"i dont want a call back" ,
-		"i dont want anymore" ,
-		"i think it about it again it is okay thank you" ,
-		"i think it is okay" ,
-		"i will be fine without it" ,
-		"its okay nevermind" ,
-		"its okay thank you" ,
-		"its okay thanks for calling" ,
-		"need not" ,
-		never ,
-		"never help" ,
-		"never mind" ,
-		No ,
-		"no already arranged for this" ,
-		"no don\'t want" ,
-		"no dont call me" ,
-		"no forget" ,
-		"no it is okay" ,
-		"no its fine" ,
-		"no its okay" ,
-		"no la no" ,
-		"no need" ,
-		"no no no i don\'t need it" ,
-		"no not interested" ,
-		"no so sorry" ,
-		"no sorry" ,
-		"No sorry not keen" ,
-		"no Thank you" ,
-		"no thank you" ,
-		"no thanks" ,
-		"No, I don’t want to receive a callback" ,
-		"No, It\'s ok." ,
-		"nope i dont need your help" ,
-		"not at the moment thanks" ,
-		"not at this time" ,
-		"not exactly" ,
-		"not interested" ,
-		"Not interested at the moment thank you." ,
-		"Not interested in anything" ,
-		"Not interested, thank you" ,
-		"not intertested" ,
-		"not keen" ,
-		"not necessary" ,
-		"not need for callback" ,
-		"not needed" ,
-		"not now" ,
-		"Not, really." ,
-		"of course not" ,
-		"oh no need" ,
-		"okay keep it in mind" ,
-		"okay sorry bye bye" ,
-		"okay thank you bye bye" ,
-		"please dont call me again" ,
-		"sorry i am not really keen thanks" ,
-		"sorry i don\'t need" ,
-		"sorry no" ,
-		"Sorry not interested" ,
-		"Sorry not interested in all these kind of insurance thing." ,
-		"sorry not now" ,
-		"sorry, no" ,
-		"sorry,not interested" ,
-		"thank you bye bye" ,
-		"thanks for the offer i can do it myself" ,
-		"This will surely lead into insurance. No thanks." ,
-		"This will surely leading into insurance someway so don\'t disturb me" ,
-		"We are not interested in any insurance" ,
-		"Why would you need them to call me back" ,
-		"Yes, but I am not keen now" ,
-		"you can share this with other people" ,
-		"Zoom ah? No need thankyou" ,
-		"no sorry you got the wrong number" ,
-		"im actually fully covered with everything" ,
-		"ill think ill give it a miss for the for the time being thanks" ,
-		"no because maybe im going to retire also" ,
-		"for what" ,
-		"enough thank you so much alright" ,
-		"yeah sorry" ,
-		"hello thank you" ,
-		"hello hello sorry" ,
-		"sorry i i dont think i have anything to do a i a" ,
-		"meaning i i dont have anything to be a i a" ,
-		"yeah no" ,
-		"if you are trying to promote a i a product im not interested" ,
-		"i know" ,
-		"no im good thank you" ,
-		"yeah thank you" ,
-		"im sorry im just not interested right" ,
-		"no im not looking for policy right now" ,
-		"stop stop i say im not interested thanks for your time" ,
-		"sorry sorry no im not interested" ,
-		"i mean youve been telling me youre calling for quite a number of times already" ,
-		"i dont have" ,
-		"not that i know off" ,
-		"i think i have" ,
-		"not too sure i think i have" ,
-		"sometimes back" ,
-		"i think i have a i a" ,
-		"i think my parent buy for me" ,
-		"your system should have right" ,
-		"your record should have right" ,
-		"i not too sure" ,
-		"can you check" ,
-		"not really" ,
-		"do you know" ,
-		"i buy once from" ,
-		"i purchase once from" ,
-		"but i dont know" ,
-		"cant you check" ,
-		"i not too sure actually" ,
-		"not that i know of" ,
-		"i think i have prudential" ,
-		"i think i have great estern" ,
-		"maybe you can check" ,
-		"why you asking me you should have the record" ,
-		"purchase sometimes back not to sure" ,
-		"i dont know leh" ,
-		"no i dont have" ,
-		"i never buy before" ,
-		"i understand" ,
-		aiyoh ,
-		"yeah i know i know i know i know" ,
-		"i im not interested sorry im busy sorry" ,
-		"its okay" ,
-		"its okay its okay" ,
-		"i just received a call a few days ago from manulife also" ,
-		"youre calling to sell insurance" ,
-		"its okay sorry" ,
-		"no no somebody call me already its okay im not interested thank you" ,
-		"sorry if youre talking to me about insurance i am well it should thank you for your time bye bye" ,
-		"currently not looking for any new policy yah thank you" ,
-		"im fine thank you very much" ,
-		"yeah i understand" ,
-		"hello im good thank you" ,
-		"i dont think im ready into the moment" ,
-		"no thank you very much for your time you need to concentrate on other people okay" ,
-		"its okay i dont wish to take anymore its call thank you" ,
-		"no i say no i say no thank you very much" ,
-		"its okay and then i i wont be like lets say i ive been participating in all these" ,
-		"orh okay thank you" ,
-		"orh im not free thanks" ,
-		"orh okay can no worries you" ,
-		"sorry what is this about" ,
-		"no worries no worries its okay" ,
-		"i already said i am not interested okay" ,
-		"do you understand im saying" ,
-		"no thats fine yup" ,
-		"yah yah" ,
-		"no its okay no not at the moment thank you so much for calling" ,
-		"i dont need any insurance plan or any savings plan so i dont need to hear what is the the the thing is sorry" ,
-		"no need maam thanks for calling thank you very much" ,
-		"can you hey hi can you hear me"
-}
-
-confirm :
-	inputs in en {
-		"a good day" ,
-		"a quick call I think it\'s fine" ,
-		absolutely ,
-		"ah ha" ,
-		"ah yes" ,
-		ahhaa ,
-		"all right" ,
-		"am aware of it" ,
-		"am completely aware of it" ,
-		"am free" ,
-		"am keen about it" ,
-		"Ar lo" ,
-		Assalamualaikum ,
-		"aware of it la" ,
-		can ,
-		"can speak now" ,
-		"can thank you" ,
-		"can you be quick, i\'m going for a meeting" ,
-		"carry on" ,
-		continue ,
-		cool ,
-		coool ,
-		correct ,
-		"eh actually this is insurance isit" ,
-		"Erm I think it’s okay." ,
-		"erm okay" ,
-		"erm yes" ,
-		"erm..yeah" ,
-		"errr.Sure." ,
-		"fine okay" ,
-		"go about it" ,
-		"go on" ,
-		great ,
-		hello ,
-		"hello hi" ,
-		"hello hi what is it about" ,
-		"hello there" ,
-		"hello what is it about" ,
-		"hello yeah" ,
-		hey ,
-		"Hey boo" ,
-		"hey buddy" ,
-		"hey there" ,
-		"hey ya" ,
-		"hey yeah" ,
-		"hey yeah?" ,
-		"hey yes" ,
-		heya ,
-		heyy ,
-		^hi ,
-		"hi is this very urgent" ,
-		"hi there" ,
-		"hi ya sorry what is it about" ,
-		"hii what is it about?" ,
-		"hm hum" ,
-		"hmm yes" ,
-		hola ,
-		howdy ,
-		"I agree" ,
-		"I guess" ,
-		"i see" ,
-		"im not very sure about this sixty cents policy what is it about" ,
-		indeed ,
-		interested ,
-		"is it through the phone" ,
-		"is there anything i can help you" ,
-		"it may be" ,
-		"it may be ok" ,
-		"it\'s alright" ,
-		"just going to say hi" ,
-		"long time no see" ,
-		"lovely day" ,
-		"lovely day isn\'t it" ,
-		maybe ,
-		"maybe it is ok" ,
-		"no problem" ,
-		"of course" ,
-		"oh humm huh" ,
-		"oh okay" ,
-		ok ,
-		"ok can" ,
-		"ok sure" ,
-		"ok thanks" ,
-		"ok yes" ,
-		oka ,
-		okay ,
-		"okay buddy" ,
-		"Okay can." ,
-		"okay cool" ,
-		"okay okay" ,
-		"okay schedule" ,
-		"okay that\'s fine" ,
-		okey ,
-		orh ,
-		"orh orh yah what is it regarding" ,
-		"please carry on" ,
-		"please continue" ,
-		"sorry what is it regarding" ,
-		sup ,
-		"sup man" ,
-		sure ,
-		"that is ok" ,
-		"that sound good" ,
-		"that sounds good" ,
-		"thats right" ,
-		there ,
-		"two minutes only" ,
-		"uh huh" ,
-		"uh huhh" ,
-		uhh ,
-		"um hmm" ,
-		umm ,
-		wei ,
-		"wei ni hao" ,
-		welcome ,
-		"what do you want" ,
-		"what is it about" ,
-		"what is it about you wanna discuss" ,
-		"what is it regarding" ,
-		"what is it regarding about" ,
-		"what is the next step" ,
-		"what is this call about" ,
-		whatsup ,
-		why ,
-		ya ,
-		"ya ok" ,
-		"ya ya ya yes yes" ,
-		yaa ,
-		"yea fine" ,
-		yeah ,
-		YEAH ,
-		"yeah exactly" ,
-		"yeah fine" ,
-		"yeah sure" ,
-		yep ,
-		"yep okay" ,
-		yes ,
-		"yes continue" ,
-		"yes it is" ,
-		"yes please" ,
-		"yes tell me" ,
-		"yes what is it" ,
-		"yes,am interested" ,
-		"yes,I heard about it" ,
-		"yes,i may be interested." ,
-		yew ,
-		yo ,
-		"yo man" ,
-		"you can you call me" ,
-		"you can you call me I think" ,
-		yup ,
-		"what insurance are you talking about" ,
-		"this one insurance company right" ,
-		"you can try" ,
-		"yes sure what is it" ,
-		"what is it" ,
-		"insurance is it" ,
-		"what is this regarding im driving" ,
-		"okay sure" ,
-		"what is" ,
-		"why is it" ,
-		what ,
-		"what did you sir" ,
-		"good idea" ,
-		"sorry is it regarding some investment or" ,
-		"sorry is it regarding some investment or" ,
-		"for what purpose" ,
-		"it depends" ,
-		"what kind of insurance is that" ,
-		"what is it for" ,
-		manulife ,
-		"manulife insurance ya" ,
-		"har har manulife" ,
-		"sorry manualife" ,
-		"yeah im still here" ,
-		"hi calling from" ,
-		"where are you calling from" ,
-		"sorry whats the reason" ,
-		"isit a loan or something" ,
-		"hi may i know what is it regarding because im currently working" ,
-		"what can i do for you" ,
-		"manual life yeah" ,
-		"yah yah go ahead anyway" ,
-		"hello hi" ,
-		"hello hi yes" ,
-		"yes hi" ,
-		"you said youre calling from manulife itself right" ,
-		"ok you are from manulife" ,
-		"ok you are from prudential" ,
-		"so you are from manulife" ,
-		"manulife the the insurance company" ,
-		"dont remember i have a manualife insurance" ,
-		"dont remember i have a prudential insurance" ,
-		"ok so you are from a i a" ,
-		"dont remember i have a a i a insurance" ,
-		"is it a saving plan" ,
-		"what plan is this" ,
-		"is it a personal accident plan" ,
-		"is it a p a plan" ,
-		"saving plan" ,
-		"what plan is this" ,
-		"yes can you share more" ,
-		"what plan again" ,
-		"life insurance plan isit" ,
-		"what insurance policy you are reffering to" ,
-		"yah yah hello yah hello yes" ,
-		"yes hi" ,
-		"hi hi yes yes correct" ,
-		"yes hi hello" ,
-		"yeah hello hello hello" ,
-		"yes hello" ,
-		"yah yah yah hello" ,
-		"ya i have a few" ,
-		"pertaining to" ,
-		"sure when will she be calling me" ,
-		"if you dont mind can you send me the details" ,
-		"what is it we are getting" ,
-		"how can i help you" ,
-		"orh manulife ya" ,
-		"sorry you mentioned this is an accidental plant" ,
-		"so what is this phone call about" ,
-		"i think for me before throwing" ,
-		"yes sure what is it" ,
-		"what is it" ,
-		"insurance is it" ,
-		"what is this regarding im driving" ,
-		"okay sure" ,
-		"what is" ,
-		"why is it" ,
-		what ,
-		"what did you sir" ,
-		"good idea"
-}
-
-speak_twice :
-	inputs in en {
-		"cant hear clearly" ,
-		"cant hear you" ,
-		"can you repeat" ,
-		"Come again" ,
-		"Hello hello" ,
-		"huh what" ,
-		"i didn\'t catch you" ,
-		"i dont get you" ,
-		repeat ,
-		sorry ,
-		"what you say" ,
-		"what you say again" ,
-		"what are you talking about" ,
-		"what is it again" ,
-		"may i know im calling for a while" ,
-		"i dont understand" ,
-		"sorry could you repeat yourself sorry environment quite noisy" ,
-		"sorry sorry again" ,
-		"sorry i cannot hear you" ,
-		"cannot hear you" ,
-		"sorry hello" ,
-		"sorry i cannot hear you one more time please" ,
-		"sorry can you repeat again" ,
-		"come again"
-}
-
-student :
-	inputs in en {
-		"eighteen year old" ,
-		eleven ,
-		fifteen ,
-		fourteen ,
-		"i am a children" ,
-		"i am actually a student" ,
-		"i am eleven" ,
-		"i am eleven years old" ,
-		"i am schooling" ,
-		"i am still a student" ,
-		"i am ten" ,
-		"i am ten years old" ,
-		"is a kid" ,
-		"nineteen years old" ,
-		"only fifteen years old" ,
-		"only fourteen years old" ,
-		"only thirteen years old" ,
-		"only twelve years old" ,
-		seventeen ,
-		"Seventeen years old" ,
-		sixteen ,
-		"sixteen years old" ,
-		"still a child" ,
-		"still a kid" ,
-		"still studying" ,
-		ten ,
-		thirteen ,
-		twelve ,
-		"i dont think that i am a student pass" ,
-		"i dont think it applies to me im a student pass" ,
-		"no its okay because im a student" ,
-		"wrong number because im a kid over here" ,
-		"i am six years old okay" ,
-		"sorry im thirteen"
-}
-
-dnc :
-	inputs in en {
-		"do not call" ,
-		"do not call list" ,
-		"do you know i am registered under do not call list" ,
-		"do you know the PDPA guideline" ,
-		"i am from do not call list" ,
-		"i am under DNC" ,
-		"i can go PDPA and log a complain" ,
-		"i registered DNC" ,
-		"my number is under PDPA" ,
-		"my number registered under do not call" ,
-		"PDPA rules" ,
-		"stop calling i am under do not call" ,
-		"why are you calling me my number from DNC" ,
-		"you know you cannot call me i am from DNC list" ,
-		"this a company number" ,
-		"this is help support number from dbs bank" ,
-		"this is a bank number" ,
-		"this is a coperate phone" ,
-		"this company phone you know so" ,
-		"no this is not my phone" ,
-		"this is a hotline" ,
-		"yah yah i know i know but this is this is not my phone is" ,
-		"a company phone" ,
-		"no but this is a company phone so yah sorry" ,
-		"p c p a" ,
-		"do not call list" ,
-		"do not call registry" ,
-		"do you know you are not suppose to call me" ,
-		"c p a" ,
-		"is it a recorded message" ,
-		"no its okay just just remove my name from your list" ,
-		"sorry this is actually this is actually a office phone" ,
-		"ive never failed in any online survey okay dont make me pick up a p d p a" ,
-		"can you please remove me from your database im quite sick of all these cold calls thank you" ,
-		"ive never authorised manualife to call me" ,
-		"this is help support number from dbs bank" ,
-		"this is a bank number" ,
-		"this is a coperate phone" ,
-		"this company phone you know so" ,
-		"no this is not my phone" ,
-		"this is a hotline" ,
-		"yah yah i know i know but this is this is not my phone is" ,
-		"a company phone"
-}
-
-question_related_to_age :
-	inputs in en {
-		"why do you need to know" ,
-		"why i dont know why you need to know" ,
-		"why are you asking" ,
-		"do you need to know" ,
-		"you should have the record"
+		"what do i need to bring"
 }
 
 manager_question :
 	inputs in en {
-		"can i check who is your manager" ,
-		"can i know who is your manager" ,
-		"how do i know your manager" ,
-		"just tell me la why need your manager" ,
-		"tell me about your manager" ,
-		"what is the manager call regarding?" ,
-		"what is tthe purpose of your manager calling me?" ,
-		"what is your manger name" ,
-		"who is your manager" ,
-		"why he need to call me again?" ,
-		"why your manager need to call me?" ,
-		"you cannot tell me meh need your manager to all me meh" ,
-		"your manager who" ,
-		"why is it so"
+		"who is your manager"
 }
 
-date_day :
+objection_i_am_agent :
 	inputs in en {
-		"first week" ,
-		"last week" ,
-		"next friday" ,
-		"next monday" ,
-		"next month" ,
-		"next sunday" ,
-		"next thursday" ,
-		"next tuesday" ,
-		"next wednesday" ,
-		"next week" ,
-		"next weekday" ,
-		"next weekend" ,
-		"second week" ,
-		"third week" ,
-		"why dont you call them saturday is that possible for you"
+		"I\'m also an agent"
 }
 
-objection_already_have_PA_plan :
+who_is :
+	inputs in en {
+		"who am I speaking to?" ,
+		"who are you?" ,
+		"who is calling" ,
+		"who is this?" ,
+		"you are calling from prudential?" ,
+		"from where are you calling?" ,
+		"where are you calling from?" ,
+		"I don\'t know you" ,
+		"hello who are you" ,
+		"who\'s on the line" ,
+		"whats your name again"
+}
 
-nlu_fallback Fallback :
+question_related_to_numbers :
+	inputs in en {
+		"how did you got my number" ,
+		"what is it exactly you do"
+}
+
+question_related_to_scam :
+	inputs in en {
+		"is this a scam" ,
+		"prank call isit" ,
+		"i can report you to the police"
+}
+
+not_singaporean :
+	inputs in en {
+		"i\'m not singaporean" ,
+		"i\'m malesian" ,
+		"i don\'t qualify for cpf" ,
+		"i\'m not a singapore citizen" ,
+		"i cannot do cpf i\'m malesian" ,
+		"i am holding on to a permit pass" ,
+		"i am onwork permit" ,
+		"i am on EP" ,
+		"i am on s pass" ,
+		"i am a foreigner" ,
+		"i am a foreigner i am a s pass holder" ,
+		"i am a s pass holder" ,
+		"oh sorry i am a foreigner i am a s pass holder" ,
+		"i am not eligibe for cpf" ,
+		"i am not a pr" ,
+		"sorry i am not a pr" ,
+		"i do not have cpf" ,
+		"i am not a singaporean or pr"
+}
+
+confirm :
+	inputs in en {
+		yes ,
+		"what is it about you wanna discuss" ,
+		"is it through the phone" ,
+		"cpf nomination" ,
+		"come again" ,
+		"ahh cpf nomination" ,
+		"what is this call about" ,
+		"what is it about" ,
+		"what is it regarding" ,
+		"sorry what is it regarding" ,
+		"what do you want" ,
+		"ok thanks" ,
+		"it\'s alright" ,
+		"what is it about" ,
+		"what is it regarding about" ,
+		"thats right" ,
+		"yes please." ,
+		"you can you call me I think" ,
+		"you can you call me" ,
+		indeed ,
+		"of course" ,
+		"um hmm" ,
+		"uh huh" ,
+		"that sounds good" ,
+		correct ,
+		yeah ,
+		"go on" ,
+		continue ,
+		"yes tell me" ,
+		"please carry on" ,
+		"please continue" ,
+		"yes,am interested" ,
+		"yes,I heard about it" ,
+		yaa ,
+		"ya ok" ,
+		"ya ya ya yes yes" ,
+		"ok sure" ,
+		"can speak now" ,
+		great ,
+		cool ,
+		ok ,
+		interested ,
+		"yes,i may be interested." ,
+		can ,
+		sure ,
+		"carry on" ,
+		"what is the next step" ,
+		"yeah exactly" ,
+		"okay that\'s fine" ,
+		"I agree" ,
+		"that is ok" ,
+		"I guess" ,
+		okey ,
+		ya ,
+		"errr.Sure." ,
+		"am keen about it" ,
+		"ok yes" ,
+		"yes it is" ,
+		yep ,
+		yew ,
+		yeah ,
+		"hey yes" ,
+		"yeah fine" ,
+		"yes what is it?" ,
+		"yes continue" ,
+		"am free" ,
+		"yea fine" ,
+		"yep okay" ,
+		"fine okay" ,
+		yup ,
+		YEAH ,
+		"okay buddy" ,
+		"oh okay" ,
+		"yeah sure" ,
+		"okay cool" ,
+		coool ,
+		okay ,
+		"can thank you" ,
+		"ok sure" ,
+		"ok can" ,
+		"Okay can." ,
+		absolutely ,
+		"okay schedule" ,
+		"all right" ,
+		"no problem" ,
+		welcome ,
+		"Erm.. I think it’s okay." ,
+		"erm okay" ,
+		sup ,
+		yo ,
+		"erm yes" ,
+		"erm..yeah" ,
+		"i see" ,
+		uhh ,
+		umm ,
+		ahhaa ,
+		"uh huhh" ,
+		"yes tell me" ,
+		yup ,
+		"erm yes" ,
+		"of course" ,
+		"oh humm huh" ,
+		"okay buddy" ,
+		"sup man" ,
+		"that sound good" ,
+		uhh ,
+		"yes tell me" ,
+		yo ,
+		"is there anything i can help you" ,
+		"go about it" ,
+		continue ,
+		"ah yes" ,
+		"hmm yes" ,
+		there ,
+		"ah ha" ,
+		"hm hum" ,
+		hey ,
+		hello ,
+		^hi ,
+		"long time no see" ,
+		howdy ,
+		"hey there" ,
+		whatsup ,
+		greetings ,
+		"I greet you" ,
+		"hi there" ,
+		"lovely day isn\'t it" ,
+		"hello again" ,
+		"just going to say hi" ,
+		"hi there" ,
+		"a good day" ,
+		"hello hi" ,
+		heya ,
+		hey ,
+		^hi ,
+		"hey yeah?" ,
+		"hey buddy" ,
+		oka ,
+		"yo man" ,
+		hola ,
+		"hii what is it about?" ,
+		heyy ,
+		"a good day" ,
+		"hello hi what is it about" ,
+		"hello there" ,
+		"hello what is it about" ,
+		"hello yeah" ,
+		"Hey boo" ,
+		"hey there" ,
+		"hey ya" ,
+		"hey yeah" ,
+		heya ,
+		hola ,
+		"just going to say hi" ,
+		"long time no see" ,
+		"I greet you" ,
+		"lovely day" ,
+		"lovely day isn\'t it" ,
+		howdy ,
+		wei ,
+		"wei ni hao" ,
+		"Ar lo" ,
+		Assalamualaikum ,
+		"am aware of it" ,
+		"am completely aware of it" ,
+		"aware of it la" ,
+		maybe ,
+		"it may be" ,
+		"it may be ok" ,
+		"maybe it is ok"
+}
+
+reject :
+	inputs in en {
+		No ,
+		"I\'m not changing my nomination" ,
+		"I\'m not free to speak to you now" ,
+		"I\'m not free thank you for calling" ,
+		"you can share this with other people" ,
+		"hello can you hear me" ,
+		"thanks for the offer i can do it myself" ,
+		"i can do it myself" ,
+		"i dont want anymore" ,
+		"actually prudential right no need no need" ,
+		"never mind" ,
+		"no its okay" ,
+		"no its fine" ,
+		"don\'t want" ,
+		"need not" ,
+		"don\'t come" ,
+		"never help" ,
+		"no la no" ,
+		"not needed" ,
+		"of course not" ,
+		never ,
+		"not at this time" ,
+		"not exactly" ,
+		"absolutely no" ,
+		"no forget" ,
+		"do not" ,
+		"dont think i need" ,
+		"i will be fine without it" ,
+		"no thanks" ,
+		"no don\'t want" ,
+		"sorry no" ,
+		"don\'t want your help" ,
+		"I don\'t you help" ,
+		"I don\'t want your assistance" ,
+		"get out goodbye" ,
+		"i do not want your help" ,
+		"i don\'t need your help" ,
+		"i don\'t want your help" ,
+		"i am not okay with your help" ,
+		"don\'t want" ,
+		"do not" ,
+		"I don\'t need anything from you" ,
+		"okay keep it in mind" ,
+		"nope i dont need your help" ,
+		"Don\'t show off" ,
+		"sorry, no" ,
+		"Yes, but I am not keen now" ,
+		"not necessary" ,
+		"no Thank you" ,
+		"no need" ,
+		"My husband is from AIA" ,
+		"no so sorry" ,
+		"not at the moment thanks" ,
+		"No sorry not keen" ,
+		"no sorry" ,
+		"Zoom ah? No need thankyou" ,
+		"i dont know this but i have one" ,
+		"no actually i got my agent who contact me also" ,
+		"no worry i see my agent contact me" ,
+		"no already arranged for this" ,
+		"sorry i am not really keen thanks" ,
+		"its okay thank you" ,
+		"don’t want" ,
+		"no thank you" ,
+		"oh no need" ,
+		"ah i dont want" ,
+		"i dont know lah" ,
+		"not now" ,
+		"sorry not now" ,
+		"don’t know" ,
+		"huh cpf what" ,
+		"ah cpf nomination not really why" ,
+		"in meeting." ,
+		"sorry, am driving" ,
+		"I don\'t have time for the call now" ,
+		"i will contact you later" ,
+		"sorry,this isn\'t a good/convienent time to talk.I am at work" ,
+		"am not available now" ,
+		"I have work" ,
+		"I am in office" ,
+		"I am at work" ,
+		"not convient to talk" ,
+		"don\'t have time" ,
+		"sorry,not interested" ,
+		"not interested" ,
+		"its okay nevermind" ,
+		"its okay thanks for calling" ,
+		"can you take me off your calling list" ,
+		"can you take my number off your calling list" ,
+		"I already have it" ,
+		"I have an agent already" ,
+		"someone is handling it for me" ,
+		"i already have that plan" ,
+		"my family is in AIA" ,
+		"I have an agent from AIA" ,
+		"my family is in prudential" ,
+		"i am in prudential/AIA" ,
+		"Not interested in anything" ,
+		"This will surely lead into insurance. No thanks." ,
+		"We are not interested in any insurance" ,
+		"Not interested at the moment thank you." ,
+		"Not, really." ,
+		"No, It\'s ok." ,
+		"Sorry not interested in all these kind of insurance thing." ,
+		"This will surely leading into insurance someway so don\'t disturb me" ,
+		"don’t think I\'ll need it, thanks." ,
+		"Not interested, thank you" ,
+		"Sorry not interested" ,
+		"no not interested" ,
+		"sorry i don\'t need" ,
+		"not keen" ,
+		"not intertested" ,
+		"don\'t want don\'t want" ,
+		"i don\'t need it" ,
+		"i dont have time now" ,
+		"not interested" ,
+		"i don\'t have the time now" ,
+		"i not free now" ,
+		"no no no i don\'t need it" ,
+		"i don\'t want" ,
+		"i have my own agent" ,
+		"my family from prudential" ,
+		"i have enough coverage" ,
+		"i don\'t have time for this" ,
+		"i dont want a callback" ,
+		"i am not interested for callback" ,
+		"No, I don’t want to receive a callback" ,
+		"Why would you need them to call me back?" ,
+		"please dont call me again" ,
+		"not need for callback" ,
+		"dont disturb me" ,
+		"no dont call me" ,
+		"thank you bye bye" ,
+		"okay thank you bye bye" ,
+		"okay sorry bye bye"
+}
+
+evening :
+	inputs in en {
+		"evening is ok" ,
+		"it is ok evening" ,
+		"let\'s do evening" ,
+		"early evening" ,
+		evening ,
+		"evening please" ,
+		night ,
+		"in the night" ,
+		"at night"
+}
+
+afternoon :
+	inputs in en {
+		"afternoon is ok" ,
+		afternoon ,
+		"it is ok afternoon" ,
+		"let\'s do afternoon" ,
+		"early afternoon please" ,
+		"afternoon please"
+}
+
+age :
+	inputs in en {
+		"my age is " ( "30" ) [ ^number ] ,
+		"am " ( "25" ) [ ^number ] ,
+		"am major" ,
+		"I am minor" ,
+		"I have " ( "26" ) [ ^number ] " years" ,
+		( "24" ) [ ^number ] ,
+		"am " ( twentyone ) [ ^number ] ,
+		( thirtyfive ) [ ^number ] ,
+		"my age is " ( sixty ) [ ^number ]
+	}
+	parameters :
+		^number : entity number ;
+
+bot_challenge :
 
 actions :
-	text response utter_chloe_60_cents_policy_text :
+	text response utter_pa_question_text :
 		inputs in en {
-			"erm can i have one minute of your time to briefly share with you the newly launched twenty six cent per day  policy that we offering"
+			"This plan is open to anyone that is 17 years & above it is to  protect you from accident-related medical bills as well as provide compensate to your lost of income. AIA allow many small injuries claim that is self inflicted. Such as like injured by very small minor fall i would say hassle free claim isit okay if i could arrange my manager to further explain on this plan"
 	}
-	text response utter_chloe_not_local_text :
+	text response utter_age_info_text :
 		inputs in en {
-			"ah great that you ask this question so this policy is actually open for anyone so er would it be okay if i could arrange my manager to further explain on this plan i promise you will find it very useful after the meet"
+			"okay i will get my manager will give you a call back oh ya one last question i just wanted to check how old are you"
 	}
-	text response utter_chloe_language_barrier_text :
+	text response utter_aknowledge_age_text :
 		inputs in en {
-			"erm sorry erm wo wo hua yu bu tai hao erm wo ming tian jiao wo de tong shi er da gei ni er okay thank you bye bye"
+			"ok sure, i will take note. Thank you for your time do expect a call from my manager."
 	}
-	empty response validate_already_have_agent_empty
-	text response utter_chloe_nodding_yacan_text :
+	text response utter_number_info_text :
 		inputs in en {
-			"ya can"
+			"hi erm so sorry i got your number from a online marketing survey that you fill in your particular some times back i am doing a follow up service call to offer you the new accident plan policy that you only have to pay 60 cents a day and can cover you up to 100k of coverage & many other accident isit okay if i could arrange my manager to further explain on this plan"
 	}
-	empty response validate_objection_already_have_PA_plan_empty
-	text response utter_chloe_convincing_text :
+	text response utter_pa_coverage_text :
 		inputs in en {
-			"erm ok I understand that many insurance policy may be too much a cost for considering erm with this current twenty six cent per day promo it actually help many families to reconsider having at least a minimum coverage in their hospital plan for a life time erm why not i can get my manager to share with you a detailed coverage on the plan and if really still feels you are not ready for it we will definitely respect your decision will that be ok for you"
+			"you only have to pay as low as 60 cents a day for this plan & it cover many benefit such as Life payout, lost of income & Disability issue isit okay if i could arrange my manager to give you a detailed introduction on this plan"
 	}
-	text response utter_chloe_manager_introduction_text :
+	text response utter_scam_kelly_text :
 		inputs in en {
-			"er ya so my manager is from manulife with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you so the process will take about thirty minutes or more"
+			"Don\'t worry, this is definitely not a scam. i am calling on behalf of AIA to share with you the 60 cent per day new attractive personal accident plan with high covererage So this more like a awareness campaign to share with you the extra benefits of this plan isit okay if i could arrange my manager to give you a detailed introduction on this plan i promise you will find it useful"
 	}
-	empty response action_busy_reply_empty
+	text response utter_60_cents_policy_text :
+		inputs in en {
+			"hi I am calling on behalf of AIA, this call is to check if you are aware of the insurance that cost only 60 cents a day have you hear about it"
+	}
+	text response utter_convincing_text :
+		inputs in en {
+			"I understand how you feel but many times we neglected small unexpected accident that can possibly happen & without PA plan we ended up have to pay the bills by our own as it is not deductible by medisave isit okay if i could arrange my manager to give you a detailed introduction on this plan i promise you will find it useful"
+	}
+	text response utter_goodbye_text :
+		inputs in en {
+			"oh okay thank you & have a pleasant week ahead goodbye"
+	}
+	text response utter_not_local_text :
+		inputs in en {
+			"great you ask this question, this policy is open for anyone isit okay if i could arrange my manager to further explain on this plan i promise you will find it useful"
+	}
+	text response utter_document_to_bring_text :
+		inputs in en {
+			"oh okay it would just be a meet up session my manager and she will assist you with this policy review together with you isit okay if i could arrange my manager to give you a detailed introduction on this plan"
+	}
 	text response utter_manager_introduction_text :
 		inputs in en {
-			"er ya so my manager is from manulife with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you so the process will take about 30 minutes or more"
+			"er ya my manager is from AIAwith many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you erm the whole duration will take around 30 minutes or more"
 	}
-	text response utter_ask_alternative_plan_text :
+	text response utter_greeting_repeat_text :
 		inputs in en {
-			"ah okay would you be open for my manager to retrieve a free comparison report versus your current policy rest assure there will be no hard selling as long as you are comfortable sticking to your current policy we would definitely respect that decision erm would you consider that"
+			"hmm so sorry i am Chloe calling from AIA Insurance"
 	}
-	text response utter_chloe_nodding_um_uhum_text :
+	text response utter_confidential_details_text :
 		inputs in en {
-			"num uhum"
+			"don\'t worry you do not have to give me your confidential details, during the meet up with my manager she will assist you with policy isit okay if i could arrange my manager to give you a detailed introduction on this plan"
 	}
-	text response utter_chloe_greeting_text :
+	text response utter_greeting_chloe_text :
 		inputs in en {
-			"hello hi this Chloe calling on behalf of manulife"
+			"Hello hi this Chloe is it a good time to speak with you for a short while"
 	}
-	text response utter_ask_are_you_ashley_text :
+	text response utter_fees_involvement_text :
 		inputs in en {
-			"erm hi erm so sorry am i speaking to Ashley"
+			"oh okay dont worry, During the meet with my manager there will be hidden cost & no obligation. My manager will just share with you this affordable attractive plan isit okay if i could arrange my manager to give you a detailed introduction on this plan"
 	}
-	text response utter_chloe_acknowledgement_age_text :
+	text response utter_pa_benefits_text :
 		inputs in en {
-			"okay sure no worries on that erm i will take note thank you so much for your time do expect a call from my manager ya"
+			"Er ya for this personal accident plan it allow you to claim plenty of accident that do not require to be hospitalized & no medical check up required.This including TCM medical, Chiropractic claim & many more is it okay  i get my manager to give you a detailed introduction on this plan & there is no obligation"
 	}
-	empty response action_chloe_empty
-	text response utter_chloe_pa_coverage_text :
+	text response utter_appointment_call_time_text :
 		inputs in en {
-			"erm yup so this plan is actually eligible for anyone that that is seventeen years and above and it actually cover erm accident related medical bills as well it provides compensate to your lost of income so erm one of the key benefit of this plan it allow many small injuries claim that is self inflicted even for minor injuries so is it okay if i could arrange my manager to further explain on this plan"
+			"great I will get my manager to contact you by next week to arrange a meet up  alright erm do prefer him to call you in the afternoon or evening"
 	}
-	text response utter_ask_other_party_text :
-		inputs in en {
-			"uh okay sorry to disturb no problem erm i will get my manager to give you a call tomorrow and do pass the contact details over to my manager alright"
-	}
-	text response utter_chloe_nodding_er_ok_text :
-		inputs in en {
-			"er ok"
-	}
-	text response utter_ask_ok_for_age_text :
-		inputs in en {
-			"erm ok erm by knowing your current insurance status will allow my manager to do her preparation before meeting you so erm this allow us to save some time before meeting you too"
-	}
-	text response utter_chloe_goodbye_text :
-		inputs in en {
-			"oh okay thank you and have a pleasant week ahead good bye"
-	}
-	text response utter_ask_app_call_time_text :
-		inputs in en {
-			"erm great so I will get my manager to contact you by next week to arrange a meet up alright so erm do prefer him to give you a call in the afternoon or in the evening"
-	}
-	text response utter_chloe_appointment_call_time_text :
-		inputs in en {
-			"erm great so I will get my manager to contact you by next week to arrange a meet up alright so erm do prefer him to give you a call in the afternoon or in the evening"
-	}
-	text response utter_chloe_scam_text :
-		inputs in en {
-			"erm ya so dont worry this is definitely not a scam i am calling on behalf of manulife to share with you the twenty six cent per day attractive personal accident plan with high coverage so this more like a erm awareness campaign to share with you on the extra benefits of this plan so would it be okay if i could arrange my manager to give you a detailed introduction on this plan and i promise you will find it very useful after the meet"
-	}
-	text response utter_ask_reply_to_manager_advice_text :
-		inputs in en {
-			"er ya so my manager is from manulife with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you so the process will take about thirty minutes or more"
-	}
-	text response utter_chloe_had_a_pa_plan_text :
-		inputs in en {
-			"ah okay would you be open for my manager to retrieve a free comparison report versus your current policy rest assure there will be no hard selling as long as you are comfortable sticking to your current policy we would definitely respect that decision erm would you consider that"
-	}
-	text response utter_fallback_text :
-		inputs in en {
-			"sorry i dont get you"
-	}
-	text response utter_chloe_busy_call_back_text :
-		inputs in en {
-			"so sorry to disturb i will give you a call back okay"
-	}
-	text response utter_chloe_age_info_text :
-		inputs in en {
-			"okay i will get my manager will give you a call back erm oh ya one last question er just wanted to are you holding on to any particular insurance policy right now"
-	}
-	text response utter_ask_ok_for_aknowledge_text :
-		inputs in en {
-			"okay sure no worries on that erm i will take note thank you so much for your time do expect a call from my manager ya"
-	}
-	text response utter_chloe_nodding_erya_text :
-		inputs in en {
-			"er ya"
-	}
-	text response utter_ask_chloe_busy_call_back_text :
-		inputs in en {
-			"ah okok so sorry to disturb i will give you a call back okay"
-	}
-	text response utter_chloe_call_back_other_text :
-		inputs in en {
-			"uh okay sorry to disturb no problem erm i will get my manager to give you a call tomorrow and do pass the contact details over to my manager alright"
-	}
-	text response utter_chloe_number_info_text :
-		inputs in en {
-			"erm so sorry i got your number from a online marketing survey that you fill in your particular some times back so i am actually doing a follow up service call to offer you the new accident plan policy that only have to pay twenty six cents a day and you can actually cover yourselves up to hundred thousand of coverage so erm any chance would you be keen in this promotion offering back to you"
-	}
-	empty response action_trigger_conversion_form_empty
-	text response utter_chloe_sry_are_you_there_text :
-		inputs in en {
-			"hi erm sorry are you there"
-	}
-	text response utter_chloe_greeting_repeat_text :
-		inputs in en {
-			"hi so sorry i am chloe calling on behalf of manulife"
-	}
-	text response utter_chloe_pa_fees_text :
-		inputs in en {
-			"erm ya you only have to pay as low as twenty six cents a day for this plan and it cover many benefit such as erm life payout lost of income and disability issue so erm isit okay if i could arrange my manager to give you a detailed introduction on this plan itself"
-	}
-	empty response action_rule_only_once_empty
-	text response utter_ask_want_to_continue_text :
-		inputs in en {
-			"oh okay erm would you still be keen for me to assign a new agent for you as my manager has many years of experience in manulife"
-	}
-	text response utter_chloe_nodding_umm_text :
-		inputs in en {
-			umm
-	}
-	text response utter_ask_goodbye_text :
-		inputs in en {
-			"oh okay thank you and have a pleasant week ahead good bye"
-	}
-	text response utter_chloe_pa_benefit_text :
-		inputs in en {
-			"um yap i am calling from manulife the insurance company so for this personal accident plan it allow you to claim plenty of accident that do not require to be hospitalized and no medical check up are required so this includes TCM medical Chiropractic claim and many more so is it okay if i get my manager to give you a non obligation introduction on this plan itself"
-	}
-	text response utter_ask_age_info_text :
-		inputs in en {
-			"okay i will get my manager will give you a call back erm oh ya one last question er just wanted to are you holding on to any particular insurance policy right now"
-	}
-	text response utter_chloe_age_question_text :
-		inputs in en {
-			"erm ok erm by knowing your current insurance status will allow my manager to do her preparation before meeting you so erm this allow us to save some time before meeting you too"
-	}
-	empty response looking_for_form_empty
-	empty response busy_empty
-	empty response other_party_empty
-	empty response already_have_agent_empty
-	empty response objection_already_have_PA_plan_empty
-	empty response question_related_to_age_empty
-	empty response conversion_form_empty
 	empty response DefaultEmptyAction
 
 flows :
-	- user speak_twice => chatbot action_chloe_empty ;
-	- user already_have_agent => chatbot utter_ask_goodbye_text ;
-	- user question_related_to_age => chatbot action_trigger_conversion_form_empty ;
-	- user objection_already_have_PA_plan => chatbot action_trigger_conversion_form_empty ;
-	- user looking_for => chatbot looking_for_form_empty ;
-	- user call_back_to_another_party => chatbot other_party_empty ;
-	- user busy => chatbot busy_empty ;
+	- user not_singaporean => chatbot utter_not_local_text ;
+	- user question_related_to_numbers => chatbot utter_number_info_text ;
+	- user pa_question => chatbot utter_pa_question_text ;
+	- user question_related_to_scam => chatbot utter_scam_kelly_text ;
+	- user pa_plan_coverage => chatbot utter_pa_coverage_text ;
+	- user fees_question => chatbot utter_fees_involvement_text ;
+	- user login_details => chatbot utter_confidential_details_text ;
+	- user meet_up_document => chatbot utter_document_to_bring_text ;
+	- user manager_question => chatbot utter_manager_introduction_text ;
+	- user who_is => chatbot utter_greeting_repeat_text ;
+	- user objection_i_am_agent => chatbot utter_goodbye_text ;
+	- user bot_challenge ;
 	- user confirm => chatbot DefaultEmptyAction {
 		=> user confirm => chatbot DefaultEmptyAction {
 			=> user confirm => chatbot DefaultEmptyAction {
-				=> user reject => chatbot DefaultEmptyAction {
-					=> user reject => chatbot utter_chloe_goodbye_text ;
-					=> user confirm => chatbot conversion_form_empty {
-						=> user confirm => chatbot utter_chloe_goodbye_text ;
-						=> user reject => chatbot utter_chloe_goodbye_text ;
+				=> user reject => chatbot utter_goodbye_text ;
+				=> user confirm => chatbot DefaultEmptyAction {
+					=> user reject => chatbot utter_goodbye_text ;
+					=> user confirm => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
 					} ;
-				} ;
-				=> user confirm => chatbot conversion_form_empty {
-					=> user confirm => chatbot utter_chloe_goodbye_text ;
-					=> user reject => chatbot utter_chloe_goodbye_text ;
+					=> user afternoon => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+					} ;
+					=> user evening => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+					} ;
 				} ;
 			} ;
 			=> user reject => chatbot DefaultEmptyAction {
-				=> user reject => chatbot DefaultEmptyAction {
-					=> user reject => chatbot utter_chloe_goodbye_text ;
-					=> user confirm => chatbot conversion_form_empty {
-						=> user confirm => chatbot utter_chloe_goodbye_text ;
-						=> user reject => chatbot utter_chloe_goodbye_text ;
+				=> user reject => chatbot utter_goodbye_text ;
+				=> user confirm => chatbot DefaultEmptyAction {
+					=> user reject => chatbot utter_goodbye_text ;
+					=> user confirm => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
 					} ;
-				} ;
-				=> user confirm => chatbot conversion_form_empty {
-					=> user confirm => chatbot utter_chloe_goodbye_text ;
-					=> user reject => chatbot utter_chloe_goodbye_text ;
+					=> user afternoon => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+					} ;
+					=> user evening => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+					} ;
 				} ;
 			} ;
 		} ;
 		=> user reject => chatbot DefaultEmptyAction {
 			=> user confirm => chatbot DefaultEmptyAction {
-				=> user reject => chatbot DefaultEmptyAction {
-					=> user reject => chatbot utter_chloe_goodbye_text ;
-					=> user confirm => chatbot conversion_form_empty {
-						=> user confirm => chatbot utter_chloe_goodbye_text ;
-						=> user reject => chatbot utter_chloe_goodbye_text ;
+				=> user reject => chatbot utter_goodbye_text ;
+				=> user confirm => chatbot DefaultEmptyAction {
+					=> user reject => chatbot utter_goodbye_text ;
+					=> user confirm => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
 					} ;
-				} ;
-				=> user confirm => chatbot conversion_form_empty {
-					=> user confirm => chatbot utter_chloe_goodbye_text ;
-					=> user reject => chatbot utter_chloe_goodbye_text ;
+					=> user afternoon => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+					} ;
+					=> user evening => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+					} ;
 				} ;
 			} ;
 			=> user reject => chatbot DefaultEmptyAction {
-				=> user reject => chatbot DefaultEmptyAction {
-					=> user reject => chatbot utter_chloe_goodbye_text ;
-					=> user confirm => chatbot conversion_form_empty {
-						=> user confirm => chatbot utter_chloe_goodbye_text ;
-						=> user reject => chatbot utter_chloe_goodbye_text ;
+				=> user reject => chatbot utter_goodbye_text ;
+				=> user confirm => chatbot DefaultEmptyAction {
+					=> user reject => chatbot utter_goodbye_text ;
+					=> user confirm => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
 					} ;
-				} ;
-				=> user confirm => chatbot conversion_form_empty {
-					=> user confirm => chatbot utter_chloe_goodbye_text ;
-					=> user reject => chatbot utter_chloe_goodbye_text ;
+					=> user afternoon => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+					} ;
+					=> user evening => chatbot DefaultEmptyAction {
+						=> user reject => chatbot utter_goodbye_text ;
+						=> user confirm => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+						=> user age => chatbot DefaultEmptyAction {
+							=> user confirm => chatbot utter_goodbye_text ;
+							=> user reject => chatbot utter_goodbye_text ;
+						} ;
+					} ;
 				} ;
 			} ;
 		} ;
 	} ;
-	- user reject ;
-	- user nlu_fallback => chatbot utter_fallback_text ;
-	- user dnc => chatbot utter_chloe_goodbye_text ;
-	- user student => chatbot utter_chloe_goodbye_text ;
-	- user who_is => chatbot utter_chloe_greeting_repeat_text ;
-	- user fees_question => chatbot action_rule_only_once_empty ;
-	- user question_related_to_scam => chatbot action_rule_only_once_empty ;
-	- user question_related_to_numbers => chatbot action_rule_only_once_empty ;
-	- user not_singaporean => chatbot action_rule_only_once_empty ;
-	- user pa_plan_coverage => chatbot action_rule_only_once_empty ;
-	- user manager_question => chatbot DefaultEmptyAction ;
-	- user question_speak_chinese => chatbot DefaultEmptyAction ;
-	- user objection_i_am_agent => chatbot DefaultEmptyAction ;
-	- user morning => chatbot action_rule_only_once_empty ;
-	- user date_day => chatbot action_rule_only_once_empty ;
-	- user afternoon => chatbot action_rule_only_once_empty ;
-	- user evening => chatbot action_rule_only_once_empty ;
-	- user age => chatbot action_rule_only_once_empty ;
 

@@ -1,4 +1,4 @@
-Chatbot commit_389_9f0d62c7569b1d8c91333520d61525b3bae0f308 language : en
+Chatbot commit_544_4b10482edb97e23484b06b1e955b065e98c3062d language : en
 
 intents :
 
@@ -40,8 +40,7 @@ affirm :
 		indeed ,
 		"of course" ,
 		"that sounds good" ,
-		correct ,
-		Yes
+		correct
 }
 
 deny :
@@ -99,227 +98,29 @@ bot_challenge :
 		"am I talking to a human?"
 }
 
-enrollment :
-	inputs in en {
-		"I want to know about enrollment." ,
-		"I want to know about enrollment at Rose-Hulman" ,
-		"How many " ( "full-time" ) [ enrollment_status ] ( undergraduate ) [ student_level ] " students are there in Rose-Hulman?" ,
-		"How many " ( "full time" ) [ enrollment_status ] ( undergraduate ) [ student_level ] " students are there in Rose-Hulman?" ,
-		"How many " ( "full-time" ) [ enrollment_status ] ( undergraduates ) [ student_level ] " are there in Rose-Hulman?" ,
-		"How many " ( "full time" ) [ enrollment_status ] ( undergraduates ) [ student_level ] " are there in Rose-Hulman?" ,
-		"How many " ( "full-time" ) [ enrollment_status ] ( graduates ) [ student_level ] " are there in Rose-Hulman?" ,
-		"How many " ( "full time" ) [ enrollment_status ] ( graduates ) [ student_level ] " are there in Rose-Hulman?" ,
-		"How many " ( "part-time" ) [ enrollment_status ] ( undergraduate ) [ student_level ] " students are there in Rose-Hulman?" ,
-		"How many " ( "part time" ) [ enrollment_status ] ( undergraduate ) [ student_level ] " students are there in Rose-Hulman?" ,
-		"How many " ( "part-time" ) [ enrollment_status ] ( undergraduates ) [ student_level ] " are there in Rose-Hulman?" ,
-		"How many " ( "part time" ) [ enrollment_status ] ( undergraduates ) [ student_level ] " are there in Rose-Hulman?" ,
-		"How many " ( "part-time" ) [ enrollment_status ] ( graduate ) [ student_level ] " students are there in Rose-Hulman?" ,
-		"How many " ( "part time" ) [ enrollment_status ] ( graduate ) [ student_level ] " students are there in Rose-Hulman?" ,
-		"How many " ( "full time" ) [ enrollment_status ] ( "first year" ) [ is_first_year ] ( "first time" ) [ is_first_time ] ,
-		"I want to know about the number of " ( "graduate students" ) [ student_level ] " here" ,
-		"I want to know about the number of " ( graduates ) [ student_level ] " here" ,
-		"How many " ( "non full time" ) [ enrollment_status ] ( undergraduate ) [ student_level ] " students are there in Rose-Hulman?" ,
-		"Tell me the number of " ( undergraduates ) [ student_level ] " at Rose-Hulman" ,
-		"How many " ( men ) [ gender ] " students are there in Rose-Hulman?" ,
-		"How many " ( woman ) [ gender ] " students are there in Rose-Hulman?" ,
-		"How many " ( male ) [ gender ] " student are there?" ,
-		"How many " ( female ) [ gender ] " student are there?" ,
-		"How many " ( male ) [ gender ] ( "non freshman" ) [ undergraduate_grade_level ] " students are enrolled?" ,
-		"How many " ( male ) [ gender ] ( freshman ) [ undergraduate_grade_level ] " students are enrolled?" ,
-		"How many " ( male ) [ gender ] ( "non first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( male ) [ gender ] ( "first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "non degree seeking" ) [ "degree-goal" ] ( undergrad ) [ student_level ] " student please tell me" ,
-		"How many " ( "degree-seeking" ) [ "degree-goal" ] ( "first-time" ) [ is_first_time ] ( freshman ) [ undergraduate_grade_level ] " are there?" ,
-		"How many students that are " ( "not first-time" ) [ is_first_time ] "?" ,
-		"How many students that are " ( "non first time" ) [ is_first_time ] "?" ,
-		"how many " ( "non first time" ) [ is_first_time ] "? students are there?" ,
-		"How many students that are " ( "non-first-time" ) [ is_first_time ] "?" ,
-		"How many " ( "non-degree-seeking" ) [ "degree-goal" ] ( "first-time" ) [ is_first_time ] ( freshman ) [ undergraduate_grade_level ] " are there?" ,
-		"I want to know about how many " ( "non degree-seeking" ) [ "degree-goal" ] ( "first-time" ) [ is_first_time ] " students." ,
-		"Tell me about the number of " ( "degree seeking" ) [ "degree-goal" ] " students who are " ( "not freshman" ) [ undergraduate_grade_level ] ,
-		"How many " ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "non first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "non first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "non first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "non first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "full time" ) [ enrollment_status ] ( "first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "full time" ) [ enrollment_status ] ( "non first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "part time" ) [ enrollment_status ] ( "first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "part time" ) [ enrollment_status ] ( "non first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "first time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "first time" ) [ is_first_time ] ( "non first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "non first time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "non first time" ) [ is_first_time ] ( "non first year" ) [ is_first_year ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] " are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] " are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] " are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] " are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "part time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( freshman ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "non first year" ) [ is_first_year ] ( "non freshman" ) [ undergraduate_grade_level ] ( "non first time" ) [ is_first_time ] ( "full time" ) [ enrollment_status ] " students are enrolled?" ,
-		"How many " ( "nonresident-alien" ) [ race ] " students are enrolled?" ,
-		"How many " ( hispanic ) [ race ] " students are enrolled?" ,
-		"How many " ( "african-american" ) [ race ] " students are enrolled?" ,
-		"how many " ( black ) [ race ] " students are enrolled?" ,
-		"How many " ( white ) [ race ] " students are enrolled?" ,
-		"How many " ( "american-indian" ) [ race ] " students are enrolled?" ,
-		"How many " ( asian ) [ race ] " students are enrolled?" ,
-		"How many " ( "pacific islander" ) [ race ] " students are enrolled?" ,
-		"How many students of " ( "two-or-more" ) [ race ] " races are enrolled?" ,
-		"How many students of " ( "two or more races" ) [ race ] " are enrolled?" ,
-		"How many students of " ( unknown ) [ race ] " race are enrolled?" ,
-		"how many " ( "first time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] ( hispanic ) [ race ] " students are there?" ,
-		"how many " ( "first year" ) [ is_first_year ] ( "first time" ) [ is_first_time ] " students are there?" ,
-		"how many " ( "first time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] " students are there?" ,
-		"how many " ( "non first year" ) [ is_first_year ] ( "non first time" ) [ is_first_time ] " students are there?" ,
-		"how many " ( "non first time" ) [ is_first_time ] ( "non first year" ) [ is_first_year ] " students are there?" ,
-		"how many " ( "non freshmen" ) [ undergraduate_grade_level ] " are enrolled?" ,
-		"how many " ( "non first-time" ) [ is_first_time ] ( "first year" ) [ is_first_year ] ( hispanic ) [ race ] " students are there?" ,
-		"how many " ( "first-year" ) [ is_first_year ] " students are there?" ,
-		"how many " ( "non-first-year" ) [ is_first_year ] " students are there?" ,
-		"how many " ( "non first-year" ) [ is_first_year ] " students are there?" ,
-		"how many students who are " ( "not first year" ) [ is_first_year ] " are enrolled?" ,
-		"how many students who are " ( "non first year" ) [ is_first_year ] " are enrolled?"
-	}
-	parameters :
-		enrollment_status ,
-		student_level ,
-		is_first_year ,
-		is_first_time : entity time ;
-		gender ,
-		undergraduate_grade_level ,
-		"degree-goal" ,
-		race : entity text ;
-
-cohort :
-	inputs in en {
-		"I want to know about " ( "2015 cohort" ) [ cohort_by_year ] ,
-		"What is the " ( initial ) [ cohort_initial_final ] ( "2014 cohort" ) [ cohort_by_year ] " of " ( "first-time" ) [ is_first_time ] ", " ( fulltime ) [ enrollment_status ] ", " ( "bachelor\'s" ) [ student_level ] ( "degree-seeking" ) [ "degree-goal" ] " students?" ,
-		"Of the " ( initial ) [ cohort_initial_final ] ( "2014 cohort" ) [ cohort_by_year ] ", how many " ( "did not persist" ) [ exemptions ] " and " ( "did not graduate" ) [ exemptions ] " for the following reasons: " ( deceased ) [ exemptions ] ", " ( "permanently disabled" ) [ exemptions ] ", " ( "armed forces" ) [ exemptions ] ", " ( "foreign aid service of the federal government" ) [ exemptions ] ", or " ( "official church missions" ) [ exemptions ] "?" ,
-		"What is the total " ( "allowable exclusions" ) [ exemptions ] " of the " ( "3564 cohort" ) [ cohort_by_year ] ,
-		"How many students " ( left ) [ exemptions ] " the school due to some reason for the " ( "2014 cohort" ) [ cohort_by_year ] "?" ,
-		"What is the " ( Final ) [ cohort_initial_final ] ( "2014 cohort" ) [ cohort_by_year ] ", after adjusting for " ( "allowable exclusions" ) [ exemptions ] ,
-		"Of the " ( initial ) [ cohort_initial_final ] ( "2120 cohort" ) [ cohort_by_year ] ", how many completed the program in " ( "four years or less" ) [ upper_bound_graduation_time ] "?" ,
-		"Of the " ( initial ) [ cohort_initial_final ] ( "9208 cohort" ) [ cohort_by_year ] ", how many completed the program in " ( "more than four years" ) [ lower_bound_graduation_time ] " but in " ( "five years or less" ) [ upper_bound_graduation_time ] "?" ,
-		"Of the " ( initial ) [ cohort_initial_final ] ( "2013 cohort" ) [ cohort_by_year ] ", how many completed the program in " ( "more than five years" ) [ lower_bound_graduation_time ] " but in " ( "six years or less" ) [ upper_bound_graduation_time ] "?" ,
-		"Of the " ( initial ) [ cohort_initial_final ] ( "4014 cohort" ) [ cohort_by_year ] ", how many completed the program in " ( "more than four years" ) [ lower_bound_graduation_time ] " but in " ( "five years or less" ) [ upper_bound_graduation_time ] " and are " ( "recipients of subsidized stafford loan and did not receive a pell grant" ) [ recipients_of_a_subsidized_stafford_loan_who_did_not_receive_a_pell_grant ] ,
-		"What is the " ( "six year" ) [ upper_bound_graduation_time ] ( "graduation rate" ) [ graduation_rate ] " for students who are " ( "recipients of a federal pell grant" ) [ recipients_of_federal_pell_grant ] " in the " ( "2013 cohort" ) [ cohort_by_year ] "?" ,
-		"what is the total number of students " ( "graduating within six years" ) [ upper_bound_graduation_time ] " for " ( "2019 cohort" ) [ cohort_by_year ] " who " ( "did not receive either a pell grant or a subsidized stafford loan" ) [ students_who_did_not_receive_either_a_pell_grant_or_a_subsidized_stafford_loan ] ,
-		"What is the " ( "six year" ) [ upper_bound_graduation_time ] ( graduation_rate ) [ graduation_rate ] " for the " ( "2013 cohort" ) [ cohort_by_year ] "?" ,
-		"What is the " ( "five year" ) [ upper_bound_graduation_time ] ( graduation_rate ) [ graduation_rate ] " for the " ( "2013 cohort" ) [ cohort_by_year ] "?" ,
-		"What is the " ( "four year" ) [ upper_bound_graduation_time ] ( graduation_rate ) [ graduation_rate ] " for the " ( "2013 cohort" ) [ cohort_by_year ] "?" ,
-		"How many students graduated " ( "within six years" ) [ upper_bound_graduation_time ] " for " ( "cohort of 2013" ) [ cohort_by_year ] " ?" ,
-		"How many students graduated " ( "within five years" ) [ upper_bound_graduation_time ] " for " ( "2055 cohort" ) [ cohort_by_year ] "?" ,
-		"How many students graduated " ( "within four years" ) [ upper_bound_graduation_time ] " for " ( "2090 cohort" ) [ cohort_by_year ] "?" ,
-		"What is the " ( "graduation rate" ) [ graduation_rate ] " for students who graduated " ( "within five year" ) [ upper_bound_graduation_time ] " in " ( "2014 cohort" ) [ cohort_by_year ] "?" ,
-		"How many students graduated " ( "within five years" ) [ upper_bound_graduation_time ] " for [2014 cohort](cohort_by_year?" ,
-		"How many students graduated " ( "within 6 years" ) [ upper_bound_graduation_time ] " for " ( "cohort of 2013" ) [ cohort_by_year ] " ?" ,
-		"How many students graduated " ( "within 5 years" ) [ upper_bound_graduation_time ] " for " ( "2055 cohort" ) [ cohort_by_year ] "?" ,
-		"How many students graduated " ( "within 4 years" ) [ upper_bound_graduation_time ] " for " ( "2090 cohort" ) [ cohort_by_year ] "?" ,
-		( "graduation rate" ) [ graduation_rate ] " for students who graduated " ( "in 5 years" ) [ upper_bound_graduation_time ] " of " ( "2052 cohort" ) [ cohort_by_year ] ,
-		"How many students graduated " ( "more than 5 years" ) [ lower_bound_graduation_time ] " and " ( "6 years or less" ) [ upper_bound_graduation_time ] " for the " ( "2014 cohort" ) [ cohort_by_year ] "?" ,
-		"How many students graduated in " ( "five year or less" ) [ upper_bound_graduation_time ] " for " ( "2055 cohort" ) [ cohort_by_year ] " who received " ( "no aid" ) [ students_who_did_not_receive_either_a_pell_grant_or_a_subsidized_stafford_loan ] ,
-		"What is the " ( "graduation rate" ) [ graduation_rate ] " for students who graduated " ( "in 5 years" ) [ upper_bound_graduation_time ] " and " ( "more than four year" ) [ lower_bound_graduation_time ] " for the " ( "cohort of 2014" ) [ cohort_by_year ] "?" ,
-		"What is the " ( "graduation rate" ) [ graduation_rate ] " for students who graduated " ( "within 5 years" ) [ upper_bound_graduation_time ] " for " ( "cohort of 2021" ) [ cohort_by_year ]
-	}
-	parameters :
-		cohort_by_year ,
-		cohort_initial_final ,
-		is_first_time : entity time ;
-		enrollment_status ,
-		student_level ,
-		"degree-goal" ,
-		exemptions ,
-		upper_bound_graduation_time : entity time ;
-		lower_bound_graduation_time : entity time ;
-		recipients_of_a_subsidized_stafford_loan_who_did_not_receive_a_pell_grant ,
-		graduation_rate ,
-		recipients_of_federal_pell_grant ,
-		students_who_did_not_receive_either_a_pell_grant_or_a_subsidized_stafford_loan : entity text ;
-
-ask_enrollment :
-
-inform :
-
 actions :
 	image response utter_cheer_up_img :
 		URL : "https://i.imgur.com/nGF1K8f.jpg"
 		caption : "Here is something to cheer you up:"
-	text response utter_greet_text :
-		inputs in en {
-			"Hey! How are you?"
-	}
-	empty response action_query_cohort_empty
-	text response utter_did_that_help_text :
-		inputs in en {
-			"Did that help you?"
-	}
-	text response utter_no_more_question_text :
-		inputs in en {
-			"Have a good day!"
-	}
-	empty response action_get_available_options_empty
-	empty response action_ask_more_question_empty
-	text response utter_ask_any_more_question_text :
-		inputs in en {
-			"Great! Do you have anymore questions?"
-	}
-	text response utter_goodbye_text :
-		inputs in en {
-			Bye
-	}
 	text response utter_happy_text :
 		inputs in en {
 			"Great, carry on!"
 	}
-	empty response action_query_enrollment_empty
-	text response utter_ask_whats_the_question_text :
+	text response utter_greet_text :
 		inputs in en {
-			"I am glad to help you with that, whats the question?"
+			"Hey! How are you?"
 	}
-	text response utter_sorry_question_not_helpful_text :
+	text response utter_did_that_help_text :
 		inputs in en {
-			"I am sorry it does not help, thak you for your reply, we will update chatbot."
+			"Did that help you?"
 	}
 	text response utter_iamabot_text :
 		inputs in en {
 			"I am a bot, powered by Rasa."
 	}
-	text response utter_ask_answer_helpful_text :
+	text response utter_goodbye_text :
 		inputs in en {
-			"Was this answer helpful?"
+			Bye
 	}
 	empty response DefaultEmptyAction
 
@@ -330,22 +131,7 @@ flows :
 		=> user mood_great => chatbot utter_happy_text ;
 		=> user mood_unhappy => chatbot utter_cheer_up_img {
 			=> user affirm => chatbot utter_happy_text ;
-			=> user deny => chatbot DefaultEmptyAction ;
+			=> user deny => chatbot utter_goodbye_text ;
 		} ;
-	} ;
-	- user ask_enrollment ;
-	- user cohort => chatbot action_query_cohort_empty {
-		=> user affirm => chatbot DefaultEmptyAction {
-			=> user affirm => chatbot utter_ask_whats_the_question_text ;
-			=> user deny => chatbot utter_no_more_question_text ;
-		} ;
-		=> user deny => chatbot utter_sorry_question_not_helpful_text ;
-	} ;
-	- user enrollment => chatbot action_query_enrollment_empty {
-		=> user affirm => chatbot DefaultEmptyAction {
-			=> user affirm => chatbot utter_ask_whats_the_question_text ;
-			=> user deny => chatbot utter_no_more_question_text ;
-		} ;
-		=> user deny => chatbot utter_sorry_question_not_helpful_text , action_get_available_options_empty ;
 	} ;
 

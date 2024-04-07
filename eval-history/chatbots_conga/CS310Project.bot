@@ -1,692 +1,138 @@
-Chatbot CS310Project_2 language : en
+Chatbot CS310Project_62 language : en
 
 intents :
 
-	begin :
-		inputs in en {
-			start_bot
-	}
+greet :
+	inputs in en {
+		hey ,
+		hello ,
+		^hi ,
+		"hello there" ,
+		"good morning" ,
+		"good evening" ,
+		moin ,
+		"hey there" ,
+		"let\'s go" ,
+		"hey dude" ,
+		goodmorning ,
+		goodevening ,
+		"good afternoon"
+}
 
-	start_form :
-		inputs in en {
-			init
-	}
+goodbye :
+	inputs in en {
+		"good afternoon" ,
+		cu ,
+		"good by" ,
+		"cee you later" ,
+		"good night" ,
+		bye ,
+		goodbye ,
+		"have a nice day" ,
+		"see you around" ,
+		"bye bye" ,
+		"see you later"
+}
 
-	give_service :
-		inputs in en {
-			( Ambulance ) [ service_type ] " and " ( police ) [ service_type ] " quick" ,
-			"Help, we need the " ( police ) [ service_type ] ,
-			"Help us, we need the " ( "fire department" ) [ service_type ] " to come to " ( "9 Charter Avenue" ) [ street_address ] ,
-			"I think " ( police ) [ service_type ] " but I don’t want to cause any trouble" ,
-			"Yeah, hi, I live at " ( "82 Grenfell Tower" ) [ street_address ] ". There is a " ( fire ) [ emergency_details ] ,
-			"Hello, " ( "fire brigade" ) [ service_type ] " please" ,
-			"I need an " ( ambulance ) [ service_type ] " please" ,
-			"I need the " ( "fire brigade" ) [ service_type ] " please" ,
-			"I need the " ( police ) [ service_type ] " please, someone was just " ( "hit by car" ) [ emergency_details ] ,
-			"i need the " ( police ) [ service_type ] " please" ,
-			( police ) [ service_type ] ,
-			"There’s an entrance at the back, which is next to the bathroom that I’m in. If he finds out I called the " ( police ) [ service_type ] " he will get really angry. Please come quick." ,
-			"an " ( ambulance ) [ service_type ] ", i guess" ,
-			"an " ( ambulance ) [ service_type ] " please" ,
-			"I need " ( police ) [ service_type ] " and an " ( ambulance ) [ service_type ] ". My friend has just been " ( shot ) [ emergency_details ] " outside of " ( "15 South Molton Street" ) [ street_address ] ". My name is " ( "Harry Aust" ) [ name ] " and my contact number is " ( "07402550350" ) [ phone_number ] " please come quick! He\'s " ( bleeding ) [ victim_details ] " and I don\'t know what to do, the postcode is " ( "W1K 5QR" ) [ postcode ] ". Hurry!" ,
-			( police ) [ service_type ] ", please help someone is holding us " ( hostage ) [ emergency_details ] ,
-			"I need an " ( ambulance ) [ service_type ] ", my sister just " ( "broke her arm" ) [ emergency_details ] ,
-			"an " ( ambulance ) [ service_type ] ", please. my husband is " ( confused ) [ victim_details ] ,
-			"an " ( ambulance ) [ service_type ] ", please. my husband is " ( confused ) [ emergency_details ] ,
-			"can you send a " ( policeman ) [ service_type ] " to " ( "8 Main Street" ) [ street_address ] " please" ,
-			"i need a " ( "hospital wagon" ) [ service_type ] ,
-			"send a " ( "hospital wagon" ) [ service_type ] ,
-			"i require the " ( paramedic ) [ service_type ] ,
-			"i need " ( EMS ) [ service_type ] ,
-			"i require the " ( "ambulance service" ) [ service_type ] ,
-			"i need " ( paramedics ) [ service_type ] ,
-			( police ) [ service_type ] " and an " ( ambulance ) [ service_type ] " please, we just had a " ( "car crash" ) [ emergency_details ] ,
-			( Police ) [ service_type ] ,
-			( ambulance ) [ service_type ] ,
-			"please send a " ( fireman ) [ service_type ] ,
-			"please send a " ( "fire engine" ) [ service_type ] ,
-			"please send a " ( firefighters ) [ service_type ] ,
-			"please send a " ( "fire service" ) [ service_type ] ,
-			"please send a " ( "fire brigade" ) [ service_type ] ,
-			"please send a " ( firewomen ) [ service_type ] ,
-			"please send a " ( firewoman ) [ service_type ] ,
-			"please send a " ( "fire fighters" ) [ service_type ] ,
-			"please send a " ( "fire truck" ) [ service_type ] ,
-			"please come quick" ,
-			"I need an " ( ambulance ) [ service_type ] ,
-			"i need a " ( "fire engine" ) [ service_type ] ,
-			( police ) [ service_type ] " please, my friend was just " ( "hit by a car" ) [ emergency_details ] " and they drove off" ,
-			"sorry, " ( police ) [ service_type ] ,
-			"sorry, " ( police ) [ service_type ] " please" ,
-			help ,
-			"help us!" ,
-			"fine, " ( police ) [ service_type ] ,
-			"hello, i need " ( "law enforcement" ) [ service_type ] " and a " ( paramedic ) [ service_type ] " sent to " ( "Monks Pond Street" ) [ street_address ] ,
-			"i need a " ( policeman ) [ service_type ] ,
-			"i need " ( "law enforcement" ) [ service_type ] ,
-			"i need the " ( "police department" ) [ service_type ] ,
-			"i need the " ( cops ) [ service_type ] ,
-			"i need a " ( "police officer" ) [ service_type ] ,
-			"i need some " ( "police officers" ) [ service_type ] ,
-			"send the " ( "police force" ) [ service_type ] ,
-			"send a " ( policewoman ) [ service_type ] ,
-			"sorry, " ( police ) [ service_type ] " and an " ( ambulance ) [ service_type ] " please" ,
-			"send me help now or" ,
-			"come quick, i don\'t have long" ,
-			"i need some " ( paramedics ) [ service_type ] " to come to " ( "9 Charles Crescent" ) [ street_address ] " please"
-		}
-		parameters :
-			service_type ,
-			street_address ,
-			emergency_details ,
-			name ,
-			phone_number : entity phone_number ;
-			victim_details ,
-			postcode : entity postcode ;
+affirm :
+	inputs in en {
+		yes ,
+		y ,
+		indeed ,
+		"of course" ,
+		"that sounds good" ,
+		correct
+}
 
-	describe_emergency :
-		inputs in en {
-			"someone is having a " ( "heart attack" ) [ emergency_details ] ,
-			"they\'ve been in an " ( accident ) [ emergency_details ] ,
-			"Someone has " ( collapsed ) [ emergency_details ] ,
-			"i\'m going to commit " ( suicide ) [ emergency_details ] ,
-			"i\'m going to " ( "take my life" ) [ emergency_details ] ,
-			"he\'s going to " ( "take his life" ) [ emergency_details ] ,
-			"she\'s going to " ( "take her life" ) [ emergency_details ] ,
-			"they\'re going to " ( "take their life" ) [ emergency_details ] ,
-			"i\'m going to " ( "kill myself" ) [ emergency_details ] ,
-			"he\'s going to " ( "kill himself" ) [ emergency_details ] ,
-			"she\'s going to " ( "kill herself" ) [ emergency_details ] ,
-			"they\'re going to " ( "kill themself" ) [ emergency_details ] ,
-			"they\'re going to " ( "kill themselves" ) [ emergency_details ] ,
-			"I was diagnosed with " ( COVID ) [ emergency_details ] ,
-			"I was diagnosed with " ( covid ) [ emergency_details ] ,
-			"I was diagnosed with " ( "covid-19" ) [ emergency_details ] ,
-			"I was diagnosed with " ( "covid 19" ) [ emergency_details ] ,
-			"I was diagnosed with " ( "COVID 19" ) [ emergency_details ] ,
-			"I was diagnosed with " ( coronavirus ) [ emergency_details ] ,
-			"I was diagnosed with " ( "Covid 19" ) [ emergency_details ] ,
-			"I was diagnosed with " ( "Covid-19" ) [ emergency_details ] ,
-			"I was diagnosed with the " ( rona ) [ emergency_details ] ,
-			"There’s a " ( fire ) [ emergency_details ] " on " ( "44 Lolands Road" ) [ street_address ] ", RM15 4ED" ,
-			"Help, there’s a huge " ( fire ) [ emergency_details ] " in " ( "Horsenden Hill" ) [ street_address ] "." ,
-			"Help, my house is on " ( fire ) [ emergency_details ] ". Address is " ( "5 Horncastle Close" ) [ street_address ] ", " ( Daventry ) [ district ] ( "AA99 9AA" ) [ postcode ] ". Please send help quickly." ,
-			"Someone’s been " ( stabbed ) [ emergency_details ] ", she’s " ( bleeding ) [ victim_details ] ", help. She’s " ( unconscious ) [ victim_details ] ,
-			"3 men just " ( robbed ) [ emergency_details ] " my local corner shop in " ( Shirebrook ) [ district ] ,
-			"3 men just " ( stole ) [ emergency_details ] " from my local corner shop in " ( Shirebrook ) [ district ] ,
-			"there\'s been a " ( theft ) [ emergency_details ] " at my house in " ( "24 Kestrel Way" ) [ street_address ] ,
-			"someone\'s " ( stolen ) [ emergency_details ] " my purse" ,
-			"someone " ( took ) [ emergency_details ] " my purse" ,
-			"someone\'s " ( "half-inched" ) [ emergency_details ] " my purse" ,
-			"someone\'s " ( nicked ) [ emergency_details ] " my purse" ,
-			"I was walking my labradoodle and it started barking. Then I saw a " ( "fire in the bushes" ) [ emergency_details ] " but it has spread now. It’s next to the car park at the bottom of the hill but it’s making its way up now." ,
-			"I’ve just been " ( burgled ) [ emergency_details ] ,
-			"I\'m at the " ( Whitehall ) [ district ] " Community Centre at " ( "144 Huntington Place" ) [ street_address ] ". Ambrose, a neighbour of mine, is " ( dead ) [ victim_details ] ". Or he\'s not moving. I\'m not sure. Please send help!" ,
-			"Someone has " ( fallen ) [ emergency_details ] " over and " ( "cut their arm" ) [ emergency_details ] ,
-			"Someone’s " ( "broken into" ) [ emergency_details ] " our meeting place and " ( stolen ) [ emergency_details ] " things." ,
-			"An old man just " ( "fell to the ground" ) [ emergency_details ] ", he’s " ( "clutching onto his chest" ) [ emergency_details ] ". I’m in McDonalds." ,
-			"I think my grandad is having a " ( stroke ) [ emergency_details ] ,
-			"someone was just " ( stabbed ) [ emergency_details ] ,
-			"someone was just " ( robbed ) [ emergency_details ] ,
-			"Someone’s been " ( stabbed ) [ emergency_details ] ", she’s " ( bleeding ) [ victim_details ] ", help. She’s " ( unconscious ) [ victim_details ] ,
-			( robbery ) [ emergency_details ] ,
-			( stabbing ) [ emergency_details ] ,
-			"I’m hiding in the bathroom right now, but I can hear him and he’s getting angry." ,
-			"The man who just walked out said that his 6 year old daughter is still in there, we need someone quick." ,
-			( ambulance ) [ service_type ] " please, an old man just " ( "fell to the ground" ) [ emergency_details ] ", he’s " ( "clutching onto his chest" ) [ emergency_details ] ". I’m in McDonalds" ,
-			"I think my grandad is having a " ( stroke ) [ emergency_details ] "." ,
-			"i was " ( stabbed ) [ emergency_details ] ,
-			"I’m near Goody’s chicken shop, near the pedestrian crossing. There’s a big field opposite me." ,
-			"My " ( "husband has been getting very violent" ) [ emergency_details ] " recently and he just " ( "threw a wine bottle" ) [ emergency_details ] " at me. It didn’t hit me but I’m very scared." ,
-			"There’s a " ( fire ) [ emergency_details ] " on " ( "44 Lolands Road" ) [ street_address ] ", " ( "RM15 4ED" ) [ postcode ] ,
-			"An old man just " ( "fell over" ) [ emergency_details ] ", he’s " ( "clutching chest" ) [ emergency_details ] ". I’m McDonalds" ,
-			"An " ( "old man" ) [ victim_details ] " just " ( "fell to the ground" ) [ emergency_details ] ", he’s " ( "clutching onto his chest" ) [ emergency_details ] ". I’m " ( ^in ) [ emergency_details ] " McDonalds." ,
-			"Help, my house is on " ( fire ) [ emergency_details ] ". Address is " ( "5 Horncastle Close" ) [ street_address ] ", " ( Daventry ) [ district ] ( "NN11 0GH" ) [ postcode ] ". Please send help quickly." ,
-			"there are 4 or 5 guys here with guns, please get here quick" ,
-			"can i get the " ( police ) [ service_type ] "? just found my son with some " ( drugs ) [ emergency_details ] " and it\'s not on" ,
-			"just send a couple " ( bobbies ) [ service_type ] " over to teach him a lesson, shouldn\'t be having to but he\'s having a laught to be honest" ,
-			"help! my son is " ( choking ) [ emergency_details ] " on a grape he found and he " ( "can\'t breathe" ) [ victim_details ] ", send a " ( paramedic ) [ service_type ] ,
-			"oh god it\'s huge now!" ,
-			"we need [" ( fire ) [ emergency_details ] "fighters]{\"entity\": \"service_type\", \"value\": \"fire department\"} right now, there\'s a massive fire at " ( "Saddington Road" ) [ street_address ] "!" ,
-			"it\'s spreading across all the houses now, you need to hurry!" ,
-			"someone just barged in and " ( took ) [ emergency_details ] " my purse from me, then " ( "ran away" ) [ emergency_details ] ,
-			"i\'ll be at the house, the guy had dark hair and a scar" ,
-			"i think my brother is having a " ( "drug overdose" ) [ emergency_details ] ,
-			"someone is trying to " ( "break in" ) [ emergency_details ] ,
-			"he has a " ( gun ) [ emergency_details ] ,
-			"someone is having an " ( "alergic reaction" ) [ emergency_details ] ,
-			"there\'s a " ( fire ) [ emergency_details ] " in my house" ,
-			"there\'s lots of smoke" ,
-			"someone has a " ( "broken leg" ) [ emergency_details ] ,
-			"there\'s a " ( fire ) [ emergency_details ] " in the garden" ,
-			"there\'s a " ( fire ) [ emergency_details ] ,
-			( Police ) [ service_type ] " please, someone just " ( robbed ) [ emergency_details ] " me and " ( stabbed ) [ emergency_details ] " my friend" ,
-			"we\'ll stay here at the corner, the guy was wearing a red hat so be careful" ,
-			"please hurry, that sod in the car might get away" ,
-			help ,
-			"someone " ( stole ) [ emergency_details ] " my wallet" ,
-			"no but be careful or that guy will steal your wallets too" ,
-			"there\'s been a " ( shooting ) [ emergency_details ] " at " ( "9 Seven Trees Court" ) [ street_address ] ", I\'m their neighbour. I heard shouting and then " ( gunfire ) [ emergency_details ] ", I think someone is " ( injured ) [ victim_details ] " or even " ( dead ) [ victim_details ] ". The postcode is " ( "PL4 8PQ" ) [ postcode ] " and my name is " ( "Danny Johnson" ) [ name ] ", my number is " ( "07400 554923" ) [ phone_number ] " and you need to send someone please" ,
-			"two people live there, it\'s been really quiet for a while so be careful" ,
-			"i\'m have " ( stroke ) [ emergency_details ] ,
-			"i am " ( stroke ) [ emergency_details ] ,
-			"someone " ( "beat up" ) [ emergency_details ] " my brother" ,
-			"the guy was really tall and ran over to the bridge near us" ,
-			( stabbed ) [ emergency_details ] ,
-			( stabbed ) [ emergency_details ] ( bleeding ) [ victim_details ] ,
-			"could you send the " ( police ) [ service_type ] " please? My shop was " ( "broken into" ) [ emergency_details ] ,
-			"I need assistance. My neighbours in " ( "5 Horncastle Close" ) [ street_address ] " were arguing and I heard a " ( gunshot ) [ emergency_details ] ". My name is " ( Chirs ) [ name ] " and my number is " ( "07443 223424" ) [ phone_number ] ". I think one of them must be " ( dead ) [ victim_details ] ", it\'s really quiet now." ,
-			"i haven\'t heard anything in a while so someone might be waiting for you" ,
-			"i\'m having " ( stroke ) [ emergency_details ] ,
-			"i\'m thinking of " ( "taking my life" ) [ emergency_details ] ,
-			"my brother was just " ( "beat up" ) [ emergency_details ] " by some thugs" ,
-			"he\'s " ( "in pain" ) [ victim_details ] " and " ( "can\'t stand" ) [ victim_details ] ", i think he\'s " ( "broken his leg" ) [ emergency_details ] ,
-			"we\'ll be waiting on the green out front of the houses" ,
-			( police ) [ service_type ] " please, i was " ( robbed ) [ emergency_details ]
-		}
-		parameters :
-			emergency_details ,
-			street_address ,
-			district ,
-			postcode : entity postcode ;
-			victim_details ,
-			service_type ,
-			name ,
-			phone_number : entity phone_number ;
+deny :
+	inputs in en {
+		^no ,
+		n ,
+		never ,
+		"I don\'t think so" ,
+		"don\'t like that" ,
+		"no way" ,
+		"not really"
+}
 
-	describe_victim :
-		inputs in en {
-			"they\'re in " ( shock ) [ victim_details ] ,
-			"they have an " ( "open wound" ) [ victim_details ] ,
-			"someone is " ( ill ) [ victim_details ] ,
-			"I think she’s " ( "still breathing" ) [ victim_details ] ", but she’s " ( "not responding" ) [ victim_details ] " to me, I don’t know who she is." ,
-			"I think she’s " ( "still breathing" ) [ victim_details ] ", but she’s " ( "isn\'t responding" ) [ victim_details ] " to me, I don’t know who she is." ,
-			"He’s " ( "really old" ) [ victim_details ] " and " ( "struggling to breathe" ) [ victim_details ] ". He’s " ( "not bleeding" ) [ victim_details ] " though. I think he has " ( "heart problems" ) [ victim_details ] ". He has a medical alert bracelet." ,
-			"He is " ( "84 years old" ) [ victim_details ] ", and he has " ( dementia ) [ victim_details ] ". He " ( "isn’t talking properly" ) [ victim_details ] " and he " ( "can’t raise his arms up" ) [ victim_details ] ". He is " ( "still breathing" ) [ victim_details ] " though, but he looks like he is " ( "in pain" ) [ victim_details ] ,
-			"I feel like I’m going to " ( "throw up" ) [ victim_details ] " and I have been " ( "feeling very dizzy" ) [ victim_details ] " since around 3pm. I have a history of " ( "heart conditions" ) [ victim_details ] " so I don’t know if that has caused it." ,
-			"I tested positive for " ( "COVID-19" ) [ emergency_details ] " 2 weeks ago and I have been isolating since. However, my symptoms have gotten worse recently. My " ( "chest feels very tight" ) [ victim_details ] " and I’m finding it increasingly " ( "difficult to breathe" ) [ victim_details ] ". I’m also feeling a bit " ( faint ) [ victim_details ] ,
-			"No, I don\'t think so. I don\'t want to touch him. He\'s so " ( pale ) [ victim_details ] ,
-			"She’s got a " ( "nut allergy" ) [ victim_details ] ". It’s my mum. She says she " ( "can’t breathe" ) [ victim_details ] " and her " ( "throat is swelling up" ) [ victim_details ] ,
-			"Yes she’s " ( conscious ) [ victim_details ] ,
-			"Yes, but there’s some " ( blood ) [ victim_details ] " and I’m really worried" ,
-			"I have been feeling " ( "very nauseous" ) [ emergency_details ] " all day and it’s " ( "getting worse" ) [ victim_details ] ". I’m not sure what I should do." ,
-			"They are " ( bleeding ) [ victim_details ] " and " ( unconscious ) [ victim_details ] ,
-			"i feel some " ( dizziness ) [ victim_details ] ,
-			"they\'re " ( bleeding ) [ victim_details ] " quite a lot and " ( "not responding" ) [ victim_details ] ,
-			"I’m not sure, I think she’s in her 50’s. I did see someone in the distance run off, but I couldn’t see them." ,
-			( bleeding ) [ victim_details ] ,
-			"He’s " ( "really old" ) [ victim_details ] " and " ( "struggling to breathe" ) [ victim_details ] ". He’s not bleeding though. I think he has " ( "heart problems" ) [ victim_details ] ". He has a medical alert bracelet." ,
-			"He is " ( "84 years old" ) [ victim_details ] ", and he has " ( dementia ) [ victim_details ] ". He " ( "isn’t talking properly" ) [ victim_details ] " and he " ( "can’t raise his arms up" ) [ victim_details ] ". He is " ( "still breathing" ) [ victim_details ] " though, but he looks like he is " ( "in pain" ) [ victim_details ] "." ,
-			"I don’t think so. What should I do if he stops breathing? He has asthma and he has " ( "difficulty breathing" ) [ victim_details ] " sometimes." ,
-			"I need some advice. I have been feeling very " ( nauseous ) [ emergency_details ] " all day and it’s " ( "getting worse" ) [ victim_details ] ". I’m not sure what I should do." ,
-			"i need an " ( ambulance ) [ service_type ] ", I tested positive for " ( covid ) [ emergency_details ] " 2 weeks ago and I have been isolating since. However, my symptoms have gotten worse recently. My " ( "chest feels tight" ) [ victim_details ] " and I’m finding it increasingly " ( "difficult to breathe" ) [ victim_details ] ". I’m also feeling a bit " ( faint ) [ victim_details ] "." ,
-			"I need an " ( ambulance ) [ service_type ] ", I tested positive for " ( "Covid-19" ) [ emergency_details ] " 2 weeks ago and I have been isolating since. However, my symptoms have gotten worse recently. My " ( "chest feels tight" ) [ victim_details ] " and I’m finding it increasingly " ( "difficult to breathe" ) [ victim_details ] ". I’m also feeling a bit " ( faint ) [ victim_details ] "." ,
-			"I need an " ( ambulance ) [ service_type ] ", I tested positive for " ( coronavirus ) [ emergency_details ] " 2 weeks ago and I have been isolating since. However, my symptoms have gotten worse recently. My " ( "chest feels very tight" ) [ victim_details ] " and I’m finding it increasingly " ( "difficult to breathe" ) [ victim_details ] ". I’m also feeling a bit " ( faint ) [ victim_details ] "." ,
-			"they " ( shot ) [ emergency_details ] " one of the workers here, i think he\'s " ( dead ) [ victim_details ] ,
-			"the guy has a " ( pistol ) [ emergency_details ] " and looks like he\'s going to use it" ,
-			"the man here has a " ( gun ) [ emergency_details ] " and looks like he\'s going to hurt someone" ,
-			"they " ( shot ) [ emergency_details ] " one of the workers here, I think they\'re " ( dead ) [ victim_details ] ,
-			"they " ( shot ) [ emergency_details ] " one of the workers here, I think they might be " ( dead ) [ victim_details ] ,
-			"she\'s " ( crying ) [ victim_details ] " and " ( "in pain" ) [ victim_details ] ", it looks pretty bad" ,
-			"he\'s " ( "acting strange" ) [ victim_details ] ", we\'ve seen the doctor before and think he\'s getting " ( dementia ) [ victim_details ] " but he hasn\'t been like this before" ,
-			"he looks like he\'s " ( "in pain" ) [ victim_details ] " please hurry, i don\'t want him to die!" ,
-			"some have " ( burns ) [ victim_details ] " all over, " ( burnt ) [ victim_details ] " by the " ( fire ) [ emergency_details ] ,
-			"they\'re " ( "seizing up" ) [ victim_details ] " and " ( "not responding" ) [ victim_details ] ,
-			"my partner is " ( dizzy ) [ victim_details ] " but mostly okay, the other car driver is " ( bleeding ) [ victim_details ] " and " ( "can\'t stand up" ) [ victim_details ] ,
-			"they\'re having " ( "difficulty breathing" ) [ victim_details ] ,
-			"they " ( "cannot breathe" ) [ victim_details ] ,
-			"they\'re having " ( "trouble breathing" ) [ victim_details ] ,
-			"they\'re " ( "unable to breathe" ) [ victim_details ] ,
-			"they\'re " ( unconscious ) [ victim_details ] " currently" ,
-			"he\'s " ( bleeding ) [ victim_details ] " a lot" ,
-			"They\'re " ( bleeding ) [ victim_details ] " and say they\'re " ( "in pain" ) [ victim_details ] ", they say they\'re " ( "light-headed" ) [ victim_details ] " too" ,
-			"i think she " ( "broke her leg" ) [ emergency_details ] " and she\'s " ( "freaking out" ) [ victim_details ] ,
-			"i\'m " ( confused ) [ victim_details ] ,
-			"i am " ( confused ) [ victim_details ] " please" ,
-			"they seem to have a " ( concussion ) [ emergency_details ] " and are " ( dazed ) [ victim_details ] ,
-			"my brother " ( "cut themselves" ) [ victim_details ] " really bad" ,
-			"I just " ( "cut myself" ) [ victim_details ] " really bad" ,
-			"there\'s a lot of " ( blood ) [ victim_details ] " and they\'re " ( crying ) [ victim_details ] ,
-			"that\'s it, just a bit annoyed they " ( took ) [ emergency_details ] " so much"
-		}
-		parameters :
-			victim_details ,
-			emergency_details ,
-			service_type : entity text ;
+mood_great :
+	inputs in en {
+		perfect ,
+		great ,
+		amazing ,
+		"feeling like a king" ,
+		wonderful ,
+		"I am feeling very good" ,
+		"I am great" ,
+		"I am amazing" ,
+		"I am going to save the world" ,
+		"super stoked" ,
+		"extremely good" ,
+		"so so perfect" ,
+		"so good" ,
+		"so perfect"
+}
 
-	give_location :
-		inputs in en {
-			"Yes, I live locally, postcode is NG20 8QF, " ( "769 Russell Road" ) [ street_address ] ,
-			"I live at " ( "100 Moulton Road" ) [ street_address ] ", CH7 4LH, please send someone quickly" ,
-			( "Shepherd Market" ) [ street_address ] ", London, W1J 7PA. I’m a regular at this McDonalds but I’ve never seen him before." ,
-			"We are at " ( "16 Stoneygate Drive" ) [ street_address ] ", " ( Hinckley ) [ district ] ", LE10 1TD." ,
-			( "6 Wintergreen Avenue" ) [ street_address ] ", Liverpool. I am by myself at home." ,
-			"I\'m at " ( "12 Charter Road" ) [ street_address ] ", the postcode is " ( "ZZ99 9ZZ" ) [ postcode ] ,
-			"i\'m near the park in " ( Daventry ) [ district ] ,
-			( "4 Horncastle Close" ) [ street_address ] ,
-			( "nn11 0gh" ) [ postcode ] ,
-			"Yes, I live locally, postcode is " ( "NG20 8QF" ) [ postcode ] ", " ( "769 Russell Road" ) [ street_address ] ,
-			"I live at " ( "100 Moulton Road" ) [ street_address ] ", " ( "CH7 4LH" ) [ postcode ] ", please send someone quickly" ,
-			( "44 Lolands Road" ) [ street_address ] ,
-			( "Shepherd Market" ) [ street_address ] ", London, " ( "W1J 7PA" ) [ postcode ] ". I’m a regular at this McDonalds but I’ve never seen him before." ,
-			"We are at " ( "16 Stoneygate Drive" ) [ street_address ] ", " ( Hinckley ) [ district ] ", " ( "LE10 1TD" ) [ postcode ] ". He has been living with our family since 2015. I am his grandson, and my parents are at work." ,
-			"it\'s " ( "L11 1AF" ) [ postcode ] ,
-			( "4 Horncastle Close" ) [ street_address ] ", " ( Daventry ) [ district ] ( "NN11 0GH" ) [ postcode ] "." ,
-			"we\'re at the Tesco in " ( Daventry ) [ district ] ,
-			( "NN11 4BT" ) [ postcode ] ,
-			"we\'re at the park in " ( Kilsby ) [ district ] ,
-			"we\'re at the front of the park near the swingset" ,
-			"we\'re at home, " ( "12 Charter Avenue" ) [ street_address ] ", " ( "CV4 8GE" ) [ postcode ] ,
-			"we\'re at " ( "1 Essen Lane" ) [ street_address ] " in " ( Kilsby ) [ district ] ,
-			"sure, it\'s " ( "CV23 8XQ" ) [ postcode ] ,
-			( "23 Frederick Street" ) [ street_address ] ", " ( "B1 3HR" ) [ postcode ] ,
-			"the postcodes " ( "le12 8th" ) [ postcode ] ,
-			"we\'re at " ( "11 Campbell Avenue" ) [ street_address ] ", postcode is " ( LE48HD ) [ postcode ] " I think" ,
-			"we\'re on " ( "Cold Overton Road" ) [ street_address ] " i think" ,
-			"we\'ve blocked up the road a bit but you should get here okay. the postcode is " ( "LE15 6NU" ) [ postcode ] ,
-			( "4 Snowford Close" ) [ street_address ] ,
-			( "b90 1da" ) [ postcode ] ,
-			"my house is at " ( "48 Ferndale Park" ) [ street_address ] ", " ( "dy9 0rb" ) [ postcode ] ,
-			"we\'re in a field" ,
-			England ,
-			"my house" ,
-			"we\'re on the corner of " ( "Factory Road" ) [ street_address ] ", " ( "LE10 0DS" ) [ postcode ] ,
-			"we\'re on the corner of " ( "Iveston Lane" ) [ street_address ] " now, yeah" ,
-			"I\'m not sure, street address is " ( "Iveston Lane" ) [ street_address ] " though" ,
-			"i\'m at home at " ( "4 Horncastle Close" ) [ street_address ] ", " ( "NN11 0GH" ) [ postcode ] ,
-			"i live at " ( "73 Ramsey Gardens" ) [ street_address ] ,
-			"my postcode for my address is " ( "PL5 3UP" ) [ postcode ] ,
-			"my address is " ( "73 Ramsey Gardens" ) [ street_address ] ,
-			"my postcode for home is " ( "PL5 3UP" ) [ postcode ] ,
-			"I\'m at the " ( Birmingham ) [ district ] " Hotel, room 407" ,
-			"yeah, the floor i\'m on is floor 4" ,
-			"i\'m " ( bleeding ) [ victim_details ] " at " ( "4 Horncastle Close" ) [ street_address ] ,
-			swing ,
-			( "3 Jenner Close" ) [ street_address ] ", " ( Dn357PH ) [ postcode ] ,
-			"my postcode is " ( "DL1 4ET" ) [ postcode ] ,
-			"my street address is " ( "28 Milton Close" ) [ street_address ] ,
-			"fine, I\'m at " ( "4 Speke Street" ) [ street_address ] ", " ( L257TL ) [ postcode ] ,
-			( "NN11 0GH" ) [ postcode ]
-		}
-		parameters :
-			street_address ,
-			district ,
-			postcode : entity postcode ;
-			victim_details : entity text ;
+mood_unhappy :
+	inputs in en {
+		"my day was horrible" ,
+		"I am sad" ,
+		"I don\'t feel very well" ,
+		"I am disappointed" ,
+		"super sad" ,
+		"I\'m so sad" ,
+		sad ,
+		"very sad" ,
+		unhappy ,
+		"not good" ,
+		"not very good" ,
+		"extremly sad" ,
+		"so saad" ,
+		"so sad"
+}
 
-	give_name :
-		inputs in en {
-			"I’m " ( Saranyan ) [ name ] ,
-			"My name is " ( "Kirsty Bridgens" ) [ name ] ", I’m 24" ,
-			"Thanks, " ( "Taikisha Abimbola" ) [ name ] ,
-			"Thank you. My name is " ( "Zhang Wei" ) [ name ] ,
-			"I’ve got " ( "stomach cramps" ) [ victim_details ] " and it’s really painful now. My name is " ( "Francesca Gomez" ) [ name ] ,
-			"Thank you. My name is " ( "Rodriguez Sebastia" ) [ name ] ,
-			"My name is " ( Ben ) [ name ] " and I’m calling from " ( Coventry ) [ district ] ,
-			( "Jack Farmer" ) [ name ] ". My number is " ( "07000000000" ) [ phone_number ] ,
-			( Tom ) [ name ] ,
-			( Jack ) [ name ] ,
-			"I’m " ( Saranyan ) [ name ] "." ,
-			"Thank you. My name is " ( "Zhang Wei" ) [ name ] "." ,
-			"I’ve got " ( "stomach cramps" ) [ victim_details ] " and it’s really painful now. My name is " ( "Francesca Gomez" ) [ name ] "." ,
-			"Thank you. " ( "Thomas Ludlow" ) [ name ] "." ,
-			"Thank you. My name is " ( "Rodriguez Sebastia" ) [ name ] "." ,
-			"my name is " ( "Jack Farmer" ) [ name ] ,
-			( "Jack Farmer" ) [ name ] ". My number is " ( "07427521153" ) [ phone_number ] ,
-			( "Jack Farmer" ) [ name ] ,
-			"it\'s " ( "Judy Harolds" ) [ name ] ,
-			"my name\'s " ( "Ben Abbis" ) [ name ] ,
-			( "Don Hughes" ) [ name ] ,
-			( Julie ) [ name ] ,
-			( "Susie Evans" ) [ name ] ,
-			( "Aaron Hardwick" ) [ name ] ,
-			( "Katie Price" ) [ name ] ,
-			( "Mark Pask" ) [ name ] ,
-			( julie ) [ name ] ,
-			( "Matty Carter" ) [ name ] ,
-			( "Hillary Smith" ) [ name ] ,
-			( alice ) [ name ] ,
-			"my name is " ( alice ) [ name ] ,
-			"my name is " ( Oliver ) [ name ] ,
-			( "Georgia Harris" ) [ name ] ,
-			"my name is " ( Ronald ) [ name ] ,
-			"my name is " ( Jack ) [ name ] ,
-			"my name is " ( "Henry Higgins" ) [ name ] ,
-			( jack ) [ name ] " still" ,
-			( Robert ) [ name ] ,
-			"my name is " ( Alex ) [ name ] ,
-			"my name is " ( Olivia ) [ name ] ,
-			"my name\'s " ( Bobby ) [ district ] " and his is " ( Jason ) [ name ] ,
-			( "Imaginary Lane" ) [ street_address ]
-		}
-		parameters :
-			name ,
-			victim_details ,
-			district ,
-			phone_number : entity phone_number ;
-			street_address : entity text ;
-
-	give_phone_number :
-		inputs in en {
-			( "07000000000" ) [ phone_number ] ,
-			"My number is " ( "07000000000" ) [ phone_number ] ,
-			"Thank you. My number is " ( "07000000000" ) [ phone_number ] ,
-			( "07000 000000" ) [ phone_number ] ,
-			"My number is " ( "07000000000" ) [ phone_number ] "." ,
-			"Thank you. My number is " ( "07000000000" ) [ phone_number ] "." ,
-			( "07000000000" ) [ phone_number ] "." ,
-			( "07427521153" ) [ phone_number ] ,
-			"My number is " ( "07427521153" ) [ phone_number ] ,
-			( "07406 342110" ) [ phone_number ] ,
-			"it\'s " ( "07502 660480" ) [ phone_number ] ,
-			"yeah it\'s " ( "07844 861 433" ) [ phone_number ] ,
-			"my phone number is " ( "07884 249687" ) [ phone_number ] ,
-			( "07123 564 222" ) [ phone_number ] ,
-			"it\'s " ( "07881 112 234" ) [ phone_number ] ,
-			( "07882 481625" ) [ phone_number ] ,
-			( "07823 462 111" ) [ phone_number ] ,
-			"my number is " ( "07112 435 646" ) [ phone_number ] ,
-			( "07888 124 342" ) [ phone_number ] ,
-			"07111111111111 haha" ,
-			"my number is " ( "07401 222112" ) [ phone_number ] ,
-			( "07411848586" ) [ phone_number ] ,
-			( "07443 001002" ) [ phone_number ] ,
-			( "07888 122383" ) [ phone_number ] ,
-			"my number is " ( "07332 434 454" ) [ phone_number ] ,
-			( "07883 334 434" ) [ phone_number ] ,
-			( jack ) [ name ] ", my number is " ( "07444 444444" ) [ phone_number ]
-		}
-		parameters :
-			phone_number : entity phone_number ;
-			name : entity text ;
-
-	answer_yes :
-		inputs in en {
-			Yes ,
-			Y ,
-			Indeed ,
-			"Of course" ,
-			Correct ,
-			Yeah ,
-			"I am" ,
-			"I am now" ,
-			"I think so" ,
-			"i am, yeah" ,
-			"yeah i am" ,
-			"i think so, yeah" ,
-			"i do, yeah" ,
-			"Yeah but I need help here" ,
-			yeah ,
-			"Yes they’ve ran off" ,
-			"i am yeah but he isn\'t" ,
-			eah ,
-			"i am yeah" ,
-			"yeah i\'m at home" ,
-			yes ,
-			"yeah, my family and I are all outside" ,
-			"Yes we will do thanks." ,
-			"yeah we\'re inside now but he\'s in a lot of " ( pain ) [ victim_details ] ", send someone!" ,
-			"I do a bit, yeah" ,
-			"someone here probably does, yeah" ,
-			"she does but she can\'t really do anything right now" ,
-			"don\'t know about my son\'s smackhead friends but yeah he\'s home with me and his mum" ,
-			"i have medical training, yes" ,
-			"yeah I got away from it, but there are people still around" ,
-			"there are some people tending to the " ( burned ) [ victim_details ] " people, yeah" ,
-			"yeah i\'m okay now" ,
-			"yeah we pulled over" ,
-			"i used to be a nurse" ,
-			"my friend does but he can\'t help" ,
-			"yeah, we\'re at the corner of " ( "Iveston Lane" ) [ street_address ] " now" ,
-			"my friend got her leg under the wheel" ,
-			"i guess" ,
-			"i am yeah, i\'m just nextdoor" ,
-			"i do but I can\'t get over there, I don\'t think it\'s safe" ,
-			"yeah my brother" ,
-			"yeah I\'m at the shop and they\'re gone" ,
-			"i do, but it isn\'t safe for me to help"
-		}
-		parameters :
-			victim_details ,
-			street_address : entity text ;
-
-	answer_no :
-		inputs in en {
-			No ,
-			N ,
-			Never ,
-			"I don\'t think so" ,
-			"No way" ,
-			"Not really" ,
-			Nope ,
-			"I am not" ,
-			"I\'m not" ,
-			^no ,
-			"no, that\'s it" ,
-			"No, we are all safe, one of the men was " ( "carrying a knife" ) [ emergency_details ] " and he threatened us with it. He " ( stole ) [ emergency_details ] " from the till and ran away." ,
-			"no I\'m okay" ,
-			"Sorry I don’t want to." ,
-			"i\'d rather not" ,
-			"No, we just need help, quick." ,
-			"no thanks" ,
-			"No, I don’t but I was part of the cadets at school, but that was a long time ago. I’ve forgotten everything" ,
-			"No, I don’t but I was part of the cadets at school, but that was a long time ago. I’ve forgotten everything." ,
-			"No not really. Just come quickly." ,
-			"No, I don’t." ,
-			"i can\'t think what it is right now, sorry" ,
-			"i don\'t" ,
-			"No, that’s all I think" ,
-			"No, I think that’s it." ,
-			"none of us do, no" ,
-			"No, they all ran away." ,
-			"i\'m not, no" ,
-			"Thank you. No, I don’t but I was part of the cadets at school, but that was a long time ago. I’ve forgotten everything." ,
-			"I don’t think so" ,
-			"sorry, i can\'t think of it right now" ,
-			"i do but i can\'t think right now" ,
-			"i don\'t know exactly what it is, sorry. Just near " ( "Horsenden Hill" ) [ street_address ] ,
-			"No that’s it, but please get someone here quickly, thanks." ,
-			"no, we\'re okay" ,
-			"no, I\'m hiding right now but they might find me" ,
-			nah ,
-			"that\'s all, thanks" ,
-			"we don\'t!" ,
-			"you don\'t need that! just hurry!" ,
-			"a bit of a scratch but nothing serious" ,
-			"I\'d rather not say" ,
-			"not sure, I can try and find out" ,
-			"not yet" ,
-			"we don\'t, no" ,
-			"no i\'m still inside" ,
-			"no, but it\'s getting " ( "hard to breath" ) [ victim_details ] ,
-			"i don\'t want to really" ,
-			"i don\'t want to" ,
-			n ,
-			np ,
-			noooooo ,
-			"nah we\'re okay, a little shaken" ,
-			"no, i\'m hiding nextdoor" ,
-			noo ,
-			"not for long" ,
-			"nah not a clue" ,
-			"that\'s all"
-		}
-		parameters :
-			emergency_details ,
-			street_address ,
-			victim_details : entity text ;
-
-	answer_unsure :
-		inputs in en {
-			"I don\'t know" ,
-			Maybe ,
-			"I could be" ,
-			"I\'m not sure" ,
-			Perhaps ,
-			"I might be" ,
-			"I might not be" ,
-			"I\'m unsure" ,
-			"I don\'t really know" ,
-			"might be" ,
-			"I don’t have a clue" ,
-			"i\'m not sure where I am" ,
-			"I don\'t know, wait let me check, I’m in " ( Canley ) [ district ] ", not sure where though" ,
-			"Do I have to?" ,
-			"I don’t know, someone just ran out of the building now and he seems hurt. I will go and ask him if there’s anyone else inside" ,
-			"I don’t know, someone just ran out of the building now and he seems hurt. I will go and ask him if there’s anyone else inside." ,
-			"i\'m not sure" ,
-			"Not that I know of, but there might be." ,
-			"I don\'t know how long he has, please be quick" ,
-			"sorry i don\'t know it" ,
-			"I don\'t know that!" ,
-			"i don\'t know it, and my phone was in my purse" ,
-			"i haven\'t got a clue" ,
-			"i don\'t know it" ,
-			"not that I know of" ,
-			"We ran away but I don\'t know" ,
-			"not a clue" ,
-			"i don\'t know it, sorry" ,
-			"sorry, just know the number from the house we\'re near, not from here"
-		}
-		parameters :
-			district : entity text ;
-
-entities :
-	Regex entity postcode :
-		inputs in en {
-			pattern : "\\b[A-Za-z]{1}[0-9]{1}[A-Za-z]{1}\\s?[0-9]{1}[A-Za-z]{2}\\b"
-			pattern : "\\b[A-Za-z]{1}[0-9]{1}\\s?[0-9]{1}[A-Za-z]{2}\\b"
-			pattern : "\\b[A-Za-z]{1}[0-9]{2}\\s?[0-9]{1}[A-Za-z]{2}\\b"
-			pattern : "\\b[A-Za-z]{2}[0-9]{1}[A-Za-z]{1}\\s?[0-9]{1}[A-Za-z]{2}\\b"
-			pattern : "\\b[A-Za-z]{2}[0-9]{1}\\s?[0-9]{1}[A-Za-z]{2}\\b"
-			pattern : "\\b[A-Za-z]{2}[0-9]{2}\\s?[0-9]{1}[A-Za-z]{2}\\b"
-	}
-	Regex entity phone_number :
-		inputs in en {
-			pattern : "\\b07[0-9]{3}\\s?[0-9]{3}\\s?[0-9]{3}\\b"
-	}
+bot_challenge :
+	inputs in en {
+		"are you a bot?" ,
+		"are you a human?" ,
+		"am I talking to a bot?" ,
+		"am I talking to a human?"
+}
 
 actions :
-	text response utter_ask_form_street_address_text :
+	image response utter_cheer_up_img :
+		URL : "https://i.imgur.com/nGF1K8f.jpg"
+		caption : "Here is something to cheer you up:"
+	text response utter_happy_text :
 		inputs in en {
-			"Could you please provide the street address for the {service_type_string}?" ,
-			"Do you know the street address so I can notify the {service_type_string}?" ,
-			"Are you able to tell me the street address so I can forward it to the {service_type_string}?"
+			"Great, carry on!"
 	}
-	text response utter_ask_form_phone_number_text :
+	text response utter_greet_text :
 		inputs in en {
-			"Can you please provide your phone number should the {service_type_string} need to contact you over the phone?" ,
-			"Okay, would you mind giving me your phone number to forward to the {service_type_string}?" ,
-			"Alright, if possible, could you give me your phone number so my team can get in contact with you?"
+			"Hey! How are you?"
 	}
-	text response utter_ask_is_safe_text :
+	text response utter_did_that_help_text :
 		inputs in en {
-			"Are you safe?" ,
-			"Are you currently in a safe location?" ,
-			"Is the situation safe now?"
+			"Did that help you?"
 	}
-	text response utter_ask_extra_details_text :
+	text response utter_iamabot_text :
 		inputs in en {
-			"Alright, do you think there\'s anything else the {service_type_string} should know before getting there?" ,
-			"Do you have any extra details on the situation that you think could be helpful?" ,
-			"Okay, is there anything else the {service_type_string} should know before they arrive?"
+			"I am a bot, powered by Rasa."
 	}
-	text response utter_finish_text :
+	text response utter_goodbye_text :
 		inputs in en {
-			"Help is on the way, please stay safe and wait for the professionals to arrive" ,
-			"Okay, help is coming, please stay safe, the {service_type_string} are on their way" ,
-			"Alright, I\'ve passed everything onto a human now, please stay safe and wait for the {service_type_string}" ,
-			"Thanks, the {service_type_string} will be there soon. Stay safe"
+			Bye
 	}
-	text response utter_introduce_text :
-		inputs in en {
-			"I\'m Whitehall, the emergency service chatbot" ,
-			"My name is Whitehall, the emergency service chatbot"
-	}
-	text response utter_ask_victim_details_text :
-		inputs in en {
-			"What state is the victim in?" ,
-			"Can you describe how the victim is doing?" ,
-			"Can you give me more details on the victim please?" ,
-			"Could you tell me more about the victim please?"
-	}
-	empty response utter_unsure_empty
-	empty response action_save_service_info_empty
-	empty response utter_ask_phone_number_empty
-	text response utter_ask_street_address_text :
-		inputs in en {
-			"Can you please provide the street address?"
-	}
-	empty response utter_ask_name_empty
-	text response utter_ask_service_type_text :
-		inputs in en {
-			"Can you please provide the emergency service that you require" ,
-			"What emergency service do you require?" ,
-			"Who\'s services do you require?"
-	}
-	empty response action_manage_first_aid_empty
-	text response utter_ask_location_description_text :
-		inputs in en {
-			"Can you give a description of where you are so the {service_type_string} can help get to you?" ,
-			"Could you tell me about your surrounding so I can pass it onto the {service_type_string}?"
-	}
-	text response utter_ask_emergency_details_text :
-		inputs in en {
-			"Can you please describe the details of your emergency?" ,
-			"What is the nature of your emergency?" ,
-			"Could you describe the nature of the emergency please?"
-	}
-	empty response action_generate_report_empty
-	text response utter_ask_any_injured_text :
-		inputs in en {
-			"Is anyone injured?" ,
-			"Is anybody injured?" ,
-			"Has anybody been injured?" ,
-			"Do you require any paramedics?" ,
-			"Has anyone been injured?"
-	}
-	text response utter_ask_form_name_text :
-		inputs in en {
-			"Can you tell me your name please?" ,
-			"Could you please give me your name so the {service_type_string} will be more informed when they arrive please?" ,
-			"Would you be okay giving me your name? The {service_type_string} may need to know more about you"
-	}
-	empty response validate_wrapup_form_empty
-	empty response action_save_wrapup_info_empty
-	empty response action_init_slots_empty
-	empty response validate_service_form_empty
-	text response utter_ask_first_aid_text :
-		inputs in en {
-			"Do you or anyone near you have experience with first aid?" ,
-			"Does anyone there have any first aid knowledge?" ,
-			"Is there someone there with any experience with first aid?" ,
-			"Do you know anyone there who could provide first aid?"
-	}
-	text response utter_default_text :
-		inputs in en {
-			"I\'m sorry, I didn\'t quite find an answer in your response, could you please rephrase?" ,
-			"Sorry, I didn\'t quite understand that, could you please rephrase?" ,
-			"Sorry, could you rephrase? I\'m not sure what you mean" ,
-			"I\'m afraid I don\'t understand, could you try rephrasing please?"
-	}
-	text response utter_ask_form_postcode_text :
-		inputs in en {
-			"Do you know the postcode to {street_address}" ,
-			"Could you tell me the postcode for {street_address}" ,
-			"Do you know the postcode to {street_address} to help the {service_type_string} get there?" ,
-			"Could you tell me the postcode for {street_address} to help the {service_type_string} get there?"
-	}
-	text response utter_dispatch_text :
-		inputs in en {
-			"Okay, I\'ve notified the {service_type_string} and they\'re on their way" ,
-			"The {service_type_string} have been dispatched and will be with you shortly" ,
-			"Alright, I\'ve sent everything to the {service_type_string} and they\'ve been dispatched. They\'ll be with you shortly" ,
-			"The {service_type_string} are on their way, they\'ll be with you soon"
-	}
-	empty response service_form_empty
-	empty response wrapup_form_empty
 	empty response DefaultEmptyAction
 
 flows :
-	- user start_form => chatbot DefaultEmptyAction => user describe_emergency => chatbot DefaultEmptyAction ;
+	- user goodbye => chatbot DefaultEmptyAction ;
+	- user bot_challenge => chatbot DefaultEmptyAction ;
+	- user greet => chatbot DefaultEmptyAction {
+		=> user mood_great => chatbot DefaultEmptyAction ;
+		=> user mood_unhappy => chatbot DefaultEmptyAction {
+			=> user affirm => chatbot DefaultEmptyAction ;
+			=> user deny => chatbot DefaultEmptyAction ;
+		} ;
+	} ;
 

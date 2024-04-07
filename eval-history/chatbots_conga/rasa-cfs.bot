@@ -1,4 +1,4 @@
-Chatbot commit_0_f9b5f1c78480ff32c604c7515cec8ba8d1186cfb language : en
+Chatbot commit_73_9392383b50f7751db65c97aef905e8cd38306497 language : en
 
 intents :
 
@@ -16,13 +16,7 @@ greet :
 		"hey dude" ,
 		goodmorning ,
 		goodevening ,
-		"good afternoon" ,
-		help ,
-		"hi!" ,
-		ahoy ,
-		"hello!" ,
-		"hi!!" ,
-		hiiii
+		"good afternoon"
 }
 
 goodbye :
@@ -37,9 +31,7 @@ goodbye :
 		"have a nice day" ,
 		"see you around" ,
 		"bye bye" ,
-		"see you later" ,
-		"you too" ,
-		"you too!"
+		"see you later"
 }
 
 affirm :
@@ -51,10 +43,7 @@ affirm :
 		"that sounds good" ,
 		correct ,
 		yeah ,
-		perfect ,
-		ok ,
-		"yay!!" ,
-		"yay!"
+		perfect
 }
 
 deny :
@@ -68,53 +57,19 @@ deny :
 		"not really" ,
 		"that doesn\'t help" ,
 		"i don\'t think so" ,
-		nope ,
-		eh ,
-		"you can\'t"
-}
-
-request_help :
-	inputs in en {
-		help ,
-		"help me" ,
-		"need help" ,
-		"i need help" ,
-		"can you help me" ,
-		"can you help me with something" ,
-		"pls help" ,
-		halp ,
-		"i need halp" ,
-		"help??" ,
-		helpp
-}
-
-request_human :
-	inputs in en {
-		"can I talk to a person" ,
-		"can I contact someone" ,
-		"can I speak to someone" ,
-		"can I speak to a human" ,
-		human ,
-		"bring me a human please" ,
-		"i want to talk to a human" ,
-		"can i contact someone" ,
-		"how do i contact a human"
+		nope
 }
 
 no_more_help :
 	inputs in en {
+		"that\'s it, thanks!" ,
 		"I don\'t need any more help" ,
 		"that\'s it for me today" ,
 		"nothing else" ,
-		"I don\'t need help" ,
-		"no help needed" ,
-		"i dont need anymore help" ,
-		"no more" ,
-		"thats it" ,
-		nevermind
+		"thanks for your help"
 }
 
-thank_you :
+thank :
 	inputs in en {
 		"thank you!" ,
 		thanks ,
@@ -122,9 +77,7 @@ thank_you :
 		"Ty!" ,
 		"ok thanks" ,
 		tyvm ,
-		"Thank you very much!" ,
-		"thanks for your help!" ,
-		"that helped a lot, thanks!"
+		"Thank you very much!"
 }
 
 mood_great :
@@ -142,15 +95,7 @@ mood_great :
 		"extremely good" ,
 		"so so perfect" ,
 		"so good" ,
-		"so perfect" ,
-		"I\'m so happy!" ,
-		":D" ,
-		"feelin awesome today" ,
-		"woohoo!!" ,
-		"woohoo!!!!!!!" ,
-		"woohoo!!!" ,
-		"woohoo!" ,
-		wooohoooo
+		"so perfect"
 }
 
 mood_unhappy :
@@ -168,8 +113,7 @@ mood_unhappy :
 		"not very good" ,
 		"extremly sad" ,
 		"so saad" ,
-		"so sad" ,
-		":(("
+		"so sad"
 }
 
 bot_challenge :
@@ -177,8 +121,7 @@ bot_challenge :
 		"are you a bot?" ,
 		"are you a human?" ,
 		"am I talking to a bot?" ,
-		"am I talking to a human?" ,
-		"r u human"
+		"am I talking to a human?"
 }
 
 search_library :
@@ -282,6 +225,7 @@ search_library :
 		"how do I test for semen?" ,
 		"limitations of acid phosphatase test" ,
 		"ap test" ,
+		"p30 test" ,
 		"psa test" ,
 		"limitations of PSA test" ,
 		"limitations of p30 test" ,
@@ -324,6 +268,8 @@ search_library :
 		"missing persons search request" ,
 		DRS ,
 		"direct reference samples" ,
+		CODIS ,
+		"deletion of dna profiles" ,
 		"communication of databank hits" ,
 		"confirming coi hits" ,
 		"adventitious hits" ,
@@ -344,111 +290,32 @@ search_library :
 		allele ,
 		amelogenin ,
 		"autosomal str analysis" ,
+		CODIS ,
 		"differential extraction" ,
 		"epithelial fraction" ,
 		genotype ,
 		haplotype ,
 		"multiplex systems" ,
 		"not suitable for comparison" ,
-		"population databases" ,
-		"dna databank" ,
-		"dna type test methods" ,
-		"dna databnk" ,
-		submission ,
-		databank ,
-		"hair test" ,
-		"how do i do a dna test" ,
-		"new submissions" ,
-		"submit DNA test" ,
-		"dna test" ,
-		dna ,
-		"test for semen" ,
-		"test for hair" ,
-		semen ,
-		"what is dna databank" ,
-		"what is probabilistic genotyping" ,
-		"how does strmix work" ,
-		"what are the steps to using strmix" ,
-		"what is strmix" ,
-		"what is dna?" ,
-		gun ,
-		phenolthaln ,
-		"how do i test for semen" ,
-		"dna database" ,
-		database ,
-		"how to study hair" ,
-		"how does dna work"
-}
-
-insult :
-	inputs in en {
-		"ur dumb" ,
-		"you are so stupid" ,
-		"I hate u" ,
-		"f u" ,
-		"I hate u so much" ,
-		"you are stupid" ,
-		"why are you so stupid" ,
-		"you are dumb"
-}
-
-give_feedback :
-	inputs in en {
-		"that wasn\'t what i wanted" ,
-		"this and that" ,
-		"can you improve on \"this and that\""
-}
-
-confused :
-	inputs in en {
-		WTF ,
-		WHY
+		"population databases"
 }
 
 actions :
+	empty response action_search_library_empty
 	image response utter_cheer_up_img :
 		URL : "https://i.imgur.com/nGF1K8f.jpg"
 		caption : "Here is something to cheer you up:"
+	text response utter_happy_text :
+		inputs in en {
+			"Great!"
+	}
 	text response utter_greet_text :
 		inputs in en {
-			"Hello! How can I help you? 😊"
+			"Hey! How are you?"
 	}
 	text response utter_did_that_help_text :
 		inputs in en {
 			"Did that help you?"
-	}
-	text response utter_speak_to_human_text :
-		inputs in en {
-			"Would you like to speak to a human assistant?"
-	}
-	text response utter_goodbye_text :
-		inputs in en {
-			"Alright, thank you for your time. Have a great day! 😊"
-	}
-	text response utter_request_feedback_text :
-		inputs in en {
-			"How can I improve?"
-	}
-	text response utter_ask_howcanhelp_text :
-		inputs in en {
-			"How can I help you?"
-	}
-	empty response action_search_library_empty
-	text response utter_sorry_text :
-		inputs in en {
-			"Sorry, my bad."
-	}
-	text response utter_specify_further_text :
-		inputs in en {
-			"Could you please rephrase your query? It helps to elaborate and be specific! 🙂"
-	}
-	text response utter_thank_you_for_feedback_text :
-		inputs in en {
-			"Thank you! We will take your feedback into consideration."
-	}
-	text response utter_happy_text :
-		inputs in en {
-			"Great! 😄"
 	}
 	text response utter_ask_howelsecanhelp_text :
 		inputs in en {
@@ -456,31 +323,21 @@ actions :
 	}
 	text response utter_iamabot_text :
 		inputs in en {
-			"I am a bot, powered by Rasa. 🤖"
+			"I am a bot, powered by Rasa."
 	}
-	text response utter_request_human_text :
+	text response utter_ask_howcanhelp_text :
 		inputs in en {
-			"You have requested a human. We are working on that functionality and it will be available soon!"
+			"How can I help you?"
+	}
+	text response utter_goodbye_text :
+		inputs in en {
+			"Alright, thank you for your time. Have a great day!"
 	}
 	empty response DefaultEmptyAction
 
 flows :
-	- user greet => chatbot utter_greet_text , DefaultEmptyAction => user search_library => chatbot action_search_library_empty { => user deny => chatbot utter_sorry_text => user search_library => chatbot action_search_library_empty => user deny => chatbot utter_sorry_text => user goodbye => chatbot utter_goodbye_text ; => user affirm => chatbot utter_happy_text => user give_feedback => chatbot utter_thank_you_for_feedback_text , utter_ask_howelsecanhelp_text ; } ;
+	- user greet => chatbot utter_greet_text , DefaultEmptyAction => user search_library => chatbot action_search_library_empty => user affirm => chatbot utter_happy_text => user no_more_help => chatbot utter_goodbye_text ;
 	- user goodbye => chatbot utter_goodbye_text ;
 	- user bot_challenge => chatbot utter_iamabot_text ;
-	- user request_human => chatbot utter_request_human_text ;
-	- user request_help => chatbot utter_ask_howcanhelp_text ;
-	- user affirm ;
-	- user thank_you ;
-	- user deny => chatbot utter_sorry_text => user search_library => chatbot action_search_library_empty { => user affirm ; => user thank_you ; => user deny => chatbot DefaultEmptyAction => user affirm => chatbot utter_request_human_text , utter_goodbye_text ; } ;
-	- user no_more_help => chatbot utter_goodbye_text ;
-	- user search_library => chatbot action_search_library_empty => user deny => chatbot utter_sorry_text => user search_library => chatbot action_search_library_empty => user affirm => chatbot utter_happy_text => user no_more_help => chatbot utter_goodbye_text ;
-	- user insult => chatbot utter_sorry_text , utter_request_feedback_text {
-		=> user insult => chatbot utter_sorry_text => user insult => chatbot utter_sorry_text => user insult => chatbot utter_sorry_text , utter_request_feedback_text ;
-		=> user give_feedback => chatbot utter_thank_you_for_feedback_text => user goodbye => chatbot utter_goodbye_text ;
-	} ;
-	- user give_feedback => chatbot utter_thank_you_for_feedback_text ;
-	- user mood_great => chatbot utter_happy_text , utter_ask_howcanhelp_text ;
-	- user mood_unhappy => chatbot utter_cheer_up_img , utter_ask_howcanhelp_text ;
-	- user confused => chatbot utter_ask_howcanhelp_text ;
+	- user search_library => chatbot action_search_library_empty ;
 
