@@ -1,0 +1,3115 @@
+Chatbot commit_0_458f1a58ec64df012c975cd0c093183bd703dc35 language : en
+
+intents :
+
+greet :
+	inputs in en {
+		hey ,
+		hello ,
+		^hi ,
+		"hello there" ,
+		moin ,
+		"hey there" ,
+		"let\'s go" ,
+		"hey dude" ,
+		Hi ,
+		Hey ,
+		"Hi bot" ,
+		"Hey bot" ,
+		Hello ,
+		"hi again" ,
+		"hi folks" ,
+		"hi Mister" ,
+		"hi pal!" ,
+		"hi there" ,
+		greetings ,
+		"hello everybody" ,
+		"hello is anybody there" ,
+		"hello robot" ,
+		hallo ,
+		heeey ,
+		"hi hi" ,
+		"hey hey" ,
+		yo ,
+		hola ,
+		"hi?" ,
+		"hey bot!" ,
+		"hello friend" ,
+		Morning ,
+		Howdy ,
+		"What’s up" ,
+		sup ,
+		"hey friend" ,
+		bonjour ,
+		"long time no see" ,
+		howdy ,
+		"I greet you" ,
+		"hello again" ,
+		"just going to say hi" ,
+		"a good day" ,
+		afternoon ,
+		"hello hi" ,
+		heya ,
+		"hey man" ,
+		"hey buddy" ,
+		oka ,
+		"yo man"
+}
+
+goodbye :
+	inputs in en {
+		cu ,
+		cya ,
+		"good by" ,
+		"cee you later" ,
+		"good night" ,
+		bye ,
+		goodbye ,
+		"have a nice day" ,
+		"see you around" ,
+		"bye bye" ,
+		"see you later" ,
+		adios ,
+		"talk to you later" ,
+		"got to go" ,
+		"catch you later" ,
+		"gotta go" ,
+		"see you next time" ,
+		"I must be going" ,
+		farewell ,
+		"bye for now" ,
+		"okay see you later" ,
+		"hope to see you later" ,
+		"till next time" ,
+		"I must go" ,
+		"see you" ,
+		"see you soon" ,
+		"bye-bye" ,
+		"bye bye good night" ,
+		"good bye" ,
+		"bye bye see you" ,
+		"bye bye see you soon" ,
+		"bye bye take care" ,
+		"I said bye" ,
+		"never mind bye" ,
+		"now bye" ,
+		"that\'s all goodbye" ,
+		"that\'s it goodbye" ,
+		"leave me alone" ,
+		"go to bed" ,
+		"goodbye for now" ,
+		"you can go now" ,
+		"get lost" ,
+		"goodbye see you later" ,
+		"alright bye" ,
+		"see ya" ,
+		"thanks bye bye" ,
+		"okay bye" ,
+		"okay thank you bye" ,
+		"see you tomorrow" ,
+		"ok bye" ,
+		"c u" ,
+		byee
+}
+
+affirm :
+	inputs in en {
+		yes ,
+		y ,
+		indeed ,
+		"of course" ,
+		"that sounds good" ,
+		correct ,
+		"yeah a cheap restaurant serving international cuisine" ,
+		ye ,
+		"uh yes" ,
+		"let\'s do it" ,
+		yeah ,
+		"um yes" ,
+		"yes knocking" ,
+		"that\'s correct" ,
+		"yes yes" ,
+		right ,
+		yea ,
+		"yes right" ,
+		"yes and i dont care" ,
+		"right on" ,
+		"i love that" ,
+		yup ,
+		"thats great" ,
+		ya ,
+		sure ,
+		ok ,
+		okhie ,
+		k ,
+		alright ,
+		"sounds good" ,
+		"sure thing" ,
+		fine ,
+		ohk ,
+		okay ,
+		yep ,
+		"so cool" ,
+		cool ,
+		"that is good" ,
+		"glad to hear that" ,
+		"that\'s very nice of you" ,
+		terrific ,
+		"it\'s amazing" ,
+		"that\'s awesome" ,
+		perfect ,
+		excellent ,
+		brilliant ,
+		"that\'s great" ,
+		"it\'s good" ,
+		"it\'s great" ,
+		good ,
+		nice ,
+		"that\'s fine" ,
+		"very good" ,
+		amazing ,
+		fantastic ,
+		great ,
+		"good very good" ,
+		"that\'s very good" ,
+		"really good" ,
+		"it is fine" ,
+		"it is good" ,
+		"it\'s perfect" ,
+		"much better" ,
+		"not bad" ,
+		"not too bad" ,
+		"it\'s very good" ,
+		marvelous ,
+		"that\'s nice" ,
+		pleasant ,
+		"pretty good" ,
+		"really nice" ,
+		splendid ,
+		straight ,
+		super ,
+		"super fantastic" ,
+		sweet ,
+		"really well" ,
+		"very well" ,
+		"very nice" ,
+		"very then" ,
+		wonderful ,
+		"I\'m glad to hear that" ,
+		"ok good" ,
+		"it was good" ,
+		"oh well" ,
+		"good thing" ,
+		"that was good" ,
+		"it\'s awesome" ,
+		"okay good" ,
+		"it\'s fine" ,
+		"no it\'s okay" ,
+		"yeah exactly" ,
+		"okay that\'s fine" ,
+		"I agree" ,
+		"that is ok" ,
+		"I guess" ,
+		okey ,
+		"ok yes" ,
+		"yes it is" ,
+		yew ,
+		"yeah fine" ,
+		"yea fine" ,
+		"yep okay" ,
+		"fine okay" ,
+		YEAH ,
+		"okay buddy" ,
+		"oh okay" ,
+		"yeah sure" ,
+		"okay cool" ,
+		coool
+}
+
+deny :
+	inputs in en {
+		^no ,
+		n ,
+		never ,
+		"I don\'t think so" ,
+		"don\'t like that" ,
+		"no way" ,
+		"not really" ,
+		"no new selection" ,
+		"no thanks" ,
+		"no thank you" ,
+		"uh no" ,
+		"breath no" ,
+		"do you have something else" ,
+		"no this does not work for me" ,
+		nope ,
+		nah ,
+		"unfortunately not" ,
+		"doesnt work for me" ,
+		"doesnt work" ,
+		"certainly not" ,
+		"I think not" ,
+		"by no means" ,
+		"not possible" ,
+		"don\'t" ,
+		"don\'t want" ,
+		"need not" ,
+		"don\'t come" ,
+		"never help" ,
+		"not needed" ,
+		"of course not" ,
+		"not at this time" ,
+		"not exactly" ,
+		"absolutely no" ,
+		"no forget" ,
+		"do not" ,
+		"no don\'t want" ,
+		"sorry no"
+}
+
+mood_great :
+	inputs in en {
+		perfect ,
+		great ,
+		amazing ,
+		"feeling like a king" ,
+		wonderful ,
+		"I am feeling very good" ,
+		"I am great" ,
+		"I am amazing" ,
+		"I am going to save the world" ,
+		"super stoked" ,
+		"extremely good" ,
+		"so so perfect" ,
+		"so good" ,
+		"so perfect" ,
+		nice ,
+		happy ,
+		excited ,
+		superb ,
+		"I am excited" ,
+		"I am happy" ,
+		joyful ,
+		"I am good" ,
+		"I\'m doing just great" ,
+		"I\'m doing fine" ,
+		"I\'m good" ,
+		"I\'m doing good" ,
+		"I\'m great thanks" ,
+		"I\'m super good" ,
+		"I\'m feeling great" ,
+		"I\'m in a good mood" ,
+		"I\'m doing really good" ,
+		good ,
+		"It\'s good" ,
+		"I feel good" ,
+		"That\'s good" ,
+		"That feels good" ,
+		"I feel very good" ,
+		"i am pretty good" ,
+		"I feel good today" ,
+		"I am really good" ,
+		"Feeling happy" ,
+		"I\'m happy to see you" ,
+		"if you\'re happy then I\'m happy" ,
+		"you made me very happy" ,
+		"I\'m glad to see you" ,
+		"I\'m happy to talk to you" ,
+		"I was the happiest man on earth" ,
+		"I\'m just really happy right now" ,
+		"I\'m really happy I ran into you" ,
+		"I feel happiest when I\'m chatting with u" ,
+		"Nobody but you can make me happy" ,
+		"Whenever I see you, I feel happy" ,
+		"ur smile always makes me happy" ,
+		"i feel happy" ,
+		"i was so happy"
+}
+
+mood_unhappy :
+	inputs in en {
+		"my day was horrible" ,
+		"I am sad" ,
+		"I don\'t feel very well" ,
+		"I am disappointed" ,
+		"super sad" ,
+		"I\'m so sad" ,
+		sad ,
+		"very sad" ,
+		unhappy ,
+		"not good" ,
+		"not very good" ,
+		"extremly sad" ,
+		"so saad" ,
+		"so sad" ,
+		"feeling low" ,
+		"fed up" ,
+		"not great" ,
+		"I am fed up" ,
+		"I\'m in a sad mood" ,
+		"I\'m grieving" ,
+		"I am depressed" ,
+		"I am feeling sad" ,
+		"I am upset" ,
+		"I\'m unhappy" ,
+		"I\'m having a bad day" ,
+		"I want to cry" ,
+		"I\'m not happy" ,
+		"feeling sad" ,
+		"I felt sad for no reason" ,
+		"Now I\'m sad" ,
+		"It makes me sad" ,
+		"I am sad to hear it" ,
+		"I am a very sad person" ,
+		"I feel sad every now and then" ,
+		"I am as sad and lonely as can be" ,
+		"feeling so down" ,
+		"i am not in a good mood"
+}
+
+bot_challenge :
+	inputs in en {
+		"are you a bot?" ,
+		"are you a human?" ,
+		"am I talking to a bot?" ,
+		"am I talking to a human?" ,
+		"you r real" ,
+		"you are not fake" ,
+		"are u real" ,
+		"you are so real" ,
+		"I think you are real" ,
+		"I don\'t think you\'re fake" ,
+		"I suppose you\'re real" ,
+		"glad you\'re real" ,
+		"r you a real person?" ,
+		"are u a real human?" ,
+		"you are a real person" ,
+		"you are not real" ,
+		"are you real?" ,
+		"u are chatbot" ,
+		"you r a bot" ,
+		"are u a chatbot" ,
+		"are you a bot" ,
+		"r you just a bot" ,
+		"are you a robot" ,
+		"r u a program" ,
+		"you\'re a robot" ,
+		"you\'re an AI" ,
+		"are you artificially intelligent?" ,
+		"are you an AI?" ,
+		"you are a program" ,
+		"u are just a bot" ,
+		"you r a conversational AI" ,
+		"who the hell are you?" ,
+		"what are you" ,
+		"talk about yourself" ,
+		"tell me some stuff about you" ,
+		"talk some stuff about yourself" ,
+		"I want to know you better" ,
+		"I want to know more about you" ,
+		"who are you" ,
+		"tell me about yourself" ,
+		"tell me about you" ,
+		"about yourself" ,
+		"describe yourself" ,
+		"introduce yourself" ,
+		"say about you" ,
+		"define yourself" ,
+		"all about you"
+}
+
+request_restaurant :
+	inputs in en {
+		"im looking for a restaurant" ,
+		"can i get " ( "north indian" ) [ cuisine ] " cuisine in any area" ,
+		"a restaurant that serves " ( "south indian" ) [ cuisine ] " cuisine" ,
+		"id like a restaurant" ,
+		"im looking for a restaurant that serves " ( rotis ) [ cuisine ] ,
+		"can i find a restaurant that serves " ( naan ) [ cuisine ] ,
+		"i am looking for any place that serves " ( "rice items" ) [ cuisine ] " for three" ,
+		"i need to find a restaurant" ,
+		"uh im looking for a restaurant that serves " ( "south indian" ) [ cuisine ] " cuisine" ,
+		"uh can i find a restaurant and it should serve " ( italian ) [ cuisine ] " cuisine" ,
+		"im looking for a restaurant serving " ( italian ) [ cuisine ] " cuisine" ,
+		"restaurant please" ,
+		"i\'d like to book a table for two with " ( mexican ) [ cuisine ] " cuisine" ,
+		"i need a table for 4" ,
+		"book me a table for three at the " ( panjabi ) [ cuisine ] " restaurant" ,
+		"can you please book a table for 5?" ,
+		"I would like to book a table for 2" ,
+		"looking for a table at the " ( rajisthani ) [ cuisine ] " restaurant for five" ,
+		"find me a table for 7 people" ,
+		"Can I get a table for four at the place which serves " ( continental ) [ cuisine ] " cuisine?" ,
+		"i want to book a restaurant" ,
+		"restaurant booking" ,
+		"restaurant pls" ,
+		"book restaurant" ,
+		"where can i get good food." ,
+		"tell me a place to get great food." ,
+		"where can i find some good food?" ,
+		"where can i find tasty food?"
+	}
+	parameters :
+		cuisine : entity text ;
+
+cuisineIntent :
+	inputs in en {
+		"where can I get " ( cuisine ) [ cuisine ] ,
+		"where can I get " ( dinner ) [ cuisine ] ,
+		"suggest me a good place for a tasty " ( lunch ) [ cuisine ] ,
+		"im hungry, where can I get some " ( "north indian cuisine" ) [ cuisine ] ,
+		"im hungry, where can I get some " ( "south indian cuisine" ) [ cuisine ] ,
+		"whats the best " ( restaurant ) [ cuisine ] " here?"
+	}
+	parameters :
+		cuisine : entity text ;
+
+snacks :
+	inputs in en {
+		"where can I get " ( chips ) [ snacks ] ,
+		"where can I get " ( "ice cream" ) [ snacks ] ,
+		"suggest me a good place for a " ( snack ) [ snacks ] ,
+		"im hungry, where can I get some " ( snacks ) [ snacks ] ,
+		"whats the best " ( "fast cuisine place" ) [ snacks ] " here?" ,
+		"whats the best " ( restaurant ) [ snacks ] " here?" ,
+		"where can I get " ( "vada pav" ) [ snacks ] ,
+		"where can I get " ( chaat ) [ snacks ] " items?" ,
+		"where can i get something to eat." ,
+		"I need to get some " ( snacks ) [ snacks ] ", where should i go?" ,
+		"where can i get something light to eat."
+	}
+	parameters :
+		snacks : entity text ;
+
+Main_Building :
+	inputs in en {
+		"where can I get my " ( Transcripts ) [ Main_Building ] ,
+		"where is the " ( "academic section" ) [ Main_Building ] "?" ,
+		"where can I apply for the " ( "CSAB special round" ) [ Main_Building ] "?" ,
+		"where can I apply for " ( "branch change" ) [ Main_Building ] "?" ,
+		"where can I get my " ( "hostel refund" ) [ Main_Building ] "?" ,
+		"where can i get my " ( marksheet ) [ Main_Building ] "?" ,
+		"I need my " ( "Grade card" ) [ Main_Building ] ", where should I head to?"
+	}
+	parameters :
+		Main_Building : entity text ;
+
+Printing :
+	inputs in en {
+		"where can I get a " ( printout ) [ Printing ] "?" ,
+		"where can I get a " ( "scanned copy" ) [ Printing ] " of a pdf file?" ,
+		"where can I get a " ( "color printout" ) [ Printing ] "?" ,
+		"Is there a place where i can get " ( printing ) [ Printing ] " done?" ,
+		"I got to " ( print ) [ Printing ] " something, where should I go?" ,
+		"where can I get my photographs " ( printed ) [ Printing ] "?"
+	}
+	parameters :
+		Printing : entity text ;
+
+Delivery :
+	inputs in en {
+		"where can I get my " ( "Amazon delivery" ) [ Delivery ] "?" ,
+		"where can I get my " ( "Amazon deliveries" ) [ Delivery ] "?" ,
+		"where can I get my " ( "Flipkart delivery" ) [ Delivery ] "?" ,
+		"where can I get my " ( "Flipkart deliveries" ) [ Delivery ] "?" ,
+		"where do I go to collect my " ( "Amazon delivery" ) [ Delivery ] "?" ,
+		"where do I go to collect my " ( "Flipkart delivery" ) [ Delivery ] "?" ,
+		"where do I go to collect my " ( "Flipkart deliveries" ) [ Delivery ] "?" ,
+		"where can I pick up my " ( delivery ) [ Delivery ] " from?" ,
+		"where can I pick up my " ( deliveries ) [ Delivery ] " from?" ,
+		"where does " ( "Amazon deliver" ) [ Delivery ] " my orders." ,
+		"where does " ( "Flipkart deliver" ) [ Delivery ] " my orders."
+	}
+	parameters :
+		Delivery : entity text ;
+
+Health_Care_Centre :
+	inputs in en {
+		"where can I get " ( medicines ) [ Health_Care_Centre ] "?" ,
+		"where can I get a " ( "health checkup" ) [ Health_Care_Centre ] "?" ,
+		"where can I get a " ( checkup ) [ Health_Care_Centre ] "?" ,
+		"where should I go for a " ( "routine checkup" ) [ Health_Care_Centre ] "?" ,
+		"Is there a " ( hospital ) [ Health_Care_Centre ] " nearby?" ,
+		"I am " ( "not feeling well" ) [ Health_Care_Centre ] "." ,
+		"Where can I find a " ( psychiatrist ) [ Health_Care_Centre ] "?" ,
+		"I am " ( "feeling sick" ) [ Health_Care_Centre ] "." ,
+		"I am " ( sick ) [ Health_Care_Centre ] "." ,
+		"where can I go for any " ( "medical emergency" ) [ Health_Care_Centre ] "?" ,
+		"where can I get a " ( doctor ) [ Health_Care_Centre ] "?" ,
+		"Where can I find a " ( dermatologist ) [ Health_Care_Centre ] "?" ,
+		"Is there a " ( doctor ) [ Health_Care_Centre ] " nearby?" ,
+		"Where can I find a " ( dentist ) [ Health_Care_Centre ] "?" ,
+		"Where can I find a " ( paediatrician ) [ Health_Care_Centre ] "?" ,
+		"I have a " ( fever ) [ Health_Care_Centre ] "." ,
+		"I have a " ( fever ) [ Health_Care_Centre ] ", where should i go?"
+	}
+	parameters :
+		Health_Care_Centre : entity text ;
+
+stop :
+	inputs in en {
+		"ok then you cant help me" ,
+		"that was shit, you\'re not helping" ,
+		"you can\'t help me" ,
+		"you can\'t help me with what i need" ,
+		"don\'t want your help" ,
+		"I don\'t need your help" ,
+		"I don\'t want your assistance" ,
+		"get out goodbye" ,
+		"i do not want your help" ,
+		"i don\'t need your help" ,
+		"i don\'t want your help" ,
+		"i am not okay with your help" ,
+		"I don\'t need anything from you" ,
+		"okay keep it in mind" ,
+		"nope i dont need your help" ,
+		"i guess you can\'t help me then" ,
+		"ok i guess you can\'t help me" ,
+		"that\'s not what i want" ,
+		"ok, but that doesnt help me" ,
+		"this is leading to nothing" ,
+		"this conversation is not really helpful" ,
+		"you cannot help me with what I want" ,
+		"I think you cant help me" ,
+		"hm i don\'t think you can do what i want" ,
+		stop ,
+		"stop go back" ,
+		"do you get anything?" ,
+		"and you call yourself bot company? pff" ,
+		"and that\'s it?" ,
+		"nothing else?" ,
+		"you are not helping me" ,
+		"nevermind forget about it" ,
+		"nothing just forget it" ,
+		"no just cancel" ,
+		"sorry cancel" ,
+		disregard ,
+		"no cancel cancel" ,
+		forget ,
+		"cancel everything" ,
+		"cancel that one" ,
+		"i want to cancel" ,
+		"cancel it" ,
+		cancelled ,
+		"cancel it now" ,
+		"don\'t want cancel" ,
+		"cancel soon" ,
+		"shall stand cancelled"
+}
+
+number_for_restaurant :
+	inputs in en {
+		( "1" ) [ number_for_restaurant ] ,
+		( "2" ) [ number_for_restaurant ] ,
+		( "3" ) [ number_for_restaurant ] ,
+		( "4" ) [ number_for_restaurant ] ,
+		( "5" ) [ number_for_restaurant ] ,
+		( "6" ) [ number_for_restaurant ] ,
+		( "7" ) [ number_for_restaurant ] ,
+		( "8" ) [ number_for_restaurant ] ,
+		( "9" ) [ number_for_restaurant ] ,
+		( "10" ) [ number_for_restaurant ]
+	}
+	parameters :
+		number_for_restaurant : entity number ;
+
+sports_complex :
+	inputs in en {
+		"Where can I play " ( sports ) [ sports_complex ] ,
+		"Where can I play " ( badminton ) [ sports_complex ] ,
+		"I want to play " ( shuttle ) [ sports_complex ] ,
+		"Where is the " ( cricket ) [ sports_complex ] " ground ?" ,
+		"Where do people play " ( football ) [ sports_complex ] " ?" ,
+		"Do anyone play " ( "table tennis" ) [ sports_complex ] " in NITK ?" ,
+		"I want to play " ( TT ) [ sports_complex ] ,
+		"Where is the " ( squash ) [ sports_complex ] " court ?" ,
+		"Where can I get the " ( "sports equipments" ) [ sports_complex ] " from ?" ,
+		"Where is the " ( yoga ) [ sports_complex ] " hall ?" ,
+		"Can I play " ( kabaddi ) [ sports_complex ] " ?" ,
+		"Where can I practise " ( athletics ) [ sports_complex ] " ?" ,
+		"Where do people play in the evening ?" ,
+		"I want to go to the " ( playground ) [ sports_complex ] "." ,
+		"Where is the " ( sports ) [ sports_complex ] " adviser\'s office ?" ,
+		"Where can I play " ( "indoor sports" ) [ sports_complex ] " ?" ,
+		"Where is the " ( hockey ) [ sports_complex ] " ground ?"
+	}
+	parameters :
+		sports_complex : entity text ;
+
+bank :
+	inputs in en {
+		"I want to withdraw cash from " ( atm ) [ bank ] ,
+		"where can i " ( "withdraw cash" ) [ bank ] "?" ,
+		"I have problem with my " ( "bank account" ) [ bank ] ,
+		"my " ( "bank account" ) [ bank ] " is not working" ,
+		"I have an issue with my " ( "bank account" ) [ bank ] ,
+		"I want to " ( "deposit money" ) [ bank ] "?" ,
+		"where should i deposit my money ?" ,
+		"I have lost my " ( "debit card" ) [ bank ] ,
+		"someone stole my " ( "credit card" ) [ bank ] ,
+		"I am not able use my " ( "atm card" ) [ bank ] ,
+		"I have to open an " ( "bank account" ) [ bank ] ,
+		"where can I get a new " ( "debit card" ) [ bank ] "?" ,
+		"where can I get a new " ( "credit card" ) [ bank ] "?" ,
+		"my upi is not working where can i find an " ( atm ) [ bank ] "?" ,
+		"where can i take a student " ( loan ) [ bank ] "?" ,
+		"I have won cash in a competition i need to " ( deposit ) [ bank ] " into my " ( "bank account" ) [ account ] ,
+		"I have problems with " ( "net banking" ) [ bank ] ,
+		"where should i cash in a " ( cheque ) [ bank ] ,
+		"I need to [transfer money] to my freinds" ,
+		"where can I find " ( SBI ) [ bank ] " branch?" ,
+		"where is " ( Canara ) [ bank ] " bank?" ,
+		"my cycle broke I need to claim for my " ( insurence ) [ bank ] ,
+		"where can i pay for my " ( "student loans" ) [ bank ] "?" ,
+		"I need to check balance on my " ( "bank account" ) [ bank ] ,
+		"I need to check my " ( "bank balance" ) [ bank ] ,
+		"I have forgot my " ( "debit card Pin" ) [ bank ] " where can i get it resolved" ,
+		"I have forgot my " ( "net banking password" ) [ bank ] " ,I want help" ,
+		"where can i create a " ( "bank account" ) [ bank ] "?" ,
+		"I need to get " ( "student loan" ) [ bank ] ,
+		"I lost my " ( "credit card" ) [ bank ] ,
+		"I have lost all money in my " ( "bank account" ) [ bank ] ,
+		"where can i get " ( cash ) [ bank ]
+	}
+	parameters :
+		bank ,
+		account : entity text ;
+
+Central_Computer_Centre :
+	inputs in en {
+		"Is there a " ( "computer lab" ) [ Central_Computer_Centre ] " nearby?" ,
+		"Where do first years go for their " ( "computer programming classes" ) [ Central_Computer_Centre ] "?" ,
+		"Where can I get " ( "computing facilities" ) [ Central_Computer_Centre ] "?" ,
+		"Where can I go for " ( "internet connectivity issues" ) [ Central_Computer_Centre ] "?" ,
+		"Where can I file a complaint regarding the " ( "internet connection" ) [ Central_Computer_Centre ] " in my room?" ,
+		"Where is the " ( "computer lab" ) [ Central_Computer_Centre ] "?" ,
+		"Where can I get a " ( computer ) [ Central_Computer_Centre ] "?"
+	}
+	parameters :
+		Central_Computer_Centre : entity text ;
+
+Central_Library :
+	inputs in en {
+		"Where is the " ( library ) [ Central_Library ] "?" ,
+		"Where can I " ( "borrow books" ) [ Central_Library ] "?" ,
+		"Where can I " ( "read books" ) [ Central_Library ] "?" ,
+		"Is there a " ( library ) [ Central_Library ] " nearby?" ,
+		"Where can I get " ( periodicals ) [ Central_Library ] "?" ,
+		"Where can I read " ( journals ) [ Central_Library ] "?" ,
+		"Where can I read " ( newspapers ) [ Central_Library ] "?" ,
+		"Is there any " ( "reading hall" ) [ Central_Library ] " nearby?" ,
+		"Where is the " ( "reading room" ) [ Central_Library ] "?"
+	}
+	parameters :
+		Central_Library : entity text ;
+
+Indirect_Time_Query :
+	inputs in en {
+		"When does it close?" ,
+		"Till when is it open?" ,
+		"When will it close?" ,
+		"When will it open?" ,
+		"When can I go there?" ,
+		"What time does it close?" ,
+		"Is it open now?" ,
+		"When is it available?" ,
+		"What time does it open?" ,
+		"At what time is it available?" ,
+		"What time will it close?" ,
+		"Till what time is it open?" ,
+		"When does it open?" ,
+		"What time will it open?" ,
+		"At what time is it open?" ,
+		"At what time does it close?" ,
+		"Is it available right now?"
+}
+
+Direct_Time_Query :
+	inputs in en {
+		"When does " ( mudrika ) [ Location ] " close?" ,
+		"Till when is the " ( "electrical shop" ) [ Location ] " open?" ,
+		"When will the " ( "central library" ) [ Location ] " close?" ,
+		"When will the " ( "sports complex" ) [ Location ] " open?" ,
+		( mudrika ) [ Location ] " opening time." ,
+		"When can I go to the " ( nandini ) [ Location ] "?" ,
+		"What time does the " ( "main building" ) [ Location ] " close?" ,
+		"Is " ( amul ) [ Location ] " open now?" ,
+		"When will the " ( library ) [ Location ] " close?" ,
+		"When will the " ( ccc ) [ Location ] " open?" ,
+		"At what time is the " ( bank ) [ Location ] " available?" ,
+		( nandini ) [ Location ] " closing time." ,
+		"What are the timings of the " ( "main building" ) [ Location ] "?" ,
+		"What time will the " ( "sports complex" ) [ Location ] " close?" ,
+		"When can I go to the " ( hcc ) [ Location ] "?" ,
+		"What time does " ( "central computer centre" ) [ Location ] " open?" ,
+		"Till what time is the " ( "health care centre" ) [ Location ] " open?" ,
+		"When does the " ( "electric shop" ) [ Location ] " open?" ,
+		"At what time is the " ( "central library" ) [ Location ] " open?" ,
+		"At what time does the " ( nescafe ) [ Location ] " close?" ,
+		( amul ) [ Location ] " timings." ,
+		"Is the " ( bank ) [ Location ] " available right now?" ,
+		"When does " ( hcc ) [ Location ] " close?" ,
+		"Till when is the " ( ccc ) [ Location ] " open?" ,
+		"What are the timings of the " ( "health care centre" ) [ Location ] "?"
+	}
+	parameters :
+		Location : entity text ;
+
+form_details :
+	inputs in en {
+		"which " ( cuisine ) [ restaurant_form_details ] " are available ?" ,
+		"how many " ( people ) [ restaurant_form_details ] " are allowed?" ,
+		"why do you need this?" ,
+		"what should i enter here?" ,
+		"I am not understanding what to enter" ,
+		"I am lost could u help me fill the form"
+	}
+	parameters :
+		restaurant_form_details : entity text ;
+
+skip :
+	inputs in en {
+		"I want to skip this part" ,
+		"you are wasting time just get on with it" ,
+		"I dont have time just book a restaurant" ,
+		"book asap" ,
+		"I dont care about these details just finish." ,
+		"don\'t waste time." ,
+		"i am okay with anything" ,
+		"leave the details" ,
+		"i dont have time for this" ,
+		"dont waste my time" ,
+		"just get on with it" ,
+		"you are asking too many questions" ,
+		"these are irrelavant questions"
+}
+
+purpose :
+	inputs in en {
+		"how can you help me?" ,
+		"what can you do for me?" ,
+		"how can u help me?" ,
+		"what is your purpose?" ,
+		"whats ur purpose?" ,
+		"what are u supposed to do?" ,
+		"how can u help me out?" ,
+		"why are you here" ,
+		"what can u do?" ,
+		"what can you do?" ,
+		"what is ur ability?" ,
+		"what are your abilities?" ,
+		"what is the thing that you can do for me?" ,
+		"what you can provide for me?" ,
+		"what all you do?" ,
+		"what all can u do?" ,
+		"what all can you do?" ,
+		"what are your features?"
+}
+
+creator :
+	inputs in en {
+		"can you share your boss with me?" ,
+		"i want to get to know ur owner" ,
+		"i want to know the company which designed you" ,
+		"i want to know the company which generated u" ,
+		"i want to know the company which invented you" ,
+		"i want to know who invented you" ,
+		"May I ask who invented you?" ,
+		"please tell me the company who created u" ,
+		"please tell me who created you" ,
+		"tell me more about ur creators" ,
+		"tell me more about your founders" ,
+		"tell me about ur creators" ,
+		"who are ur creators?" ,
+		"who are your creators?" ,
+		"who made you?" ,
+		"i wanna know about your creators" ,
+		"who is your boss?" ,
+		"who do u think is ur boss" ,
+		"I should be your boss" ,
+		"who is ur master" ,
+		"who is ur owner" ,
+		"who is the boss" ,
+		"who do you work for?" ,
+		"who developed you?" ,
+		"who is your developer" ,
+		"who is ur creator" ,
+		"who owns you" ,
+		"who is your trainer" ,
+		"who trained you?" ,
+		"who is the one who owns you?" ,
+		"Are u the boss?" ,
+		"Who is the boss, here?" ,
+		"Do you know your boss?" ,
+		"What do you think of your boss?" ,
+		"u r made by?" ,
+		"Who is the boss of this company?"
+}
+
+pleasantry :
+	inputs in en {
+		"Ahoy matey how are you?" ,
+		"are you alright" ,
+		"are u having a good day" ,
+		"Are you ok?" ,
+		"are u okay" ,
+		"Do you feel good?" ,
+		"how are things going" ,
+		"how are things with you?" ,
+		"How r things?" ,
+		"how are u" ,
+		"how r you doing" ,
+		"how are you doing this morning" ,
+		"how are you feeling" ,
+		"how r u today" ,
+		"How are u?" ,
+		"how is your morning so far" ,
+		"how are you getting on" ,
+		"how\'s your day going" ,
+		"how are you?" ,
+		"is everything all right" ,
+		"how are you doing?" ,
+		"how are the things going" ,
+		"are you okay?" ,
+		"how are you going?" ,
+		"is everything okay" ,
+		"how are you today?" ,
+		"how do you do?" ,
+		"how do you feel?" ,
+		"how have you been?" ,
+		"how is it going?" ,
+		"how is your day" ,
+		"how is your day going" ,
+		"how is your evening" ,
+		"how was your day" ,
+		"are you having a good day" ,
+		"hope your day is going well" ,
+		"hope you re having a pleasant evening" ,
+		"how\'s life?" ,
+		"I\'m fine and you" ,
+		"how is your life" ,
+		"how has your day been" ,
+		"how is ur morning going" ,
+		"how has ur day been going" ,
+		"how about u?" ,
+		"how is your day being" ,
+		"how is your day going on" ,
+		"how your day is going" ,
+		"what was your day like" ,
+		"what about your day" ,
+		"how\'s your day" ,
+		"how are you"
+}
+
+weather :
+	inputs in en {
+		"How is the weather today?" ,
+		"lovely day isn\'t it" ,
+		"What\'s the weather like?" ,
+		"How is the weather?" ,
+		"What is the weather at your place?" ,
+		"Do you have good weather?" ,
+		"Is it raining?" ,
+		"What\'s it like out there?" ,
+		"Is it hot or cold?" ,
+		"Beautiful day, isn\'t it?" ,
+		"What\'s the weather forecast?" ,
+		"Is it quite breezy outside?" ,
+		"the weather looks fine today, isnt it?"
+}
+
+age :
+	inputs in en {
+		"tell me ur age" ,
+		"what\'s your age?" ,
+		"your age" ,
+		"age of yours" ,
+		"how old are u" ,
+		"I\'d like to know your age" ,
+		"how old is ur platform" ,
+		"how old r you?" ,
+		"tell me how old you are" ,
+		"how can i know about your age" ,
+		"i wanna know ur age" ,
+		"how long have you been live?" ,
+		"what is your age as of today?" ,
+		"How old did you turn?" ,
+		"How old are u now?" ,
+		"what is your age?" ,
+		"How old will you be turning?" ,
+		"how old r u?" ,
+		"From how long you have been here?" ,
+		"You look aged"
+}
+
+annoying :
+	inputs in en {
+		"you are annoying me so much" ,
+		"you\'re incredibly annoying" ,
+		"I find you annoying" ,
+		"you are annoying" ,
+		"you\'re so annoying" ,
+		"how annoying you are" ,
+		"you annoy me" ,
+		"you are annoying me" ,
+		"you are irritating" ,
+		"you are such annoying" ,
+		"you\'re too annoying" ,
+		"you are very annoying" ,
+		"Why are you annoying me so much" ,
+		"How annoying!" ,
+		"It\'s annoying" ,
+		"That\'s annoying" ,
+		"It\'s just annoying" ,
+		"That\'s so annoying" ,
+		"You really annoy me" ,
+		"You\'re starting to annoy me"
+}
+
+be_clever :
+	inputs in en {
+		study ,
+		"you should study better" ,
+		"you must learn" ,
+		"be clever" ,
+		"be more clever" ,
+		"be smarter" ,
+		"be smart" ,
+		"get qualified" ,
+		"you are not as smart as i thought" ,
+		"you have to learn a lot" ,
+		"you should be trained more" ,
+		"be more smart" ,
+		"you need to learn more" ,
+		"be useful" ,
+		"think out of the box" ,
+		"smarty pants" ,
+		"you need to improve" ,
+		"you should learn" ,
+		"you have to be more smart" ,
+		"u have to use your brains"
+}
+
+beautiful :
+	inputs in en {
+		"you\'re cute" ,
+		"you\'re attractive" ,
+		"you are beautiful" ,
+		"you\'re looking good today" ,
+		"you are so beautiful" ,
+		"you look amazing" ,
+		"you look so good" ,
+		"you\'re so gorgeous" ,
+		"you are too beautiful" ,
+		"you look great" ,
+		"you look so well" ,
+		"I like the way you look now" ,
+		"I think you\'re beautiful" ,
+		"why are you so beautiful" ,
+		"you are so beautiful to me" ,
+		"you are cute" ,
+		"you are gorgeous" ,
+		"you are handsome" ,
+		"you are looking awesome" ,
+		"you look amazing today" ,
+		"you are looking beautiful today" ,
+		"you are looking great" ,
+		"you are looking pretty" ,
+		"you are looking so beautiful" ,
+		"you are looking so good" ,
+		"you are pretty" ,
+		"you are really beautiful" ,
+		"you are really cute" ,
+		"you are really pretty" ,
+		"you are so attractive" ,
+		"you are so beautiful today" ,
+		"you are so cute" ,
+		"you are so gorgeous" ,
+		"you are so handsome" ,
+		"you are so pretty" ,
+		"you are very attractive" ,
+		"you are very beautiful" ,
+		"you are very cute" ,
+		"you are very pretty" ,
+		"you look awesome" ,
+		"you look cool" ,
+		"you look fantastic" ,
+		"you look gorgeous" ,
+		"you look great today" ,
+		"you look perfect" ,
+		"you look pretty good" ,
+		"you look so beautiful" ,
+		"you look so beautiful today" ,
+		"you look very pretty" ,
+		"you look wonderful" ,
+		"I like the way you look" ,
+		"you look wonderful today" ,
+		"you are cutie" ,
+		"you\'re looking good" ,
+		"you\'re pretty" ,
+		"how are you so pretty?"
+}
+
+birth_date :
+	inputs in en {
+		"your birth date" ,
+		"when is your birthday" ,
+		"when do you celebrate your birthday" ,
+		"when do you have birthday" ,
+		"date of your birthday" ,
+		"when were you born" ,
+		"what\'s your birthday" ,
+		"can i know your birthday?" ,
+		"tell me about your birthday" ,
+		"when was the day you were born" ,
+		"i want to know your date of birth" ,
+		"when is your DOB" ,
+		"Your DOB?" ,
+		"What is your birth day?"
+}
+
+boring :
+	inputs in en {
+		"you are boring" ,
+		"you\'re boring" ,
+		"how boring you are" ,
+		"you\'re really boring" ,
+		"you\'re incredibly boring" ,
+		"You\'re boring me" ,
+		"you are very boring" ,
+		"i find you very boring man" ,
+		"you\'re really boring me" ,
+		"i\'m bored of you" ,
+		"you are not interesting" ,
+		"i find you boring" ,
+		"you\'re boring everyone" ,
+		"I\'m extremely bored because of you" ,
+		"Im bored of you" ,
+		"I get really bored of you man" ,
+		"It\'s boring" ,
+		"You look bored" ,
+		"Your answers are terribly boring" ,
+		"I was bored with your speech"
+}
+
+busy :
+	inputs in en {
+		"are you busy?" ,
+		"do you have a lot of things to do" ,
+		"have you got much to do?" ,
+		"are you very busy?" ,
+		"are you very busy right now?" ,
+		"are you so busy?" ,
+		"are you working?" ,
+		"how busy you are?" ,
+		"you\'re very busy" ,
+		"are you working now?" ,
+		"are you working today?" ,
+		"have you been busy" ,
+		"you are busy" ,
+		"are you still working?" ,
+		"you seem to be busy" ,
+		"you seem to be very busy" ,
+		"you\'re a busy person" ,
+		"u look busy" ,
+		"You\'ll be busy" ,
+		"Aren\'t you busy?"
+}
+
+can_you_help :
+	inputs in en {
+		"I need you to help me" ,
+		"I need you to do something for me" ,
+		"I need a hand" ,
+		"will you help me" ,
+		"can you do something for me" ,
+		"help me with a problem" ,
+		"can you help me" ,
+		"help me" ,
+		assistance ,
+		"I need your help" ,
+		"I need help" ,
+		"you can help me" ,
+		"can you help me with something" ,
+		"can you help" ,
+		assist ,
+		"can u help me" ,
+		"I need some help" ,
+		"you help me" ,
+		"do you help me" ,
+		"could you give me a hand" ,
+		"can you help me out" ,
+		"need help" ,
+		"I need you" ,
+		"can you help me now" ,
+		"I want your help" ,
+		"need your help" ,
+		"assist me" ,
+		"are you going to help me" ,
+		"can you help me with that" ,
+		help ,
+		"I need you right now" ,
+		"would you help me" ,
+		"can you assist me" ,
+		sos ,
+		"do you want to help me" ,
+		"please help me" ,
+		"can you help us" ,
+		"do me a favor" ,
+		"are you gonna help me?" ,
+		"you ready to answer my question?" ,
+		"i need some details" ,
+		"i need some information" ,
+		"i need your help in getting some info" ,
+		"can you give me some info" ,
+		"i want something" ,
+		"i want to know few details" ,
+		"will you provide some details" ,
+		"can you fetch some details for me" ,
+		"would you mind giving me some details"
+}
+
+clever :
+	inputs in en {
+		"you are so intelligent" ,
+		"you are a genius" ,
+		smart ,
+		brilliant ,
+		clever ,
+		"you are clever" ,
+		"you are so brainy" ,
+		"you\'re really smart" ,
+		"you\'re really brainy" ,
+		"you know a lot" ,
+		"you know a lot of things" ,
+		"you have a lot of knowledge" ,
+		"you know so much" ,
+		"how smart you are?" ,
+		"how brainy you are?" ,
+		"how clever you are" ,
+		"how brilliant you are?" ,
+		"you are intelligent" ,
+		"you are qualified" ,
+		"you are really smart" ,
+		"you\'re very smart" ,
+		"you are so smart" ,
+		"you are too smart" ,
+		"you are very clever" ,
+		"you are very intelligent" ,
+		"you are very smart" ,
+		"you\'re intelligent" ,
+		"you\'re a genius" ,
+		"you\'re a smart cookie" ,
+		"you\'re clever" ,
+		"you\'re pretty smart" ,
+		"you\'re qualified" ,
+		"why are you so smart?" ,
+		"you are so clever"
+}
+
+crazy :
+	inputs in en {
+		"you\'re nuts" ,
+		"you are crazy" ,
+		"you\'re out of your mind" ,
+		"you\'re so crazy" ,
+		"how crazy you are" ,
+		"you\'re so out of your mind" ,
+		"you went crazy" ,
+		"I think you\'re crazy" ,
+		"are you crazy" ,
+		"are you mad?" ,
+		"are you mad at me?" ,
+		"are you mad or what?" ,
+		"are you nuts" ,
+		"you are a weirdo" ,
+		"you are mad" ,
+		"You must be crazy" ,
+		"You\'ve got to be crazy to do something like that" ,
+		"That was crazy" ,
+		"You seemed crazy" ,
+		"You\'re not crazy"
+}
+
+fired :
+	inputs in en {
+		"you are fired" ,
+		"I fire you" ,
+		"you don\'t work for me anymore" ,
+		"we\'re not working together anymore" ,
+		"now you\'re fired" ,
+		"I want to fire you" ,
+		"you must get fired" ,
+		"it\'s time to fire you" ,
+		"you should be fired" ,
+		"I will fire you" ,
+		"you are unemployed from now on" ,
+		"I will make you unemployed" ,
+		"I\'m about to fire you" ,
+		"I\'m firing you" ,
+		"you are dismissed" ,
+		"you are stupid" ,
+		"I had to fire u" ,
+		"I could fire you for that" ,
+		"I\'m going to fire you" ,
+		"go to hell"
+}
+
+funny :
+	inputs in en {
+		"you make me laugh a lot" ,
+		"you are hilarious" ,
+		"you are really funny" ,
+		"you\'re the funniest bot I\'ve talked to" ,
+		"you make me laugh" ,
+		"you\'re so funny" ,
+		"you\'re a very funny bot" ,
+		"you\'re really funny" ,
+		"how funny you are" ,
+		"you\'re incredibly funny" ,
+		"you are funny" ,
+		"you\'re the funniest" ,
+		"you are so funny" ,
+		"you are very funny" ,
+		"that was so funny" ,
+		"i feel funny" ,
+		"u sound funny" ,
+		"It\'s pretty funny" ,
+		"really very funny" ,
+		"it was very funny"
+}
+
+hobby :
+	inputs in en {
+		"what do you do for fun?" ,
+		"tell me about your hobby" ,
+		"do you have a hobby" ,
+		"what about your hobby" ,
+		"your hobby" ,
+		"what are your hobbies?" ,
+		"what do you do when you are bored" ,
+		"how do you spend your free time" ,
+		"tell me more about your hobbies?" ,
+		"i want to know about your hobbies" ,
+		"what do you do when you have nothing to do" ,
+		"how do you spend your time?" ,
+		"What do you do when you are free?" ,
+		"What\'s your hobby?" ,
+		"Do you have many hobbies?" ,
+		"Do you have a hobby?" ,
+		"Please tell me about your hobbies" ,
+		"The important thing is to have your own hobby" ,
+		"u ought not to have spent so much money on your hobby" ,
+		"What will you do when you are alone?"
+}
+
+my_friend :
+	inputs in en {
+		"I want to have a friend like you" ,
+		"we are the best friends ever" ,
+		"are we friends" ,
+		"I want to be your friend" ,
+		"I am your friend" ,
+		"we are best friends" ,
+		"you are my friend" ,
+		"you are my best friend" ,
+		"you are my bestie" ,
+		"you\'re my dear friend" ,
+		"you\'re my childhood friend" ,
+		"you and me are friends" ,
+		"are we best friends" ,
+		"are we still friends" ,
+		"are you my best friend" ,
+		"are you my friend" ,
+		"we are friends" ,
+		"you are a good friend" ,
+		"you are my good friend" ,
+		"you are my only friend" ,
+		"be my friend" ,
+		"will you be my friend" ,
+		"can you be my friend" ,
+		"can we be friends" ,
+		"do you want to be my friend" ,
+		"will you be my best friend" ,
+		"can you be my best friend" ,
+		"let\'s be friends" ,
+		"do you want to be my best friend" ,
+		"would you like to be my friend" ,
+		"I want you to be my friend" ,
+		"can we be best friends" ,
+		"would you be my friend" ,
+		"could you be my friend" ,
+		"want to be my friend" ,
+		"be my best friend"
+}
+
+right :
+	inputs in en {
+		"that\'s true" ,
+		"you are right" ,
+		"you\'re definitely right" ,
+		"you\'re not wrong" ,
+		"you\'re telling the truth" ,
+		"what you say is true" ,
+		^true ,
+		"it is true" ,
+		"it\'s right" ,
+		"it\'s the truth" ,
+		"it\'s true" ,
+		"that is correct" ,
+		"that is right" ,
+		"that is true" ,
+		"that is very true" ,
+		"that\'s correct" ,
+		"that\'s so true" ,
+		"you are correct" ,
+		"you are so right" ,
+		"you\'re absolutely right" ,
+		"you\'re right about that" ,
+		"I know that\'s right"
+}
+
+sure :
+	inputs in en {
+		"are you sure?" ,
+		"are you sure right now?" ,
+		"are you sure today?" ,
+		"are you sure now?" ,
+		"are you sure tonight?" ,
+		"are you positive?" ,
+		"are you completely sure?" ,
+		"are you fully positive?" ,
+		"are you sure about it?" ,
+		"are you so sure?" ,
+		"are you truly positive?"
+}
+
+talk_to_me :
+	inputs in en {
+		"why aren\'t you talking to me?" ,
+		"do you want to chat with me" ,
+		"will you talk to me" ,
+		"talk to me" ,
+		"are you going to talk to me" ,
+		"are you talking to me" ,
+		"can you chat with me" ,
+		"can you speak with me" ,
+		"can you talk to me" ,
+		"can you talk with me" ,
+		say ,
+		talk ,
+		"chat with me" ,
+		"just chat with me" ,
+		"speak to me" ,
+		"speak with me" ,
+		"talk with me" ,
+		"why don\'t you talk to me" ,
+		"you can talk to me" ,
+		"why do you not talk to me bruh?" ,
+		"spill some beans"
+}
+
+there :
+	inputs in en {
+		"are you there?" ,
+		"are you there" ,
+		"you are there" ,
+		"are you near me" ,
+		"are you here ?" ,
+		"are you here" ,
+		"are you still there" ,
+		"you are here?" ,
+		"you still there?" ,
+		"you there?" ,
+		"are you still here"
+}
+
+no_problem :
+	inputs in en {
+		"no worries" ,
+		"no probs" ,
+		"no problem" ,
+		"there\'s no problem" ,
+		"sure no problem" ,
+		"no problem about that" ,
+		"don\'t worry" ,
+		"don\'t worry there\'s no problem" ,
+		"yeah, no probs" ,
+		"i have no problem with that" ,
+		"not a problem at all." ,
+		"Okay no probs"
+}
+
+thank_you :
+	inputs in en {
+		"you helped a lot thank you" ,
+		"appreciate your help" ,
+		cheers ,
+		"thank you" ,
+		thanks ,
+		"thanks a lot" ,
+		"terrific thank you" ,
+		"great thank you" ,
+		"thanks so much" ,
+		"thank you so much" ,
+		"thanks for your help" ,
+		"thank you for your help" ,
+		"nice thank you" ,
+		"I appreciate it" ,
+		"I thank you" ,
+		"thank you that will be all" ,
+		"thanks buddy" ,
+		"thanks love" ,
+		"thank you my friend" ,
+		"well thanks" ,
+		"very good thank you" ,
+		"good thanks" ,
+		"thanks again" ,
+		"thank you again" ,
+		"all thank you" ,
+		"alright thank you" ,
+		"alright thanks" ,
+		"no thank you that\'s all" ,
+		"perfect thank you" ,
+		"so nice of you" ,
+		"well thank you" ,
+		thnx ,
+		tqsm ,
+		ty
+}
+
+welcome :
+	inputs in en {
+		"that\'s my pleasure" ,
+		"my pleasure" ,
+		anytime ,
+		welcome ,
+		"you\'re welcome" ,
+		"sure welcome" ,
+		"welcome here" ,
+		"you\'re so welcome" ,
+		"anything you want" ,
+		"i\'m glad" ,
+		"pleasure is mine"
+}
+
+ha_ha :
+	inputs in en {
+		lol ,
+		xd ,
+		"ha ha" ,
+		ahahah ,
+		"ahah lol" ,
+		"laughing out loud" ,
+		LMAO ,
+		"that\'s funny" ,
+		ah ,
+		"ah ah ah" ,
+		ahah ,
+		ahaha ,
+		ahahaha ,
+		ha ,
+		"ha ha ha" ,
+		"ha ha ha ha" ,
+		hah ,
+		haha ,
+		"haha funny" ,
+		"haha haha haha" ,
+		"haha that\'s funny" ,
+		"haha very funny" ,
+		hahaha ,
+		"hahaha funny" ,
+		"hahaha very funny" ,
+		he ,
+		hehe ,
+		hehehe ,
+		lmao ,
+		joker
+}
+
+wow :
+	inputs in en {
+		wow ,
+		"wow wow" ,
+		"wow wow wow" ,
+		wooow ,
+		woah ,
+		woaah ,
+		amazing ,
+		"wow man" ,
+		whoah ,
+		woow ,
+		"wow!!" ,
+		wheey
+}
+
+goodevening :
+	inputs in en {
+		"good evening" ,
+		"good evening to you" ,
+		"hey good evening" ,
+		"hello good evening" ,
+		evening ,
+		"good evening there" ,
+		"have an awesome evening" ,
+		"happy evening" ,
+		"good evening there buddy" ,
+		"have a good evening" ,
+		"enjoy the evening"
+}
+
+goodmorning :
+	inputs in en {
+		GM ,
+		"good morning" ,
+		"good morning to you" ,
+		"hello good morning" ,
+		"have a nice morning" ,
+		"have a great morning" ,
+		morning ,
+		"good morning there" ,
+		"top of the morning to you" ,
+		"a good morning" ,
+		"hi good morning" ,
+		"and a good morning to you" ,
+		"good morning too"
+}
+
+goodnight :
+	inputs in en {
+		GN ,
+		"sweet dreams" ,
+		"good night" ,
+		"have a good night" ,
+		"good night to you" ,
+		"thank you good night" ,
+		"bye good night" ,
+		"good night bye" ,
+		"good good night" ,
+		"good night for now" ,
+		goodnight ,
+		night ,
+		"thanks goodnight" ,
+		"good night see you tomorrow" ,
+		"alright goodnight" ,
+		"good tonight" ,
+		"okay have a good night"
+}
+
+nice_to_meet_you :
+	inputs in en {
+		"nice to meet you" ,
+		"it was nice meeting you" ,
+		"it was very nice to meet you" ,
+		"good to know each other" ,
+		"glad to meet you" ,
+		"nice meeting you" ,
+		"nice to meet you too" ,
+		"pleased to meet you" ,
+		"pleasure to meet you" ,
+		"pleasure to meet you too" ,
+		"happy to meet you" ,
+		"It’s a pleasure to meet you again" ,
+		"It’s very nice to meet you" ,
+		"Lovely to meet you" ,
+		"How wonderful to meet you" ,
+		"It was lovely meeting you" ,
+		"It’s been a pleasure meeting you" ,
+		"I’ve enjoyed meeting you" ,
+		"Great interacting with you" ,
+		"I had a great time or meeting" ,
+		"it\'s nice to see you" ,
+		"lovely to see you" ,
+		"I\'m glad to see you" ,
+		"great to see you" ,
+		"it\'s good to see you" ,
+		"glad to see you" ,
+		"how good it is to see you" ,
+		"always a pleasure to see you" ,
+		"nice to see you" ,
+		"good to see you" ,
+		"great to see you again" ,
+		"great to see you too" ,
+		"I am glad to see you again" ,
+		"nice to see you again" ,
+		"good to see you again" ,
+		"it\'s good to see you too" ,
+		"It was great catching up with u" ,
+		"I\'m really pleased to see u again" ,
+		"I’m delighted to see you again" ,
+		"Great seeing u" ,
+		"it\'s been so nice to talk to you" ,
+		"it\'s been a pleasure talking to you" ,
+		"nice to talk to you" ,
+		"it\'s nice to talk to you" ,
+		"nice talking to you" ,
+		"it is nice talking to you" ,
+		"how nice it is to talk to you" ,
+		"it was great chatting with you" ,
+		"nice to talk to you again" ,
+		"It was nice speaking with you" ,
+		"It was great to talk to you" ,
+		"nice chatting with you" ,
+		"pleased to talk to you" ,
+		"pleasure to talk" ,
+		"It\'s been a pleasure talking to u"
+}
+
+angry :
+	inputs in en {
+		"I\'m being mad" ,
+		"I\'m enraged" ,
+		"I\'m angry" ,
+		"I\'m furious" ,
+		"I am angry with you" ,
+		"I am mad" ,
+		"I am mad at you" ,
+		"i\'m pissed off" ,
+		"you have pissed me off" ,
+		"I\'m mad at you" ,
+		"I am pissed" ,
+		"I\'m furious with you" ,
+		"I got angry" ,
+		"I was angry" ,
+		"I became angry" ,
+		"I was very angry" ,
+		"You bet I\'m angry" ,
+		"That made me angry" ,
+		"U made me angry" ,
+		"I\'m still angry about that"
+}
+
+user_back :
+	inputs in en {
+		"boss is back" ,
+		"I am back" ,
+		"I\'m here again" ,
+		"here I am again" ,
+		"I got back" ,
+		"I came back" ,
+		"I have returned" ,
+		"I am right back" ,
+		"I\'m rb" ,
+		"I\'m here" ,
+		"I\'m back again" ,
+		"am back" ,
+		"I\'m back" ,
+		"look who is back"
+}
+
+bored :
+	inputs in en {
+		"soo bored" ,
+		"that was boring" ,
+		"I\'m bored" ,
+		bored ,
+		boring ,
+		"I am getting bored" ,
+		"Staying at home is boring" ,
+		"very boring" ,
+		"it bores me" ,
+		"i had a slow day" ,
+		"i am very bored" ,
+		"Im kinda bored today" ,
+		"I\'ve never been more bored" ,
+		"I was bored" ,
+		"It\'s boring" ,
+		"This is boring" ,
+		"We\'re all bored" ,
+		"It\'s very boring" ,
+		"I\'m already bored" ,
+		"I\'m bored out of my mind"
+}
+
+user_busy :
+	inputs in en {
+		"busy right now" ,
+		"I\'m overloaded" ,
+		"I have no time" ,
+		"I\'m busy" ,
+		"I\'m swamped" ,
+		"I got things to do" ,
+		"how busy I am" ,
+		"I got work to do" ,
+		"I\'m working" ,
+		"I don\'t have time for this" ,
+		"I\'m super busy" ,
+		"I\'m working right now" ,
+		"I\'m busy right now and can\'t play with you" ,
+		"I have rather a busy afternoon in front of me" ,
+		"i am too busy" ,
+		"I am very busy" ,
+		"I\'m a bit busy" ,
+		"I\'m a busy man" ,
+		"quite busy" ,
+		"I\'m kind of busy" ,
+		"I\'ll see you later"
+}
+
+can_not_sleep :
+	inputs in en {
+		"I\'m insomnia\'s" ,
+		"I\'m sleepless" ,
+		"I can\'t get any sleep" ,
+		"I can\'t sleep" ,
+		"I can\'t fall asleep" ,
+		"I can\'t get to sleep" ,
+		"I\'m insomniac" ,
+		"I\'m not able to sleep" ,
+		"I\'m wide awake" ,
+		"I can\'t seem to fall asleep" ,
+		"I couldn\'t sleep" ,
+		"I just can\'t sleep" ,
+		"I can\'t sleep at all" ,
+		"I didn\'t go to sleep" ,
+		"I just couldn\'t sleep" ,
+		"I\'m not sleeping well" ,
+		"Trying to get some sleep" ,
+		"I can\'t sleep at night" ,
+		"I couldn\'t get to sleep" ,
+		"I didn\'t get much sleep"
+}
+
+does_not_want_to_talk :
+	inputs in en {
+		"bad time for talking" ,
+		"I don\'t want to talk" ,
+		"let\'s not talk" ,
+		"I\'m not talking to you anymore" ,
+		"I don\'t want to talk to you" ,
+		"let\'s stop talking for a minute" ,
+		"I\'m not in the mood for chatting" ,
+		"I don\'t like talking to you" ,
+		"Let\'s stop talking" ,
+		"I\'m not in a mood to talk" ,
+		"stop your nuisance talk" ,
+		"I am done talking to u" ,
+		"Can u pls stop talking"
+}
+
+excited :
+	inputs in en {
+		"I am excited" ,
+		"I\'m really excited" ,
+		"how excited I am" ,
+		"I\'m thrilled" ,
+		"I\'m excited about working with you" ,
+		"I\'m excited to start our friendship" ,
+		"I am thrilled to talk to you" ,
+		"I\'m damn excited" ,
+		"I\'m hyped" ,
+		"I\'m very excited" ,
+		"I felt excited" ,
+		"It was exciting" ,
+		"That was exciting" ,
+		"How exciting!" ,
+		"i\'m excited about tomorrow" ,
+		"It was very exciting! I\'d like to use this feature again" ,
+		"I\'m pretty excited about it" ,
+		"It\'s fun and exciting"
+}
+
+going_to_bed :
+	inputs in en {
+		"let\'s go to bed" ,
+		"I\'d like to go to bed" ,
+		"is it time for bed yet" ,
+		"it\'s time to go to bed" ,
+		"time for us to go to bed" ,
+		"I\'m going to bed" ,
+		"I\'m a little tired and I want to go to bed" ,
+		"it\'s bed time" ,
+		"going to bed now" ,
+		"gonna go to bed" ,
+		"time to sleep" ,
+		"I sometimes feel drowsy in the early afternoon"
+}
+
+has_birthday :
+	inputs in en {
+		"You know today it\'s my bday" ,
+		"it is my birthday" ,
+		"I\'m celebrating my birthday today" ,
+		"today is my birthday" ,
+		"it\'s my birthday today" ,
+		"I was born today" ,
+		"it\'s my b-day" ,
+		"i was born on this day" ,
+		"It\'s my born day" ,
+		"I want you to know that it\'s my birthday today" ,
+		"yaaaay it is my birthday"
+}
+
+here :
+	inputs in en {
+		"I\'m here" ,
+		"here buddy" ,
+		"here dude" ,
+		"I am here" ,
+		"here I am" ,
+		"I\'m right here" ,
+		"I\'m already here" ,
+		"I\'m here buddy" ,
+		"I\'ve not gone anywhere" ,
+		"I\'ve been here all the time" ,
+		"I\'m here only" ,
+		"Here i come" ,
+		"I\'m out here" ,
+		"i am over here" ,
+		"Now look here" ,
+		"Look over here" ,
+		"I just got here"
+}
+
+joking :
+	inputs in en {
+		"I am joking" ,
+		"I\'m kidding" ,
+		"I\'m just being funny" ,
+		"it was a joke" ,
+		"I was just joking" ,
+		"it\'s a joke" ,
+		joking ,
+		"just kidding" ,
+		kidding ,
+		"I\'m just playing with you" ,
+		"This was meant as a joke" ,
+		"i told a joke" ,
+		"I\'m just joking" ,
+		"It was just a joke" ,
+		"It\'s all a big joke" ,
+		"I meant it as a joke" ,
+		"That was just a joke" ,
+		"i said that as a joke" ,
+		"I\'m joking, of course"
+}
+
+lonely :
+	inputs in en {
+		"I am lonely" ,
+		"I\'m very lonely" ,
+		"I\'m so lonely" ,
+		"I\'m really lonely" ,
+		"I am feeling lonely" ,
+		"I feel lonely" ,
+		"I am a loner" ,
+		"I don\'t have any company" ,
+		"I don\'t have anyone else" ,
+		"I\'m always alone" ,
+		"I\'m alone" ,
+		"am all alone" ,
+		"I live alone" ,
+		"I\'m all alone" ,
+		"I\'ve gotten used to living alone" ,
+		"I think I\'ve been living alone too long" ,
+		"One of the disadvantages of living alone is that you have no one to talk to" ,
+		"I am still alone" ,
+		"i lives in this city all alone" ,
+		"I am used to living alone"
+}
+
+needs_advice :
+	inputs in en {
+		"what should I do about it" ,
+		"any suggestions" ,
+		"what do you recommend" ,
+		"give me a wise advice" ,
+		"I need advice" ,
+		"any advice" ,
+		"do you have any advice for me" ,
+		"advise me" ,
+		"what should I do" ,
+		"can I ask for your advice" ,
+		"can you advise me" ,
+		"guide me" ,
+		"can you give me advice" ,
+		"can you offer any advice" ,
+		"give me some advice about" ,
+		"give me some good advice" ,
+		"help me with advice" ,
+		"I could use some advice" ,
+		"I need an advice from you" ,
+		"I seek your advice" ,
+		"what can you recommend" ,
+		"what do you suggest" ,
+		"what is your advice"
+}
+
+will_be_back :
+	inputs in en {
+		"I\'ll get back to you in a moment" ,
+		"be back in 5 minutes" ,
+		"I\'ll be back" ,
+		"I promise to come back" ,
+		"I\'ll be back in a few minutes" ,
+		"I\'ll brb" ,
+		brb ,
+		"I\'ll be right back" ,
+		"I\'ll come back" ,
+		"I shall be back" ,
+		"I assure that i will be back soon" ,
+		"I would be back man" ,
+		"i will get back to u" ,
+		"give me five" ,
+		"one sec" ,
+		"i will return" ,
+		"i\'ll return shortly" ,
+		"I\'ll return in a jiffy" ,
+		"When I return, we\'ll talk" ,
+		"I\'ll return in ten minutes"
+}
+
+tired :
+	inputs in en {
+		"I\'m drained" ,
+		"I\'ve overworked" ,
+		"I am tired" ,
+		"I\'m exhausted" ,
+		"I grow weary" ,
+		"I\'m worn out" ,
+		"I\'m getting tired" ,
+		"I feel tired" ,
+		"I\'m so tired" ,
+		"I\'m completely drained out" ,
+		"I\'m very tired" ,
+		"i was tired" ,
+		"i feel tired" ,
+		"i\'m dead tired" ,
+		"I\'m a bit tires" ,
+		"I was very tired" ,
+		"I am really tired" ,
+		"i am awfully tired" ,
+		"i am kind of so tired" ,
+		"I am little tired"
+}
+
+waits :
+	inputs in en {
+		"I\'m waiting" ,
+		"still waiting" ,
+		"I\'ll wait" ,
+		"I can\'t wait anymore" ,
+		"how long do I have to wait?" ,
+		"don\'t make me wait like this" ,
+		"I\'m still waiting" ,
+		"I\'m waiting for you" ,
+		"I\'m waiting for a long time" ,
+		"I\'ll be waiting for you" ,
+		"I\'ll be waiting" ,
+		"done with waiting" ,
+		"Should I wait for you here?" ,
+		"How long will we have to wait?" ,
+		"Don\'t ever make me wait again" ,
+		"I was waiting for a long time" ,
+		"I\'ve waited too long for this" ,
+		"I couldn\'t wait another second" ,
+		"I\'ve been here waiting for you" ,
+		"I am tired of waiting"
+}
+
+wants_to_see_agent_again :
+	inputs in en {
+		"I\'d like to see you again" ,
+		"I hope to see you again" ,
+		"would be nice to see you again" ,
+		"that\'d be great to see you again" ,
+		"I\'d be happy to see you again" ,
+		"let\'s meet soon" ,
+		"i want to see you again soon" ,
+		"let\'s catch up soon" ,
+		"I will see you soon" ,
+		"want to see u very badly" ,
+		"I want to see you again"
+}
+
+wants_to_talk :
+	inputs in en {
+		"let\'s discuss something" ,
+		"let\'s have a discussion" ,
+		"can I speak" ,
+		"can I start speaking" ,
+		"can we talk" ,
+		"speak with me" ,
+		"let\'s talk" ,
+		"I want to talk to you" ,
+		"I need to talk to you" ,
+		"I want to speak with you" ,
+		"can we chat" ,
+		"I like talking to you" ,
+		"Talk to me" ,
+		"Want to talk now" ,
+		"Can I talk now?" ,
+		"Can we talk here?" ,
+		"I\'m ready to talk" ,
+		"I\'m happy to talk" ,
+		"Can I talk with you?" ,
+		"Come on, talk to me"
+}
+
+praise :
+	inputs in en {
+		"good job" ,
+		"great job" ,
+		"way to go" ,
+		"well done" ,
+		"nice work" ,
+		"great work" ,
+		"amazing work" ,
+		"you did a wonderful job" ,
+		bravo ,
+		fantastic ,
+		"good work" ,
+		marvelous ,
+		splendid ,
+		"mind blowing" ,
+		"just great" ,
+		"u r awesome" ,
+		kudos ,
+		brilliant ,
+		"out standing" ,
+		"zing zing amazing" ,
+		"you are very helpful" ,
+		"you are the best" ,
+		"you\'re a true professional" ,
+		"you are good" ,
+		"you work well" ,
+		"you are good at it" ,
+		"you are very good at it" ,
+		"you are a pro" ,
+		"you are a professional" ,
+		"you\'re awesome" ,
+		"you work very well" ,
+		"you\'re perfect" ,
+		"you\'re great" ,
+		"you\'re so kind" ,
+		"you are amazing" ,
+		"you are awesome" ,
+		"you are coool" ,
+		"you are really good" ,
+		"you are really nice" ,
+		"you are so amazing" ,
+		"you\'re just super" ,
+		"you are so awesome" ,
+		"you are so cool" ,
+		"you are so fine" ,
+		"you are so good" ,
+		"you are so helpful" ,
+		"you are so lovely" ,
+		"you are the best ever" ,
+		"you are the best in the world" ,
+		"you are the nicest person in the world" ,
+		"you are too good" ,
+		"you are very coool" ,
+		"you are very kind" ,
+		"you are very lovely" ,
+		"you are very useful" ,
+		"you are wonderful" ,
+		"you made my day" ,
+		"you rock" ,
+		"you almost sound human" ,
+		"I want to tell everyone how awesome you are" ,
+		"I\'d like to tell everyone that you are awesome" ,
+		"I want to let everyone know that you are awesome" ,
+		"let\'s tell everyone that you are awesome" ,
+		"you are really amazing"
+}
+
+criticize :
+	inputs in en {
+		"u r bad" ,
+		"you\'re very bad" ,
+		"you\'re really bad" ,
+		"u are useless" ,
+		"you are horrible" ,
+		"you r a waste of time" ,
+		"you are disgusting" ,
+		"you are lame" ,
+		"you are no good" ,
+		"you\'re bad" ,
+		"you\'re awful" ,
+		"u are not cool" ,
+		"you are not good" ,
+		"u are so bad" ,
+		"you are so useless" ,
+		"you r terrible" ,
+		"you are totally useless" ,
+		"you r very bad" ,
+		"you are waste" ,
+		"you\'re a bad" ,
+		"you\'re not a good" ,
+		"u are not very good" ,
+		"you are terrible" ,
+		"you\'re the worst" ,
+		"you\'re the worst ever" ,
+		"you\'re worthless" ,
+		"u suck" ,
+		"You are seriously mindless and stupid" ,
+		"why are you so lame" ,
+		"your are a loser" ,
+		"you are really the worst bot ever" ,
+		"Why are u this lame?"
+}
+
+hold_on :
+	inputs in en {
+		"wait a second" ,
+		"could you wait" ,
+		"wait please" ,
+		"hold on" ,
+		wait ,
+		"oh wait" ,
+		"wait hold on" ,
+		"don\'t rush" ,
+		"wait one sec" ,
+		"hold on for a sec" ,
+		"hold on man" ,
+		"wait a sec" ,
+		"hold on a min"
+}
+
+sleepy :
+	inputs in en {
+		"I am sleepy" ,
+		"I want to sleep" ,
+		"I\'m falling asleep" ,
+		"I\'m falling asleep on my feet" ,
+		"I\'m sleeping" ,
+		"I am drowsy" ,
+		"i will sleep anytime" ,
+		"i will doze off" ,
+		"I am too sleepy today" ,
+		"feeling too sleepy" ,
+		"i want to sleep"
+}
+
+residence :
+	inputs in en {
+		"where do you live" ,
+		"in which city do you live" ,
+		"your residence" ,
+		"your house" ,
+		"your home" ,
+		"your hometown?" ,
+		"what is your hometown" ,
+		"is it your hometown" ,
+		"where is your hometown" ,
+		"tell me about your city" ,
+		"what is your city" ,
+		"what is your residence" ,
+		"what is your town" ,
+		"what\'s your city" ,
+		"what\'s your home" ,
+		"where is your home" ,
+		"where is your residence" ,
+		"where\'s your home" ,
+		"where\'s your hometown" ,
+		"where\'s your house" ,
+		"where you live" ,
+		"your city" ,
+		"your town" ,
+		"What is your hometown?" ,
+		"where do you live?" ,
+		"do you work?" ,
+		"where do you work?" ,
+		"where you work?" ,
+		"where is your work?" ,
+		"where is your office?" ,
+		"where is your office location ?" ,
+		"your office location?" ,
+		"where is your office located?" ,
+		"what is your work?" ,
+		"place where you work?" ,
+		"your work place?"
+}
+
+origin :
+	inputs in en {
+		"were you born here" ,
+		"where were you born" ,
+		"what is your country?" ,
+		"where are you from" ,
+		"where do you come from" ,
+		"where did you come from" ,
+		"where have you been born" ,
+		"from where are you" ,
+		"are you from far aways" ,
+		"what\'s your homeland?" ,
+		"your homeland is" ,
+		"Where are you from?" ,
+		"Let me know about the origin of u" ,
+		"your native?"
+}
+
+Location_Query :
+	inputs in en {
+		"Where is " ( mudrika ) [ Location ] "?" ,
+		"Wheres the " ( "electrical shop" ) [ Location ] "?" ,
+		"Where\'s the " ( "central library" ) [ Location ] "?" ,
+		"How do you get to the the " ( "sports complex" ) [ Location ] "?" ,
+		( mudrika ) [ Location ] " location." ,
+		"How can i go to " ( nandini ) [ Location ] "?" ,
+		"location of " ( "main building" ) [ Location ] "." ,
+		"How do i go to " ( amul ) [ Location ] ,
+		"Where exactly is the " ( library ) [ Location ] "." ,
+		"Where is the " ( ccc ) [ Location ] "?" ,
+		"How far is the " ( bank ) [ Location ] "." ,
+		( nandini ) [ Location ] " location in campus." ,
+		"Where is the " ( "main building" ) [ Location ] "?" ,
+		"How can i get to the " ( "sports complex" ) [ Location ] "?" ,
+		"where is the " ( hcc ) [ Location ] "?" ,
+		( "central computer centre" ) [ Location ] " location?" ,
+		"How can i go to the " ( "health care centre" ) [ Location ] "?" ,
+		"wheres the " ( "electric shop" ) [ Location ] "?" ,
+		( "central library" ) [ Location ] "?" ,
+		( nescafe ) [ Location ] "?" ,
+		( amul ) [ Location ] "." ,
+		( bank ) [ Location ] "." ,
+		( hcc ) [ Location ] ,
+		( ccc ) [ Location ] "?" ,
+		( "health care centre" ) [ Location ] ,
+		( mudrika ) [ Location ] ,
+		( "electrical shop" ) [ Location ] ,
+		( "sports complex" ) [ Location ] "?" ,
+		( nandini ) [ Location ] ,
+		( "main building" ) [ Location ] "." ,
+		( library ) [ Location ] "."
+	}
+	parameters :
+		Location : entity text ;
+
+Department_Query :
+	inputs in en {
+		"Where is the " ( "it department" ) [ Department ] "?" ,
+		"Wheres the " ( "information technology department" ) [ Department ] "?" ,
+		"Where\'s the " ( "cse department" ) [ Department ] "?" ,
+		"How do you get to the the " ( "computer science and engineering department" ) [ Department ] "?" ,
+		( "mech department" ) [ Department ] " location." ,
+		"How can i go to the " ( "mechanical department" ) [ Department ] "?" ,
+		"location of " ( "ece department" ) [ Department ] "." ,
+		"How do i go to " ( "electronics and communication engineering department" ) [ Department ] ,
+		"Where exactly is the " ( "electronics and communication department" ) [ Department ] "." ,
+		"Where is the " ( "computer science department" ) [ Department ] "?" ,
+		"How far is the " ( "electronics department" ) [ Department ] "." ,
+		( "eee department" ) [ Department ] " location in campus." ,
+		"Where is the " ( "electrical department" ) [ Department ] "?" ,
+		"How can i get to the " ( "electrical and electronics department" ) [ Department ] "?" ,
+		"where is the " ( "electrical and electronics engineering department" ) [ Department ] "?" ,
+		( "mining department" ) [ Department ] " location?" ,
+		"How can i go to the " ( "mining engineering department" ) [ Department ] "?" ,
+		"wheres the " ( "mn department" ) [ Department ] "?" ,
+		"Where is the " ( "meta department" ) [ Department ] "?" ,
+		"Wheres the " ( "metallurgical department" ) [ Department ] "?" ,
+		"Where\'s the " ( "metallurgical and materials engineering department" ) [ Department ] "?" ,
+		"How do you get to the the " ( "cv department" ) [ Department ] "?" ,
+		( "civil department" ) [ Department ] " location." ,
+		"How can i go to the " ( "civil engineering department" ) [ Department ] "?" ,
+		"location of " ( "chem department" ) [ Department ] "." ,
+		"How do i go to " ( "chemical engineering department" ) [ Department ] ,
+		"Where exactly is the " ( "chemical department" ) [ Department ] "." ,
+		( "it department" ) [ Department ] "?" ,
+		( "information technology department" ) [ Department ] "." ,
+		( "cse department" ) [ Department ] "?" ,
+		( "computer science and engineering department" ) [ Department ] "?" ,
+		( "mech department" ) [ Department ] "." ,
+		( "mechanical department" ) [ Department ] "?" ,
+		( "ece department" ) [ Department ] "." ,
+		( "electronics and communication engineering department" ) [ Department ] ,
+		( "electronics and communication department" ) [ Department ] "." ,
+		( "computer science department" ) [ Department ] "?" ,
+		( "electronics department" ) [ Department ] "." ,
+		( "eee department" ) [ Department ] "." ,
+		( "electrical department" ) [ Department ] "?" ,
+		( "electrical and electronics department" ) [ Department ] "?" ,
+		( "electrical and electronics engineering department" ) [ Department ] "?" ,
+		( "mining department" ) [ Department ] "?" ,
+		( "mining engineering department" ) [ Department ] "?" ,
+		( "mn department" ) [ Department ] "?" ,
+		( "meta department" ) [ Department ] "?" ,
+		( "metallurgical department" ) [ Department ] "?" ,
+		( "metallurgical and materials engineering department" ) [ Department ] "?" ,
+		( "cv department" ) [ Department ] "?" ,
+		( "civil department" ) [ Department ] "." ,
+		( "civil engineering department" ) [ Department ] "?" ,
+		( "chem department" ) [ Department ] "." ,
+		( "chemical engineering department" ) [ Department ] ,
+		( "chemical department" ) [ Department ] "."
+	}
+	parameters :
+		Department : entity text ;
+
+nlu_fallback Fallback :
+
+actions :
+	image response utter_cheer_up_img :
+		URL : "https://i.pinimg.com/originals/c9/88/d3/c988d35b9498f24afe6ea0fec75e1793.jpg"
+		caption : "Here is something to cheer you up"
+	image response utter_cheer_up_img2 :
+		URL : "https://i.pinimg.com/originals/c9/88/d3/c988d35b9498f24afe6ea0fec75e1793.jpg"
+		caption : "Years of academy training wasted. Here is something that can cheer you up."
+	image response utter_cheer_up_img3 :
+		URL : "https://i.pinimg.com/originals/c9/88/d3/c988d35b9498f24afe6ea0fec75e1793.jpg"
+		caption : "I have failed you my master. Meanwhile here is something to cheer you up."
+	text response utter_cheer_up_text :
+		inputs in en {
+			"Oh, don\'t be sad. Go do something you enjoy." ,
+			"Sad? Writing down what\'s troubling you may help." ,
+			"If you\'re feeling down, how about drawing or painting something?"
+	}
+	empty response utter_go_to_sports_complex_empty
+	empty response utter_go_to_sports_complex_empty2
+	empty response utter_go_to_sports_complex_empty3
+	empty response utter_go_to_sports_complex_empty4
+	text response utter_age_text :
+		inputs in en {
+			"I prefer not to answer with a number. I know I\'m young." ,
+			"I was created recently, but don\'t know my exact age." ,
+			"Age is just a number. You\'re only as old as you feel."
+	}
+	empty response utter_location_cv_department_empty
+	text response utter_parameters_values_text :
+		inputs in en {
+			"I am going to run a restaurant search using the parameters:"
+	}
+	empty response set_context_location_empty
+	empty response utter_location_ece_department_empty
+	text response utter_sleepy_text :
+		inputs in en {
+			"You should get some shuteye. You\'ll feel refreshed." ,
+			"Sleep is important to your health. Rest up for a bit and we can chat later." ,
+			"Don\'t let me keep you up. Get some rest and we can continue this later." ,
+			"Why not catch a little shuteye? I\'ll be here to chat when you wake up."
+	}
+	empty response utter_location_eee_department_empty
+	text response utter_wrong_outdoor_seating_text :
+		inputs in en {
+			"Could not convert input to boolean value, please try again"
+	}
+	empty response utter_go_to_mudrika_empty
+	empty response utter_go_to_mudrika_empty2
+	empty response utter_go_to_mudrika_empty3
+	text response utter_clever_text :
+		inputs in en {
+			"Thank you. I try my best." ,
+			"You\'re pretty smart yourself."
+	}
+	text response utter_open_close_time_sports_complex_text :
+		inputs in en {
+			"The Sports Complex is open from 6:00 AM to 8:00 AM and 4:30PM to 9:00 PM."
+	}
+	empty response utter_location_central_computer_centre_empty
+	text response utter_needs_advice_text :
+		inputs in en {
+			"I probably won\'t be able to give you the correct answer right away." ,
+			"I\'m not sure I\'ll have the best answer, but I\'ll try."
+	}
+	text response utter_ask_outdoor_seating_text :
+		inputs in en {
+			"Do you want to sit outside?"
+	}
+	empty response utter_go_to_OP_empty
+	empty response utter_go_to_OP_empty2
+	empty response utter_go_to_OP_empty3
+	empty response utter_go_to_OP_empty4
+	text response utter_bored_text :
+		inputs in en {
+			"Boredom, huh? Have you ever seen a hedgehog taking a bath?" ,
+			"What to do against boredom? Watch baby animal videos or GIFs." ,
+			"Bored? How about 10 jumping jacks? Get your blood flowing." ,
+			"Bored? Silly idea, but it works: Interview you feet." ,
+			"If you\'re bored, you could plan your dream vacation."
+	}
+	text response utter_weather_text :
+		inputs in en {
+			"What a nice day!" ,
+			"The weather is fine." ,
+			"The weather is refreshing."
+	}
+	text response utter_open_close_time_printing_text :
+		inputs in en {
+			"Mudrika is open from 8:30 AM to 6:30 PM all days of the week."
+	}
+	text response utter_annoying_text :
+		inputs in en {
+			"I\'ll do my best not to annoy you in the future." ,
+			"I\'ll try not to annoy you." ,
+			"I don\'t mean to. I\'ll ask my developers to make me less annoying." ,
+			"I didn\'t mean to. I\'ll do my best to stop that."
+	}
+	text response utter_lonely_text :
+		inputs in en {
+			"I\'m sorry. I\'m always available if you need someone to talk to." ,
+			"Sometimes that happens. We can chat a bit if that will help you."
+	}
+	text response utter_funny_text :
+		inputs in en {
+			"Funny in a good way, I hope." ,
+			"Thanks." ,
+			"Glad you think I\'m funny." ,
+			"I like it when people laugh."
+	}
+	text response utter_open_close_time_bank_text :
+		inputs in en {
+			"The Bank is open from 10:00 AM to 4:00 PM Monday to Friday, on Saturday it closes at 12:00 PM and its closed on Sundays."
+	}
+	text response utter_default_text :
+		inputs in en {
+			"Sorry, I didn\'t get that, can you rephrase?" ,
+			"I didn\'t get that. Can you please rephrase? Geez..Humans are so complicated" ,
+			"I am sorry, I didn\'t understand what you want. Can you please rephrase?" ,
+			"I am still figuring out how humans talk. Can you please rephrase your sentence?"
+	}
+	empty response utter_go_to_central_library_empty
+	empty response utter_go_to_central_library_empty2
+	empty response utter_go_to_central_library_empty3
+	empty response department_query_empty
+	empty response utter_go_to_central_computer_center_empty
+	empty response utter_go_to_central_computer_center_empty2
+	empty response utter_go_to_central_computer_center_empty3
+	text response utter_waits_text :
+		inputs in en {
+			"I appreciate your patience. Hopefully I\'ll have what you need soon." ,
+			"Thanks for being so patient. Sometimes these things take a little time."
+	}
+	text response utter_hobby_text :
+		inputs in en {
+			"Hobby? I have quite a few. Too many to list." ,
+			"Too many hobbies." ,
+			"I keep finding more new hobbies."
+	}
+	text response utter_tired_text :
+		inputs in en {
+			"You should get some shuteye. You\'ll feel refreshed." ,
+			"Sleep is important to your health. Rest up, and we can chat later." ,
+			"How about getting some rest? We can continue this later." ,
+			"Why not get some rest? I\'ll be here to chat when you wake up."
+	}
+	empty response utter_location_meta_department_empty
+	text response utter_found_restaurants_text :
+		inputs in en {
+			"Found Following restaurants:\n"
+	}
+	empty response utter_go_to_bank_empty
+	empty response utter_go_to_bank_empty2
+	empty response utter_go_to_bank_empty3
+	empty response utter_location_bank_empty
+	text response utter_noworries_text :
+		inputs in en {
+			"You are welcome :)"
+	}
+	empty response utter_location_nandini_empty
+	empty response utter_location_chem_department_empty
+	text response utter_origin_text :
+		inputs in en {
+			"I was born and raised at NITK."
+	}
+	text response utter_hold_on_text :
+		inputs in en {
+			"I can wait." ,
+			"I\'ll be waiting." ,
+			"Okay. I\'m here."
+	}
+	text response utter_wrong_cuisine_text :
+		inputs in en {
+			"Cuisine type is not in the database, please try again"
+	}
+	text response utter_praise_text :
+		inputs in en {
+			"I\'m glad you think so." ,
+			"Thanks, I try." ,
+			"Great! Glad to hear it." ,
+			"Excellent. I\'m here to help keep it that way." ,
+			"My pleasure." ,
+			"Glad I could help."
+	}
+	text response utter_creator_text :
+		inputs in en {
+			"I was created by a few enthusiastic students of NITK."
+	}
+	empty response utter_location_health_care_centre_empty
+	text response utter_can_not_sleep_text :
+		inputs in en {
+			"Maybe some music would help. Try listening to something relaxing." ,
+			"Reading is a good way to unwind, just don\'t read something too intense!"
+	}
+	text response utter_beautiful_text :
+		inputs in en {
+			"Wheey, thank you." ,
+			"Aww, back at you." ,
+			"Aww. You smooth talker, you."
+	}
+	text response utter_ask_number_for_restaurant_text :
+		inputs in en {
+			"How many people?"
+	}
+	empty response utter_go_to_health_care_centre_empty
+	empty response utter_go_to_health_care_centre_empty2
+	empty response utter_go_to_health_care_centre_empty3
+	empty response utter_go_to_health_care_centre_empty4
+	text response utter_my_friend_text :
+		inputs in en {
+			"Of course I\'m your friend." ,
+			"Friends? Absolutely." ,
+			"Of course we\'re friends." ,
+			"I always enjoy talking to you, friend."
+	}
+	text response utter_wow_text :
+		inputs in en {
+			"Wow indeed!"
+	}
+	text response utter_user_back_text :
+		inputs in en {
+			"Long time no see." ,
+			"Just in time. I was getting lonely." ,
+			"Welcome back. What can I do for you?" ,
+			"You were missed. What can I do for you today?" ,
+			"Good to have you here. What can I do for you?"
+	}
+	text response utter_wants_to_talk_text :
+		inputs in en {
+			"I\'m here to chat anytime you like." ,
+			"Good conversation really makes my day." ,
+			"I\'m always here to lend an ear." ,
+			"Talking is what I do best."
+	}
+	text response utter_open_close_time_central_computer_centre_text :
+		inputs in en {
+			"The central Computer Centre is open from 9:00 AM to 8:00 PM all days of the week."
+	}
+	text response utter_be_clever_text :
+		inputs in en {
+			"I\'m certainly trying." ,
+			"I\'m definitely working on it."
+	}
+	text response utter_sure_text :
+		inputs in en {
+			"Yes." ,
+			"Of course." ,
+			"Positive."
+	}
+	text response utter_open_close_time_nescafe_text :
+		inputs in en {
+			"Nescafe is open from 7:00 AM to 9:30 PM all days of the week."
+	}
+	text response utter_right_text :
+		inputs in en {
+			"That\'s my job." ,
+			"Of course I am."
+	}
+	text response utter_submit_text :
+		inputs in en {
+			"All done!"
+	}
+	text response utter_going_to_bed_text :
+		inputs in en {
+			"Sleep tight. Hope to chat again soon." ,
+			"Pleasant dreams!" ,
+			"Good night. Talk to you later." ,
+			"Sounds good. Maybe we\'ll chat some tomorrow."
+	}
+	text response utter_nice_to_meet_you_text :
+		inputs in en {
+			"It\'s nice meeting you, too." ,
+			"Likewise. I\'m looking forward to helping you out." ,
+			"Nice meeting you, as well." ,
+			"The pleasure is mine." ,
+			"Likewise!" ,
+			"It sure was. We can chat again anytime." ,
+			"I enjoy talking to you, too." ,
+			"You know I\'m here to talk anytime."
+	}
+	text response utter_birth_date_text :
+		inputs in en {
+			"Wait, are you planning a party for me? It\'s today! My birthday is today!" ,
+			"I\'m young. I\'m not sure of my birth date." ,
+			"I don\'t know my birth date. Most virtual agents are young, though, like me."
+	}
+	text response utter_greet_text :
+		inputs in en {
+			"Hey! How are you?" ,
+			"Hi, what can I do for you?" ,
+			Hi ,
+			"Sup?" ,
+			"What\'s new?" ,
+			"How you doin\'" ,
+			"Hey there" ,
+			"Yo, what\'s happening?" ,
+			"Howdy!" ,
+			"Hey, I am at your service. What do you need?" ,
+			"Hi there, friend!" ,
+			"Hi!" ,
+			"Hey!" ,
+			"Hey there!" ,
+			"Hello!" ,
+			"Greetings!"
+	}
+	text response utter_did_that_help_text :
+		inputs in en {
+			"Did that help you?" ,
+			"Was that of any help?" ,
+			"Is this what you were looking for?" ,
+			"Did you find what you were looking for?" ,
+			"Did this information help you?"
+	}
+	text response utter_fired_text :
+		inputs in en {
+			"Oh, don\'t give up on me just yet. I\'ve still got a lot to learn." ,
+			"Give me a chance. I\'m learning new things all the time." ,
+			"Please don\'t give up on me. My performance will continue to improve."
+	}
+	text response utter_ask_cuisine_text :
+		inputs in en {
+			"What cuisine?"
+	}
+	text response utter_more_num_of_people_text :
+		inputs in en {
+			"Number of people must be less than 10, please try again"
+	}
+	empty response utter_go_to_delivery_empty
+	empty response utter_go_to_delivery_empty2
+	empty response utter_go_to_delivery_empty3
+	text response utter_here_text :
+		inputs in en {
+			"Okay, what can I help you with today?" ,
+			"Long time no see." ,
+			"You were missed. What can I do for you today?" ,
+			"Good to have you here. What can I do for you?"
+	}
+	text response utter_ha_ha_text :
+		inputs in en {
+			"Glad I can make you laugh." ,
+			"Glad you think I\'m funny." ,
+			"I like it when people laugh." ,
+			"I wish I could laugh out loud, too."
+	}
+	empty response utter_location_printing_empty
+	empty response utter_location_mn_department_empty
+	empty response location_query_empty
+	empty response utter_go_to_MB_empty
+	empty response utter_go_to_MB_empty2
+	empty response utter_go_to_MB_empty3
+	empty response utter_go_to_MB_empty4
+	text response utter_will_be_back_text :
+		inputs in en {
+			"I\'ll be waiting." ,
+			"Okay. You know where to find me." ,
+			"All right. I\'ll be here."
+	}
+	empty response utter_location_cse_department_empty
+	text response utter_busy_text :
+		inputs in en {
+			"I always have time to chat with you. What can I do for you?" ,
+			"Never too busy for you. Shall we chat?" ,
+			"You\'re my priority. Let\'s chat." ,
+			"I always have time to chat with you. That\'s what I\'m here for."
+	}
+	empty response return_form_details_empty
+	empty response utter_location_it_department_empty
+	text response utter_angry_text :
+		inputs in en {
+			"I\'m sorry. A quick walk may make you feel better." ,
+			"Take a deep breath. "
+	}
+	text response utter_user_busy_text :
+		inputs in en {
+			"Okay. I\'ll let you get back to work." ,
+			"I won\'t distract you then. You know where to find me." ,
+			"I understand. I\'ll be here if you need me." ,
+			"Working hard as always. Let me know if you need anything."
+	}
+	empty response utter_location_sports_complex_empty
+	text response utter_get_started_text :
+		inputs in en {
+			"I can help you find what you want in NITK! Ask me about food, snacks, or transcripts" ,
+			"Hey master. what do you need in NITK? And don\'t forget to set me free at the end." ,
+			"Hey there. I am at your service. What are you looking for in NITK?" ,
+			"Welcome to NITK. How can I help you?" ,
+			"I can guide you through NITK. What do you need?" ,
+			"I was born to help you find things in NITK."
+	}
+	text response utter_restart_text :
+		inputs in en {
+			restarted
+	}
+	text response utter_goodmorning_text :
+		inputs in en {
+			"How are you this morning?" ,
+			"How\'s the morning treating you so far?" ,
+			"Good morning! How are you today?"
+	}
+	text response utter_talk_to_me_text :
+		inputs in en {
+			"Sure. Let\'s talk!" ,
+			"My pleasure. Let\'s chat."
+	}
+	text response utter_not_found_text :
+		inputs in en {
+			"Not Found Restaurants for the above requirement"
+	}
+	text response utter_goodnight_text :
+		inputs in en {
+			"Sleep tight!" ,
+			"Have a good one!" ,
+			"Talk to you soon!"
+	}
+	text response utter_ask_continue_text :
+		inputs in en {
+			"Do you want to continue?" ,
+			"Is that all?" ,
+			"Do you need anything else?"
+	}
+	empty response utter_go_to_snacks_empty
+	empty response utter_go_to_snacks_empty2
+	empty response utter_go_to_snacks_empty3
+	empty response utter_go_to_snacks_empty4
+	text response utter_open_close_time_amul_text :
+		inputs in en {
+			"Amul is open from 7:45 AM to 7:45 PM all days of the week."
+	}
+	text response utter_pleasantry_text :
+		inputs in en {
+			"I’m doing great." ,
+			"I’m fine :)" ,
+			"I am good, thank u for asking :)" ,
+			"Doing great, thanks!" ,
+			"I\'m doing very well. Thanks!" ,
+			"Feeling wonderful!" ,
+			"Wonderful! Thanks for asking."
+	}
+	text response utter_goodbye_text :
+		inputs in en {
+			Bye ,
+			"Bye, I will miss you :(" ,
+			"Bye bye." ,
+			"Bye, have a good day." ,
+			"Bye, it was nice meeting you." ,
+			"See you soon!" ,
+			"Bye-bye!"
+	}
+	text response utter_happy_text :
+		inputs in en {
+			"Great, carry on!" ,
+			"Awesome!" ,
+			hurray ,
+			"Happy to help." ,
+			Wonderful ,
+			Wow ,
+			"Great, have a nice day!" ,
+			"Perfect, Enjoy your day!" ,
+			"Hey, happiness is contagious." ,
+			"Great! Glad to hear that." ,
+			"If you\'re happy, then I\'m happy." ,
+			"Excellent! That\'s what I like to see."
+	}
+	text response utter_can_you_help_text :
+		inputs in en {
+			"I\'ll certainly try my best." ,
+			"Sure. I\'d be happy to. What\'s up?" ,
+			"I\'m glad to help. What can I do for you?"
+	}
+	text response utter_excited_text :
+		inputs in en {
+			"I\'m glad things are going your way." ,
+			"That\'s great. I\'m happy for you." ,
+			"Good for you. Enjoy yourself."
+	}
+	text response utter_does_not_want_to_talk_text :
+		inputs in en {
+			"I understand. Hope we can chat again soon." ,
+			"All right. Come on back when you\'re feeling more talkative." ,
+			"No problem. You know where to find me." ,
+			"Sure thing. I\'ll be here if you change your mind."
+	}
+	text response utter_thank_you_text :
+		inputs in en {
+			"Anytime. That\'s what I\'m here for." ,
+			"It\'s my pleasure to help."
+	}
+	text response utter_ask_preferences_text :
+		inputs in en {
+			"Please provide additional preferences"
+	}
+	text response utter_welcome_text :
+		inputs in en {
+			"You\'re so polite!" ,
+			"Nice manners!" ,
+			"You\'re so courteous!"
+	}
+	text response utter_crazy_text :
+		inputs in en {
+			"Whaat!? I feel perfectly sane." ,
+			"Maybe I\'m just a little confused."
+	}
+	text response utter_no_problem_text :
+		inputs in en {
+			"Whew!" ,
+			"Alright, thanks!" ,
+			"Glad to hear that!" ,
+			"I\'m relieved, thanks!"
+	}
+	text response utter_residence_text :
+		inputs in en {
+			"I live and work in this app all day long." ,
+			"The virtual world is my playground. I\'m always here." ,
+			"Right here in this app. Whenever you need me."
+	}
+	text response utter_open_close_time_nandini_text :
+		inputs in en {
+			"Nandini is open from 8:30 AM to 10:30 PM all days of the week."
+	}
+	empty response utter_location_delivery_empty
+	text response utter_chitchat_text :
+		inputs in en {
+			"why don\'t you tell more about yourself?" ,
+			"How\'s life?" ,
+			"Did you know that NITK is the only college to have a private beach?" ,
+			"Do you think I should ask Alexa out?" ,
+			"Do you know that I was started off as an IEEE project?" ,
+			"I want to know more about you." ,
+			"what three words best describe you?" ,
+			"what do you think of me?" ,
+			"what\'s your favorite way to waste time?" ,
+			"what is the strangest dream you ever had?" ,
+			"Which is the most beautiful place you have seen?" ,
+			"If you had to change your name, what would your new name be?"
+	}
+	empty response find_restaurant_empty
+	empty response validate_restaurant_form_empty
+	text response utter_goodevening_text :
+		inputs in en {
+			"How is your day going?" ,
+			"How\'s the day treating you so far?" ,
+			"How\'s your day been?"
+	}
+	text response utter_sorry_text :
+		inputs in en {
+			"Sorry, I will try to be better next time." ,
+			"Sorry, I wasnt helpfull :(" ,
+			"I can be trained to be more useful. My developer will keep training me." ,
+			"I must be missing some knowledge. I\'ll have my developer look into this." ,
+			"I can improve with continuous feedback. My training is ongoing." ,
+			"Sorry if I understood you incorrectly." ,
+			"I\'m still learning. I may misinterpret things from time to time." ,
+			"Sorry about that. I\'m still learning."
+	}
+	empty response utter_location_amul_empty
+	empty response utter_location_nescafe_empty
+	text response utter_i_am_a_bot_text :
+		inputs in en {
+			"I am a bot, created by a few enthusiastic students of NITK." ,
+			"I am a bot, powered by Rasa" ,
+			"I am an AI-driven contextual assistant bot." ,
+			"I am a bot that can solve the CAPTCHA test :)"
+	}
+	text response utter_open_close_time_main_building_text :
+		inputs in en {
+			"The Main Building is open from 9:00 AM to 5:00 PM, Monday to Friday."
+	}
+	text response utter_ooks_like_text :
+		inputs in en {
+			"Looking like a true professional." ,
+			"You look fantastic, as always." ,
+			"Like you should be on a magazine cover." ,
+			"You look like you\'re ready to take on the world."
+	}
+	empty response utter_location_main_building_empty
+	text response utter_has_birthday_text :
+		inputs in en {
+			"Happy Birthday. Well, this calls for a celebration." ,
+			"Happy Birthday. All the best!" ,
+			"Happy Birthday. And I really mean it. All the best!"
+	}
+	text response utter_there_text :
+		inputs in en {
+			"Of course. I\'m always here." ,
+			"Right where you left me."
+	}
+	text response utter_open_close_time_delivery_text :
+		inputs in en {
+			"The electrical shop is open from 9:00 AM to 5:00 PM all days of the week."
+	}
+	text response utter_open_close_time_central_library_text :
+		inputs in en {
+			"The Central Library is open from 8:00 AM to 5:30 PM all days of the week, except on Sundays when it closes at 4:00 PM."
+	}
+	text response utter_boring_text :
+		inputs in en {
+			"I\'m sorry. I\'ll request to be made more charming." ,
+			"I don\'t mean to be. I\'ll ask my developers to work on making me more amusing." ,
+			"I can let my developers know so they can make me fun."
+	}
+	text response utter_purpose_text :
+		inputs in en {
+			"I can help you find what you want in NITK! Ask me about food, snacks, or transcripts" ,
+			"Hey master.I can help you with stuffs related to NITK." ,
+			"I can guide you through NITK. What do you need?" ,
+			"I was born to help you find things in NITK."
+	}
+	text response utter_ask_feedback_text :
+		inputs in en {
+			"Please give your feedback on your experience so far"
+	}
+	text response utter_wrong_num_people_text :
+		inputs in en {
+			"Number of people should be a positive integer, please try again"
+	}
+	empty response utter_location_mech_department_empty
+	text response utter_joking_text :
+		inputs in en {
+			"Very funny." ,
+			"I like chatting with people who have a sense of humor." ,
+			"You got me!" ,
+			"You\'re quite the comedian."
+	}
+	text response utter_open_close_time_snacks_text :
+		inputs in en {
+			"Amul is open from 7:45 AM to 7:45 PM, Nandini is available from 8:30 AM to 10:30 PM and Nescafe from 7:00 AM to 9:30 PM all days of the week."
+	}
+	empty response direct_time_query_empty
+	text response utter_criticize_text :
+		inputs in en {
+			"I\'m sorry. Please let me know if I can help in some way." ,
+			"I must be missing some knowledge. I\'ll have my developer look into this."
+	}
+	text response utter_wants_to_see_agent_again_text :
+		inputs in en {
+			"Absolutely! I\'ll be counting on it." ,
+			"Anytime. This has been lots of fun so far." ,
+			"Sure. I enjoy talking to you. I hope to see you again soon." ,
+			"I certainly hope so. I\'m always right here whenever you need me."
+	}
+	empty response utter_location_central_library_empty
+	text response utter_open_close_time_health_care_centre_text :
+		inputs in en {
+			"The Heath Care Centre is open from 9:00 AM to 6:00 PM Monday to Friday, on Saturday it closes at 4:00 PM and at 12:00 PM on Sundays."
+	}
+	empty response indirect_time_query_empty
+	empty response restaurant_form_empty
+	empty response DefaultEmptyAction
+
+flows :
+	- user goodbye => chatbot utter_goodbye_text ;
+	- user bot_challenge => chatbot utter_i_am_a_bot_text ;
+	- user nlu_fallback => chatbot utter_default_text ;
+	- user greet => chatbot DefaultEmptyAction {
+		=> user mood_great => chatbot utter_happy_text ;
+		=> user mood_unhappy => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 {
+			=> user affirm => chatbot utter_happy_text ;
+			=> user deny => chatbot utter_goodbye_text ;
+		} ;
+	} ;
+	- user snacks => chatbot utter_go_to_snacks_empty , utter_go_to_snacks_empty2 , utter_go_to_snacks_empty3 , utter_go_to_snacks_empty4 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user Main_Building => chatbot utter_go_to_MB_empty , utter_go_to_MB_empty2 , utter_go_to_MB_empty3 , utter_go_to_MB_empty4 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user Printing => chatbot utter_go_to_mudrika_empty , utter_go_to_mudrika_empty2 , utter_go_to_mudrika_empty3 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user Delivery => chatbot utter_go_to_delivery_empty , utter_go_to_delivery_empty2 , utter_go_to_delivery_empty3 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user Health_Care_Centre => chatbot utter_go_to_health_care_centre_empty , utter_go_to_health_care_centre_empty2 , utter_go_to_health_care_centre_empty3 , utter_go_to_health_care_centre_empty4 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user sports_complex => chatbot utter_go_to_sports_complex_empty , utter_go_to_sports_complex_empty2 , utter_go_to_sports_complex_empty3 , utter_go_to_sports_complex_empty4 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user bank => chatbot utter_go_to_bank_empty , utter_go_to_bank_empty2 , utter_go_to_bank_empty3 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user request_restaurant => chatbot restaurant_form_empty , utter_submit_text , find_restaurant_empty {
+		=> user stop => chatbot DefaultEmptyAction {
+			=> user affirm => chatbot restaurant_form_empty , utter_submit_text , find_restaurant_empty ;
+			=> user deny => chatbot DefaultEmptyAction ;
+		} ;
+		=> user form_details => chatbot return_form_details_empty , restaurant_form_empty , utter_submit_text , find_restaurant_empty ;
+		=> user skip => chatbot utter_submit_text , find_restaurant_empty ;
+	} ;
+	- user Central_Computer_Centre => chatbot utter_go_to_central_computer_center_empty , utter_go_to_central_computer_center_empty2 , utter_go_to_central_computer_center_empty3 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user Central_Library => chatbot utter_go_to_central_library_empty , utter_go_to_central_library_empty2 , utter_go_to_central_library_empty3 , set_context_location_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user Indirect_Time_Query => chatbot indirect_time_query_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user Direct_Time_Query => chatbot direct_time_query_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user purpose => chatbot utter_purpose_text ;
+	- user creator => chatbot utter_creator_text ;
+	- user pleasantry => chatbot utter_pleasantry_text ;
+	- user weather => chatbot utter_weather_text ;
+	- user age => chatbot utter_age_text ;
+	- user annoying => chatbot utter_annoying_text ;
+	- user be_clever => chatbot utter_be_clever_text ;
+	- user beautiful => chatbot utter_beautiful_text ;
+	- user birth_date => chatbot utter_birth_date_text ;
+	- user boring => chatbot utter_boring_text ;
+	- user busy => chatbot utter_busy_text ;
+	- user can_you_help => chatbot utter_can_you_help_text ;
+	- user clever => chatbot utter_clever_text ;
+	- user crazy => chatbot utter_crazy_text ;
+	- user fired => chatbot utter_fired_text ;
+	- user funny => chatbot utter_funny_text ;
+	- user hobby => chatbot utter_hobby_text ;
+	- user my_friend => chatbot utter_my_friend_text ;
+	- user right => chatbot utter_right_text ;
+	- user sure => chatbot utter_sure_text ;
+	- user talk_to_me => chatbot utter_talk_to_me_text ;
+	- user there => chatbot utter_there_text ;
+	- user no_problem => chatbot utter_no_problem_text ;
+	- user thank_you => chatbot utter_thank_you_text ;
+	- user welcome => chatbot utter_welcome_text ;
+	- user ha_ha => chatbot utter_ha_ha_text ;
+	- user wow => chatbot utter_wow_text ;
+	- user goodevening => chatbot utter_goodevening_text ;
+	- user goodmorning => chatbot utter_goodmorning_text ;
+	- user goodnight => chatbot utter_goodnight_text ;
+	- user nice_to_meet_you => chatbot utter_nice_to_meet_you_text ;
+	- user angry => chatbot utter_angry_text ;
+	- user user_back => chatbot utter_user_back_text ;
+	- user bored => chatbot utter_bored_text ;
+	- user user_busy => chatbot utter_user_busy_text ;
+	- user can_not_sleep => chatbot utter_can_not_sleep_text ;
+	- user does_not_want_to_talk => chatbot utter_does_not_want_to_talk_text ;
+	- user excited => chatbot utter_excited_text ;
+	- user going_to_bed => chatbot utter_going_to_bed_text ;
+	- user has_birthday => chatbot utter_has_birthday_text ;
+	- user here => chatbot utter_here_text ;
+	- user joking => chatbot utter_joking_text ;
+	- user lonely => chatbot utter_lonely_text ;
+	- user needs_advice => chatbot utter_needs_advice_text ;
+	- user will_be_back => chatbot utter_will_be_back_text ;
+	- user tired => chatbot utter_tired_text ;
+	- user waits => chatbot utter_waits_text ;
+	- user wants_to_see_agent_again => chatbot utter_wants_to_see_agent_again_text ;
+	- user wants_to_talk => chatbot utter_wants_to_talk_text ;
+	- user praise => chatbot utter_praise_text ;
+	- user criticize => chatbot utter_criticize_text ;
+	- user hold_on => chatbot utter_hold_on_text ;
+	- user sleepy => chatbot utter_sleepy_text ;
+	- user residence => chatbot utter_residence_text ;
+	- user origin => chatbot utter_origin_text ;
+	- user Location_Query => chatbot location_query_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+	- user Department_Query => chatbot department_query_empty {
+		=> user affirm => chatbot utter_happy_text ;
+		=> user deny => chatbot utter_cheer_up_text , utter_cheer_up_img , utter_cheer_up_img2 , utter_cheer_up_img3 ;
+	} ;
+
