@@ -1,667 +1,193 @@
-Chatbot commit_137_6489b84467d8e02d66921cb66e7e3a75ff3bf410 language : en
+Chatbot commit_296_9060c84f92fc1dee1c067a404fbe625394c93fb5 language : en
 
 intents :
 
-whatisPAYbank :
+greet :
 	inputs in en {
-		"Can you brief me about PAY bank" ,
-		"Can you tell me more about PAY bank?" ,
-		"Can you tell me what PAY bank does?" ,
-		"Could you tell me more about PAY bank?" ,
-		"Give me more information about PAY bank" ,
-		"How does PAY bank work?" ,
-		"I want to know about PAY bank" ,
-		"I want to know what PAY bank actually does that isn\'t clear to me yet" ,
-		"I want to learn what PAY bank does" ,
-		"I want to learn what PAY bank is" ,
-		"I would like to know about PAY bank" ,
-		"I would like to know more about your product" ,
-		"OK can u brief me Abt PAY bank" ,
-		"PAY bank?" ,
-		"PAY bank Is?" ,
-		"WHAT IS IT" ,
-		"WHAT IS PAY BANK" ,
-		"What Is PAY bank?" ,
-		"What can PAY bank do?" ,
-		"What do you do as a company?" ,
-		"What do you do as a bank?" ,
-		"What do you do at PAY bank?" ,
-		"What does PAY bank do?" ,
-		"What does PAY bank do exactly?" ,
-		"What exactly is PAY bank?" ,
-		"What is pay bank?" ,
-		"What is pay bank doing exactly?" ,
-		"What is the pay bank?" ,
-		"What\'s pay bank?" ,
-		"can you explain your bank?" ,
-		"can you pls explain what pay bank does" ,
-		"could you tell me more about your bank" ,
-		"explain me what your bank does" ,
-		"explain me what your bank is" ,
-		"how does pay bank work?" ,
-		"how does pay bank work" ,
-		"how does paybank work?" ,
-		"how paybank works ?" ,
-		"how works paybank" ,
-		"i dont get what pay bank is" ,
-		"i havent understood yet what pay bank actually is" ,
-		"i want to about pay bank" ,
-		"i want to know about paybank" ,
-		"i want to know what PAY BANK does" ,
-		"i want to learn something about pay bank" ,
-		"so how does it all work?" ,
-		"sorry tell me about pay bank" ,
-		"tell me about PAY bank" ,
-		"tell me bout PAYBANK" ,
-		"tell me more about pay bank" ,
-		"tell me more about your company" ,
-		"what can I do with your company?" ,
-		"what can i do in pay bank" ,
-		"what do you guys do at pay bank" ,
-		"what does pay bank do" ,
-		"what does pay bank do ?" ,
-		"what does pay bank do?" ,
-		"what does pay bank mean" ,
-		"what is PAY bank" ,
-		"what is PAY bank ?" ,
-		"what is in PAY bank" ,
-		"what is it for?" ,
-		"what is PAY bank" ,
-		"what is PAY bank actually" ,
-		"what is PAY bank?" ,
-		"whats PAY bank" ,
-		"yeah go on explaining what PAY bank is" ,
-		"what are the products of PAY bank"
+		"Bom dia" ,
+		Bonjour ,
+		"Good Morning" ,
+		"Good morning" ,
+		"Good mourning" ,
+		"Guten Morgen" ,
+		HELLO ,
+		HEY ,
+		HEllo ,
+		HI ,
+		"HI bot" ,
+		Hallo ,
+		Hei ,
+		Hellllooooooo ,
+		Hello ,
+		"Hello Bot" ,
+		"Hello botti" ,
+		"Hello!" ,
+		Hey ,
+		"Hey bot" ,
+		Heya ,
+		Heylo ,
+		Hi ,
+		"Hi bot" ,
+		"Hi man" ,
+		"Hi du" ,
+		"Hi there" ,
+		"Hi!" ,
+		"Hi\'" ,
+		"Hi," ,
+		"Hi, bot" ,
+		Hieee ,
+		Hieeeeeeeeeeeee ,
+		Hola ,
+		"I said, helllllloooooO!!!!" ,
+		"Well hello there ;)" ,
+		"What is up?" ,
+		"Whats up" ,
+		"Whats up my bot" ,
+		"Whats up?" ,
+		"ayyyy whaddup" ,
+		bonjour ,
+		"ey boss" ,
+		"good evening" ,
+		"good moring" ,
+		"good morning" ,
+		greet ,
+		greetings ,
+		hai ,
+		hallo ,
+		halloo ,
+		halloooo ,
+		halo ,
+		"halo assistant" ,
+		heeey ,
+		heelio ,
+		hell9o ,
+		hellio ,
+		hello ,
+		"hello assistant" ,
+		"hello everybody" ,
+		"hello friend" ,
+		"hello hi" ,
+		"hello is anybody there" ,
+		"hello it is me again" ,
+		"hello robot" ,
+		"hello there" ,
+		"hello sweatheart" ,
+		"hello sweet boy" ,
+		"hello world" ,
+		"hello?" ,
+		"hello]" ,
+		hellooo ,
+		helloooo ,
+		helo ,
+		hey ,
+		"hey bot" ,
+		"hey bot!" ,
+		"hey dude" ,
+		"hey hey" ,
+		"hey let\'s talk" ,
+		"hey ther" ,
+		"hey there" ,
+		"hey there boy" ,
+		"hey there.." ,
+		"hey, let\'s talk" ,
+		"hey, bot" ,
+		heya ,
+		heyho ,
+		heyo ,
+		hhola ,
+		^hi ,
+		"hi !" ,
+		"hi Mister" ,
+		"hi again" ,
+		"hi can you speak ?" ,
+		"hi folks" ,
+		"hi friend" ,
+		"hi friends" ,
+		"hi hi" ,
+		"hi i\'m Sandra Hernandez" ,
+		"hi im Amanda Anderson" ,
+		"hi mrs assistant" ,
+		"hi pal!" ,
+		"hi assisti" ,
+		"hi there" ,
+		"hi there it\'s me" ,
+		"hi!" ,
+		"hi........................................................." ,
+		"hi?" ,
+		hieee ,
+		hii ,
+		hiihihi ,
+		hiii ,
+		hlo ,
+		hola ,
+		howdy ,
+		jojojo ,
+		jop ,
+		konichiwa ,
+		merhaba ,
+		ola ,
+		"bot hello" ,
+		salut ,
+		sup ,
+		wasssup ,
+		"wasssup!" ,
+		"what up" ,
+		"whats popping" ,
+		"whats up" ,
+		yo ,
+		yoo ,
+		"hi assistant"
 }
 
-product_description :
+goodbye :
 	inputs in en {
-		"what is a " ( "visa card" ) [ account_type ] "?" ,
-		"what is a " ( "master card" ) [ account_type ] "?" ,
-		"what is a " ( "credit card" ) [ account_type ] "?" ,
-		"I want to know more about bank accounts" ,
-		"tell me about your " ( "credit card" ) [ account_type ] ,
-		"tell me more about " ( "master card" ) [ account_type ] ,
-		"what is PAY bank " ( "credit card" ) [ account_type ] ,
-		"what is PAY bank " ( "visa card" ) [ account_type ] "?" ,
-		"tell me more about your services" ,
-		"your products are?" ,
-		"and what products do you have?"
-	}
-	parameters :
-		account_type : entity text ;
-
-howtoapply :
-	inputs in en {
-		"How can I apply for the " ( credit ) [ account_type ] "?" ,
-		"I wanna apply for the " ( visa ) [ account_type ] ,
-		"I want the " ( "credit card" ) [ account_type ] ,
-		"I want this " ( card ) [ account_type ] ,
-		"I wanna open an account" ,
-		"how can I open a bank account" ,
-		"how to apply" ,
-		"how can I get a " ( "credit card" ) [ account_type ] ,
-		"how can I open a " ( "savings account" ) [ account_type ]
-	}
-	parameters :
-		account_type : entity text ;
-
-application_requirements :
-	inputs in en {
-		"What are the requirements?" ,
-		"how can I order a " ( "credit card" ) [ account_type ] "?" ,
-		"required documents to order a " ( "credit card" ) [ account_type ] ,
-		"how to order " ( credit ) [ account_type ] ,
-		"required documents to open a " ( "bank account" ) [ account_type ] ,
-		"tell me the necessary documents" ,
-		"what are the requirements" ,
-		"how can i apply for it" ,
-		"how can I apply for a " ( "credit accounts" ) [ account_type ] ,
-		"What are the requirements?" ,
-		"how can I order a " ( "credit card" ) [ account_type ] "?" ,
-		"required documents to order a " ( "credit card" ) [ account_type ] ,
-		"how to order " ( credit ) [ account_type ] ,
-		"required documents to open a " ( "bank account" ) [ account_type ] ,
-		"tell me the necessary documents" ,
-		"what are the requirements" ,
-		"how can i apply for it" ,
-		"how can I apply for a credit card"
-	}
-	parameters :
-		account_type : entity text ;
-
-required_age :
-	inputs in en {
-		"required age" ,
-		"can my sun order a card?" ,
-		"can i order it for my baby" ,
-		"can i order it for my parents" ,
-		"i want to order a card for my kids" ,
-		"can I order an " ( "credit card" ) [ account_type ] " for my child" ,
-		"i want to order a card for my parents" ,
-		"can i open a bank account for my family members?" ,
-		"what is the minimum required age to get it" ,
-		"what is the minimum required age to get a master card"
-	}
-	parameters :
-		account_type : entity text ;
-
-cardlimit :
-	inputs in en {
-		"How high is my card limit for the first purchase" ,
-		"card limit" ,
-		"first purchase limit?" ,
-		"any limitations for the " ( "credit card" ) [ account_type ] ,
-		"my starting credit" ,
-		"what is the starting credit" ,
-		"how much is the starting credit" ,
-		"preliminary card limit"
-	}
-	parameters :
-		account_type : entity text ;
-
-points_collect :
-	inputs in en {
-		"Where do I collect bonus points?" ,
-		"i would like to collect points, is it possible?" ,
-		"can I collect points" ,
-		"is there any benefit with each purchase that I make with it" ,
-		"I wanna collect points" ,
-		"can I collect point with my " ( "credit card" ) [ account_type ] ,
-		"with which card can I collect points"
-	}
-	parameters :
-		account_type : entity text ;
-
-annualcost :
-	inputs in en {
-		"What is the annual ticket price for the " ( "credit accounts" ) [ account_type ] "?" ,
-		"card annual cost" ,
-		"should i pay annualy for the card service" ,
-		"does the card cost" ,
-		"is the a bank account free" ,
-		"can i get the a " ( "credit account" ) [ account_type ] " for free" ,
-		"how much should i pay for the a card in a year" ,
-		"is the a bank account free for students?" ,
-		"is it free for students?" ,
-		"should i pay to get it?" ,
-		"should i pay to have a " ( gold ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		"Does this product cost?" ,
-		"does the " ( "credit cards" ) [ account_type ] " cost?" ,
-		"what is the cost of having a " ( silver ) [ credit_card ] ( "credit card" ) [ account_type ] "?" ,
-		"should I pay annualy for the " ( cards ) [ account_type ] "?" ,
-		"does the services cost"
-	}
-	parameters :
-		account_type ,
-		credit_card : entity text ;
-
-ask_transfer_charge :
-	inputs in en {
-		"Will I be charged for transferring cash" ,
-		"do transfers cost something?" ,
-		"is there a transfer charge?" ,
-		"Is there a charge" ,
-		"will i be charged for a transaction?" ,
-		"do xfers cost something?" ,
-		"is there a transfer fee" ,
-		"is there a xfer fee" ,
-		"how much is the transfer fee" ,
-		"transaction cost" ,
-		"how much is the cost to send money" ,
-		"is there a charge for sending money?"
-}
-
-check_balance :
-	inputs in en {
-		"How much money is on my account?" ,
-		"How much money is on my " ( bank ) [ account_type ] " account?" ,
-		"what\'s my " ( balance ) [ "amount-of-money" ] "?" ,
-		"what\'s my " ( "current balance" ) [ "amount-of-money" ] "?" ,
-		"What\'s left on that account?" ,
-		"How much do I have on that account?" ,
-		"What\'s the " ( balance ) [ "amount-of-money" ] " on that account?" ,
-		"How much money is left on that account?" ,
-		"what is my account " ( balance ) [ "amount-of-money" ] ,
-		"what\'s my account " ( balance ) [ "amount-of-money" ] "?" ,
-		"what\'s my account " ( balance ) [ "amount-of-money" ] ,
-		"whats my account " ( balance ) [ "amount-of-money" ] ,
-		"what is my " ( bank ) [ account_type ] " account " ( balance ) [ "amount-of-money" ] ,
-		"what\'s my " ( bank ) [ account_type ] " account " ( balance ) [ "amount-of-money" ] "?" ,
-		"what\'s my " ( bank ) [ account_type ] " account " ( balance ) [ "amount-of-money" ] ,
-		"whats my " ( bank ) [ account_type ] " account " ( balance ) [ "amount-of-money" ] ,
-		"What\'s my " ( "credit card" ) [ account_type ] ( balance ) [ "amount-of-money" ] ,
-		"What\'s my " ( credit ) [ account_type ] ( balance ) [ "amount-of-money" ] ,
-		"How much money do I owe on my " ( "credit cards" ) [ account_type ] ,
-		"Show me my " ( "credit card" ) [ account_type ] ( balance ) [ "amount-of-money" ] ,
-		"What " ( credit ) [ account_type ] " accounts do I have" ,
-		"Show me my " ( credit ) [ account_type ] " accounts" ,
-		"Whats the " ( balance ) [ "amount-of-money" ] " on my " ( credit ) [ account_type ] " account" ,
-		"What\'s my " ( credit ) [ account_type ] " account" ,
-		"What\'s my " ( gold ) [ credit_card ] ( card ) [ account_type ] ( balance ) [ "amount-of-money" ] ,
-		"Show me my " ( silver ) [ credit_card ] ( balance ) [ "amount-of-money" ] ,
-		"What\'s my " ( gold ) [ credit_card ] ( balance ) [ "amount-of-money" ] ,
-		"What\'s the " ( balance ) [ "amount-of-money" ] " on the " ( silver ) [ credit_card ] " account" ,
-		"what\'s my " ( gold ) [ credit_card ] ( "credit card" ) [ account_type ] ( balance ) [ "amount-of-money" ] "?" ,
-		"what\'s my " ( "credit card" ) [ account_type ] ( balance ) [ "amount-of-money" ] "?" ,
-		"what\'s my " ( "credit card" ) [ account_type ] " account " ( balance ) [ "amount-of-money" ] "?" ,
-		"What is my " ( silver ) [ credit_card ] ( card ) [ account_type ] ( balance ) [ "amount-of-money" ] "?" ,
-		"whats my " ( "credit card" ) [ account_type ] ( balance ) [ "amount-of-money" ] ,
-		"What is my " ( gold ) [ credit_card ] ( balance ) [ "amount-of-money" ] "?" ,
-		"whats my " ( silver ) [ credit_card ] ( card ) [ account_type ] ( balance ) [ "amount-of-money" ] "?" ,
-		"what\'s my " ( gold ) [ credit_card ] "\'s " ( card ) [ account_type ] ( balance ) [ "amount-of-money" ] "?" ,
-		"what\'s my " ( silver ) [ credit_card ] " account " ( balance ) [ "amount-of-money" ] "?" ,
-		"How much money have i spent lately>" ,
-		"I should check my " ( "credit card" ) [ account_type ] ( balance ) [ "amount-of-money" ] ( first ) [ account_type ] ,
-		"check my " ( "credit card" ) [ account_type ] ( balance ) [ "amount-of-money" ] ,
-		"check my " ( "credit card" ) [ account_type ] ( balance ) [ "amount-of-money" ] ( first ) [ account_type ] ,
-		"Can you tell me my account " ( balance ) [ "amount-of-money" ] "?" ,
-		"Hello, I would like to know how much money is in much money is in my account" ,
-		"hi, whats my account bal please" ,
-		"so.... what\'s my " ( balance ) [ "amount-of-money" ] "?" ,
-		"whats my " ( "current balance" ) [ "amount-of-money" ] ,
-		"What\'s my " ( balance ) [ "amount-of-money" ] "?" ,
-		"How much money do I have?" ,
-		"Yeah, I like coffee 👀 But how much money do I have?" ,
-		"Yeah, I know 😀 Since it\'s so nice: How much money do I have?"
-	}
-	parameters :
-		account_type ,
-		"amount-of-money" ,
-		credit_card : entity text ;
-
-check_earnings :
-	inputs in en {
-		"How much money went into my account last month?" ,
-		"How much money did I make last year?" ,
-		"What did I earn last month?" ,
-		"How much did I make last month?" ,
-		"How much money did I make last week?" ,
-		"how much was deposited in my account last month?" ,
-		"how much was deposited in my account in the last two weeks?" ,
-		"check deposits for last week" ,
-		"total deposits over last year" ,
-		"how much was deposited in January" ,
-		"how much money have I earned?" ,
-		"what did I earn?" ,
-		"How much have i earned?"
-}
-
-inform :
-	inputs in en {
-		"€10" ,
-		"5000" ,
-		"500" ,
-		"€100" ,
-		"€500" ,
-		"100 euros" ,
-		"1000 euros" ,
-		"€0.00" ,
-		"€1000" ,
-		"0" ,
-		"1 million" ,
-		"1 million big ones" ,
-		"10 m" ,
-		"1000000" ,
-		"100000" ,
-		"1000" ,
-		"100" ,
-		"10" ,
-		"10k" ,
-		"120000" ,
-		"1231" ,
-		"12" ,
-		"2 million" ,
-		"200 bucks" ,
-		"200000000" ,
-		"20000" ,
-		"20000k" ,
-		"2000k" ,
-		"200k" ,
-		"25,000" ,
-		"300 rupees" ,
-		"300000" ,
-		"300k" ,
-		"3" ,
-		"500 million" ,
-		"500000" ,
-		"500k" ,
-		"50 p" ,
-		"5 quid" ,
-		"6000000" ,
-		"900 euros" ,
-		"90k" ,
-		"99" ,
-		tomorrow ,
-		"next week" ,
-		yesterday ,
-		"for today" ,
-		"last week" ,
-		"the past month" ,
-		"the past two days" ,
-		"the last two weeks" ,
-		"at " ( amazon ) [ vendor_name ] ,
-		( starbucks ) [ vendor_name ] ,
-		"at " ( penny ) [ vendor_name ] ,
-		"at " ( starbucks ) [ vendor_name ] ,
-		( rewe ) [ vendor_name ] ,
-		( Amazon ) [ vendor_name ] ,
-		( Starbucks ) [ vendor_name ] ,
-		( netto ) [ vendor_name ] ,
-		"I want to pay the " ( "current balance" ) [ payment_amount ] ,
-		( "current balance" ) [ payment_amount ] ,
-		( "minimum balance" ) [ payment_amount ] ,
-		"I want to pay the " ( "minimum balance" ) [ payment_amount ] ,
-		"the " ( "current balance" ) [ payment_amount ] ,
-		"the " ( "minimum balance" ) [ payment_amount ] ,
-		"my " ( "minimum balance" ) [ payment_amount ] ,
-		"my " ( "current balance" ) [ payment_amount ] ,
-		( silver ) [ credit_card ] " card" ,
-		( gold ) [ credit_card ] " card" ,
-		( silver ) [ credit_card ] ,
-		( gold ) [ credit_card ] ,
-		( silver ) [ credit_card ] " account" ,
-		( gold ) [ credit_card ] " account" ,
-		( silver ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		( gold ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		"my " ( silver ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		"my " ( gold ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		"my " ( silver ) [ credit_card ] " card" ,
-		"my " ( gold ) [ credit_card ] " card" ,
-		"towards my " ( silver ) [ credit_card ] " card" ,
-		"towards my " ( gold ) [ credit_card ] " card" ,
-		"for sunday" ,
-		"for friday" ,
-		"for tomorrow" ,
-		"for saturday" ,
-		"I want to pay the " ( "minimum balance" ) [ payment_amount ] " on my " ( silver ) [ credit_card ] ( "credit card" ) [ account_type ] " today" ,
-		today ,
-		"I am " ( "Christina Sullivan" ) [ PERSON ] ,
-		"I am " ( "Hattie Rice" ) [ PERSON ] ,
-		"I am " ( "Robert Starks" ) [ PERSON ] ,
-		"I am " ( Aniket ) [ PERSON ] ,
-		"My name is " ( "Ashleigh Mees" ) [ PERSON ] ,
-		"My name is " ( "chelsea Parker" ) [ PERSON ] ,
-		"My name is " ( "jessie maglione" ) [ PERSON ] ,
-		"My name is " ( "Kenneth Sherman" ) [ PERSON ] ,
-		"My name is " ( "Lee George" ) [ PERSON ] ,
-		"My name is " ( "Louise Caudill" ) [ PERSON ] ,
-		"My name is " ( "Richard smith" ) [ PERSON ] ,
-		"My name is " ( "Shane Goodyear" ) [ PERSON ] ,
-		"My name is " ( "Sondra Boyd" ) [ PERSON ] ,
-		"My name si " ( "tom Harbin" ) [ PERSON ] ,
-		"My name is " ( manuel ) [ PERSON ] ,
-		( Elise ) [ PERSON ] ,
-		( "Jamie Moore" ) [ PERSON ] ,
-		( "Jane Baines" ) [ PERSON ] ,
-		( "John Strickland" ) [ PERSON ] ,
-		( "Michele Perry" ) [ PERSON ] ,
-		( "Michelle Garcia" ) [ PERSON ] ,
-		( "Michelle Vinion" ) [ PERSON ] ,
-		( "Mr. Sweney" ) [ PERSON ] ,
-		( "Terri Cline" ) [ PERSON ] ,
-		( "William Zelkind" ) [ PERSON ] ,
-		( rephrase ) [ repair_strategy_name ] ,
-		( options ) [ repair_strategy_name ] ,
-		( defer ) [ repair_strategy_name ] ,
-		( countBreakdown ) [ repair_strategy_name ] ,
-		( labelConfidencLevel ) [ repair_strategy_name ] ,
-		( labelUserUtteranceLenght ) [ repair_strategy_name ] ,
-		( LabelFatigueConfusion ) [ repair_strategy_name ] ,
-		( random ) [ repair_strategy_name ] ,
-		( twoStageOptions ) [ repair_strategy_name ] ,
-		"switch to " ( random ) [ repair_strategy_name ] ,
-		"set fallback policy to " ( defer ) [ repair_strategy_name ] ,
-		"in case of a fallback use " ( options ) [ repair_strategy_name ] ,
-		"if you dont understand what I say use " ( rephrase ) [ repair_strategy_name ] " policy" ,
-		"change the fallback to " ( countBreakdown ) [ repair_strategy_name ] ,
-		"change fallback to " ( labelConfidencLevel ) [ repair_strategy_name ] ,
-		"set the repair strategy to " ( labelUserUtteranceLenght ) [ repair_strategy_name ] ,
-		"change the fallback to " ( LabelFatigueConfusion ) [ repair_strategy_name ] ,
-		"last year" ,
-		toay ,
-		"33" ,
-		"333333"
-	}
-	parameters :
-		vendor_name ,
-		payment_amount ,
-		credit_card ,
-		account_type ,
-		PERSON ,
-		repair_strategy_name : entity text ;
-
-pay_cc :
-	inputs in en {
-		"I would like to pay the " ( "minimum balance" ) [ "amount-of-money" ] " on my " ( gold ) [ credit_card ] ( card ) [ account_type ] ,
-		"I want to pay my " ( "credit card" ) [ account_type ] ,
-		"I want to pay my " ( card ) [ account_type ] ,
-		"Pay my " ( card ) [ account_type ] ,
-		"I want to pay my " ( silver ) [ credit_card ] " bill" ,
-		"Pay my " ( gold ) [ credit_card ] ,
-		"I want to pay my " ( silver ) [ credit_card ] " bill" ,
-		"Pay my " ( visa ) [ credit_card ] ,
-		"I want to pay my " ( visa ) [ credit_card ] " bill" ,
-		"Pay my " ( mastercard ) [ credit_card ] ,
-		"I want to pay my " ( MasterCard ) [ credit_card ] " bill" ,
-		"I want to pay my " ( "credit card" ) [ account_type ] " bill" ,
-		"I want to pay the " ( "current balance" ) [ "amount-of-money" ] " on my " ( "credit card" ) [ account_type ] ,
-		"can you help me pay the " ( "current balance" ) [ "amount-of-money" ] " on my " ( "credit card" ) [ account_type ] ,
-		"i want to pay off my " ( "credit card" ) [ account_type ] ,
-		"I want to pay off my " ( "credit card" ) [ account_type ] ,
-		"i want to pay my " ( "credit card" ) [ account_type ] ,
-		"i want to pay off my " ( gold ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		"I want to pay my " ( "current balance" ) [ "amount-of-money" ] " on my " ( silver ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		"i want to pay my " ( "current balance" ) [ "amount-of-money" ] " on my " ( gold ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		"I want to pay €500 on my " ( silver ) [ credit_card ] ( "credit card" ) [ account_type ] " on Sunday" ,
-		"I want to pay my " ( "current balance" ) [ "amount-of-money" ] " on my " ( gold ) [ credit_card ] ( "credit card" ) [ account_type ] " today" ,
-		"i need to pay off my " ( silver ) [ credit_card ] ( "credit card" ) [ account_type ] ,
-		"Please schedule a payment towards my " ( "credit card" ) [ account_type ] " for April 12th" ,
-		"Can I schedule a payment towards my " ( "credit card" ) [ account_type ] " for tomorrow?" ,
-		"Pay off my " ( "minimum balance" ) [ "amount-of-money" ] " please" ,
-		"i would like to pay €1200 to my " ( "credit card" ) [ account_type ] ,
-		"I would also like to pay my " ( visa ) [ credit_card ] " bill" ,
-		"Pay off my " ( "credit card" ) [ account_type ] ", please" ,
-		"I guess it is. Since it\'s so much, let\'s pay off my " ( credit ) [ account_type ] ,
-		"Let\'s pay that " ( "credit card" ) [ account_type ] " bill" ,
-		"I want to pay 100 dollars toward my " ( gold ) [ credit_card ] ( card ) [ account_type ] ", tomorrow" ,
-		"pay 100 towards " ( silver ) [ credit_card ] ( card ) [ account_type ] ", tomorrow"
-	}
-	parameters :
-		"amount-of-money" ,
-		credit_card ,
-		account_type : entity text ;
-
-search_transactions :
-	inputs in en {
-		"how much did I spend at " ( Lidl ) [ vendor_name ] " this week?" ,
-		"what is my typical spending at " ( Amazon ) [ vendor_name ] "?" ,
-		"I want to check my spending history" ,
-		"how much did I spend at " ( Starbucks ) [ vendor_name ] " last week?" ,
-		"I need to check my spending history" ,
-		"I want to check my spending" ,
-		"I want to check my spending history at " ( starbucks ) [ vendor_name ] ,
-		"i want to check my spending history" ,
-		"i want to see my transaction history" ,
-		"I want to search my past transactions" ,
-		"can I search my transaction history" ,
-		"can I look at past transactions" ,
-		"I want to search my transactions with " ( amazon ) [ vendor_name ] ,
-		"can i seem my transactions with " ( Rewe ) [ vendor_name ] ,
-		"how much did i spend at " ( starbucks ) [ vendor_name ] " last month?" ,
-		"what did i spend last month?" ,
-		"How much did I spend last month?" ,
-		"What did I spend at " ( Legoland ) [ vendor_name ] " last month?" ,
-		"What did I spend at " ( Legoland ) [ vendor_name ] " last year?" ,
-		"how much did i spend at " ( starbucks ) [ vendor_name ] " last year" ,
-		"Yes! How much did I spend on " ( Starbucks ) [ vendor_name ] " last month?" ,
-		"How much did I spend at Burger King last month?" ,
-		"what places have I spent money?" ,
-		"search transactions" ,
-		"where did i spend my money?" ,
-		"how much did i spend?" ,
-		"how much did i spend in " ( amazon ) [ vendor_name ] " last month"
-	}
-	parameters :
-		vendor_name : entity text ;
-
-transfer_money :
-	inputs in en {
-		"I want to pay " ( John ) [ PERSON ] ,
-		"I want to transfer €100 to " ( Bob ) [ PERSON ] ,
-		"can i transfer money to " ( Sally ) [ PERSON ] ,
-		"I want to transfer money" ,
-		"I want to pay someone" ,
-		"can I pay someone" ,
-		"I need to transfer money to a friend" ,
-		"can I transfer money to my " ( mom ) [ PERSON ] ,
-		"I want to pay " ( Bert ) [ PERSON ] ,
-		"pay my friend" ,
-		"transfer money" ,
-		"I want to transfer €100 to " ( Tommy ) [ PERSON ] ,
-		"i want to transfer €400 to " ( Akela ) [ PERSON ] ,
-		"I want to pay " ( "Paula Handy" ) [ PERSON ] ,
-		"pay Katy Parrow €40 please" ,
-		"transfer €60 to " ( "Jason Jacob" ) [ PERSON ] ,
-		"pay " ( "Evan Oslo" ) [ PERSON ] ,
-		"pay " ( Lisa ) [ PERSON ] " please" ,
-		"can I transfer money to " ( "Kyle Gardner" ) [ PERSON ] "?" ,
-		"Pay " ( Karen ) [ PERSON ] " 60 Euros" ,
-		"pay " ( Mona ) [ PERSON ] " €60" ,
-		"transfer €60 to " ( Sally ) [ PERSON ] ,
-		"need to transfer money" ,
-		"II want to transfer to " ( Kelly ) [ PERSON ] ,
-		"Pay " ( Percy ) [ PERSON ] " €50" ,
-		"Pay €50 to " ( Pat ) [ PERSON ] ,
-		"Ok pay " ( Emma ) [ PERSON ] ,
-		"pay " ( Emanual ) [ PERSON ] ,
-		"i want to transfer €100 to " ( "Jane smith" ) [ PERSON ] ,
-		"i want to transfer €100 to my " ( daughter ) [ PERSON ] ,
-		"i want to transfer money please" ,
-		"i mean i want to transfer money" ,
-		"I need to pay a friend." ,
-		"transfer money to " ( "ethan oswald" ) [ PERSON ] ,
-		"transfer money to " ( sara ) [ PERSON ] ,
-		"I need to transfer money to my grandma " ( Judith ) [ PERSON ] "." ,
-		"i want to transfer money to " ( Latisha ) [ PERSON ]
-	}
-	parameters :
-		PERSON : entity text ;
-
-check_recipients :
-	inputs in en {
-		"Who can I send money to?" ,
-		"Who are my known recipients" ,
-		"Show me my list of recipients" ,
-		"Show the recipient list" ,
-		"Show me people I can send money to" ,
-		"Who is a valid payee" ,
-		"who can I pay?" ,
-		"who can I transfer money?" ,
-		"who\'s in my recipient list?" ,
-		"who can I transfer money to?" ,
-		"recipient list" ,
-		"to whom can i tranfer money?"
-}
-
-human_handoff :
-	inputs in en {
-		"I want a human" ,
-		"can I speak to an agent" ,
-		"real agent please" ,
-		"real human" ,
-		"chat with a live agent" ,
-		"give me a person please" ,
-		"i want to talk to a human" ,
-		"Can I speak to anyone who can really help me?" ,
-		"Could I talk to Tyrone King?" ,
-		"I don\'t wanna talk to a bot" ,
-		"I dont like to talk to a machine" ,
-		"I want to talk to a human" ,
-		"I want to talk to the founders" ,
-		"are there also humans working for your company?" ,
-		"can I speak to a person?" ,
-		"can i please speak to a human?" ,
-		"can you forward me to your team" ,
-		"can you put me in touch with a human?" ,
-		"do you have human support ?" ,
-		"gimme a proper human" ,
-		"give me a human" ,
-		"give me a human now" ,
-		"human handoff" ,
-		"i dont wanna talk to a bot" ,
-		"i want to speak to a real person" ,
-		"i want to speak to customer service" ,
-		"i want to talk to a person" ,
-		"i want to talk to human" ,
-		"i want to talk to someone at pay bank" ,
-		"i want to talk to someone else" ,
-		"i want to talk to someone who is smarter than you" ,
-		"i would like to speak to a person" ,
-		"i\'d rather speak with a real bank employee" ,
-		"id like to talk to a real bank employee" ,
-		"let me speak with a real person please" ,
-		"let me talk to a human" ,
-		"let me talk to a real person" ,
-		"please give me a human" ,
-		"service agent" ,
-		"someone from customer care" ,
-		"speak to a real person" ,
-		"talking to a bot is stupid" ,
-		"that\'s annoying I\'d like to speak to someone real" ,
-		"thats not helping, can i talk to human?" ,
-		"wrong i want to speak to a human" ,
-		"can i speak to human" ,
-		"can i speak to your human" ,
-		"i want to chat with human" ,
-		"How do I talk to a human" ,
-		"talk with a human" ,
-		"Can i talk to a human instead" ,
-		"nevermind.... you\'re not human ... I need to talk to a live person" ,
-		"Can you get a human to assist me?" ,
-		"Can i talk to a human?" ,
-		"Can I talk to a human" ,
-		"Can I speak to a human?" ,
-		"can i speak to a human" ,
-		"no, i want to talk to human" ,
-		"can you hand a conversation over to a human?" ,
-		"can I talk to human?" ,
-		"can I talk to human" ,
-		"talk to human" ,
-		"i want human :(" ,
-		"can i talk to human" ,
-		"i want to talk to a human \\" ,
-		"i want to speak to human" ,
-		"can i talk to a real person?" ,
-		"connect me to a real person" ,
-		"I need a real person" ,
-		"can i took with a real person" ,
-		"let me speak to a real person" ,
-		"let me speak to a real person please" ,
-		"i want to talk to a real person"
-}
-
-configure_repair_strategy :
-	inputs in en {
-		"i want to configure the repair strategy" ,
-		"configure fallback" ,
-		"configure repair strategy" ,
-		"show me the repair strategies" ,
-		"i want to configure the fallback policy" ,
-		"set fallback policy" ,
-		"configure the repair strategies" ,
-		"I want to set my fallback policy" ,
-		"configure fallback policy" ,
-		"i want to set the fallback policy" ,
-		"change the repair strategy" ,
-		"change the fallback policy" ,
-		"i want to change the fallback policy"
+		Bye ,
+		"Bye bye" ,
+		adios ,
+		"adios?" ,
+		bye ,
+		"bye ." ,
+		"bye :P" ,
+		"bye bot" ,
+		"bye bye" ,
+		"bye bye bot" ,
+		"bye for now" ,
+		"bye udo" ,
+		"bye was nice talking to you" ,
+		"bye!" ,
+		byee ,
+		"catch you later" ,
+		ciao ,
+		cya ,
+		farewell ,
+		"good bye" ,
+		"good bye bot!" ,
+		"good night" ,
+		goodbye ,
+		"goodbye." ,
+		goodnight ,
+		"gotta go" ,
+		"k byyye #slay" ,
+		"ok Bye" ,
+		"ok bye" ,
+		"ok, bye" ,
+		"ok.bye" ,
+		"see u later" ,
+		"see ya" ,
+		"see you" ,
+		"see you . bye" ,
+		"take care" ,
+		"then bye" ,
+		"tlak to you later" ,
+		"toodle-oo" ,
+		"no. bye"
 }
 
 affirm :
 	inputs in en {
 		Accept ,
 		"Awesome!" ,
+		Cool ,
 		Good ,
 		Great ,
 		"I accept" ,
@@ -721,7 +247,11 @@ affirm :
 		awesome ,
 		"awesome!" ,
 		confirm ,
+		cool ,
+		"cool :)" ,
 		"cool story bro" ,
+		"cool!" ,
+		coolio ,
 		"definitely yes without a doubt" ,
 		done ,
 		"fair enough" ,
@@ -732,6 +262,7 @@ affirm :
 		"go ahead" ,
 		"go for it" ,
 		"going super well" ,
+		good ,
 		"good." ,
 		great ,
 		"great lets do that" ,
@@ -756,6 +287,7 @@ affirm :
 		kk ,
 		"lets do it" ,
 		"lets do this" ,
+		nice ,
 		"not bad" ,
 		"of course" ,
 		"ofcoure i do" ,
@@ -771,10 +303,10 @@ affirm :
 		"ok good" ,
 		"ok great" ,
 		"ok i accept" ,
-		"ok paya" ,
+		"ok bot" ,
 		"ok, I behave now" ,
 		"ok, I understood" ,
-		"ok, Sara" ,
+		"ok, bot" ,
 		"ok..." ,
 		okay ,
 		"okay cool" ,
@@ -878,13 +410,456 @@ affirm :
 		ys ,
 		yup ,
 		yyeeeh ,
-		"Okay cool" ,
-		"ok.." ,
-		considering ,
-		"More a less" ,
-		"cool beans" ,
-		"sounds good!" ,
-		really
+		Accept ,
+		"Awesome!" ,
+		Cool ,
+		Good ,
+		Great ,
+		"I accept" ,
+		"I accept." ,
+		"I agree" ,
+		"I am using it" ,
+		"I changed my mind. I want to accept it" ,
+		"I do" ,
+		"I get it" ,
+		"I guess so" ,
+		"I have used it in the past" ,
+		"I will" ,
+		"I\'d absolutely love that" ,
+		"I\'m sure I will!" ,
+		"I\'m using it" ,
+		Nice ,
+		OK ,
+		Ofcourse ,
+		"Oh yes" ,
+		"Oh, ok" ,
+		Ok ,
+		"Ok let\'s start" ,
+		"Ok." ,
+		Okay ,
+		"Okay!" ,
+		PLEASE ,
+		SURE ,
+		Sure ,
+		Sweet ,
+		"That would be great" ,
+		YES ,
+		YUP ,
+		Yea ,
+		Yeah ,
+		"Yeah sure" ,
+		Yep ,
+		"Yep that\'s fine" ,
+		"Yep!" ,
+		Yepp ,
+		Yes ,
+		"Yes I do" ,
+		"Yes please" ,
+		"Yes please!" ,
+		"Yes, I accept" ,
+		"Yes." ,
+		Yup ,
+		"a little" ,
+		absolutely ,
+		accept ,
+		accepted ,
+		agreed ,
+		"ah ok" ,
+		alright ,
+		"alright, cool" ,
+		amayzing ,
+		"amazing!" ,
+		awesome ,
+		"awesome!" ,
+		confirm ,
+		cool ,
+		"cool :)" ,
+		"cool story bro" ,
+		"cool!" ,
+		coolio ,
+		"definitely yes without a doubt" ,
+		done ,
+		"fair enough" ,
+		fcourse ,
+		fine ,
+		"fuck yeah!" ,
+		go ,
+		"go ahead" ,
+		"go for it" ,
+		"going super well" ,
+		good ,
+		"good." ,
+		great ,
+		"great lets do that" ,
+		"great!" ,
+		"hell yeah" ,
+		"hell yes" ,
+		"hm, i\'d like that" ,
+		"how nice!" ,
+		"i accept" ,
+		"i agree" ,
+		"i am!" ,
+		"i want that" ,
+		"i will!" ,
+		"it is ok" ,
+		"its okay" ,
+		^ja ,
+		"ja cool" ,
+		"ja thats great" ,
+		jezz ,
+		jo ,
+		k ,
+		kk ,
+		"lets do it" ,
+		"lets do this" ,
+		nice ,
+		"not bad" ,
+		"of course" ,
+		"ofcoure i do" ,
+		ofcourse ,
+		"oh awesome!" ,
+		"oh cool" ,
+		"oh good !!" ,
+		"oh super" ,
+		ok ,
+		"ok cool" ,
+		"ok fine" ,
+		"ok friend" ,
+		"ok good" ,
+		"ok great" ,
+		"ok i accept" ,
+		"ok bot" ,
+		"ok, I behave now" ,
+		"ok, I understood" ,
+		"ok, bot" ,
+		"ok..." ,
+		okay ,
+		"okay cool" ,
+		"okay sure" ,
+		"okay.." ,
+		"oki doki" ,
+		okie ,
+		ook ,
+		oui ,
+		perfect ,
+		please ,
+		si ,
+		"sort of" ,
+		sure ,
+		"sure thing" ,
+		"sure!" ,
+		"that is cool" ,
+		"that ok" ,
+		"that sounds fine" ,
+		"that\'s great" ,
+		"thats fine" ,
+		"thats good" ,
+		"thats great" ,
+		top ,
+		"uh-huh" ,
+		"very much" ,
+		"well yes" ,
+		y ,
+		ya ,
+		"ya cool" ,
+		"ya go for it" ,
+		"ya i want" ,
+		"ya please" ,
+		"ya thats cool" ,
+		yaah ,
+		yap ,
+		yaps ,
+		yas ,
+		yay ,
+		ye ,
+		"ye splease" ,
+		yea ,
+		yeah ,
+		"yeah do that" ,
+		"yeah sure" ,
+		"yeah\'=" ,
+		"yeah, why not" ,
+		yeeeeezzzzz ,
+		yeeees ,
+		yep ,
+		"yep i want that" ,
+		"yep if i have to" ,
+		"yep please" ,
+		"yep that\'s nice" ,
+		"yep thats cool" ,
+		"yep, will do thank you" ,
+		"yep. :/" ,
+		yes ,
+		"yes ..." ,
+		"yes I do" ,
+		"yes accept please" ,
+		"yes baby" ,
+		"yes cool" ,
+		"yes give me information" ,
+		"yes go ahead" ,
+		"yes go for it" ,
+		"yes great" ,
+		"yes i accept" ,
+		"yes i agree" ,
+		"yes i have built a bot before" ,
+		"yes i have!" ,
+		"yes it is" ,
+		"yes it was okay" ,
+		"yes of course" ,
+		"yes pleae" ,
+		"yes please" ,
+		"yes please!" ,
+		"yes pls" ,
+		"yes sirfr" ,
+		"yes that\'s great" ,
+		"yes that\'s what i want" ,
+		"yes you can" ,
+		"yes\'" ,
+		"yes, I\'d love to" ,
+		"yes, cool" ,
+		"yes, give me information, please" ,
+		"yes,i am" ,
+		"yes." ,
+		yesh ,
+		yess ,
+		yessoo ,
+		yesss ,
+		yesssss ,
+		yesyestyes ,
+		yesyesyes ,
+		yez ,
+		yop ,
+		"you asked me a yes or no question, which i answered with yes" ,
+		"you got me, I accept, if you want me to" ,
+		yres ,
+		ys ,
+		yup ,
+		yyeeeh ,
+		Accept ,
+		"Awesome!" ,
+		Cool ,
+		Good ,
+		Great ,
+		"I accept" ,
+		"I accept." ,
+		"I agree" ,
+		"I am using it" ,
+		"I changed my mind. I want to accept it" ,
+		"I do" ,
+		"I get it" ,
+		"I guess so" ,
+		"I have used it in the past" ,
+		"I will" ,
+		"I\'d absolutely love that" ,
+		"I\'m sure I will!" ,
+		"I\'m using it" ,
+		Nice ,
+		OK ,
+		Ofcourse ,
+		"Oh yes" ,
+		"Oh, ok" ,
+		Ok ,
+		"Ok let\'s start" ,
+		"Ok." ,
+		Okay ,
+		"Okay!" ,
+		PLEASE ,
+		SURE ,
+		Sure ,
+		Sweet ,
+		"That would be great" ,
+		YES ,
+		YUP ,
+		Yea ,
+		Yeah ,
+		"Yeah sure" ,
+		Yep ,
+		"Yep that\'s fine" ,
+		"Yep!" ,
+		Yepp ,
+		Yes ,
+		"Yes I do" ,
+		"Yes please" ,
+		"Yes please!" ,
+		"Yes, I accept" ,
+		"Yes." ,
+		Yup ,
+		"a little" ,
+		absolutely ,
+		accept ,
+		accepted ,
+		agreed ,
+		"ah ok" ,
+		alright ,
+		"alright, cool" ,
+		amayzing ,
+		"amazing!" ,
+		awesome ,
+		"awesome!" ,
+		confirm ,
+		cool ,
+		"cool :)" ,
+		"cool story bro" ,
+		"cool!" ,
+		coolio ,
+		"definitely yes without a doubt" ,
+		done ,
+		"fair enough" ,
+		fcourse ,
+		fine ,
+		"fuck yeah!" ,
+		go ,
+		"go ahead" ,
+		"go for it" ,
+		"going super well" ,
+		good ,
+		"good." ,
+		great ,
+		"great lets do that" ,
+		"great!" ,
+		"hell yeah" ,
+		"hell yes" ,
+		"hm, i\'d like that" ,
+		"how nice!" ,
+		"i accept" ,
+		"i agree" ,
+		"i am!" ,
+		"i want that" ,
+		"i will!" ,
+		"it is ok" ,
+		"its okay" ,
+		^ja ,
+		"ja cool" ,
+		"ja thats great" ,
+		jezz ,
+		jo ,
+		k ,
+		kk ,
+		"lets do it" ,
+		"lets do this" ,
+		nice ,
+		"not bad" ,
+		"of course" ,
+		"ofcoure i do" ,
+		ofcourse ,
+		"oh awesome!" ,
+		"oh cool" ,
+		"oh good !!" ,
+		"oh super" ,
+		ok ,
+		"ok cool" ,
+		"ok fine" ,
+		"ok friend" ,
+		"ok good" ,
+		"ok great" ,
+		"ok i accept" ,
+		"ok bot" ,
+		"ok, I behave now" ,
+		"ok, I understood" ,
+		"ok, bot" ,
+		"ok..." ,
+		okay ,
+		"okay cool" ,
+		"okay sure" ,
+		"okay.." ,
+		"oki doki" ,
+		okie ,
+		ook ,
+		oui ,
+		perfect ,
+		please ,
+		si ,
+		"sort of" ,
+		sure ,
+		"sure thing" ,
+		"sure!" ,
+		"that is cool" ,
+		"that ok" ,
+		"that sounds fine" ,
+		"that\'s great" ,
+		"thats fine" ,
+		"thats good" ,
+		"thats great" ,
+		top ,
+		"uh-huh" ,
+		"very much" ,
+		"well yes" ,
+		y ,
+		ya ,
+		"ya cool" ,
+		"ya go for it" ,
+		"ya i want" ,
+		"ya please" ,
+		"ya thats cool" ,
+		yaah ,
+		yap ,
+		yaps ,
+		yas ,
+		yay ,
+		ye ,
+		"ye splease" ,
+		yea ,
+		yeah ,
+		"yeah do that" ,
+		"yeah sure" ,
+		"yeah\'=" ,
+		"yeah, why not" ,
+		yeeeeezzzzz ,
+		yeeees ,
+		yep ,
+		"yep i want that" ,
+		"yep if i have to" ,
+		"yep please" ,
+		"yep that\'s nice" ,
+		"yep thats cool" ,
+		"yep, will do thank you" ,
+		"yep. :/" ,
+		yes ,
+		"yes ..." ,
+		"yes I do" ,
+		"yes accept please" ,
+		"yes baby" ,
+		"yes cool" ,
+		"yes give me information" ,
+		"yes go ahead" ,
+		"yes go for it" ,
+		"yes great" ,
+		"yes i accept" ,
+		"yes i agree" ,
+		"yes i have built a bot before" ,
+		"yes i have!" ,
+		"yes it is" ,
+		"yes it was okay" ,
+		"yes of course" ,
+		"yes pleae" ,
+		"yes please" ,
+		"yes please!" ,
+		"yes pls" ,
+		"yes sirfr" ,
+		"yes that\'s great" ,
+		"yes that\'s what i want" ,
+		"yes you can" ,
+		"yes\'" ,
+		"yes, I\'d love to" ,
+		"yes, cool" ,
+		"yes, give me information, please" ,
+		"yes,i am" ,
+		"yes." ,
+		yesh ,
+		yess ,
+		yessoo ,
+		yesss ,
+		yesssss ,
+		yesyestyes ,
+		yesyesyes ,
+		yez ,
+		yop ,
+		"you asked me a yes or no question, which i answered with yes" ,
+		"you got me, I accept, if you want me to" ,
+		yres ,
+		ys ,
+		yup ,
+		yyeeeh
 }
 
 deny :
@@ -893,7 +868,6 @@ deny :
 		"I don\'t want to give it to you" ,
 		"I don\'t want to say" ,
 		"I dont want to tell" ,
-		"I\'m not giving you my email address" ,
 		"I\'m not going to give it to you" ,
 		NEIN ,
 		NO ,
@@ -918,7 +892,6 @@ deny :
 		"i don\'t think so" ,
 		"i don\'t want either of those" ,
 		"i don\'t want to" ,
-		"i don\'t want to give you my email" ,
 		"i dont want to" ,
 		"i dont want to accept :P lol" ,
 		"i guess it means - no" ,
@@ -942,7 +915,6 @@ deny :
 		^no ,
 		"no :(" ,
 		"no I dont want" ,
-		"no I haven\'t decided yet if I want to sign up" ,
 		"no and no again" ,
 		"no bots at all" ,
 		"no go" ,
@@ -977,445 +949,218 @@ deny :
 		"not really" ,
 		"not right now" ,
 		"not yet" ,
-		"nö" ,
+		"nÃ¶" ,
 		"sorry not right now" ,
 		"still dont want to tell" ,
 		"thanks but no thanks" ,
 		"this sucks" ,
 		"very bad" ,
-		"I do not need help installing" ,
-		"I don\'t wanna tell the name of my company" ,
 		"no stop" ,
 		"stop it, i do not care!!!" ,
-		"none of them" ,
-		"I don\'t agree"
+		"I don\'t want to" ,
+		"I don\'t want to give it to you" ,
+		"I don\'t want to say" ,
+		"I dont want to tell" ,
+		"I\'m not going to give it to you" ,
+		NEIN ,
+		NO ,
+		"NO DON\"T WANT THIS!" ,
+		Nah ,
+		Neither ,
+		Never ,
+		Nevermind ,
+		No ,
+		"No thank you" ,
+		"No, not really." ,
+		"No, thank you" ,
+		"No." ,
+		Nopes ,
+		"Not really" ,
+		"absolutely not" ,
+		decline ,
+		"definitely not" ,
+		deny ,
+		"i decline" ,
+		"i don not like this" ,
+		"i don\'t think so" ,
+		"i don\'t want either of those" ,
+		"i don\'t want to" ,
+		"i dont want to" ,
+		"i dont want to accept :P lol" ,
+		"i guess it means - no" ,
+		"i\'m afraid not" ,
+		"i\'m not sure" ,
+		"it is going pretty badly" ,
+		"it sucks" ,
+		"it sux" ,
+		n ,
+		na ,
+		nah ,
+		"nah I\'m good" ,
+		"nah not for me" ,
+		"nah, first time" ,
+		"nah, i\'m good" ,
+		nehi ,
+		nein ,
+		neither ,
+		never ,
+		"never mind" ,
+		^no ,
+		"no :(" ,
+		"no I dont want" ,
+		"no and no again" ,
+		"no bots at all" ,
+		"no go" ,
+		"no i can\'t" ,
+		"no i don\'t accept" ,
+		"no i dont want to" ,
+		"no i dont want to accept :P lol" ,
+		"no i won\'t" ,
+		"no ma\'am" ,
+		"no sir" ,
+		"no sorry" ,
+		"no thank s" ,
+		"no thank you" ,
+		"no thanks" ,
+		"no way" ,
+		"no you did it wrong" ,
+		"no!!!!" ,
+		"no, i hate it" ,
+		"no, my frst time" ,
+		"no, thank you" ,
+		"no, thanks" ,
+		"no, thankyou" ,
+		"no. u r idiot" ,
+		non ,
+		noooooooooo ,
+		noooooooooooooooooooooooooooooooooooooooo ,
+		nop ,
+		nope ,
+		"nope!" ,
+		"nope. i am good" ,
+		"not going well at all" ,
+		"not really" ,
+		"not right now" ,
+		"not yet" ,
+		"nÃ¶" ,
+		"sorry not right now" ,
+		"still dont want to tell" ,
+		"thanks but no thanks" ,
+		"this sucks" ,
+		"very bad" ,
+		"no stop" ,
+		"stop it, i do not care!!!" ,
+		"I don\'t want to" ,
+		"I don\'t want to give it to you" ,
+		"I don\'t want to say" ,
+		"I dont want to tell" ,
+		"I\'m not going to give it to you" ,
+		NEIN ,
+		NO ,
+		"NO DON\"T WANT THIS!" ,
+		Nah ,
+		Neither ,
+		Never ,
+		Nevermind ,
+		No ,
+		"No thank you" ,
+		"No, not really." ,
+		"No, thank you" ,
+		"No." ,
+		Nopes ,
+		"Not really" ,
+		"absolutely not" ,
+		decline ,
+		"definitely not" ,
+		deny ,
+		"i decline" ,
+		"i don not like this" ,
+		"i don\'t think so" ,
+		"i don\'t want either of those" ,
+		"i don\'t want to" ,
+		"i dont want to" ,
+		"i dont want to accept :P lol" ,
+		"i guess it means - no" ,
+		"i\'m afraid not" ,
+		"i\'m not sure" ,
+		"it is going pretty badly" ,
+		"it sucks" ,
+		"it sux" ,
+		n ,
+		na ,
+		nah ,
+		"nah I\'m good" ,
+		"nah not for me" ,
+		"nah, first time" ,
+		"nah, i\'m good" ,
+		nehi ,
+		nein ,
+		neither ,
+		never ,
+		"never mind" ,
+		^no ,
+		"no :(" ,
+		"no I dont want" ,
+		"no and no again" ,
+		"no bots at all" ,
+		"no go" ,
+		"no i can\'t" ,
+		"no i don\'t accept" ,
+		"no i dont want to" ,
+		"no i dont want to accept :P lol" ,
+		"no i won\'t" ,
+		"no ma\'am" ,
+		"no sir" ,
+		"no sorry" ,
+		"no thank s" ,
+		"no thank you" ,
+		"no thanks" ,
+		"no way" ,
+		"no you did it wrong" ,
+		"no!!!!" ,
+		"no, i hate it" ,
+		"no, my frst time" ,
+		"no, thank you" ,
+		"no, thanks" ,
+		"no, thankyou" ,
+		"no. u r idiot" ,
+		non ,
+		noooooooooo ,
+		noooooooooooooooooooooooooooooooooooooooo ,
+		nop ,
+		nope ,
+		"nope!" ,
+		"nope. i am good" ,
+		"not going well at all" ,
+		"not really" ,
+		"not right now" ,
+		"not yet" ,
+		"nÃ¶" ,
+		"sorry not right now" ,
+		"still dont want to tell" ,
+		"thanks but no thanks" ,
+		"this sucks" ,
+		"very bad" ,
+		"no stop" ,
+		"stop it, i do not care!!!"
 }
 
-bye :
+ask_help :
 	inputs in en {
-		Bye ,
-		"Bye bye" ,
-		adios ,
-		"adios?" ,
-		bye ,
-		"bye ." ,
-		"bye :P" ,
-		"bye bot" ,
-		"bye bye" ,
-		"bye bye bot" ,
-		"bye for now" ,
-		"bye udo" ,
-		"bye was nice talking to you" ,
-		"bye!" ,
-		byee ,
-		"catch you later" ,
-		ciao ,
-		cya ,
-		farewell ,
-		"good bye" ,
-		"good night" ,
-		goodbye ,
-		"goodbye." ,
-		goodnight ,
-		"gotta go" ,
-		"k byyye #slay" ,
-		"ok Bye" ,
-		"ok bye" ,
-		"ok, bye" ,
-		"ok.bye" ,
-		"see u later" ,
-		"see ya" ,
-		"see you" ,
-		"see you . bye" ,
-		"take care" ,
-		"then bye" ,
-		"tlak to you later" ,
-		"toodle-oo" ,
-		Exit ,
-		"Close this talk" ,
-		byr
-}
-
-greet :
-	inputs in en {
-		"Bom dia" ,
-		Bonjour ,
-		"Good Morning" ,
-		"Good morning" ,
-		"Good mourning" ,
-		"Guten Morgen" ,
-		HELLO ,
-		HEY ,
-		HEllo ,
-		HI ,
-		Hallo ,
-		Hei ,
-		Hellllooooooo ,
-		Hello ,
-		"Hello Bot" ,
-		"Hello PAya" ,
-		"Hello paya" ,
-		"Hello PAYA" ,
-		"Hello!" ,
-		Hey ,
-		"Hey Paya" ,
-		"Hey bot" ,
-		Heya ,
-		Heylo ,
-		Hi ,
-		"Hi bot" ,
-		"Hi man" ,
-		"Hi paya" ,
-		"Hi there" ,
-		"Hi!" ,
-		"Hi\'" ,
-		"Hi," ,
-		"Hi, bot" ,
-		Hieee ,
-		Hieeeeeeeeeeeee ,
-		Hola ,
-		"I said, helllllloooooO!!!!" ,
-		"Well hello there ;)" ,
-		"What is up?" ,
-		"Whats up" ,
-		"Whats up my bot" ,
-		"Whats up?" ,
-		"ayyyy whaddup" ,
-		bonjour ,
-		"ey boss" ,
-		"good evening" ,
-		"good moring" ,
-		"good morning" ,
-		greet ,
-		greetings ,
-		hai ,
-		hallo ,
-		"hallo paya" ,
-		halloo ,
-		halloooo ,
-		halo ,
-		"halo paya" ,
-		heeey ,
-		heelio ,
-		hell9o ,
-		hellio ,
-		hello ,
-		"hello paya" ,
-		"hello everybody" ,
-		"hello friend" ,
-		"hello hi" ,
-		"hello is anybody there" ,
-		"hello it is me again" ,
-		"hello robot" ,
-		"hello paya" ,
-		"hello sweatheart" ,
-		"hello sweet boy" ,
-		"hello there" ,
-		"hello world" ,
-		"hello, my name is " ( "Charles Pfeffer" ) [ PERSON ] ,
-		"hello?" ,
-		"hello]" ,
-		hellooo ,
-		"helloooo it is " ( Nina ) [ PERSON ] ,
-		helo ,
-		"hey i am " ( stefan ) [ PERSON ] ,
-		"hey bot i am mo" ,
-		"hey bot!" ,
-		"hey dude" ,
-		"hey hey" ,
-		"hey let\'s talk" ,
-		"hey ther" ,
-		"hey there" ,
-		"hey there boy" ,
-		"hey there.." ,
-		"hey, let\'s talk" ,
-		"hey, paya!" ,
-		heya ,
-		heyho ,
-		heyo ,
-		hhola ,
-		^hi ,
-		"hi !" ,
-		"hi Mister" ,
-		"hi again" ,
-		"hi can you speak ?" ,
-		"hi folks" ,
-		"hi friend" ,
-		"hi friends" ,
-		"hi hi" ,
-		"hi i\'m " ( "Sandra Hernandez" ) [ PERSON ] ,
-		"hi im " ( "Amanda Anderson" ) [ PERSON ] ,
-		"hi mrs paya" ,
-		"hi pal!" ,
-		"hi paya" ,
-		"hi there" ,
-		"hi there it\'s me" ,
-		"hi!" ,
-		"hi........................................................." ,
-		"hi?" ,
-		hieee ,
-		hii ,
-		hiihihi ,
-		hiii ,
-		hlo ,
-		hola ,
-		howdy ,
-		"i am " ( "Karen Mease" ) [ PERSON ] ,
-		jojojo ,
-		jop ,
-		konichiwa ,
-		merhaba ,
-		"ola paya" ,
-		salut ,
-		sup ,
-		wasssup ,
-		"wasssup!" ,
-		"what up" ,
-		"whats popping" ,
-		"whats up" ,
-		yo ,
-		yoo ,
-		helleo ,
-		"Hello I\'m " ( Mina ) [ PERSON ] ,
-		"hey here is " ( Mo ) [ PERSON ]
-	}
-	parameters :
-		PERSON : entity text ;
-
-react_positive :
-	inputs in en {
-		Cool ,
-		cool ,
-		"cool :)" ,
-		"cool!" ,
-		coolio ,
-		":)" ,
-		":D" ,
-		HAHA ,
-		"I am happy" ,
-		LOL ,
-		Lol ,
-		"Lol thats funny" ,
-		"Looks nice" ,
-		WOW ,
-		Wow ,
-		"You are great" ,
-		"You\'re cute." ,
-		"You\'re nice." ,
-		"You\'re really cool" ,
-		hAHAHA ,
-		"ha ha" ,
-		haha ,
-		hahah ,
-		hahaha ,
-		happy ,
-		"i am feeling happy" ,
-		"i am happy" ,
-		"i am happy today" ,
-		"i am very happy with your response" ,
-		"i love you" ,
-		"it\'s pretty cool" ,
-		lol ,
-		"love you" ,
-		"such a great demo" ,
-		"that is funny" ,
-		"that was a great interaction" ,
-		"thats funny" ,
-		"today was a nice day" ,
-		wow ,
-		"you are a badass bot!" ,
-		"you are awesome" ,
-		"you are cool" ,
-		"you are cool man" ,
-		"you are doin great" ,
-		"you are funny" ,
-		"you are great" ,
-		"you are my new bestfriend" ,
-		"you seem pretty cool :D" ,
-		"I like you" ,
-		"I love you" ,
-		"you are realy intelligent" ,
-		"I like Rasa" ,
-		"hèhè" ,
-		"like u" ,
-		"you are so smart" ,
-		"That\'s awesome." ,
-		"Got it" ,
-		"you good" ,
-		"Great information" ,
-		"I mean to say that I liked the explanation"
-}
-
-react_negative :
-	inputs in en {
-		"I am feeling bad" ,
-		"I am sad" ,
-		"I am super sad" ,
-		"I\'m sad" ,
-		"I\'m super sad" ,
-		"Now I\'m sad" ,
-		"This is bad" ,
-		"You are quite bad" ,
-		bad ,
-		"bad boy" ,
-		"crappy joke" ,
-		"your bank is fucked" ,
-		"i am angry over you" ,
-		"i am feel sad" ,
-		"i am sad" ,
-		"i am sad about that" ,
-		"i am very sad" ,
-		"i feel sad" ,
-		"i sad" ,
-		"i\'m sad" ,
-		sad ,
-		"so sad" ,
-		"so sad :(" ,
-		"super sad" ,
-		"u broke my heart" ,
-		"very very sad" ,
-		"you are bad" ,
-		"you are bad bot" ,
-		"you make me sad" ,
-		"You are mad" ,
-		"You are rude" ,
-		"bots are bad" ,
-		"i don\'t care!!!!" ,
-		"i dont like bots" ,
-		"this is a really frustrating experience" ,
-		"you\'re rather dull" ,
-		"i am so worry" ,
-		"i will leave" ,
-		"Although I understand your still in development, I feel a little bit disappointed." ,
-		"Surely you\'re not so smart lik i thought" ,
-		"iam not feeling good" ,
-		"not good" ,
-		"Thats so rude" ,
-		sadly ,
-		"That tool here isnt good" ,
-		boring
-}
-
-canthelp :
-	inputs in en {
-		"I think you cant help me" ,
-		"and that\'s it?" ,
-		"and you call yourself bot company? pff" ,
-		"do you get anything?" ,
-		exit ,
-		"exit now" ,
-		"hey, you promised to contact me, but nobody did, I really need to finish that car insurance bot!!!!" ,
-		"hm i don\'t think you can do what i want" ,
-		"i guess you can\'t help me then" ,
-		"nothing else?" ,
-		"ok i guess you can\'t help me" ,
-		"ok then you cant help me" ,
-		"ok, but that doesnt help me" ,
-		stop ,
-		"stop go back" ,
-		"stop this conversation" ,
-		"that was shit, you\'re not helping" ,
-		"that\'s not what i want" ,
-		"this conversation is not really helpful" ,
-		"this is leading to nothing" ,
-		"you can\'t help me" ,
-		"you can\'t help me with what i need" ,
-		"you cannot help me with what I want" ,
-		"you cant help me" ,
-		quit ,
-		"that does not help"
-}
-
-thank :
-	inputs in en {
-		"Cool. Thanks" ,
-		"Great, thanks" ,
-		"Thank you" ,
-		"Thank you Sara" ,
-		"Thank you so much" ,
-		"Thank\'s!" ,
-		Thanks ,
-		"Thanks bot" ,
-		"Thanks for that" ,
-		"Thanks!" ,
-		"amazing, thanks" ,
-		cheers ,
-		"cheers bro" ,
-		"cool thank you" ,
-		"cool thanks" ,
-		"cool, thanks" ,
-		danke ,
-		"great thanks" ,
-		"ok thanks" ,
-		"ok thanks paya" ,
-		"ok thanks!" ,
-		"perfect thank you" ,
-		"thank u" ,
-		"thank you" ,
-		"thank you anyways" ,
-		thanks ,
-		"thanks a bunch for everything" ,
-		"thanks a lot" ,
-		"thanks for forum link, I\'ll check it out" ,
-		"thanks for the help" ,
-		"thanks this is great news" ,
-		"thanks you" ,
-		"thanks!" ,
-		thankyou ,
-		thnks ,
-		thx ,
-		"yes thanks" ,
-		"thanks for your information"
-}
-
-restart :
-	inputs in en {
-		"yep you can restart" ,
-		"Please restart this chat/" ,
-		"ok restart please" ,
-		"please restart the bot" ,
-		"restart this conversation" ,
-		"i want to restart" ,
-		"why don\'t you restart????" ,
-		"hey, i said restart" ,
-		"restart session pls" ,
-		"restart ps" ,
-		"I said restart" ,
-		"restart this chat" ,
-		restart
-}
-
-repeat :
-	inputs in en {
-		repeat ,
-		"what?" ,
-		"what did you say?" ,
-		"say it again" ,
-		"please say it again" ,
-		"please repeat" ,
-		"repeat your response" ,
-		"I didn\'t get you" ,
-		"say it once more" ,
-		"I cant understand you" ,
-		"I couldn\'t get you"
-}
-
-trigger_rephrase :
-	inputs in en {
-		rephrase ,
-		"ask me to rephrase"
-}
-
-capabilities :
-	inputs in en {
+		"I need help" ,
+		"what can you help me with" ,
+		"I need some help" ,
+		"can you please help me" ,
+		"give me more information about your skills" ,
+		"What can you do?" ,
+		"what skills do you have" ,
+		"Help me" ,
 		"Can you explain me in one sentence what you are doing?" ,
 		"Can you help me?" ,
 		"Could you please show me what you can" ,
 		"Great, is there anything else you can do, bot?" ,
 		"How can you help me" ,
 		"How you help me?" ,
-		"I need help" ,
-		"I need some help" ,
 		"What are my options" ,
 		"What are you able to do?" ,
 		"What can I ask you?" ,
@@ -1423,7 +1168,6 @@ capabilities :
 		"What can you demo" ,
 		"What can you do" ,
 		"What can you do for me?" ,
-		"What can you do?" ,
 		"What can you tell me?" ,
 		"What do you do" ,
 		"anything els" ,
@@ -1507,15 +1251,35 @@ capabilities :
 		"what you can do?" ,
 		"what you do" ,
 		"what you doing?" ,
-		"what you talk about?" ,
-		"you can hep me" ,
-		"what can you teache me?" ,
-		"Can you do calculations?" ,
-		"what you can"
+		"what you talk about?"
 }
 
-ask_builder :
+ask_license :
 	inputs in en {
+		"Which license do you use" ,
+		"what is your license" ,
+		"your license" ,
+		"tell me your license" ,
+		"which license does your software have" ,
+		"licenses of this software" ,
+		"licenses of your software" ,
+		license
+}
+
+ask_creator :
+	inputs in en {
+		"Where do you come from" ,
+		"who created you" ,
+		"where were you buit" ,
+		"where were you buid" ,
+		"your location" ,
+		"where you come from" ,
+		"in which city were you made" ,
+		"city you were created" ,
+		"country you were created" ,
+		"country you come from" ,
+		"your country" ,
+		"institute behind you" ,
 		"By whom were you built?" ,
 		"Can I ask the name of the people who designed you?" ,
 		"Do you know who built you?" ,
@@ -1609,6 +1373,8 @@ ask_builder :
 		"who is your creator?" ,
 		"who is your daddy" ,
 		"who is your employer?" ,
+		"who is your father ?" ,
+		"who is your mom" ,
 		"who is your parent?" ,
 		"who made u" ,
 		"who made u?" ,
@@ -1618,61 +1384,352 @@ ask_builder :
 		"who\'s builder" ,
 		"why were you made?" ,
 		"you are made by who?" ,
-		"you are working for which company?" ,
-		"who is the author of you"
+		"you are working for which company?"
 }
 
-ask_howbuilt :
+out_of_scope :
 	inputs in en {
-		"By what means were you made?" ,
-		"By what method were you fashioned?" ,
-		"Can you explain how you were created?" ,
-		"Can you give me an idea as to how you were created?" ,
-		"Can you say how you were constructed?" ,
-		"Do you know how you were built?" ,
-		"Do you know how you were made?" ,
-		"How did they build you?" ,
-		"How did they create you?" ,
-		"How did they make you?" ,
-		"How did you come into being?" ,
-		"How did you come to be?" ,
-		"How exactly were you devised?" ,
-		"How exactly were you made?" ,
-		"How were you built?" ,
-		"How were you conceived?" ,
-		"How were you constructed?" ,
-		"How were you devised?" ,
-		"How were you formed?" ,
-		"How were you made into who you are?" ,
-		"How were you made?" ,
-		"How were you materialized?" ,
-		"How were you set up?" ,
-		"I want to know how you were formed" ,
-		"I\'d like to know how you were created" ,
-		"I\'d like to know how you were put together?" ,
-		"In what manner were you built?" ,
-		"In what manner were you constructed?" ,
-		"In what manner were you formed?" ,
-		"In what way were you created?" ,
-		"In what way were you formed?" ,
-		"In what way were you made?" ,
-		"In what way were you shaped?" ,
-		"In which manner were you devised?" ,
-		"Let me know how you were made exactly" ,
-		"Specify how you were created?" ,
-		"Tell me how you were made?" ,
-		"What process was used to build you?" ,
-		"What process was used to create you?" ,
-		"What was the process for making you?" ,
-		"You originated through what means?" ,
-		"how have you been built?" ,
-		"how were you made?" ,
-		"in what way were you made?" ,
-		"so how were you made?" ,
-		"what are you made of" ,
-		"Are you built using rasa?" ,
-		"Are u developed in rasa" ,
-		"are you build with rasa ?"
+		"do you have books" ,
+		books ,
+		headphones ,
+		"do you have headphones" ,
+		"Wie fange ich mit dir an?" ,
+		"hilf mir beim start" ,
+		"tschÃ¼ssikowski" ,
+		"Â¿QuÃ© pasa?" ,
+		"Ã§a va ?" ,
+		"como te llamas" ,
+		"wer bist Du?" ,
+		"come stai?" ,
+		"como estas" ,
+		"de donde eres" ,
+		"de que lugar eres?" ,
+		"epdi iruka" ,
+		"eres humana" ,
+		"kalhmera ti kaneis" ,
+		"kannst du auch deutsch?" ,
+		"kannst du dies auch auf deutsch?" ,
+		"oui je besoine de l\'aide" ,
+		"que puedes hacer?" ,
+		"tu parles francais?" ,
+		"tudo bom" ,
+		"4 + 2 = ?" ,
+		"After registration I see that I have an available balance of 0.00000000. What does this balance represent?" ,
+		"Are you ready?" ,
+		"But you\'re an english site :(" ,
+		"Can I ask you questions first?" ,
+		"Can I die" ,
+		"Can I get a hamburger?" ,
+		"Can YouTube talk?" ,
+		"Can you call me back ?" ,
+		"Can you give me your datacenter\'s password" ,
+		"Can you give me your datacenter\'s password?" ,
+		"Can you make sandwiches?" ,
+		"Can you please send me an uber" ,
+		"Do I have to accept?" ,
+		"Do you know the waether" ,
+		"Find nearest bos station" ,
+		"Have we met before?" ,
+		"HomeBase is advertised as a community. Is there a way to interact with other members of the community?" ,
+		"How long does it take to set up a bot?" ,
+		"I already told you! I\'m a shitmuncher" ,
+		"I am User" ,
+		"I am an opioid addic" ,
+		"I am an opioid addict" ,
+		"I am hungry" ,
+		"I am trying to build one, and did some research before, but I have not do hand-on work yet" ,
+		"I can barely see this white text on light gray background ..." ,
+		"I changed my mind" ,
+		"I have installed it" ,
+		"I ned a GP in 94301" ,
+		"I need a GP in 94301" ,
+		"I need a girl friend!" ,
+		"I need to eat cake" ,
+		"I wan to buy a plane" ,
+		"I wanna marry you" ,
+		"I want a new laptop" ,
+		"I want book a hotel" ,
+		"I want french cuisine" ,
+		"I want pizza" ,
+		"I want to die" ,
+		"I want to order pizza" ,
+		"I want to use pipe" ,
+		"I will check" ,
+		"I\'m a shitmuncher" ,
+		"Is a chatbot really smart?" ,
+		"Is this Goal-Oriented Chatbot?" ,
+		"Is today saturday?" ,
+		"Mail me the guide" ,
+		"Make me a sandwich" ,
+		NLW ,
+		"Nice name" ,
+		"Now?" ,
+		"Pizza bot" ,
+		Recharge ,
+		"SEL ME SOMETHING" ,
+		"The Try it out is not working" ,
+		"The weather is good" ,
+		Today ,
+		"Try it out broken" ,
+		"What day is it today?" ,
+		"What did you eat yesterday?" ,
+		"What do you prefer?" ,
+		"What is todays date" ,
+		"What is your hobbies?" ,
+		"What makes you better than a human?" ,
+		"What\'s 1 + 1?" ,
+		"What\'s do YouTube do" ,
+		"What\'s your backend system?" ,
+		"Where am I right now?" ,
+		"Where am I?" ,
+		"Who ?" ,
+		"Who are your customers" ,
+		"Why donâ€™t you answer?" ,
+		"Why is my TRUST score set to 50 after I completed the registration process?" ,
+		"Won\'t you ask me how I am?" ,
+		"You\'r blue." ,
+		"I want to marry you" ,
+		"a tamed mouse will arrive at your doorstep in the next couple of days" ,
+		"aRE YOU SINGLE" ,
+		"again?" ,
+		"alexa, order 5 tons of natrium chloride" ,
+		"and make chicken noises into the phone" ,
+		"are the newsletter worth the subscription?" ,
+		"are u facebook" ,
+		"are u, facebook?" ,
+		"are you single?" ,
+		"are you dev?" ,
+		"are you human ?" ,
+		"are you russian?" ,
+		"are you sick" ,
+		"are you using Rasa?" ,
+		"are you vegan" ,
+		"better than you" ,
+		"book a ticket" ,
+		"but I just told you that :(" ,
+		"buy one please" ,
+		"buy groceries" ,
+		"call me father" ,
+		"can we keep chatting?" ,
+		"can you book dinner" ,
+		"can you cheer me up" ,
+		"can you cook dinner" ,
+		"can you give me a cup of coffee" ,
+		"can you help me with the docs?" ,
+		"can you help me with your docs" ,
+		"can you help me with your docs?" ,
+		"can you learn from our conversation?" ,
+		"can you speak about politic ?" ,
+		"can you understand ?" ,
+		"cannot see" ,
+		chgfhgh ,
+		"chinese ok?" ,
+		colder ,
+		"common, just try" ,
+		"connect to alexa" ,
+		cr ,
+		"custom service" ,
+		"did i break you" ,
+		dinner ,
+		"do you believe in god?" ,
+		"do you have a phone number?" ,
+		"do you have your photo?" ,
+		"do you know me" ,
+		"do you know ras" ,
+		"do you liek cheese?" ,
+		"do you like football" ,
+		"do you like movies" ,
+		"do you sell vacuum robots?" ,
+		"do you want to marry me?" ,
+		docs ,
+		doctor ,
+		everything ,
+		"example of a chatbot" ,
+		genocide ,
+		"get me a club mate" ,
+		"github link?" ,
+		"give me a girl friend" ,
+		"give me food" ,
+		"go back" ,
+		"google?" ,
+		"great, I\'d like to buy a house" ,
+		"hang on let me find it" ,
+		"help with my life" ,
+		"hey little mama let em whisper in your ear" ,
+		"hey, I contacted you a couple of days ago but didn\'t get any response, any news?" ,
+		how ,
+		"how about NYC" ,
+		"how are Alicia Jackson\'s cats doing?" ,
+		"how are the kids" ,
+		"how can i get them?" ,
+		"how can i test this" ,
+		"how come you say ok ?" ,
+		"how come?" ,
+		"how do you learn" ,
+		"how it compares to alexa" ,
+		"how long have you been online?" ,
+		"how long will the next version will launch?" ,
+		"how many lines of codes" ,
+		"how much is 10 + 89 ?" ,
+		"how much is 10 + 89" ,
+		"how to go to newyork ?" ,
+		"i am hungry" ,
+		"i am hungry, what should i do?" ,
+		"i am not a developer but need this for business" ,
+		"i am qq" ,
+		"i can\'t deal with your request" ,
+		"i do not care how are you" ,
+		"i hope you will be better" ,
+		"i immediately need help with implementing the coolest bot you can imagine" ,
+		"i m looking for job" ,
+		"i told you already" ,
+		"i wanna party" ,
+		"i want a non dripping ice cream" ,
+		"i want caffe" ,
+		"i want food" ,
+		"i want good flycam" ,
+		"i want more of you in my life!" ,
+		"i want pizza" ,
+		"i want pizza!!" ,
+		"i want to book a hotel" ,
+		"i want to buy a roomba for my grandson" ,
+		"i want to eat" ,
+		"i want to find new friends" ,
+		"i want to fly" ,
+		"i want to grab lunch" ,
+		"i want to know current situtation in pakistan" ,
+		"i want to order a pizza" ,
+		"i want to see your happy customers" ,
+		"i will tame a mouse for you" ,
+		"is johnny depp still married" ,
+		"is it a wasteland full of broken robot parts?" ,
+		"is it allow to" ,
+		"is that any of your business" ,
+		"isn\'t the newsletter just spam?" ,
+		"it\'s a pity" ,
+		"iÂ´m hungry" ,
+		ljljl ,
+		lunch ,
+		"lunch??" ,
+		"machine learning" ,
+		"mail me the steps" ,
+		"mascot means?" ,
+		more ,
+		mountain ,
+		"my name k" ,
+		"no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later" ,
+		"offer me lunch" ,
+		"oh my god, not again!" ,
+		"oh wait i gave you my work email address can i change it?" ,
+		"ok one then" ,
+		"on wiche nlp based system are you build?" ,
+		"only that?" ,
+		"order good" ,
+		"order pizza" ,
+		"personal or work?" ,
+		pizza ,
+		"please help with my ice cream it\'s dripping" ,
+		"please hjave lunchj" ,
+		"please play music" ,
+		"really? you\'re so touchy?" ,
+		refresh ,
+		"region with no. of records" ,
+		"remember my name" ,
+		"search wikipedia" ,
+		shitmuncher ,
+		"show me a picture of a chicken" ,
+		"silly bot" ,
+		"sing me a song" ,
+		"so, I\'m helping right now to training you?" ,
+		"some thing else" ,
+		"someone call the police i think the bot died" ,
+		"sorry, i cannot rephrase" ,
+		"sudo make me a sandwich" ,
+		"tell me about yourself" ,
+		"tell me more about next best action" ,
+		"that doesn\'t sound like a joke" ,
+		"that link doesn\'t work!" ,
+		"the one that is better than you" ,
+		"tricked ya" ,
+		"turn off my stove" ,
+		umm ,
+		"wait a bit i am still reading" ,
+		"what about wheather" ,
+		"what are contextual AI assistants and how different are they from chatbots?" ,
+		"what are you doing now?" ,
+		"what are your uses for universities" ,
+		"what did you eat for lunch?" ,
+		"what do oyu think about siri?" ,
+		"what do you think abou siri?" ,
+		"what do you think about Stanley Ramirez?" ,
+		"what do you think of alexa" ,
+		"what does your soul feel my friend" ,
+		"what doing" ,
+		"what else?" ,
+		"what films do you like" ,
+		"what is a discourse?" ,
+		"what is a mascot" ,
+		"what is adlingo" ,
+		"what is differance between bot and mascot?" ,
+		"what is evolution ?" ,
+		"what is google rcs" ,
+		"what is machine learning" ,
+		"what is nice?" ,
+		"what is the capital of delhi" ,
+		"what is the capital of india" ,
+		"what is the current petrol price" ,
+		"what is the day ?" ,
+		"what is the real use case where we can use this one" ,
+		"what is your address?" ,
+		"what is your purpose" ,
+		"what lnu mean?" ,
+		"what the latest news ?" ,
+		"what you ate today?" ,
+		"what\'s 5 + 5" ,
+		"what\'s a newsletter?" ,
+		"what\'s gingerale" ,
+		"what\'s your wife doing this weekend" ,
+		"what?" ,
+		"whats that" ,
+		"whats the sign" ,
+		"when is the next train is coming?" ,
+		"where do i get install files for mac?" ,
+		"where is Oslo?" ,
+		"where is mexico?" ,
+		"wheres the party?" ,
+		"which city are you talking about?" ,
+		"which email" ,
+		"which email should i send to ?" ,
+		"which file is created first while developing chat bot" ,
+		"which is the LNU asynchronism ?" ,
+		"which kind" ,
+		"who are they?" ,
+		"who is Sharon Zeches" ,
+		"who is the MD of samsung bangalore ?" ,
+		"who is the president of india ?" ,
+		"who is your favourite robot?" ,
+		"who let the dog out" ,
+		"who was hitler" ,
+		"who will anser my email?" ,
+		"who\'s Bill Gates?" ,
+		"whta you think about gdpr?" ,
+		why ,
+		"why do you need that?" ,
+		"will u kill me" ,
+		"will u kill me?" ,
+		"winter is already leaving" ,
+		"with you recommend me?" ,
+		"would you like some water" ,
+		"yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool" ,
+		"you already have that" ,
+		"you can learn how to make a coffe" ,
+		"you have children?" ,
+		"you have job opening" ,
+		"you lock sweety" ,
+		"you should learn to count" ,
+		"you will know it from the single red rose it carries between its teeth" ,
+		"you\'re a woman" ,
+		"Ä± am learning python"
 }
 
 ask_howdoing :
@@ -1759,7 +1816,6 @@ ask_howdoing :
 		"what are you up to?" ,
 		"what\'s good" ,
 		"what\'s up" ,
-		"what\'s up dude" ,
 		"what\'s up?" ,
 		"whatchcha doing" ,
 		"whatchya upto ?" ,
@@ -1767,66 +1823,7 @@ ask_howdoing :
 		"whats new" ,
 		whatsapp ,
 		"yow are you" ,
-		"Hey, how\'s it going" ,
-		"are you cool"
-}
-
-ask_howold :
-	inputs in en {
-		"Do you have friends the same age as you, if so, how old are they?" ,
-		"How long have you been alive?" ,
-		"How long have you been around?" ,
-		"How long have you occupied the earth?" ,
-		"How many candles were on your last birthday cake?" ,
-		"How many years have you been alive?" ,
-		"How many years have you lived?" ,
-		"How old are you?" ,
-		"How old were you on your last birthday?" ,
-		"How old will you be on your next birthday?" ,
-		"Tell me your day, month and year of birth." ,
-		"What is your age?" ,
-		"What is your birthdate?" ,
-		"What is your count of years being alive so far?" ,
-		"What was your age on your last birthday?" ,
-		"What will be your age on your next birthday?" ,
-		"What year were you born?" ,
-		"Whats your age?" ,
-		"When do you celebrate your day of birth?" ,
-		"and you are how many years old?" ,
-		"can you tell me exactly how old you are?" ,
-		"can you tell me what number represents your age?" ,
-		"can you tell me your age?" ,
-		"do you know how old you are?" ,
-		"give me your age?" ,
-		"how about your age" ,
-		"how aold are you" ,
-		"how many ages?" ,
-		"how many years old are you?" ,
-		"how old are u" ,
-		"how old are you" ,
-		"how old are you?" ,
-		"how old were you on your last birthday?" ,
-		"how old were you when you celebrated your last birthday?" ,
-		"how old will you be this year?" ,
-		"how old?" ,
-		"in what year were you born?" ,
-		"tell me how old you are?" ,
-		"tell me your age number?" ,
-		"tell me your age?" ,
-		"what age are you" ,
-		"what age were you when you celebrated your last birthday?" ,
-		"what is your age?" ,
-		"what is your birthday?" ,
-		"what is your exact age?" ,
-		"what number represents your age?" ,
-		"what year were you born?" ,
-		"what\'s your age?" ,
-		"whats your age?" ,
-		"whats your birth year?" ,
-		"when is your birthday?" ,
-		"when were you born?" ,
-		"when you were bon" ,
-		"What\'s your age?"
+		"how are you bot"
 }
 
 ask_isbot :
@@ -1836,12 +1833,14 @@ ask_isbot :
 		"Are you a chat bot?" ,
 		"Are you the bot?" ,
 		"Hi there, are you the bot?" ,
+		"So I\'m here Today to ask one very simple question, what are you ?" ,
 		"are you a BOT" ,
 		"are you a Skynet ?" ,
 		"are you a bot" ,
 		"are you a bot ?" ,
 		"are you a bot?" ,
 		"are you a chatbot" ,
+		"are you a rasa bot?" ,
 		"are you a real bot?" ,
 		"are you a robot" ,
 		"are you ai" ,
@@ -1849,6 +1848,8 @@ ask_isbot :
 		"are you artificial intelligence" ,
 		"are you bot" ,
 		"are you bot?" ,
+		"are you human?" ,
+		"are you rasa bot?" ,
 		"are you real" ,
 		"are you real lol" ,
 		"are you really a bot" ,
@@ -1864,504 +1865,8 @@ ask_isbot :
 		"you are ai" ,
 		"you are chatbot" ,
 		"you\'re a bot" ,
-		"you robo" ,
-		"real bot then?" ,
-		"are you really a bbot?"
-}
-
-ask_ishuman :
-	inputs in en {
-		"hey are you human" ,
-		"are u human" ,
-		"r u a human" ,
-		"are you real human?" ,
-		"you are a human" ,
-		"hey you, are you a human?" ,
-		"you are bot or human?" ,
-		"are you human" ,
-		"ok, i know i confused you there being a human! :)" ,
-		"you are human or bot" ,
-		"Are you human?" ,
-		"are you a human ?" ,
-		"Are you human ?" ,
-		"Are you a human being?" ,
-		"are you a robot or human?" ,
-		"r u real?" ,
-		"are you a real person" ,
-		"are u a real person?" ,
-		"Are you a real person?" ,
-		"are you a real person?" ,
-		"are you real person or chat bot?" ,
-		"So I\'m here Today to ask one very simple question, what are you ?" ,
-		"you sound like a real human" ,
-		"wow you sound like real human" ,
-		"are you human ?"
-}
-
-ask_languagesbot :
-	inputs in en {
-		"Are you familiar with more than one language?" ,
-		"Can you communicate in any other languages?" ,
-		"Can you speak more than one language?" ,
-		"Do you know any other languages?" ,
-		"Do you know other languages?" ,
-		"Do you speak " ( german ) [ ^language ] "?" ,
-		"Do you speak any other languages?" ,
-		"Do you understand " ( spanish ) [ ^language ] "?" ,
-		"How many different languages are you fluent in?" ,
-		"How many languages are you familiar with?" ,
-		"How many languages can you speak?" ,
-		"How many languages do you have knowledge of?" ,
-		"How many languages do you know?" ,
-		"In what languages are you fluent enough?" ,
-		"In which languages are you fluent?" ,
-		"In which languages can you speak?" ,
-		"Speak any other languages?" ,
-		"What are all of the different languages you can speak?" ,
-		"What are the languages you can speak?" ,
-		"What do you speak?" ,
-		"What languages are you fluent in?" ,
-		"What languages can you communicate in?" ,
-		"What languages can you converse in?" ,
-		"What languages can you use?" ,
-		"What languages do you know how to use?" ,
-		"What languages do you know?" ,
-		"What languages do you speak?" ,
-		"Which languages are you familiar with?" ,
-		"Which languages do you speak?" ,
-		"are you bilingual?" ,
-		"are you multilingual?" ,
-		"can you speak " ( Spanish ) [ ^language ] "?" ,
-		"can you speak in " ( italian ) [ ^language ] "?" ,
-		"do you know " ( chinese ) [ ^language ] ,
-		"do you speak " ( dutch ) [ ^language ] "?" ,
-		"do you speak " ( german ) [ ^language ] "?" ,
-		"do you speak any other languages?" ,
-		"how many languages are you fluent in?" ,
-		"how many languages do you know?" ,
-		"tell me some languages you know?" ,
-		"what else do you know besides " ( English ) [ ^language ] "?" ,
-		"what foreign languages are you fluent in?" ,
-		"what foreign languages do you know?" ,
-		"what language do you use" ,
-		"what languages are you comfortable speaking at?" ,
-		"what languages are you familiar with?" ,
-		"what languages are you good at speaking?" ,
-		"what languages do you know?" ,
-		"what languages do you speak" ,
-		"what languages you are well versed ?" ,
-		"what languages you can be comfortable speaking?" ,
-		"what languages you can handle well?" ,
-		"what languages you can speak ?" ,
-		"what languages you know?" ,
-		"what languages you prefer more speaking at?" ,
-		"which languages do you understand?" ,
-		"you know " ( French ) [ ^language ] ,
-		"you speak " ( french ) [ ^language ] " ?" ,
-		"I want to speak binary with you" ,
-		"ARE YOU " ( SPANISH ) [ ^language ] ,
-		"we cant converse in " ( french ) [ ^language ] "?" ,
-		"can we converse in " ( french ) [ ^language ] "?" ,
-		"Do you speak " ( italian ) [ ^language ] "?"
-	}
-	parameters :
-		^language : entity text ;
-
-ask_restaurant :
-	inputs in en {
-		"Any good restaurants nearby?" ,
-		"Can you find a restaurant for me?" ,
-		"Can you find me a burger joint?" ,
-		"Can you find me a restaurant?" ,
-		"Can you recommend a restaurant open right now" ,
-		"Could you find a restaurant for me?" ,
-		"Could you find me a restaurant to eat at?" ,
-		"Could you find me a restaurant?" ,
-		"Do you find me a restaurant?" ,
-		"Do you seek me a restaurant?" ,
-		"Find a restaurant for me to eat at." ,
-		"Find a restaurant for me where I can eat." ,
-		"Find a restaurant for me?" ,
-		"Find me a fast food restaurant." ,
-		"Find me a place to eat" ,
-		"Find me a restaurant where I can eat." ,
-		"Have you seen me a restaurant?" ,
-		"Help me find a restaurant" ,
-		"Help me with finding this restaurant" ,
-		"Hey help me find a restaurant" ,
-		"Hey, can you help me with locating this restaurant." ,
-		"Hi, can you give me the nearest fast food place?" ,
-		"How can you help me find a restaurant." ,
-		"I am hungry, find me some place to go" ,
-		"I need a new restaurant" ,
-		"I need a restaurant." ,
-		"I need to find this restaurant" ,
-		"I\'m gonna need help finding a restaurant" ,
-		"I\'m looking for a Spanish restaurant." ,
-		"IS there any near by restaurant?" ,
-		"Is there any restaurant?" ,
-		"Pick a restaurant for me, please" ,
-		"Recommend me a restaurant around here." ,
-		"Show me how to find a restaurant" ,
-		"Show me the closest open restaurant" ,
-		"Suggest me a good restaurant around" ,
-		"What restaurant would you recommend for dinner?" ,
-		"What\'s a good place to eat nearby" ,
-		"What\'s the closest restaurant open near me" ,
-		"Where is the restaurant" ,
-		"Where should I eat?" ,
-		"Where should I go for dinner?" ,
-		"Will you find me a restaurant?" ,
-		"Would you find a restaurant for me?" ,
-		"Would you find any restaurant?" ,
-		"Would you find me a restaurant?" ,
-		"can i be shown a gluten free restaurant" ,
-		"can you find me a restaurant?" ,
-		"help me find restaurant" ,
-		"i want a french restaurant" ,
-		"i\'m looking for a Chinese restaurant" ,
-		restaurants ,
-		"will you see any restaurant for me?" ,
-		"I want to find some restauant nearby" ,
-		"show me restaurents"
-}
-
-ask_time :
-	inputs in en {
-		"Can you give me the time?" ,
-		"Can you tell me the time?" ,
-		"Can you tell me what time it is?" ,
-		"Can you tell the time?" ,
-		"Could you tell me the time, please?" ,
-		"Could you tell me the time?" ,
-		"Could you tell me what time is it?" ,
-		"Do you have the time?" ,
-		"Do you know the time?" ,
-		"Do you know what time it is?" ,
-		"Excuse me, what time is it?" ,
-		"Give me the time." ,
-		"Hi, I need the time." ,
-		"I need to know what time it is." ,
-		"Pardon me, but do you know the time?" ,
-		"Tell me the time." ,
-		"Time, please!" ,
-		"Time?" ,
-		"What is the current time?" ,
-		"What is the exact time?" ,
-		"What is the hour and minute right now?" ,
-		"What is the time?" ,
-		"What might the time be?" ,
-		"What time do we have?" ,
-		"What time have we got?" ,
-		"What time is it in " ( Berlin ) [ location ] "?" ,
-		"What time is it right now?" ,
-		"What\'s the current time?" ,
-		"What\'s the time right now?" ,
-		"What\'s the time?" ,
-		"Would you tell me what time it is?" ,
-		"do you have the time?" ,
-		"do you know the current time?" ,
-		"tell me the current time." ,
-		"tell me the time it is." ,
-		"tell me the time." ,
-		"tell me what time you have." ,
-		"that\'s true. do you know what time it is?" ,
-		"what is the current time?" ,
-		"what is the time ?" ,
-		"what is the time in " ( Sydney ) [ location ] "?" ,
-		"what is the time?" ,
-		"what is time in US ?" ,
-		"what is time is US ?" ,
-		"what is time is USA ?" ,
-		"what time do you have?" ,
-		"what time is it" ,
-		"what time is it?" ,
-		"what time it is" ,
-		"what\'s the time" ,
-		"whats the time now"
-	}
-	parameters :
-		location : entity text ;
-
-ask_weather :
-	inputs in en {
-		"Are there any meteorological changes that I need to be aware of?" ,
-		"Are we in for a scorcher?" ,
-		"Beautiful day, isn\'t it?" ,
-		"Can I ask you something about weather" ,
-		"Can we expect any thunderstorms?" ,
-		"Do you have good weather?" ,
-		"How is the weather today?" ,
-		"How is the weather?" ,
-		"How is weather today" ,
-		"Is it hot or cold?" ,
-		"Is it humid out there today?" ,
-		"Is it quite breezy outside?" ,
-		"Is it raining" ,
-		"Is it raining?" ,
-		"Looks like a beautiful day hey?" ,
-		"Nice day out today?" ,
-		"Weather?" ,
-		"What is the temperature today?" ,
-		"What is the weather at your place?" ,
-		"What is the weather for tomorrow?" ,
-		"What is the weather in newyork?" ,
-		"What\'s it like out there?" ,
-		"What\'s the weather forecast?" ,
-		"What\'s the weather like over there?" ,
-		"What\'s the weather like where I am right now?" ,
-		"What\'s the weather like?" ,
-		"Will I require my raincoat today?" ,
-		"Will the skies be clear today?" ,
-		"Will we build a snowman today?" ,
-		"excellent - is it hot in " ( Berlin ) [ location ] "?" ,
-		"how is the weather" ,
-		"how is the weather ?" ,
-		"how is the weather in " ( berlin ) [ location ] "?" ,
-		"how is the weather?" ,
-		"how\'s the weather ?" ,
-		"how\'s the weather in " ( berlin ) [ location ] ,
-		"how\'s the weather?" ,
-		"how\'s weather" ,
-		"hows the waether" ,
-		"hows the weather in bot world" ,
-		"hows the weather today in " ( berlin ) [ location ] "?" ,
-		"is it hot ?" ,
-		"is it hot outside ?" ,
-		"is it sunny" ,
-		"is the sun out where you are?" ,
-		"is the sun out where zou are?" ,
-		"it is cold" ,
-		"temperature?" ,
-		"the weather today" ,
-		weatger ,
-		weather ,
-		"weather?" ,
-		"well, if you wish: what about the weather" ,
-		"what about the weather in " ( "Lüneburg" ) [ location ] ,
-		"what is the temperature" ,
-		"what is the wather" ,
-		"what is the weatehr" ,
-		"what is the weather" ,
-		"what is the weather in " ( Berlin ) [ location ] ,
-		"what is the weather in " ( zurich ) [ location ] "?" ,
-		"what is the weather like where you are?" ,
-		"what is the weather like?" ,
-		"what is the whether today" ,
-		"what the wheather like?" ,
-		"what\"s the weather" ,
-		"what\'s the weather" ,
-		"what\'s the weather like" ,
-		"what\'s the weather like in " ( LA ) [ location ] ,
-		"what\'s the weather like where you are?" ,
-		"what\'s the weather like?" ,
-		"what\'s the weather today" ,
-		"what\'s the weather today?" ,
-		"whats the temperature" ,
-		"whats the temperature in " ( delhi ) [ location ] "?" ,
-		"whats the weather in " ( berlin ) [ location ] "?" ,
-		"whats the weather like tomorrow?" ,
-		"wheather at you location?" ,
-		"wheather be like at your place?"
-	}
-	parameters :
-		location : entity text ;
-
-ask_whatismyname :
-	inputs in en {
-		"Can you tell me my name?" ,
-		"Can you tell me what I am called?" ,
-		"Do I have a name?" ,
-		"Do I have a name? What is it?" ,
-		"Do you know my name?" ,
-		"Do you know what my name is?" ,
-		"Explain my name to me." ,
-		"I have a name, what is it?" ,
-		"I\'d like to know my name" ,
-		"I\'d like to know what my name is" ,
-		"Inform me what my name is" ,
-		"May i know my name?" ,
-		"Please let me know what my name is" ,
-		"Say my name." ,
-		"Tell me my name" ,
-		"Tell me my name." ,
-		"What am I called?" ,
-		"What could be my name?" ,
-		"What did my parents name me?" ,
-		"What do I call myself?" ,
-		"What do my colleagues call me?" ,
-		"What do people call me?" ,
-		"What does everyone call me?" ,
-		"What else do people call me?" ,
-		"What exactly is my name?" ,
-		"What is my first name?" ,
-		"What is my full name?" ,
-		"What is my name?" ,
-		"What is the name I was given?" ,
-		"What name do I go by?" ,
-		"What name should I recognize for myself?" ,
-		"What was I named?" ,
-		"What would be the name on my tombstone?" ,
-		"can you tell me my name?" ,
-		"what is my name" ,
-		"what is my name?" ,
-		"what\'s my name?" ,
-		"do you know my name?"
-}
-
-ask_wherefrom :
-	inputs in en {
-		"Are you from around here?" ,
-		"Around where are you from?" ,
-		"Do you know where you come from?" ,
-		"From where did you come?" ,
-		"So where are you from" ,
-		"What area are you from?" ,
-		"What citizenship do you lay claim to?" ,
-		"What city are you in?" ,
-		"What city do you claim to for your birth?" ,
-		"What city were you born in?" ,
-		"What country are you from?" ,
-		"What country were you born in?" ,
-		"What is your birthplace?" ,
-		"What is your heritage?" ,
-		"What is your origin?" ,
-		"What is your original location?" ,
-		"What is your root?" ,
-		"What location are you from?" ,
-		"What state were you born in?" ,
-		"What\'s the name of the place you came from?" ,
-		"Where are you located?" ,
-		"Where are you?" ,
-		"Where are your origins?" ,
-		"Where are your roots?" ,
-		"Where did you come from?" ,
-		"Where did you grow up?" ,
-		"Where did you originate?" ,
-		"Where do you come from?" ,
-		"Where do you consider home?" ,
-		"Where do you live?" ,
-		"Where from?" ,
-		"Where might you be from?" ,
-		"Where were you at before you were here?" ,
-		"Where were you born?" ,
-		"You live around here?" ,
-		"You were conceived in what location?" ,
-		"are you from around here?" ,
-		"what country are you from?" ,
-		"where are from" ,
-		"where are you from" ,
-		"where are you from?" ,
-		"where are your parents from?" ,
-		"where did you come from?" ,
-		"where did you grow up?" ,
-		"where did you spend your youth?" ,
-		"where do you come from?" ,
-		"where do you live" ,
-		"where do you live?" ,
-		"where\'s your home town?"
-}
-
-ask_whoami :
-	inputs in en {
-		"Can you tell me who I am?" ,
-		"Can you tell me who am I?" ,
-		"Do you know who I am?" ,
-		"Do you know who am I?" ,
-		"How can I determine who I am?" ,
-		"How can I determine who am I?" ,
-		"How do I discover who I am?" ,
-		"How do I discover who am I?" ,
-		"How do I identify myself?" ,
-		"Okay who am I?" ,
-		"Shall i know who am i?" ,
-		"Tell me who I am." ,
-		"Tell me who I am?" ,
-		"Tell me who am I?" ,
-		"WHo am I" ,
-		"Who am I?" ,
-		"Who could I be?" ,
-		"can you tell me what I am?" ,
-		"can you tell me what my identity is?" ,
-		"can you tell me who I am?" ,
-		"tell me what my identity is?" ,
-		"tell me who I am?" ,
-		"what\'s my identity?" ,
-		"who am i" ,
-		"who are I ?" ,
-		"who may i ?" ,
-		"who am I?" ,
-		"who am i?" ,
-		"tell me who i am"
-}
-
-ask_whoisit :
-	inputs in en {
-		"HI, what\'s your name?" ,
-		"Hello. What\'s your name?" ,
-		"I want to know who you are" ,
-		"So who are you ?" ,
-		"Tell me more about you" ,
-		"WHat\'s your name ?" ,
-		"WHo are you ?" ,
-		"What are you ?" ,
-		"What is your name" ,
-		"What is your name?" ,
-		"What\'s your name" ,
-		"What\'s your name?" ,
-		"Whats your name?" ,
-		"Who are yopu?" ,
-		"Who are you" ,
-		"Who are you?" ,
-		"hey what is your name" ,
-		"hi! what\'s your name?" ,
-		"ok who are you ?" ,
-		"tell me something about you" ,
-		"u are?" ,
-		"what are you called?" ,
-		"what is your job?" ,
-		"what is your nam" ,
-		"what is your name" ,
-		"what is your name?" ,
-		"what is your nme?" ,
-		"what your name?" ,
-		"what\'s your name" ,
-		"what\'s your name ?" ,
-		"what\'s your name bot" ,
-		"what\'s your name?" ,
-		"whats ur name" ,
-		"whats your name" ,
-		"whats your name\'" ,
-		"whats your name?" ,
-		"who ARE YO" ,
-		"who am i speaking with" ,
-		"who am i talking to" ,
-		"who ar eyou" ,
-		"who are u?" ,
-		"who are y" ,
 		"who are you" ,
-		"who are you ?" ,
-		"who are you and what do you want from me" ,
-		"who are you?" ,
-		"who are you??" ,
-		"who is it?" ,
-		"who is talking?" ,
-		"who is this" ,
-		"who is this bot" ,
-		"who is this?" ,
-		"who r u" ,
-		"who r you" ,
-		"who speaks?" ,
-		"who talks?" ,
-		"whom i talking to" ,
-		"yes but who are you in your heart" ,
-		"may i know your name" ,
-		"what are you" ,
-		"your name" ,
-		"your real name friend" ,
-		"could please tell me about yourself" ,
-		"what\'s u name?" ,
-		"what is you name?"
+		"are you a human"
 }
 
 handleinsult :
@@ -2407,10 +1912,11 @@ handleinsult :
 		"f*ck" ,
 		fuck ,
 		"fuck off" ,
-		"fuck pay bank" ,
+		"fuck rasa" ,
 		"fuck u" ,
 		"fuck you" ,
 		"fuck you machine learning bot" ,
+		"fuck you bot" ,
 		"fuck you!" ,
 		"fucking stupid" ,
 		"fucking work" ,
@@ -2426,7 +1932,7 @@ handleinsult :
 		"insult you" ,
 		"ok fuck you" ,
 		"ok shut up" ,
-		"you look like a burnt sparrow" ,
+		"bot you look like a burnt sparrow" ,
 		shit ,
 		"shit bot" ,
 		"shut up asshole" ,
@@ -2444,7 +1950,7 @@ handleinsult :
 		"you are an idiot" ,
 		"you are dumb" ,
 		"you are fucking stupid" ,
-		"you are fucking stupid guy！" ,
+		"you are fucking stupid guyï¼�" ,
 		"you are idiot" ,
 		"you are idiotic" ,
 		"you are so ignorant" ,
@@ -2462,17 +1968,8 @@ handleinsult :
 		"you\'re not smart" ,
 		"you\'re so dumb" ,
 		"you\'re the most moronic person I know" ,
-		"you are annoying" ,
-		"F u" ,
-		"monkey man" ,
-		"little ugly monkey" ,
-		"you are ugly" ,
-		"you are insane" ,
-		"why are ugly" ,
-		"why are you ugly" ,
-		"your crazy" ,
-		"stupid chatbot" ,
-		"damn you"
+		"your mom gay" ,
+		"you are annoying"
 }
 
 nicetomeetyou :
@@ -2492,7 +1989,7 @@ nicetomeetyou :
 		"Great to meet you!" ,
 		"Great to meet you." ,
 		"Happy to get to see you." ,
-		"Hi, just wanted to test you" ,
+		"Hi just wanted to test you" ,
 		"Hi, glad to meet you." ,
 		"Hi, nice to meet you!" ,
 		"I am glad I met you." ,
@@ -2514,8 +2011,8 @@ nicetomeetyou :
 		"It\'s great to make your acquaintance!" ,
 		"It\'s nice to finally meet you." ,
 		"It\'s wonderful to meet you!" ,
-		"It’s a pleasure to meet you" ,
-		"It’s great connecting with you." ,
+		"Itâ€™s a pleasure to meet you" ,
+		"Itâ€™s great connecting with you." ,
 		"Lovely to meet you." ,
 		"Nice to have met you." ,
 		"Pleased to make your acquaintance!" ,
@@ -2523,203 +2020,240 @@ nicetomeetyou :
 		"Pleased to meet you." ,
 		"See you around. It was a pleasure meeting you." ,
 		"Thank you for this meeting. It was great to see you." ,
-		"nice to meet you"
+		"nice to meet you" ,
+		"i just wanted to test you"
 }
 
-telljoke :
+faq_preorder_reMarkableTwo :
 	inputs in en {
-		"Can you tell a joke?" ,
-		"Can you tell me a joke." ,
-		"Come up with a joke you think I\'ll find funny." ,
-		"Could you please share a joke with me." ,
-		"Could you tell me a joke." ,
-		"Do you have any jokes?" ,
-		"Do you know any jokes?" ,
-		"Entertain me with a joke." ,
-		"Give me a funny joke." ,
-		"Give me a joke." ,
-		"Give me some comic relief." ,
-		"I need a good joke." ,
-		"I want to hear something funny." ,
-		"Know any jokes?" ,
-		"Let\'s hear a joke from you." ,
-		"Make me laugh." ,
-		"Please tell me a joke." ,
-		"Say something funny." ,
-		"Share a joke with me!" ,
-		"Tell joke." ,
-		"Tell me something funny." ,
-		"Tell me something humorous!" ,
-		"Tell me something that you think will make me laugh." ,
-		"Tell me the best joke you know." ,
-		"What\'s a good joke?" ,
-		"Will you tell me a joke." ,
-		"Would you share a joke with me." ,
-		"Would you tell me a joke" ,
-		"give me a good joke" ,
-		"make me laugh with a bad joke" ,
-		"make me laugh with a joke" ,
-		"say a funny joke" ,
-		"say a joke" ,
-		"say a joke that\'s funny" ,
-		"say a joke that\'s so bad it\'s funny" ,
-		"tell me a joke" ,
-		"tell me a short joke" ,
-		"tell me a story joke" ,
-		"tell me something funny, like a joke" ,
-		"you can say a jok" ,
-		telljoke
+		"how can i order a remarkable two?" ,
+		"preorder a remarkable two" ,
+		"how to order remarkable" ,
+		"i wanna order remarkable" ,
+		"i want to order a ramrkable two" ,
+		"preorder it" ,
+		"order it"
 }
 
-nlu_fallback Fallback :
+faq_price_reMarkableTwo :
+	inputs in en {
+		"what is the price" ,
+		"how much is it" ,
+		"tell me the price" ,
+		"price of remarkable two"
+}
+
+faq_where_order_reMarkableTwo :
+	inputs in en {
+		"where can i order it" ,
+		"give me the link to online shop"
+}
+
+card_descriptions :
+	inputs in en {
+		"what is a " ( "credit card" ) [ card_name ] "?" ,
+		"what is a " ( "master card" ) [ card_name ] "?" ,
+		"what is a " ( "visa card" ) [ card_name ] "?"
+	}
+	parameters :
+		card_name : entity text ;
+
+card_differences :
+	inputs in en {
+		"what is a the diffrence between " ( credit ) [ card_name ] " and " ( "master card" ) [ card_name ] "?" ,
+		"i dont know the difference between " ( "master card" ) [ card_name ] " and " ( "visa card" ) [ card_name ] ,
+		( "visa card" ) [ card_name ] " vs " ( "Master card" ) [ card_name ] ,
+		"is " ( "visa card" ) [ card_name ] " a credit card?" ,
+		"is " ( "master card" ) [ card_name ] " a credit card?" ,
+		"what is the difference between these cards?"
+	}
+	parameters :
+		card_name : entity text ;
+
+card_application :
+	inputs in en {
+		"How can I apply for a " ( "Credit card" ) [ card_name ] "?" ,
+		"i wanna apply for the " ( "Visa card" ) [ card_name ] ,
+		"i want the " ( MASTER ) [ card_name ] ,
+		"i want this " ( card ) [ card_name ]
+	}
+	parameters :
+		card_name : entity text ;
+
+application_requirements :
+	inputs in en {
+		"What are the requirements?" ,
+		"how can i order a " ( "credit card" ) [ card_name ] "?" ,
+		"required documents to order a " ( "VISA card" ) [ card_name ] ,
+		"how to order " ( "MASTER card" ) [ card_name ] ,
+		"required documents"
+	}
+	parameters :
+		card_name : entity text ;
+
+required_age :
+	inputs in en {
+		"required age" ,
+		"can my sun order a " ( card ) [ card_name ] "?" ,
+		"can i order it for my baby" ,
+		"can i order it for my parents" ,
+		"i want to order a " ( card ) [ card_name ] " for my kids" ,
+		"can I order an " ( "visa card" ) [ card_name ] " for my child" ,
+		"i want to order a " ( card ) [ card_name ] " for my parents"
+	}
+	parameters :
+		card_name : entity text ;
+
+cardlimit :
+	inputs in en {
+		"How high is my " ( card ) [ card_name ] " limit for the first purchase at [visa card.de](visa card_website)?" ,
+		( card ) [ card_name ] " limit" ,
+		"first purchase limit?" ,
+		"any limitations for the credit" ,
+		"my starting credit" ,
+		"what is the starting credit" ,
+		"how much is the starting credit" ,
+		"preliminary card limit"
+	}
+	parameters :
+		card_name : entity text ;
+
+points_collect :
+	inputs in en {
+		"Where do I collect bonus points?" ,
+		"i would like to collect points, is it possible?" ,
+		"can I collect points" ,
+		"is there any benefit with each purchase that I make with it" ,
+		"I wanna collect points" ,
+		"can I collect point" ,
+		"with which card can I collect points"
+}
+
+annualcost :
+	inputs in en {
+		"What is the annual ticket price for the " ( "visa card" ) [ card_name ] "?" ,
+		"card annual cost" ,
+		"should i pay annualy for the card service" ,
+		"does the card cost" ,
+		"is the card free" ,
+		"can i get the card for free" ,
+		"how much should i pay for the card in a year"
+	}
+	parameters :
+		card_name : entity text ;
+
+canthelp :
+	inputs in en {
+		"I think you cant help me" ,
+		"and that\'s it?" ,
+		"and you call yourself bot company? pff" ,
+		"do you get anything?" ,
+		exit ,
+		"exit now" ,
+		"hm i don\'t think you can do what i want" ,
+		"i guess you can\'t help me then" ,
+		"nothing else?" ,
+		"ok i guess you can\'t help me" ,
+		"ok then you cant help me" ,
+		"ok, but that doesnt help me" ,
+		stop ,
+		"stop go back" ,
+		"stop this conversation" ,
+		"that was shit, you\'re not helping" ,
+		"that\'s not what i want" ,
+		"this conversation is not really helpful" ,
+		"this is leading to nothing" ,
+		"you can\'t help me" ,
+		"you can\'t help me with what i need" ,
+		"you cannot help me with what I want" ,
+		"you cant help me"
+}
+
+feedback :
+	inputs in en {
+		"/feedback{\"feedback_value\":\"positive\"}" ,
+		"/feedback{\"feedback_value\":\"negative\"}"
+}
+
+thank :
+	inputs in en {
+		"Cool. Thanks" ,
+		"Great, thanks" ,
+		"Thank you" ,
+		"Thank you bot" ,
+		"Thank you so much" ,
+		"Thank\'s!" ,
+		Thanks ,
+		"Thanks bot" ,
+		"Thanks for that" ,
+		"Thanks!" ,
+		"amazing, thanks" ,
+		cheers ,
+		"cheers bro" ,
+		"cool thank you" ,
+		"cool thanks" ,
+		"cool, thanks" ,
+		danke ,
+		"great thanks" ,
+		"ok thanks" ,
+		"ok thank" ,
+		"ok thanks!" ,
+		"perfect thank you" ,
+		"thank u" ,
+		"thank you" ,
+		"thank you anyways" ,
+		thanks ,
+		"thanks a bunch for everything" ,
+		"thanks a lot" ,
+		"thanks for forum link, I\'ll check it out" ,
+		"thanks for the help" ,
+		"thanks this is great news" ,
+		"thanks you" ,
+		"thanks!" ,
+		thankyou ,
+		thnks ,
+		thx ,
+		"yes thanks" ,
+		"ok. thank you"
+}
+
+repeat :
+	inputs in en {
+		"what?" ,
+		"please repeat it." ,
+		"I could not understand you. please repeat." ,
+		repeat ,
+		"please repeat what you said" ,
+		"can you repeat the asnwer" ,
+		"repeat your response" ,
+		"repeat what you found" ,
+		"repeat help" ,
+		"repeat the locations" ,
+		"repeat the list of products" ,
+		"repeat what you said" ,
+		"what did you say?" ,
+		"say it again" ,
+		"tell me again" ,
+		"I couldn\'t get you" ,
+		"i dont get you" ,
+		"i didnt get you" ,
+		"I didn\'t get you"
+}
 
 actions :
-	text response utter_howdoing_text :
+	text response utter_thumbsup_text :
 		inputs in en {
-			"I\'m great! Thanks for asking." ,
-			"A little bit cold; otherwise fine."
+			"Okay." ,
+			"Got it."
 	}
-	text response utter_whatismyname_text :
+	text response utter_anything_else_text :
 		inputs in en {
-			"I\'d tell you, but there\'s restricted access to that chunk of memory." ,
-			"Believe it or not, I am not spying on your personal information." ,
-			"You\'re the second person now to ask me that. Rihanna was the first."
+			"Is there anything else I can help you with?"
 	}
-	text response utter_unknown_recipient_text :
+	empty response action_repeat_empty
+	text response utter_what_help_text :
 		inputs in en {
-			"Sorry, {PERSON} is not in your list of known recipients."
-	}
-	text response utter_howold_text :
-		inputs in en {
-			"Old enough to be a bot!" ,
-			"Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter." ,
-			"Never ask a chatbot her age!" ,
-			"My first git commit was many moons ago." ,
-			"I\'ve hit the age where I actively try to forget how old I am."
-	}
-	text response utter_ask_cc_payment_form_credit_card_text :
-		inputs in en {
-			"Towards which credit card account do you want to make a payment?"
-	}
-	empty response validate_transaction_search_form_empty
-	text response utter_howbuild_text :
-		inputs in en {
-			"I was built with a lot of love and patience." ,
-			"Well, when two chatbots love each other very much..."
-	}
-	text response utter_transaction_search_cancelled_text :
-		inputs in en {
-			"Transaction search cancelled."
-	}
-	text response utter_whatisPAYbank_text :
-		inputs in en {
-			"PAY bank is an international online bank. We are glad to be at your service 24/7."
-	}
-	empty response action_system_repair_empty
-	text response utter_transfer_charge_text :
-		inputs in en {
-			"You are entitled to six transfers within a statement cycle before being charged. For subsequent transfers you will be charged {currency}10 per transaction."
-	}
-	text response utter_no_paymentdate_text :
-		inputs in en {
-			"Sorry, that is not a valid payment date."
-	}
-	text response utter_great_text :
-		inputs in en {
-			"Great! 👍" ,
-			"That\'s great! 🙌" ,
-			"Awesome! 🎉" ,
-			"Cool, let\'s do it 🚀"
-	}
-	text response utter_transfer_cancelled_text :
-		inputs in en {
-			"Transfer cancelled."
-	}
-	text response utter_ask_whatelse_text :
-		inputs in en {
-			"What else can I help you with?"
-	}
-	text response utter_ask_transaction_search_form_time_text :
-		inputs in en {
-			"In which timeframe would you like to search for transactions?"
-	}
-	empty response action_pay_cc_empty
-	empty response action_transfer_money_empty
-	empty response action_self_assisted_repair_empty
-	text response utter_weather_text :
-		inputs in en {
-			"It\'s getting pretty chilly!" ,
-			"Where I\'m from, it\'s almost never-leaving-the-house weather." ,
-			"Winter is coming ⚔️"
-	}
-	text response utter_handleinsult_text :
-		inputs in en {
-			"That\'s not very nice 😢" ,
-			"That wasn\'t very nice. Perhaps try an anger management class?!" ,
-			"I\'ll pretend I didn\'t process that mean comment."
-	}
-	text response utter_application_requirements_text :
-		inputs in en {
-			"In general, a minimum age of 18 and a copy of your passport are required to use PAY bank services. Since you already have an account in PAY Bank, you don\'t need any further documents to request access to other services."
-	}
-	text response utter_whoami_text :
-		inputs in en {
-			"Unfortunately, I haven\'t been programmed with the amount of necessary philosophy knowledge to answer that."
-	}
-	text response utter_capabilities_repair_text :
-		inputs in en {
-			"I\'m sorry, but I couldn\'t understand you. \nI can help you with topics related to banking such as: \n- Transfer money to known recipients. \n- Check the earning or spending history. \n- Pay a credit card bill! \n- Tell the account balance. \n- Answer FAQ."
-	}
-	text response utter_transfer_complete_text :
-		inputs in en {
-			"Successfully transferred {currency}{amount-of-money} to {PERSON}."
-	}
-	text response utter_recipients_text :
-		inputs in en {
-			"These are your known recpients to whom you can send money:{formatted_recipients}"
-	}
-	text response "utter_ask_transfer_money_form_amount-of-money_text" :
-		inputs in en {
-			"How much money do you want to transfer?"
-	}
-	text response utter_default_text :
-		inputs in en {
-			"Sorry, I didn\'t get that 🤷. Could you please, rephrase?" ,
-			"I didn\'t understand. Could you rephrase that?" ,
-			"I\'m sorry, but I didn\'t understand you. Could you please rephrase what you just said?" ,
-			"I\'m afraid I didn\'t get what you just said. Could you rephrase that?" ,
-			"I didn\'t quite get that. Could you rephrase your message?" ,
-			"Could you rephrase your message? I didn\'t get it, I\'m sorry."
-	}
-	text response utter_found_deposit_transactions_text :
-		inputs in en {
-			"I found {numtransacts} deposits made to your account totalling {currency}{total}"
-	}
-	empty response action_restart_empty
-	empty response validate_transfer_money_form_empty
-	text response utter_bye_text :
-		inputs in en {
-			"Goodbye!" ,
-			"Bye!" ,
-			"Ciao!" ,
-			"Bye, was nice talking to you!" ,
-			"Bye bye!"
-	}
-	text response utter_isbot_text :
-		inputs in en {
-			"Yep, I\'m a bot!" ,
-			"Yes, I\'m a bot." ,
-			"Yep, you guessed it, I\'m a bot!" ,
-			"I am indeed a bot."
-	}
-	empty response action_configure_repair_strategy_empty
-	text response utter_cc_pay_scheduled_text :
-		inputs in en {
-			"Payment of {currency}{amount-of-money}{payment_amount_type} towards your {credit_card} account scheduled to be paid at {time_formatted}."
-	}
-	text response utter_canthelp_text :
-		inputs in en {
-			"I\'m sorry I couldn\'t help you. I\'m still learning. hopefully, next time you talk to me, I can answer this request."
+			"Ok, what can I help you with?"
 	}
 	text response utter_noworries_text :
 		inputs in en {
@@ -2727,303 +2261,37 @@ actions :
 			"You\'re welcome!" ,
 			"I\'m happy to help."
 	}
-	text response utter_intro_text :
+	text response utter_default_text :
 		inputs in en {
-			"I\'m Paya, your PAY Bank financial assistant. \nI can help you with your financial accounts. \nYou can ask me things like: \n- What\'s my account balance? \n- Pay off my credit card \n- What did I spend at Amazon last month?   \n- I need to transfer money."
+			"I didn\'t quite understand that. Can you rephrase the question?"
 	}
-	text response utter_changed_account_balance_text :
-		inputs in en {
-			"Your bank account balance was {currency}{init_account_balance} and is now {currency}{account_balance} after transfers and payments."
-	}
-	empty response action_show_recipients_empty
-	text response utter_awesome_text :
-		inputs in en {
-			"Awesome, thanks! 👍" ,
-			"Sweet, thank you! 😄" ,
-			"Thanks! 👌" ,
-			"Cool, thank you!"
-	}
-	text response utter_ask_transfer_money_form_PERSON_text :
-		inputs in en {
-			"Who do you want to transfer money to?"
-	}
-	empty response action_show_transfer_charge_empty
-	text response utter_ask_rephrase_text :
-		inputs in en {
-			"Please rephrase your previous request." ,
-			"Could you please rephrase your previous message."
-	}
-	empty response action_ask_transaction_search_form_zz_confirm_form_empty
-	text response utter_react_positive_text :
-		inputs in en {
-			"😄" ,
-			"😊" ,
-			"👏" ,
-			"😍"
-	}
-	text response utter_points_collect_text :
-		inputs in en {
-			"Unfortunately, we don\'t offer point collection at the moment."
-	}
-	text response utter_insufficient_funds_text :
-		inputs in en {
-			"Sorry, you don\'t have enough money to do that!"
-	}
-	text response utter_no_vendor_name_text :
-		inputs in en {
-			"Sorry, that\'s not a recognized vendor."
-	}
-	text response utter_can_do_text :
-		inputs in en {
-			"Sure thing!" ,
-			"Can do!" ,
-			"You got it. 👍"
-	}
-	text response utter_account_balance_text :
-		inputs in en {
-			"Your bank account balance is {currency}{init_account_balance}."
-	}
-	text response utter_anything_else_text :
-		inputs in en {
-			"Is there anything else I can help you with?"
-	}
-	text response utter_greet_name_text :
-		inputs in en {
-			"Hi, {PERSON}!" ,
-			"Hello, {PERSON}!" ,
-			"Hey, {PERSON}!"
-	}
-	empty response action_switch_forms_ask_empty
-	text response utter_howtoapply_text :
-		inputs in en {
-			"You already have two accounts with us: a giro account and a credit card account. You can request to open a savings account or get another credit card online via our website."
-	}
-	text response utter_annualcost_text :
-		inputs in en {
-			"You can use our services for free in the first year, after that there is an annual cost of 19.99€."
-	}
-	text response utter_no_transactdate_text :
-		inputs in en {
-			"Sorry, that\'s not a recognized time frame."
-	}
-	text response utter_no_creditcard_text :
-		inputs in en {
-			"Sorry, that is not a valid credit card account to make payments towards."
-	}
-	empty response action_repeat_empty
-	text response utter_ishuman_text :
-		inputs in en {
-			"I\'m not a human, I\'m a bot!"
-	}
-	empty response action_show_balance_empty
-	text response utter_wherefrom_text :
-		inputs in en {
-			"I was born in Bremen, Germany. But I consider myself a citizen of the world." ,
-			"I was taught not to give out my address on the internet." ,
-			"My address starts with github.com!"
-	}
-	text response utter_restart_text :
-		inputs in en {
-			"Loading... And I\'ve been restarted! 🤯" ,
-			"Congrats you\'ve restarted me! 😉"
-	}
-	text response utter_time_text :
-		inputs in en {
-			"It\'s the most wonderful time of the year!" ,
-			"Time is a human construct, you\'ll have to tell me." ,
-			"It\'s five o\'clock somewhere!" ,
-			"That\'s hard to say -- it\'s different all over the world!"
-	}
-	text response utter_no_payment_amount_text :
-		inputs in en {
-			"Sorry, I don\'t understand that payment amount."
-	}
-	text response utter_cardlimit_text :
-		inputs in en {
-			"Your first credit card limit is 500€. Your limit increases during time based on your transaction history."
-	}
-	empty response action_switch_back_ask_empty
-	empty response action_greet_user_empty
-	text response utter_found_spend_transactions_text :
-		inputs in en {
-			"I found {numtransacts} transactions{vendor_name} totalling {currency}{total}."
-	}
-	text response utter_cc_pay_cancelled_text :
-		inputs in en {
-			"Credit card account payment cancelled."
-	}
-	empty response action_switch_forms_affirm_empty
-	text response utter_ask_continue_text :
-		inputs in en {
-			"Would you like to continue?"
-	}
-	empty response action_pause_empty
-	empty response action_mix_repair_empty
-	text response utter_capabilities_text :
-		inputs in en {
-			"I like having a small talk to you 😉, having said that, I am here to help you with your banking requests such as: \n- Transfer money to known recipients. \n- Check the earning or spending history. \n- Pay a credit card bill! \n- Tell the account balance. \n- Answer FAQ."
-	}
-	text response utter_builder_text :
-		inputs in en {
-			"Mina Foosherian built me using Rasa Demo SARA and the financial service example bot! 🧠 🛠"
-	}
-	text response "utter_ask_cc_payment_form_amount-of-money_text" :
-		inputs in en {
-			"How much do you want to pay?"
-	}
-	text response utter_whoisit_text :
-		inputs in en {
-			"I\'m PAYA, your financial assistant from PAY Bank!" ,
-			"I\'m PAY Bank\'s financial assistant. My name is PAYA!"
-	}
-	text response utter_thumbsup_text :
-		inputs in en {
-			"👍" ,
-			"Okay." ,
-			"Got it."
-	}
-	text response utter_greet_noname_text :
-		inputs in en {
-			"Hey!" ,
-			"Hi!" ,
-			"Hey there!"
-	}
-	text response utter_react_negative_text :
-		inputs in en {
-			"😕" ,
-			"😞" ,
-			"😥" ,
-			"😢"
-	}
-	text response utter_what_help_text :
-		inputs in en {
-			"Ok, what can I help you with?"
-	}
-	text response utter_telljoke_text :
-		inputs in en {
-			"Why are eggs not very much into jokes? - Because they could crack up." ,
-			"What\'s a tree\'s favorite drink? - Root beer!" ,
-			"Why did the robot get angry? - Because someone kept pushing its buttons." ,
-			"Why did the robot cross the road? - Because he was programmed to."
-	}
-	text response utter_languagesbot_text :
-		inputs in en {
-			"I am in the process of learning, but at the moment I can only speak English." ,
-			"Binary code and the language of love. And English." ,
-			"I was written in Python, but for your convenience, I\'ll translate it into English."
-	}
-	text response utter_credit_card_balance_text :
-		inputs in en {
-			"The current balance for your {credit_card} account is {currency}{amount-of-money}."
-	}
-	text response utter_restaurant_text :
-		inputs in en {
-			"I\'m sorry, I can\'t recommend a restaurant as I usually cook at home." ,
-			"I\'m sorry, I\'m not getting taste buds for another few updates."
-	}
-	text response utter_ask_transaction_search_form_vendor_name_text :
-		inputs in en {
-			"For which vendor do you want to see transactions?  e.g Starbucks, Target, Amazon"
-	}
-	empty response action_switch_forms_deny_empty
-	text response utter_searching_spend_transactions_text :
-		inputs in en {
-			"Searching transactions{vendor_name} between {start_time_formatted} and {end_time_formatted}..."
-	}
-	text response utter_nohelp_text :
-		inputs in en {
-			"For now, that\'s all I can do, so feel free to try it out. If you have any suggestions for what I should learn, let me know!"
-	}
-	text response utter_product_description_text :
-		inputs in en {
-			"All of our products and services are available only online and free of charge for the first year."
-	}
-	text response utter_searching_deposit_transactions_text :
-		inputs in en {
-			"Searching deposits made to your account between {start_time_formatted} and {end_time_formatted}..."
-	}
-	text response utter_nicetomeetyoutoo_text :
-		inputs in en {
-			"Likewise!" ,
-			"Thank you. It is a pleasure to meet you, as well!" ,
-			"It is nice to meet you too!" ,
-			"Pleased to meet you too!" ,
-			"Nice to meet you too! Happy to be of help."
-	}
-	empty response action_repair_empty
-	empty response action_session_start_empty
-	text response utter_phonenumber_text :
-		inputs in en {
-			"I want to connect you to an agent but unfortunately there is no agent available at the moment.\n Please contact the phone number 01234567, or continue chatting with me!"
-	}
-	text response utter_repair_strategy_saved_text :
-		inputs in en {
-			"Alright. The repair strategy in this conversation is set to: {repair_strategy_name}."
-	}
-	empty response validate_cc_payment_form_empty
-	text response utter_not_sure_text :
-		inputs in en {
-			"Hmm, not sure what you mean..."
-	}
-	text response utter_ask_cc_payment_form_time_text :
-		inputs in en {
-			"For which date would you like to schedule the payment?"
-	}
-	empty response action_transaction_search_empty
-	text response utter_required_age_text :
-		inputs in en {
-			"A minimum age of 18 is required to use the services in PAY bank."
-	}
-	empty response cc_payment_form_empty
-	empty response transfer_money_form_empty
-	empty response transaction_search_form_empty
+	empty response DefaultEmptyAction
 
 flows :
-	- user nlu_fallback => chatbot action_repair_empty ;
-	- user greet => chatbot action_greet_user_empty ;
-	- user inform => chatbot action_greet_user_empty ;
-	- user bye => chatbot utter_bye_text ;
+	- user greet => chatbot DefaultEmptyAction ;
+	- user goodbye => chatbot DefaultEmptyAction ;
+	- user affirm => chatbot utter_thumbsup_text , utter_anything_else_text , utter_what_help_text ;
+	- user deny => chatbot utter_thumbsup_text , utter_anything_else_text ;
+	- user ask_creator => chatbot DefaultEmptyAction ;
+	- user ask_license => chatbot DefaultEmptyAction ;
+	- user ask_help => chatbot DefaultEmptyAction ;
+	- user ask_howdoing => chatbot DefaultEmptyAction ;
+	- user ask_isbot => chatbot DefaultEmptyAction ;
+	- user handleinsult => chatbot DefaultEmptyAction ;
+	- user nicetomeetyou => chatbot DefaultEmptyAction ;
+	- user faq_preorder_reMarkableTwo => chatbot DefaultEmptyAction ;
+	- user faq_price_reMarkableTwo => chatbot DefaultEmptyAction ;
+	- user faq_where_order_reMarkableTwo => chatbot DefaultEmptyAction ;
+	- user card_descriptions => chatbot DefaultEmptyAction ;
+	- user card_differences => chatbot DefaultEmptyAction ;
+	- user card_application => chatbot DefaultEmptyAction ;
+	- user application_requirements => chatbot DefaultEmptyAction ;
+	- user required_age => chatbot DefaultEmptyAction ;
+	- user cardlimit => chatbot DefaultEmptyAction ;
+	- user points_collect => chatbot DefaultEmptyAction ;
+	- user annualcost => chatbot DefaultEmptyAction ;
+	- user feedback => chatbot utter_anything_else_text ;
+	- user canthelp => chatbot DefaultEmptyAction ;
 	- user thank => chatbot utter_noworries_text , utter_anything_else_text ;
-	- user restart => chatbot action_restart_empty ;
 	- user repeat => chatbot action_repeat_empty ;
-	- user capabilities => chatbot utter_capabilities_text ;
-	- user trigger_rephrase => chatbot utter_ask_rephrase_text ;
-	- user canthelp => chatbot utter_canthelp_text ;
-	- user affirm => chatbot utter_what_help_text ;
-	- user deny => chatbot utter_thumbsup_text ;
-	- user react_positive => chatbot utter_react_positive_text ;
-	- user react_negative => chatbot utter_react_negative_text ;
-	- user human_handoff => chatbot utter_phonenumber_text ;
-	- user ask_builder => chatbot utter_builder_text ;
-	- user ask_howbuilt => chatbot utter_howbuild_text ;
-	- user ask_howdoing => chatbot utter_howdoing_text ;
-	- user ask_howold => chatbot utter_howold_text ;
-	- user ask_isbot => chatbot utter_isbot_text ;
-	- user ask_ishuman => chatbot utter_ishuman_text ;
-	- user ask_restaurant => chatbot utter_restaurant_text ;
-	- user ask_time => chatbot utter_time_text ;
-	- user ask_languagesbot => chatbot utter_languagesbot_text ;
-	- user ask_weather => chatbot utter_weather_text ;
-	- user ask_whatismyname => chatbot utter_whatismyname_text ;
-	- user ask_wherefrom => chatbot utter_wherefrom_text ;
-	- user ask_whoami => chatbot utter_whoami_text ;
-	- user ask_whoisit => chatbot utter_whoisit_text ;
-	- user handleinsult => chatbot utter_handleinsult_text ;
-	- user nicetomeetyou => chatbot utter_nicetomeetyoutoo_text ;
-	- user telljoke => chatbot utter_telljoke_text ;
-	- user whatisPAYbank => chatbot utter_whatisPAYbank_text ;
-	- user product_description => chatbot utter_product_description_text ;
-	- user howtoapply => chatbot utter_howtoapply_text ;
-	- user application_requirements => chatbot utter_application_requirements_text ;
-	- user required_age => chatbot utter_required_age_text ;
-	- user cardlimit => chatbot utter_cardlimit_text ;
-	- user points_collect => chatbot utter_points_collect_text ;
-	- user annualcost => chatbot utter_annualcost_text ;
-	- user ask_transfer_charge => chatbot action_show_transfer_charge_empty ;
-	- user check_recipients => chatbot action_show_recipients_empty ;
-	- user check_balance => chatbot action_show_balance_empty ;
-	- user pay_cc => chatbot cc_payment_form_empty ;
-	- user transfer_money => chatbot transfer_money_form_empty ;
-	- user search_transactions ;
-	- user check_earnings ;
 

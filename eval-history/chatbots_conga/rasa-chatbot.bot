@@ -388,7 +388,7 @@ ask_compound_noun :
 
 None :
 
-nlu_fallback Fallback :
+nlu_fallback :
 
 actions :
 	text response utter_thank_text :
@@ -431,8 +431,7 @@ actions :
 flows :
 	- user goodbye => chatbot utter_goodbye_text ;
 	- user bot_challenge => chatbot utter_iamabot_text ;
-	- user None => chatbot action_hello_world_empty ;
-	- user nlu_fallback => chatbot utter_fallback_warning_empty ;
+	- user None => chatbot action_hello_world_empty , utter_fallback_warning_empty ;
 	- user greet => chatbot DefaultEmptyAction {
 		=> user mood_great => chatbot utter_happy_text ;
 		=> user mood_unhappy => chatbot utter_cheer_up_img {

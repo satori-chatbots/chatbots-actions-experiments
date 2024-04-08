@@ -1,4 +1,4 @@
-Chatbot commit_66_87409d653d3bcec97f0dba9d5a06cb69e16fdeb0 language : en
+Chatbot commit_197_7585d0f4376faeede1dda1e1ba2574758fdcc939 language : en
 
 intents :
 
@@ -9,9 +9,7 @@ greet :
 		^hi ,
 		"good morning" ,
 		"good evening" ,
-		"hey there" ,
-		"hi there" ,
-		"hello there"
+		"hey there"
 }
 
 goodbye :
@@ -19,19 +17,53 @@ goodbye :
 		bye ,
 		goodbye ,
 		"see you around" ,
-		"see you later" ,
-		"see ya" ,
-		"buh bye"
+		"see you later"
 }
 
-thank :
+affirm :
 	inputs in en {
-		"thanks!" ,
-		"thank you" ,
-		"thanks a lot" ,
-		"great thanks" ,
-		"appreciate it" ,
-		"cool thanks"
+		yes ,
+		indeed ,
+		"of course" ,
+		"that sounds good" ,
+		correct
+}
+
+deny :
+	inputs in en {
+		^no ,
+		never ,
+		"I don\'t think so" ,
+		"don\'t like that" ,
+		"no way" ,
+		"not really"
+}
+
+mood_great :
+	inputs in en {
+		perfect ,
+		"very good" ,
+		great ,
+		amazing ,
+		wonderful ,
+		"I am feeling very good" ,
+		"I am great" ,
+		"I\'m good"
+}
+
+mood_unhappy :
+	inputs in en {
+		sad ,
+		"very sad" ,
+		unhappy ,
+		bad ,
+		"very bad" ,
+		awful ,
+		terrible ,
+		"not very good" ,
+		"extremely sad" ,
+		"so sad" ,
+		"I\'m sad"
 }
 
 bot_challenge :
@@ -39,22 +71,7 @@ bot_challenge :
 		"are you a bot?" ,
 		"are you a human?" ,
 		"am I talking to a bot?" ,
-		"am I talking to a human?" ,
-		"you are a bot right" ,
-		"aren\'t you a bot"
-}
-
-password_reset :
-	inputs in en {
-		"need to reset my password" ,
-		"need help resetting my password" ,
-		"I can\'t reset my password" ,
-		"need help with my password" ,
-		"having issues resetting my password" ,
-		"freaking password won\'t work" ,
-		"reset my password" ,
-		"password reset" ,
-		"forgot my password and can\'t reset it"
+		"am I talking to a human?"
 }
 
 open_incident :
@@ -66,168 +83,73 @@ open_incident :
 		"can you help me open a incident please" ,
 		"I want to open a new incident" ,
 		"I want to open a incident" ,
-		"I\'m having a weird issue." ,
-		"I\'m having a problem" ,
-		"I\'m having a issue I need to open a incident for." ,
-		"I have a issue I need to open a case for." ,
-		"open an incident for aileen.mottern@example.com" ,
-		"open an " ( urgent ) [ priority ] " issue" ,
-		"I want to open an incident, but it\'s " ( low ) [ priority ] " priority" ,
-		"I need to open a helpdesk ticket. it\'s " ( "really important" ) [ priority ]
-	}
-	parameters :
-		priority : entity text ;
-
-help :
-	inputs in en {
-		"I need help" ,
-		"what can you help me with" ,
-		"can you help me" ,
-		"what can you do" ,
-		"I need some help" ,
-		"help me" ,
-		"can you please help me"
-}
-
-problem_email :
-	inputs in en {
-		"my outlook application won\'t open" ,
-		"I\'m having issues with outlook." ,
-		"issues with outlook" ,
-		"outlook application will not open" ,
-		"there\'s a problem with my email" ,
-		"something is broken with outlook" ,
-		"I can\'t log in to my email" ,
-		"can\'t log in to outlook" ,
-		"my email won\'t let me log in" ,
-		"i have a problem with my email"
+		"I\'m having a weird issue."
 }
 
 inform :
 	inputs in en {
 		"my email is test@example.com" ,
 		"my email is abraham.lincoln@example.com" ,
-		"abel.tuter@example.com" ,
-		"it is admin@example.com" ,
-		"aileen.mottern@example.com" ,
+		"abraham.licoln@example.com" ,
+		"it is abraham.licoln@example.com" ,
+		"abraham.lincolon@example.com" ,
+		"I need help resetting my password" ,
+		"Reset my password" ,
+		"Application won\'t install" ,
+		"my outlook application won\'t open" ,
+		"Application will not open" ,
+		"reset my password" ,
+		"I need to reset my password" ,
 		( low ) [ priority ] ,
 		( medium ) [ priority ] ,
 		( high ) [ priority ] ,
 		"it should be a " ( low ) [ priority ] " priority" ,
 		"it should be " ( medium ) [ priority ] ,
-		( escalated ) [ priority ] ,
-		( escalate ) [ priority ] ,
-		( "super high" ) [ priority ]
+		"Cool Demo For GMF" ,
+		"Fridge Isn\'t Running"
 	}
 	parameters :
 		priority : entity text ;
 
 out_of_scope :
 	inputs in en {
-		"what is the square root of 5" ,
-		"I want to know the weather" ,
-		"what is the meaning of life." ,
-		"Fridge Isn\'t Running" ,
-		"my tv isn\'t working" ,
-		"I want a pizza" ,
-		"my washing machine isn\'t working" ,
-		"what year is it" ,
-		"order a pizza" ,
-		"I want to order a pizza" ,
-		"what is the weather today" ,
-		"what is the weather"
+		"what is the square root of 5"
 }
 
-incident_status :
-	inputs in en {
-		"I want to check if my ticket has been closed" ,
-		"what\'s the status of my incident?" ,
-		"Has the incident been closed yet?" ,
-		"Is my ticket in progress?" ,
-		"What has happened with my open ticket?" ,
-		"what\'s going on with the incident I opened?" ,
-		"Do I have any open incidents at the moment?" ,
-		"Can I check the status of my open tickets?" ,
-		"Can I see the status of the ticket I opened?" ,
-		"Check ticket status" ,
-		"check incident status" ,
-		"ok, try looking it up for abraham.lincoln@example.com" ,
-		"look up ticket status for abel.tuter@example.com"
-}
-
-affirm :
-	inputs in en {
-		yes ,
-		"yes please" ,
-		"yes I would" ,
-		"please do" ,
-		yup ,
-		yep ,
-		"that\'s right" ,
-		indeed ,
-		"Yes, please" ,
-		yeah ,
-		sure ,
-		"yes thanks"
-}
-
-deny :
-	inputs in en {
-		^no ,
-		nope ,
-		"no thanks" ,
-		"not that one" ,
-		"don\'t use that" ,
-		"please no" ,
-		"no don\'t do that" ,
-		"no, use abraham.lincoln@example.com"
-}
-
-human_handoff :
-	inputs in en {
-		"I want a human" ,
-		"can I speak to an agent" ,
-		"real agent please" ,
-		"real human" ,
-		"chat with a live agent" ,
-		"give me a person please" ,
-		"i want to talk to a human"
-}
-
-handoff :
-
-nlu_fallback Fallback :
+FallbackIntent Fallback :
 
 actions :
-	text response utter_welcome_text :
-		inputs in en {
-			"You\'re welcome!"
-	}
-	text response utter_wouldve_handed_off_text :
-		inputs in en {
-			"If you were talking to me via chatroom, I would have handed you off to {handoffhost}."
-	}
+	image response utter_cheer_up_img :
+		URL : "https://i.imgur.com/nGF1K8f.jpg"
+		caption : "Here is something to cheer you up:"
 	text response utter_greet_text :
 		inputs in en {
-			"Hallo! I\'m your IT Helpdesk Assistant."
+			"Hey! How are you?"
 	}
-	text response utter_no_handoff_text :
+	text response utter_did_that_help_text :
 		inputs in en {
-			"Since you haven\'t configured a host to hand off to, I can\'t send you anywhere!"
+			"Did that help you?"
 	}
-	empty response action_handoff_empty
-	text response utter_incident_creation_canceled_text :
+	text response out_of_scope_text :
 		inputs in en {
-			"Alright, I have cancelled the incident."
+			"Sorry I don\'t know how to answer this yet, but I\'m learning new things every day."
 	}
-	empty response action_check_incident_status_empty
-	text response utter_out_of_scope_text :
+	text response utter_goodbye_text :
 		inputs in en {
-			"Sorry, I\'m not sure how to respond to that. Type \"help\" for assistance."
+			Bye
 	}
-	text response utter_handoff_text :
+	empty response open_incident_form_empty
+	text response utter_ask_incident_title_text :
 		inputs in en {
-			"Alright, I\'ll try to transfer you."
+			"What should we use for the title of this incident?"
+	}
+	text response utter_happy_text :
+		inputs in en {
+			"Great, carry on!"
+	}
+	text response utter_incident_opened_text :
+		inputs in en {
+			"Ok incident has been opened successfully for email: {email}."
 	}
 	text response utter_iamabot_text :
 		inputs in en {
@@ -235,72 +157,33 @@ actions :
 	}
 	text response utter_no_email_text :
 		inputs in en {
-			"Sorry, \"{email}\" isn\'t in our incident management system. Please try again."
+			"Sorry that email isn\'t in our incident management system."
 	}
-	text response utter_help_text :
+	text response utter_ask_email_text :
 		inputs in en {
-			"I can help you open a service request ticket, or check the status of your open incidents. \nYou can ask me things like: \n- Open an incident \n- Help me reset my password \n- I\'m having a issue with my email \n- What\'s the status of the ticket I opened?"
+			"What is your email address to lookup for creating the ticket?"
+	}
+	text response utter_ask_priority_text :
+		inputs in en {
+			"Ok what should the priority be?  Low, medium, or high?"
 	}
 	text response utter_ask_problem_description_text :
 		inputs in en {
-			"What is the problem description for the issue?"
+			"Ok what is the problem description for the issue?"
 	}
-	text response utter_ask_whatelse_text :
-		inputs in en {
-			"What else can I help you with?"
-	}
-	empty response action_open_incident_empty
-	text response utter_goodbye_text :
-		inputs in en {
-			"Goodbye!"
-	}
-	empty response validate_incident_status_form_empty
-	text response utter_ask_incident_title_text :
-		inputs in en {
-			"What should we use for the title of this incident?"
-	}
-	text response utter_no_priority_text :
-		inputs in en {
-			"Sorry \"{priority}\" is not a valid priority. Please try again."
-	}
-	text response utter_ask_use_previous_email_text :
-		inputs in en {
-			"Would you like to use the last email address you used, {previous_email}?"
-	}
-	empty response action_handoff_options_empty
-	empty response validate_open_incident_form_empty
-	text response utter_ask_email_text :
-		inputs in en {
-			"What is your email address?"
-	}
-	text response utter_ask_handoff_text :
-		inputs in en {
-			"It looks like you want to be transferred to a human agent."
-	}
-	text response utter_default_text :
-		inputs in en {
-			"I didn\'t quite understand that. Could you rephrase?"
-	}
-	empty response open_incident_form_empty
-	empty response incident_status_form_empty
+	empty response utter_no_email_empty
 
 flows :
-	- user handoff => chatbot utter_greet_text ;
-	- user nlu_fallback => chatbot utter_default_text ;
-	- user out_of_scope => chatbot utter_out_of_scope_text , action_open_incident_empty ;
-	- user help => chatbot utter_help_text , action_open_incident_empty ;
-	- user thank => chatbot utter_welcome_text ;
-	- user greet => chatbot utter_greet_text , utter_help_text ;
+	- user greet => chatbot utter_greet_text {
+		=> user mood_great => chatbot utter_happy_text ;
+		=> user mood_unhappy => chatbot utter_cheer_up_img , utter_did_that_help_text {
+			=> user affirm => chatbot utter_happy_text ;
+			=> user deny => chatbot utter_goodbye_text ;
+		} ;
+		=> user open_incident => chatbot open_incident_form_empty ;
+	} ;
 	- user goodbye => chatbot utter_goodbye_text ;
 	- user bot_challenge => chatbot utter_iamabot_text ;
-	- user open_incident => chatbot action_open_incident_empty , action_check_incident_status_empty ;
-	- user password_reset => chatbot action_open_incident_empty , action_check_incident_status_empty ;
-	- user problem_email => chatbot action_open_incident_empty , action_check_incident_status_empty ;
-	- user incident_status => chatbot incident_status_form_empty , action_check_incident_status_empty {
-		=> user help => chatbot utter_help_text , incident_status_form_empty , action_check_incident_status_empty ;
-		=> user out_of_scope => chatbot utter_out_of_scope_text , incident_status_form_empty , action_check_incident_status_empty ;
-		=> user open_incident => chatbot action_open_incident_empty ;
-		=> user password_reset => chatbot action_open_incident_empty ;
-		=> user problem_email => chatbot action_open_incident_empty ;
-	} ;
+	- user open_incident => chatbot open_incident_form_empty ;
+	- user FallbackIntent ;
 
